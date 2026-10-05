@@ -1,0 +1,1510 @@
+/* ==========================================================================
+   TGHT • The Great Himalayan Trail (Nepal High Route)
+   Design System & Contemplative Theme inspired by MedOnMt ("Ascend Into Stillness")
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  color-scheme: light dark;
+}
+
+:root,
+[data-theme="dark"],
+html.theme-dark,
+body.theme-dark {
+  color-scheme: only dark !important;
+  color-scheme: dark !important;
+  /* Alpine mist: snow light, prayer-flag fog, dark rock peaks */
+  --bg-cosmic: #1a2c3c;
+  --bg-surface: #1c3344;
+  --bg-surface-elevated: #27445a;
+  --bg-card: rgba(24, 42, 58, 0.84);
+  --bg-card-hover: rgba(36, 58, 78, 0.94);
+  --header-bg: rgba(18, 34, 48, 0.88);
+
+  --border-subtle: rgba(228, 238, 246, 0.16);
+  --border-card: rgba(214, 228, 238, 0.24);
+  --border-gold: rgba(220, 160, 56, 0.55);
+
+  /* Signature Sacred Colors */
+  --gold: #dca038;
+  --gold-light: #f1be6d;
+  --gold-dim: rgba(220, 160, 56, 0.18);
+  --gold-glow: rgba(220, 160, 56, 0.35);
+
+  --crimson: #8b263e;
+  --crimson-light: #ab2e4b;
+  --crimson-dim: rgba(139, 38, 62, 0.25);
+  --crimson-glow: rgba(139, 38, 62, 0.4);
+
+  --sage: #4e9166;
+  --sage-light: #72b388;
+  --sage-dim: rgba(78, 145, 102, 0.15);
+  --sage-glow: rgba(78, 145, 102, 0.25);
+
+  --sky: #6090d4;
+  --sky-light: #8cb5f2;
+  --sky-dim: rgba(96, 144, 212, 0.15);
+  --sky-glow: rgba(96, 144, 212, 0.25);
+
+  --ember: #b85c3c;
+  --ember-light: #df7a57;
+  --ember-dim: rgba(184, 92, 60, 0.15);
+  --ember-glow: rgba(184, 92, 60, 0.25);
+
+  --text-primary: #fbf5ed;
+  --text-secondary: #ddd4c6;
+  --text-muted: #b7aea4;
+  --card-shadow: 0 14px 34px rgba(8, 16, 24, 0.38);
+
+  /* Typography */
+  --font-serif: 'Lora', Georgia, Cambria, serif;
+  --font-display: 'Cinzel', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Border Radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+}
+
+/* Option D: Glacial Zen (Clean Alpine Light Mode) */
+[data-theme="light"],
+html.theme-light,
+body.theme-light {
+  color-scheme: only light !important;
+  color-scheme: light !important;
+  --bg-cosmic: #f5f7f9;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #f0f3f6;
+  --bg-card: rgba(255, 255, 255, 0.98);
+  --bg-card-hover: #ffffff;
+  --header-bg: rgba(245, 247, 249, 0.96);
+
+  --border-subtle: rgba(0, 0, 0, 0.08);
+  --border-card: rgba(0, 0, 0, 0.1);
+  --border-gold: rgba(2, 132, 199, 0.4);
+
+  /* Luminous Glacial Colors */
+  --gold: #0284c7;
+  --gold-light: #38bdf8;
+  --gold-dim: rgba(2, 132, 199, 0.1);
+  --gold-glow: rgba(2, 132, 199, 0.25);
+
+  --crimson: #b91c1c;
+  --crimson-dim: rgba(185, 28, 28, 0.08);
+
+  --sage: #059669;
+  --sage-light: #10b981;
+  --sage-dim: rgba(5, 150, 105, 0.1);
+  --sage-glow: rgba(5, 150, 105, 0.2);
+
+  --sky: #0284c7;
+  --sky-light: #38bdf8;
+  --sky-dim: rgba(2, 132, 199, 0.1);
+  --sky-glow: rgba(2, 132, 199, 0.2);
+
+  --ember: #d97706;
+  --ember-light: #f59e0b;
+  --ember-dim: rgba(217, 119, 6, 0.1);
+  --ember-glow: rgba(217, 119, 6, 0.2);
+
+  --text-primary: #182230;
+  --text-secondary: #334155;
+  --text-muted: #475569;
+  --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-cosmic);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+  letter-spacing: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* ==========================================================================
+   Authentic Tibetan 5-Color Prayer Flag (Lungta) System
+   Blue (Sky/Space) · White (Air/Wind) · Red (Fire) · Green (Water) · Yellow (Earth)
+   ========================================================================== */
+.prayer-ribbon {
+  display: flex;
+  height: 4px;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  border-radius: 2px 2px 0 0;
+}
+.prayer-ribbon.prayer-ribbon-sm {
+  height: 3px;
+}
+.prayer-ribbon.prayer-ribbon-lg {
+  height: 6px;
+}
+.bento-card > .prayer-ribbon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-radius: inherit;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  z-index: 10;
+}
+.prayer-blue { background-color: #2563eb; }
+.prayer-white { background-color: #f8fafc; }
+.prayer-red { background-color: #dc2626; }
+.prayer-green { background-color: #16a34a; }
+.prayer-yellow { background-color: #eab308; }
+
+/* Authentic Fluttering Tibetan Prayer Flag Garland in Hero */
+.prayer-garland-wrap {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 0.5rem 0 1rem;
+  pointer-events: none;
+  user-select: none;
+}
+
+.prayer-garland-cord {
+  position: absolute;
+  top: 0.6rem;
+  left: -2%;
+  width: 104%;
+  height: 1.5px;
+  background: rgba(220, 160, 56, 0.5);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transform: rotate(-0.3deg);
+}
+
+.prayer-flags-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  z-index: 2;
+  flex-wrap: nowrap;
+}
+
+.prayer-flag {
+  width: 28px;
+  height: 38px;
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 50% 100%, 0 86%);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: serif;
+  font-size: 10px;
+  font-weight: 700;
+  animation: flag-flutter 4s ease-in-out infinite alternate;
+  transform-origin: top center;
+  opacity: 0.92;
+}
+
+@media (min-width: 640px) {
+  .prayer-flags-row {
+    gap: 14px;
+  }
+  .prayer-flag {
+    width: 38px;
+    height: 50px;
+    font-size: 12px;
+  }
+}
+
+.prayer-flag:nth-child(even) {
+  animation-duration: 3.2s;
+  animation-delay: -0.8s;
+}
+.prayer-flag:nth-child(3n) {
+  animation-duration: 4.6s;
+  animation-delay: -1.5s;
+}
+.prayer-flag:nth-child(4n) {
+  animation-duration: 3.7s;
+  animation-delay: -2.1s;
+}
+
+@keyframes flag-flutter {
+  0% { transform: rotate(0deg) skewX(0deg); }
+  50% { transform: rotate(2deg) skewX(2.5deg); }
+  100% { transform: rotate(-2deg) skewX(-2deg); }
+}
+
+.prayer-flag--blue { background: linear-gradient(180deg, #1d4ed8, #2563eb); color: rgba(255,255,255,0.8); }
+.prayer-flag--white { background: linear-gradient(180deg, #e2e8f0, #f8fafc); color: rgba(30,41,59,0.7); }
+.prayer-flag--red { background: linear-gradient(180deg, #b91c1c, #dc2626); color: rgba(255,255,255,0.8); }
+.prayer-flag--green { background: linear-gradient(180deg, #15803d, #16a34a); color: rgba(255,255,255,0.8); }
+.prayer-flag--yellow { background: linear-gradient(180deg, #ca8a04, #eab308); color: rgba(40,30,10,0.75); }
+
+/* Compact Fluttering Prayer Flag Garland (for map interface & section footers) */
+.prayer-garland-wrap--compact {
+  padding: 0.25rem 0 0.45rem;
+}
+.prayer-garland-wrap--compact .prayer-garland-cord {
+  top: 0.35rem;
+}
+.prayer-garland-wrap--compact .prayer-flags-row {
+  gap: 6px;
+}
+.prayer-garland-wrap--compact .prayer-flag {
+  width: 22px;
+  height: 30px;
+  font-size: 8px;
+}
+@media (min-width: 640px) {
+  .prayer-garland-wrap--compact .prayer-flags-row {
+    gap: 10px;
+  }
+  .prayer-garland-wrap--compact .prayer-flag {
+    width: 28px;
+    height: 38px;
+    font-size: 10px;
+  }
+}
+
+/* Micro Tibetan Prayer Flag Dot Cluster */
+.prayer-dots {
+  display: inline-flex;
+  align-items: center;
+  gap: 3.5px;
+  vertical-align: middle;
+}
+.prayer-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+}
+
+/* Theme Switcher & Unit Switcher Matching UI */
+.theme-switcher,
+.unit-switcher {
+  display: inline-flex;
+  align-items: center;
+  padding: 2.5px;
+  border-radius: 9999px;
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+  transition: all 0.2s ease;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.theme-btn,
+.unit-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 4px 10px;
+  min-height: 32px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+  line-height: 1;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.theme-btn span,
+.unit-btn span {
+  pointer-events: none;
+}
+
+.theme-btn:hover,
+.unit-btn:hover {
+  color: var(--text-primary);
+}
+
+.theme-btn.is-active,
+.unit-btn.is-active {
+  background: var(--gold);
+  color: #080c14;
+  font-weight: 800;
+  box-shadow: 0 2px 8px var(--gold-glow);
+}
+
+[data-theme="light"] .theme-btn.is-active,
+[data-theme="light"] .unit-btn.is-active {
+  background: var(--gold);
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.35);
+}
+
+/* Single Button Toggle Fallback */
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  height: 2rem;
+  padding: 0 0.625rem;
+  border-radius: 9999px;
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-primary);
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+.theme-toggle-btn:hover {
+  border-color: var(--gold);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px var(--gold-glow);
+}
+
+/* Serif & Display Utilities */
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-cosmic);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 155, 66, 0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 155, 66, 0.45);
+}
+
+/* ==========================================================================
+   Atmospheric & Cosmic Backdrops
+   ========================================================================== */
+.cosmic-gradient-bg {
+  background-color: #121c26;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 240' preserveAspectRatio='none'%3E%3Cpath fill='%230c141c' d='M0 240V168l90 22 80-48 70 30 100-58 80 40 110-62 90 46 120-70 80 48 110-36 90 40 120-44 100 28 200-52V240Z'/%3E%3Cpath fill='%23182430' d='M0 240V198l130-28 110 22 150-48 140 36 160-40 150 32 170-28 160 24 270-36V240Z'/%3E%3Cpath fill='%23f7fbfe' fill-opacity='0.92' d='M340 114l10 16h-20zm250-22 12 18h-24zm230-28 14 20h-28z'/%3E%3C/svg%3E"),
+    radial-gradient(ellipse 110% 42% at 50% -8%, rgba(244, 248, 252, 0.34), transparent 58%),
+    radial-gradient(ellipse 28% 24% at 6% 16%, rgba(37, 99, 235, 0.22), transparent 70%),
+    radial-gradient(ellipse 24% 20% at 96% 12%, rgba(248, 250, 252, 0.28), transparent 68%),
+    radial-gradient(ellipse 26% 22% at 88% 38%, rgba(220, 38, 38, 0.12), transparent 70%),
+    radial-gradient(ellipse 24% 22% at 8% 62%, rgba(22, 163, 74, 0.14), transparent 70%),
+    radial-gradient(ellipse 22% 18% at 72% 72%, rgba(234, 179, 8, 0.12), transparent 70%),
+    linear-gradient(180deg, #6d8aa3 0%, #3d5a72 22%, #243848 52%, #162430 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 28vh, auto, auto, auto, auto, auto, auto, auto;
+  background-position: bottom center, center, center, center, center, center, center, center;
+  background-attachment: fixed;
+}
+
+/* Sticker Aurora Halo */
+.aurora-glow-wrap {
+  position: relative;
+}
+.aurora-glow-wrap::before {
+  content: '';
+  position: absolute;
+  inset: -15px;
+  border-radius: 32px;
+  background: linear-gradient(135deg, rgba(96, 144, 212, 0.35), rgba(212, 155, 66, 0.3), rgba(184, 92, 60, 0.25));
+  filter: blur(24px);
+  z-index: -1;
+  opacity: 0.75;
+  transition: opacity 0.5s ease;
+}
+.aurora-glow-wrap:hover::before {
+  opacity: 1;
+  filter: blur(30px);
+}
+
+/* Eyebrow Label */
+.t-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+/* ==========================================================================
+   Bento Cards & Panels
+   ========================================================================== */
+.bento-card {
+  position: relative;
+  background: var(--bg-card);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.bento-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-gold);
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px -10px var(--card-shadow);
+}
+
+/* Top-Left Accent Strip on Bento Cards */
+.bento-accent-tl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 3px;
+  border-bottom-right-radius: 2px;
+}
+.bento-accent-tl--gold {
+  background: linear-gradient(90deg, var(--gold), transparent);
+}
+.bento-accent-tl--sage {
+  background: linear-gradient(90deg, var(--sage), transparent);
+}
+.bento-accent-tl--sky {
+  background: linear-gradient(90deg, var(--sky), transparent);
+}
+.bento-accent-tl--ember {
+  background: linear-gradient(90deg, var(--ember), transparent);
+}
+
+/* Glass Panels */
+.glass-panel {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-card);
+  box-shadow: var(--card-shadow);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* ==========================================================================
+   Option A/B Hybrid (Dark Mode) Surface & Card Enhancements
+   Monastery Crimson / Burgundy surfaces with Warm Temple Gold Borders
+   ========================================================================== */
+[data-theme="dark"] .vital,
+[data-theme="dark"] .bento-card,
+[data-theme="dark"] .glass-panel,
+[data-theme="dark"] .quote-card {
+  background-color: var(--bg-card) !important;
+  border-color: var(--border-card) !important;
+  box-shadow: 0 12px 32px rgba(8, 16, 24, 0.32) !important;
+}
+
+[data-theme="dark"] .vital:hover,
+[data-theme="dark"] .bento-card:hover {
+  background-color: var(--bg-card-hover) !important;
+  border-color: var(--border-gold) !important;
+  box-shadow: 0 16px 36px rgba(8, 16, 24, 0.4) !important;
+}
+
+[data-theme="dark"] .bg-white\/5 {
+  background-color: rgba(236, 244, 250, 0.07) !important;
+  border-color: rgba(226, 236, 244, 0.16) !important;
+}
+
+[data-theme="dark"] .bg-white\/10 {
+  background-color: rgba(236, 244, 250, 0.1) !important;
+  border-color: rgba(226, 236, 244, 0.22) !important;
+}
+
+[data-theme="dark"] .bg-\[\#080c14\]\/80,
+[data-theme="dark"] .bg-\[\#080c14\]\/90,
+[data-theme="dark"] .bg-\[\#080c14\] {
+  background-color: var(--bg-card) !important;
+  border-color: var(--border-card) !important;
+}
+
+[data-theme="dark"] .bg-\[\#05080e\] {
+  background-color: #101820 !important;
+}
+
+[data-theme="dark"] footer.bg-\[\#05080e\] {
+  background-color: #101820 !important;
+  border-color: rgba(226, 236, 244, 0.12) !important;
+}
+
+[data-theme="dark"] body.cosmic-gradient-bg > header,
+body.cosmic-gradient-bg:not([data-theme="light"]) > header {
+  background-color: rgba(18, 34, 48, 0.86) !important;
+  border-bottom-color: rgba(226, 236, 244, 0.12) !important;
+}
+
+/* Light Mode Global Adaptive Overrides */
+[data-theme="light"],
+[data-theme="light"] body,
+body[data-theme="light"],
+html.theme-light,
+body.theme-light {
+  color-scheme: only light !important;
+  color-scheme: light !important;
+  background-color: #f5f7f9 !important;
+  color: #182230 !important;
+}
+
+[data-theme="light"] .cosmic-gradient-bg,
+[data-theme="light"].cosmic-gradient-bg,
+body[data-theme="light"].cosmic-gradient-bg,
+.theme-light.cosmic-gradient-bg,
+.theme-light .cosmic-gradient-bg {
+  background-color: #e7eef4 !important;
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 240' preserveAspectRatio='none'%3E%3Cpath fill='%23233344' d='M0 240V168l90 22 80-48 70 30 100-58 80 40 110-62 90 46 120-70 80 48 110-36 90 40 120-44 100 28 200-52V240Z'/%3E%3Cpath fill='%23f7fbfe' d='M340 114l10 16h-20zm250-22 12 18h-24zm230-28 14 20h-28z'/%3E%3C/svg%3E"),
+    radial-gradient(ellipse 90% 40% at 50% -10%, rgba(255, 255, 255, 0.85), transparent 60%),
+    radial-gradient(ellipse 26% 22% at 8% 18%, rgba(37, 99, 235, 0.12), transparent 70%),
+    radial-gradient(ellipse 24% 20% at 92% 16%, rgba(220, 38, 38, 0.08), transparent 70%),
+    radial-gradient(ellipse 22% 18% at 12% 60%, rgba(22, 163, 74, 0.1), transparent 70%),
+    linear-gradient(180deg, #f7fbfe 0%, #d5e3ee 40%, #e7eef4 100%) !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 22vh, auto, auto, auto, auto, auto !important;
+  background-position: bottom center, center, center, center, center, center !important;
+  background-attachment: fixed !important;
+}
+
+[data-theme="light"] header {
+  background-color: var(--header-bg) !important;
+  border-color: var(--border-subtle) !important;
+}
+
+/* Headings in Light Mode */
+[data-theme="light"] h1,
+[data-theme="light"] h2,
+[data-theme="light"] h3,
+[data-theme="light"] h4,
+[data-theme="light"] h5,
+[data-theme="light"] h6,
+[data-theme="light"] .text-white,
+[data-theme="light"] b.text-white,
+[data-theme="light"] span.text-white,
+[data-theme="light"] div.text-white {
+  color: var(--text-primary) !important;
+}
+
+/* Text Colors in Light Mode */
+[data-theme="light"] p,
+[data-theme="light"] .text-\[\#d1c7b7\] {
+  color: var(--text-secondary) !important;
+}
+
+[data-theme="light"] .text-\[\#8e867a\] {
+  color: var(--text-muted) !important;
+}
+
+[data-theme="light"] .text-\[\#f5f2eb\] {
+  color: var(--text-primary) !important;
+}
+
+/* Cards & Surface Containers */
+[data-theme="light"] .bento-card,
+[data-theme="light"] .glass-panel,
+[data-theme="light"] .quote-card,
+[data-theme="light"] .vital,
+[data-theme="light"] aside {
+  background-color: var(--bg-surface) !important;
+  border-color: var(--border-subtle) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+}
+
+[data-theme="light"] .bento-card:hover,
+[data-theme="light"] .vital:hover {
+  background-color: #ffffff !important;
+  border-color: var(--border-gold) !important;
+  box-shadow: 0 12px 30px rgba(2, 132, 199, 0.12) !important;
+}
+
+[data-theme="light"] .vital__val {
+  color: var(--text-primary) !important;
+}
+[data-theme="light"] .vital__label {
+  color: var(--text-secondary) !important;
+}
+[data-theme="light"] .vital__desc {
+  color: var(--text-muted) !important;
+}
+[data-theme="light"] .vital__arc-bg {
+  stroke: rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Marquee & Quotes */
+[data-theme="light"] .quote-card__text {
+  color: var(--text-primary) !important;
+}
+[data-theme="light"] .marquee-strip {
+  background: var(--bg-surface) !important;
+  border-color: var(--border-subtle) !important;
+}
+[data-theme="light"] .marquee-item {
+  color: var(--text-secondary) !important;
+}
+[data-theme="light"] .marquee-dot {
+  background-color: var(--gold) !important;
+}
+
+/* Translucent Overlays to Clean Elevated Surfaces */
+[data-theme="light"] .bg-white\/5,
+[data-theme="light"] .bg-white\/10,
+[data-theme="light"] .bg-black\/40,
+[data-theme="light"] .bg-black\/30,
+[data-theme="light"] .bg-black\/20,
+[data-theme="light"] .bg-black\/10,
+[data-theme="light"] .bg-\[\#080c14\],
+[data-theme="light"] .bg-\[\#080c14\]\/80,
+[data-theme="light"] .bg-\[\#080c14\]\/90,
+[data-theme="light"] .bg-\[\#05080e\] {
+  background-color: var(--bg-surface-elevated) !important;
+}
+
+[data-theme="light"] footer.bg-\[\#05080e\] {
+  background-color: #f1f4f8 !important;
+  border-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+[data-theme="light"] div.bg-gradient-to-br {
+  background: var(--bg-surface-elevated) !important;
+}
+
+/* Borders in Light Mode */
+[data-theme="light"] .border-white\/10,
+[data-theme="light"] .border-white\/5,
+[data-theme="light"] .border-white\/15,
+[data-theme="light"] .border-white\/20,
+[data-theme="light"] .border-white\/30 {
+  border-color: var(--border-subtle) !important;
+}
+
+/* Inputs & Form Fields */
+[data-theme="light"] input,
+[data-theme="light"] select,
+[data-theme="light"] textarea {
+  background-color: #ffffff !important;
+  border-color: var(--border-subtle) !important;
+  color: var(--text-primary) !important;
+}
+[data-theme="light"] input::placeholder {
+  color: var(--text-muted) !important;
+}
+
+/* Navigation & Submenu */
+[data-theme="light"] #mobile-menu {
+  background-color: var(--bg-surface-elevated) !important;
+}
+[data-theme="light"] nav a.text-\[\#d1c7b7\] {
+  color: var(--text-secondary) !important;
+}
+[data-theme="light"] nav a.text-\[\#d1c7b7\]:hover {
+  color: var(--text-primary) !important;
+}
+
+/* ==========================================================================
+   Practice Vitals & Circular Arc Gauges
+   ========================================================================== */
+.practice-vitals {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .practice-vitals {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+.vital {
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1rem;
+  text-align: center;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+}
+
+.vital:hover {
+  border-color: var(--border-gold);
+  transform: translateY(-2px);
+  background: var(--bg-card-hover);
+  box-shadow: 0 12px 28px -4px var(--crimson-glow);
+}
+
+.vital__gauge-wrap {
+  position: relative;
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vital__gauge {
+  width: 100%;
+  height: 100%;
+  transform: rotate(-90deg);
+}
+
+.vital__arc-bg {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.08);
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+
+.vital__arc-fill {
+  fill: none;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-dasharray: 150.8 50.3;
+  stroke-dashoffset: 150.8;
+  transition: stroke-dashoffset 1.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.vital__arc-fill--gold { stroke: var(--gold); }
+.vital__arc-fill--sage { stroke: var(--sage); }
+.vital__arc-fill--sky { stroke: var(--sky); }
+.vital__arc-fill--ember { stroke: var(--ember); }
+
+.vital.is-active .vital__arc-fill--gold { stroke-dashoffset: 20; }
+.vital.is-active .vital__arc-fill--sage { stroke-dashoffset: 35; }
+.vital.is-active .vital__arc-fill--sky { stroke-dashoffset: 15; }
+.vital.is-active .vital__arc-fill--ember { stroke-dashoffset: 30; }
+
+.vital__icon-wrap {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.vital__val {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.vital__label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin-top: 0.2rem;
+  letter-spacing: 0.03em;
+}
+
+.vital__desc {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+}
+
+/* ==========================================================================
+   Marquee Strip
+   ========================================================================== */
+.marquee-strip {
+  width: 100%;
+  overflow: hidden;
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+  padding: 0.85rem 0;
+  position: relative;
+  white-space: nowrap;
+}
+
+.marquee-track {
+  display: inline-flex;
+  gap: 2.5rem;
+  animation: marquee-scroll 32s linear infinite;
+}
+
+.marquee-strip:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+.marquee-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.marquee-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--gold);
+  opacity: 0.7;
+}
+
+@keyframes marquee-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* ==========================================================================
+   Editorial Pull-Quotes
+   ========================================================================== */
+.quote-card {
+  position: relative;
+  background: radial-gradient(ellipse at 50% 0%, rgba(212, 155, 66, 0.08), transparent 75%), rgba(14, 20, 34, 0.75);
+  border: 1px solid rgba(212, 155, 66, 0.2);
+  border-radius: var(--radius-xl);
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.quote-card__mark {
+  font-family: var(--font-serif);
+  font-size: 4rem;
+  line-height: 1;
+  color: var(--gold);
+  opacity: 0.4;
+  margin-bottom: -1.5rem;
+  display: block;
+}
+
+.quote-card__text {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.35rem;
+  line-height: 1.65;
+  color: var(--text-primary);
+  max-width: 44rem;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .quote-card__text {
+    font-size: 1.65rem;
+  }
+}
+
+.quote-card__author {
+  margin-top: 1.25rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold);
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   Pill Badges & Buttons
+   ========================================================================== */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.25rem 0.65rem;
+  border-radius: 9999px;
+  letter-spacing: 0.03em;
+}
+
+.pill-gold {
+  background: var(--gold-dim);
+  color: var(--gold-light);
+  border: 1px solid rgba(212, 155, 66, 0.3);
+}
+
+.pill-sage {
+  background: var(--sage-dim);
+  color: var(--sage-light);
+  border: 1px solid rgba(78, 145, 102, 0.3);
+}
+
+.pill-sky {
+  background: var(--sky-dim);
+  color: var(--sky-light);
+  border: 1px solid rgba(96, 144, 212, 0.3);
+}
+
+.pill-ember {
+  background: var(--ember-dim);
+  color: var(--ember-light);
+  border: 1px solid rgba(184, 92, 60, 0.3);
+}
+
+.btn-primary-med {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: linear-gradient(135deg, var(--gold) 0%, #b8782a 100%);
+  color: #080c14;
+  font-weight: 700;
+  padding: 0.75rem 1.6rem;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 18px var(--gold-glow);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-primary-med:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(212, 155, 66, 0.4);
+  background: linear-gradient(135deg, #e3a94f 0%, #c48332 100%);
+}
+
+.btn-outline-med {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-primary);
+  font-weight: 600;
+  padding: 0.75rem 1.6rem;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  backdrop-filter: blur(8px);
+  transition: all 0.25s ease;
+}
+.btn-outline-med:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--gold);
+  color: var(--gold-light);
+}
+
+/* ==========================================================================
+   Leaflet Map Dark Styling Overrides (Harmonized)
+   ========================================================================== */
+.leaflet-container {
+  background: var(--bg-cosmic) !important;
+  font-family: var(--font-sans) !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: var(--bg-card) !important;
+  backdrop-filter: blur(12px) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-gold) !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.6) !important;
+}
+
+.leaflet-popup-tip {
+  background: var(--bg-card) !important;
+}
+
+.leaflet-control-layers {
+  background: var(--bg-card) !important;
+  backdrop-filter: blur(12px) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-subtle) !important;
+  border-radius: var(--radius-sm) !important;
+}
+
+.leaflet-bar a {
+  background-color: var(--bg-surface-elevated) !important;
+  border-color: var(--border-subtle) !important;
+  color: var(--text-primary) !important;
+}
+
+.leaflet-bar a:hover {
+  background-color: var(--gold) !important;
+  color: #080c14 !important;
+}
+
+/* Accordion Smooth Icon Rotation */
+.accordion-icon {
+  transition: transform 0.25s ease-in-out;
+}
+
+/* ==========================================================================
+   Unit Switcher & Theme Switcher Unified Styles
+   ========================================================================== */
+[data-theme="light"] .unit-switcher {
+  background: var(--bg-surface-elevated) !important;
+  border-color: var(--border-subtle) !important;
+}
+
+/* ==========================================================================
+   Interactive Mountain Visualizer & Slider Styling
+   ========================================================================== */
+.custom-range {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 9999px;
+  outline: none;
+  transition: background 0.2s;
+}
+
+.custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #d49b42;
+  cursor: pointer;
+  border: 3px solid #080c14;
+  box-shadow: 0 0 12px rgba(212, 155, 66, 0.6);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.custom-range::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 18px rgba(212, 155, 66, 0.9);
+}
+
+.custom-range::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #d49b42;
+  cursor: pointer;
+  border: 3px solid #080c14;
+  box-shadow: 0 0 12px rgba(212, 155, 66, 0.6);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.custom-range::-moz-range-thumb:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 18px rgba(212, 155, 66, 0.9);
+}
+
+/* Chart Canvas Wrapper Containers */
+.chart-container-donut {
+  position: relative;
+  height: 260px;
+  width: 100%;
+}
+
+.chart-container-radar {
+  position: relative;
+  height: 320px;
+  width: 100%;
+}
+
+.chart-container-horizontal-bar {
+  position: relative;
+  height: 360px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .chart-container-radar {
+    height: 380px;
+  }
+  .chart-container-horizontal-bar {
+    height: 420px;
+  }
+}
+
+/* Trail Comparison Duel Progress Meters */
+.duel-meter-bg {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 9999px;
+  overflow: hidden;
+  height: 6px;
+  width: 100%;
+}
+
+.duel-meter-fill-ght {
+  height: 100%;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #b8782a, #d49b42);
+  transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.duel-meter-fill-challenger {
+  height: 100%;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #4172b0, #6090d4);
+  transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Altitude Ladder Pin */
+.altitude-pin {
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.altitude-pin:hover {
+  transform: scale(1.02);
+}
+
+/* Thin Air Simulator — line climber */
+.thin-air-stage {
+  --breath-dur: 1.45s;
+  --breath-depth: 1.08;
+  --pulse-dur: 0.72s;
+  --fog: 0.35;
+  --zone-color: #d49b42;
+  padding: 0.85rem 0.9rem 0.7rem;
+  border-radius: 16px;
+  border: 1px solid rgba(226, 236, 244, 0.16);
+  background: rgba(12, 20, 28, 0.35);
+}
+.thin-air-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.thin-air-ridge-fill {
+  fill: rgba(140, 181, 242, 0.08);
+}
+.thin-air-ridge-line {
+  fill: none;
+  stroke: rgba(244, 248, 251, 0.45);
+  stroke-width: 1.5;
+}
+.body {
+  fill: #f7f4ef;
+  stroke: none;
+}
+.limb {
+  fill: none;
+  stroke: #f7f4ef;
+  stroke-width: 8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.pole {
+  fill: none;
+  stroke: rgba(247, 244, 239, 0.55);
+  stroke-width: 3;
+  stroke-linecap: round;
+}
+.pack {
+  fill: rgba(140, 181, 242, 0.18);
+  stroke: rgba(247, 244, 239, 0.7);
+  stroke-width: 2;
+}
+.head {
+  fill: #f7f4ef;
+}
+.cap {
+  fill: #e7e2da;
+  stroke: none;
+}
+.boot {
+  fill: #f7f4ef;
+}
+.ribcage {
+  transform-box: fill-box;
+  transform-origin: center bottom;
+  animation: thin-breath var(--breath-dur) ease-in-out infinite;
+}
+.heart-shape {
+  fill: var(--zone-color);
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: lubdub var(--pulse-dur) ease-in-out infinite;
+}
+.pulse-ring {
+  fill: none;
+  stroke: var(--zone-color);
+  stroke-width: 2.5;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: heart-pulse var(--pulse-dur) ease-out infinite;
+}
+.pulse-ring.ring-b {
+  animation-delay: 0.18s;
+}
+.fog {
+  fill: rgba(244, 248, 252, 0.9);
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: fog-puff var(--breath-dur) ease-out infinite;
+}
+.fog-b { animation-delay: 0.16s; }
+.fog-c { animation-delay: 0.32s; }
+.pulse-readout {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-top: 0.35rem;
+  padding: 0.35rem 0.55rem;
+  border-radius: 12px;
+  background: rgba(8, 14, 20, 0.35);
+}
+.heart-icon {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 auto;
+  overflow: visible;
+}
+.heart-icon path {
+  fill: var(--zone-color);
+  transform-origin: center;
+  animation: lubdub var(--pulse-dur) ease-in-out infinite;
+}
+.pulse-bpm-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+  min-width: 4.6rem;
+  color: var(--zone-color);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-weight: 700;
+  font-size: 1.65rem;
+  line-height: 1;
+}
+.pulse-bpm-unit {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+.ecg {
+  flex: 1;
+  height: 36px;
+  min-width: 0;
+}
+.ecg-trace {
+  fill: none;
+  stroke: var(--zone-color);
+  stroke-width: 2.6;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  animation: ecg-glow var(--pulse-dur) ease-out infinite;
+}
+@keyframes thin-breath {
+  0%, 100% { transform: scale(1, 1); }
+  50% { transform: scale(1.04, var(--breath-depth)); }
+}
+@keyframes lubdub {
+  0%, 100% { transform: scale(1); }
+  14% { transform: scale(1.34); }
+  28% { transform: scale(1); }
+  42% { transform: scale(1.18); }
+  58% { transform: scale(1); }
+}
+@keyframes heart-pulse {
+  0% { transform: scale(0.55); opacity: 0.9; }
+  70% { transform: scale(2.1); opacity: 0; }
+  100% { transform: scale(2.1); opacity: 0; }
+}
+@keyframes fog-puff {
+  0% { opacity: 0; transform: translate(0, 2px) scale(0.6); }
+  30% { opacity: var(--fog); }
+  100% { opacity: 0; transform: translate(18px, -14px) scale(1.25); }
+}
+@keyframes ecg-glow {
+  0%, 100% { opacity: 0.4; }
+  12% { opacity: 1; }
+  36% { opacity: 0.72; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .thin-air-stage .ribcage,
+  .thin-air-stage .heart-shape,
+  .thin-air-stage .pulse-ring,
+  .thin-air-stage .fog,
+  .thin-air-stage .heart-icon path,
+  .thin-air-stage .ecg-trace {
+    animation: none;
+    opacity: 0.85;
+  }
+  .thin-air-stage .fog {
+    opacity: var(--fog);
+  }
+  .thin-air-stage .pulse-ring {
+    opacity: 0.35;
+  }
+}
+
+/* ==========================================================================
+   Narrative prose — long comparison / dossier paragraphs (phone-first)
+   ========================================================================== */
+.narrative-prose {
+  font-family: var(--font-sans);
+  font-size: 1.0625rem; /* 17px */
+  line-height: 1.75;
+  font-weight: 400;
+  color: var(--text-secondary);
+  max-width: 62ch;
+  letter-spacing: 0.005em;
+}
+.narrative-prose strong,
+.narrative-prose b {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+/* Shorter card / pillar blurbs under headings */
+.card-prose {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  line-height: 1.65;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+ul.card-prose,
+ol.card-prose {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+ul.card-prose li,
+ol.card-prose li {
+  line-height: 1.65;
+}
+/* FAQ / accordion answer panels */
+.accordion-prose {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+/* FAQ question row — readable tap target text */
+.accordion-header span.font-serif {
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+@media (max-width: 640px) {
+  .narrative-prose {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    max-width: none;
+  }
+  .card-prose {
+    font-size: 0.9375rem;
+    line-height: 1.65;
+  }
+}
+
+/* ==========================================================================
+   Content readability (structure unchanged)
+   Upsize long copy in post-hero sections & cards; leave nav/chrome tiny labels alone.
+   ========================================================================== */
+
+/* Long-form paragraphs in every section after the first (keeps home hero as-is) */
+body > section ~ section p,
+body > section ~ section li,
+main section p,
+main section li {
+  line-height: 1.65;
+}
+
+/* Tailwind text-xs walls used as body copy → readable 15–16px */
+body > section ~ section p.text-xs,
+body > section ~ section .text-xs.leading-relaxed,
+body > section ~ section .bento-card p,
+body > section ~ section .bento-card li,
+main section p.text-xs,
+main section .text-xs.leading-relaxed,
+main .bento-card p,
+main .bento-card li,
+.bento-card > p,
+.bento-card .leading-relaxed.text-xs {
+  font-size: 0.9375rem !important;
+  line-height: 1.65 !important;
+  font-weight: 400 !important;
+}
+
+/* Light weight on long secondary copy reduces contrast — normalize */
+body > section ~ section .font-light,
+body > section ~ section p.font-light,
+main section .font-light,
+.bento-card .font-light,
+.quote-card .font-light {
+  font-weight: 400 !important;
+}
+
+/* Hardcoded muted Tailwind colors → theme secondary (better contrast) */
+body > section ~ section .text-\[\#8e867a\],
+body > section ~ section .text-\[\#d1c7b7\],
+main section .text-\[\#8e867a\],
+main section .text-\[\#d1c7b7\],
+.bento-card .text-\[\#8e867a\],
+.bento-card .text-\[\#d1c7b7\] {
+  color: var(--text-secondary) !important;
+}
+
+/* Accordion answers & FAQ bodies */
+.accordion-header + div,
+.bento-card > div[class*="text-xs"] {
+  font-size: 0.9375rem !important;
+  line-height: 1.65 !important;
+}
+
+/* Section intros under H2 */
+body > section ~ section > .max-w-3xl > p,
+body > section ~ section .max-w-3xl > p,
+main section .max-w-3xl > p {
+  font-size: 1.05rem !important;
+  line-height: 1.65 !important;
+  color: var(--text-secondary);
+  font-weight: 400 !important;
+}
+
+/* Card titles that were cramped as text-base stay clear; body under them breathes */
+.bento-card h3,
+.bento-card h4 {
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+.bento-card h3 + p,
+.bento-card h4 + p {
+  margin-top: 0.45rem;
+}
+
+/* Slightly larger micro-labels inside content cards (not nav) */
+body > section ~ section .text-\[10px\],
+body > section ~ section .text-\[11px\],
+main section .text-\[10px\],
+main section .text-\[11px\] {
+  font-size: 0.75rem !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0.02em;
+}
+
+
+

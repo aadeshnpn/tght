@@ -1,0 +1,5879 @@
+[
+  {
+    "lat": 27.353,
+    "lng": 87.669,
+    "ele": 2420,
+    "distKm": 0.0,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Taplejung / Suketar"
+  },
+  {
+    "lat": 27.36927,
+    "lng": 87.67641,
+    "ele": 2225,
+    "distKm": 2.0,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.38721,
+    "lng": 87.68553,
+    "ele": 1636,
+    "distKm": 4.1,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.40408,
+    "lng": 87.69212,
+    "ele": 1165,
+    "distKm": 6.1,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.42,
+    "lng": 87.701,
+    "ele": 921,
+    "distKm": 8.1,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Mitlung"
+  },
+  {
+    "lat": 27.4345,
+    "lng": 87.71141,
+    "ele": 988,
+    "distKm": 10.0,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.44865,
+    "lng": 87.72094,
+    "ele": 1021,
+    "distKm": 11.8,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.46543,
+    "lng": 87.73233,
+    "ele": 1129,
+    "distKm": 14.0,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.47951,
+    "lng": 87.74276,
+    "ele": 1270,
+    "distKm": 15.9,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.495,
+    "lng": 87.753,
+    "ele": 1270,
+    "distKm": 17.9,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Chirwa"
+  },
+  {
+    "lat": 27.50815,
+    "lng": 87.76542,
+    "ele": 1352,
+    "distKm": 19.8,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.51952,
+    "lng": 87.77597,
+    "ele": 1430,
+    "distKm": 21.4,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.53347,
+    "lng": 87.78865,
+    "ele": 1628,
+    "distKm": 23.4,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.545,
+    "lng": 87.801,
+    "ele": 1660,
+    "distKm": 25.2,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Sekathum"
+  },
+  {
+    "lat": 27.55924,
+    "lng": 87.81827,
+    "ele": 1872,
+    "distKm": 27.5,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.57246,
+    "lng": 87.8356,
+    "ele": 2298,
+    "distKm": 29.8,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.585,
+    "lng": 87.852,
+    "ele": 2510,
+    "distKm": 31.9,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Amjilosa"
+  },
+  {
+    "lat": 27.59802,
+    "lng": 87.86014,
+    "ele": 2565,
+    "distKm": 33.6,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.61252,
+    "lng": 87.86831,
+    "ele": 2675,
+    "distKm": 35.4,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.625,
+    "lng": 87.876,
+    "ele": 2730,
+    "distKm": 37.0,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Gyabla"
+  },
+  {
+    "lat": 27.63468,
+    "lng": 87.88979,
+    "ele": 2881,
+    "distKm": 38.7,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.64268,
+    "lng": 87.90487,
+    "ele": 3128,
+    "distKm": 40.4,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.65186,
+    "lng": 87.91968,
+    "ele": 3493,
+    "distKm": 42.2,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.662,
+    "lng": 87.935,
+    "ele": 3595,
+    "distKm": 44.1,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Ghunsa"
+  },
+  {
+    "lat": 27.67704,
+    "lng": 87.94946,
+    "ele": 3686,
+    "distKm": 46.3,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.69111,
+    "lng": 87.96363,
+    "ele": 3788,
+    "distKm": 48.4,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.70576,
+    "lng": 87.98018,
+    "ele": 4008,
+    "distKm": 50.7,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.721,
+    "lng": 87.994,
+    "ele": 4050,
+    "distKm": 52.8,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Kambachen"
+  },
+  {
+    "lat": 27.73455,
+    "lng": 88.00249,
+    "ele": 4182,
+    "distKm": 54.6,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.74849,
+    "lng": 88.00964,
+    "ele": 4380,
+    "distKm": 56.3,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.76479,
+    "lng": 88.0183,
+    "ele": 4698,
+    "distKm": 58.3,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.778,
+    "lng": 88.026,
+    "ele": 4780,
+    "distKm": 59.9,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Lhonak"
+  },
+  {
+    "lat": 27.78556,
+    "lng": 88.04672,
+    "ele": 4871,
+    "distKm": 62.1,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.79063,
+    "lng": 88.06478,
+    "ele": 5052,
+    "distKm": 64.0,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.798,
+    "lng": 88.086,
+    "ele": 5143,
+    "distKm": 66.2,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Pangpema (North BC)"
+  },
+  {
+    "lat": 27.79058,
+    "lng": 88.06715,
+    "ele": 5052,
+    "distKm": 68.3,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.78564,
+    "lng": 88.04552,
+    "ele": 4871,
+    "distKm": 70.5,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.778,
+    "lng": 88.026,
+    "ele": 4780,
+    "distKm": 72.6,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Lhonak return"
+  },
+  {
+    "lat": 27.7681,
+    "lng": 88.00845,
+    "ele": 4812,
+    "distKm": 74.6,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.75675,
+    "lng": 87.99046,
+    "ele": 4804,
+    "distKm": 76.8,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.74705,
+    "lng": 87.97284,
+    "ele": 4765,
+    "distKm": 78.8,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.73675,
+    "lng": 87.95719,
+    "ele": 4743,
+    "distKm": 80.7,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.72585,
+    "lng": 87.93772,
+    "ele": 4764,
+    "distKm": 83.0,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.71681,
+    "lng": 87.92102,
+    "ele": 4801,
+    "distKm": 84.9,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.70491,
+    "lng": 87.90298,
+    "ele": 4808,
+    "distKm": 87.2,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.695,
+    "lng": 87.886,
+    "ele": 4776,
+    "distKm": 89.2,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Nango La"
+  },
+  {
+    "lat": 27.69432,
+    "lng": 87.86746,
+    "ele": 4658,
+    "distKm": 91.0,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.69135,
+    "lng": 87.84886,
+    "ele": 4208,
+    "distKm": 92.8,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.69282,
+    "lng": 87.83088,
+    "ele": 3718,
+    "distKm": 94.6,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.69103,
+    "lng": 87.81304,
+    "ele": 3376,
+    "distKm": 96.4,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.689,
+    "lng": 87.794,
+    "ele": 3191,
+    "distKm": 98.3,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Olangchung Gola"
+  },
+  {
+    "lat": 27.69311,
+    "lng": 87.77539,
+    "ele": 3295,
+    "distKm": 100.2,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.69606,
+    "lng": 87.75703,
+    "ele": 3448,
+    "distKm": 102.0,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.69933,
+    "lng": 87.7378,
+    "ele": 3670,
+    "distKm": 103.9,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.70421,
+    "lng": 87.72051,
+    "ele": 3963,
+    "distKm": 105.7,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.70873,
+    "lng": 87.70031,
+    "ele": 4186,
+    "distKm": 107.8,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.712,
+    "lng": 87.682,
+    "ele": 4220,
+    "distKm": 109.6,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Lumbha Sambha Phedi"
+  },
+  {
+    "lat": 27.71762,
+    "lng": 87.66356,
+    "ele": 4318,
+    "distKm": 111.5,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.72148,
+    "lng": 87.64436,
+    "ele": 4455,
+    "distKm": 113.5,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.72733,
+    "lng": 87.62396,
+    "ele": 4654,
+    "distKm": 115.6,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.73268,
+    "lng": 87.6061,
+    "ele": 4924,
+    "distKm": 117.4,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.73742,
+    "lng": 87.58705,
+    "ele": 5131,
+    "distKm": 119.4,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.742,
+    "lng": 87.568,
+    "ele": 5159,
+    "distKm": 121.3,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Lumbha Sambha Pass"
+  },
+  {
+    "lat": 27.74295,
+    "lng": 87.54931,
+    "ele": 5087,
+    "distKm": 123.2,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.74632,
+    "lng": 87.5302,
+    "ele": 4758,
+    "distKm": 125.1,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.74642,
+    "lng": 87.50867,
+    "ele": 4322,
+    "distKm": 127.2,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.74965,
+    "lng": 87.49183,
+    "ele": 3957,
+    "distKm": 128.9,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.74971,
+    "lng": 87.47131,
+    "ele": 3698,
+    "distKm": 130.9,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.752,
+    "lng": 87.452,
+    "ele": 3556,
+    "distKm": 132.8,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Thudam"
+  },
+  {
+    "lat": 27.7394,
+    "lng": 87.43978,
+    "ele": 3502,
+    "distKm": 134.7,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.72594,
+    "lng": 87.4288,
+    "ele": 3224,
+    "distKm": 136.5,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.7123,
+    "lng": 87.41812,
+    "ele": 2858,
+    "distKm": 138.4,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.6998,
+    "lng": 87.40458,
+    "ele": 2561,
+    "distKm": 140.3,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.68706,
+    "lng": 87.39401,
+    "ele": 2353,
+    "distKm": 142.1,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": ""
+  },
+  {
+    "lat": 27.674,
+    "lng": 87.382,
+    "ele": 2229,
+    "distKm": 143.9,
+    "secId": 1,
+    "secName": "Kanchenjunga",
+    "name": "Chyamtang"
+  },
+  {
+    "lat": 27.674,
+    "lng": 87.382,
+    "ele": 2229,
+    "distKm": 143.9,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": "Chyamtang"
+  },
+  {
+    "lat": 27.68651,
+    "lng": 87.36871,
+    "ele": 2252,
+    "distKm": 145.8,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.69835,
+    "lng": 87.35462,
+    "ele": 2300,
+    "distKm": 147.8,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.712,
+    "lng": 87.342,
+    "ele": 2323,
+    "distKm": 149.7,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": "Hongon"
+  },
+  {
+    "lat": 27.71863,
+    "lng": 87.32561,
+    "ele": 2497,
+    "distKm": 151.5,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.72555,
+    "lng": 87.31101,
+    "ele": 2846,
+    "distKm": 153.1,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.734,
+    "lng": 87.295,
+    "ele": 3020,
+    "distKm": 155.0,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": "Bakim Kharka"
+  },
+  {
+    "lat": 27.74293,
+    "lng": 87.28289,
+    "ele": 3254,
+    "distKm": 156.5,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.74932,
+    "lng": 87.27344,
+    "ele": 3720,
+    "distKm": 157.7,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.758,
+    "lng": 87.262,
+    "ele": 3954,
+    "distKm": 159.2,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": "Molun Pokhari"
+  },
+  {
+    "lat": 27.76146,
+    "lng": 87.25085,
+    "ele": 3863,
+    "distKm": 160.3,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.7626,
+    "lng": 87.24007,
+    "ele": 3681,
+    "distKm": 161.4,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.765,
+    "lng": 87.228,
+    "ele": 3590,
+    "distKm": 162.6,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": "Dhave Kharka"
+  },
+  {
+    "lat": 27.75162,
+    "lng": 87.21349,
+    "ele": 3582,
+    "distKm": 164.7,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.74013,
+    "lng": 87.19925,
+    "ele": 3565,
+    "distKm": 166.6,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.728,
+    "lng": 87.185,
+    "ele": 3557,
+    "distKm": 168.5,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": "Yangri Kharka"
+  },
+  {
+    "lat": 27.74059,
+    "lng": 87.17629,
+    "ele": 3770,
+    "distKm": 170.2,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.75041,
+    "lng": 87.16925,
+    "ele": 4197,
+    "distKm": 171.4,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.762,
+    "lng": 87.162,
+    "ele": 4410,
+    "distKm": 172.9,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": "Langmale Kharka"
+  },
+  {
+    "lat": 27.7732,
+    "lng": 87.1572,
+    "ele": 4525,
+    "distKm": 174.3,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.7858,
+    "lng": 87.15209,
+    "ele": 4755,
+    "distKm": 175.7,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.798,
+    "lng": 87.148,
+    "ele": 4870,
+    "distKm": 177.2,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": "Makalu Base Camp"
+  },
+  {
+    "lat": 27.79919,
+    "lng": 87.14161,
+    "ele": 4965,
+    "distKm": 177.8,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.8008,
+    "lng": 87.13217,
+    "ele": 5155,
+    "distKm": 178.7,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.802,
+    "lng": 87.126,
+    "ele": 5250,
+    "distKm": 179.4,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": "Sandy Camp"
+  },
+  {
+    "lat": 27.80089,
+    "lng": 87.12244,
+    "ele": 5475,
+    "distKm": 179.7,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.79824,
+    "lng": 87.1158,
+    "ele": 5925,
+    "distKm": 180.5,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.795,
+    "lng": 87.112,
+    "ele": 6150,
+    "distKm": 181.0,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": "Sherpani Col"
+  },
+  {
+    "lat": 27.79341,
+    "lng": 87.09152,
+    "ele": 6160,
+    "distKm": 183.0,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.79202,
+    "lng": 87.07459,
+    "ele": 6180,
+    "distKm": 184.7,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.791,
+    "lng": 87.054,
+    "ele": 6190,
+    "distKm": 186.7,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": "West Col"
+  },
+  {
+    "lat": 27.79788,
+    "lng": 87.0398,
+    "ele": 5992,
+    "distKm": 188.3,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.80619,
+    "lng": 87.02729,
+    "ele": 5598,
+    "distKm": 189.8,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.812,
+    "lng": 87.012,
+    "ele": 5400,
+    "distKm": 191.5,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": "Baruntse BC"
+  },
+  {
+    "lat": 27.8211,
+    "lng": 86.99481,
+    "ele": 5412,
+    "distKm": 193.4,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.83322,
+    "lng": 86.97887,
+    "ele": 5438,
+    "distKm": 195.5,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.842,
+    "lng": 86.962,
+    "ele": 5450,
+    "distKm": 197.4,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": "Honku Basin"
+  },
+  {
+    "lat": 27.84852,
+    "lng": 86.95222,
+    "ele": 5462,
+    "distKm": 198.6,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.85734,
+    "lng": 86.94292,
+    "ele": 5488,
+    "distKm": 200.0,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": ""
+  },
+  {
+    "lat": 27.865,
+    "lng": 86.932,
+    "ele": 5500,
+    "distKm": 201.3,
+    "secId": 2,
+    "secName": "Makalu Barun",
+    "name": "Amphu Labsta BC"
+  },
+  {
+    "lat": 27.876,
+    "lng": 86.912,
+    "ele": 5845,
+    "distKm": 203.7,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Amphu Labsta"
+  },
+  {
+    "lat": 27.88558,
+    "lng": 86.89912,
+    "ele": 5566,
+    "distKm": 205.3,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.89398,
+    "lng": 86.88435,
+    "ele": 5009,
+    "distKm": 207.0,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.904,
+    "lng": 86.872,
+    "ele": 4730,
+    "distKm": 208.7,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Chhukung"
+  },
+  {
+    "lat": 27.9152,
+    "lng": 86.85725,
+    "ele": 4786,
+    "distKm": 210.6,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.92576,
+    "lng": 86.84225,
+    "ele": 4800,
+    "distKm": 212.5,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.93705,
+    "lng": 86.82792,
+    "ele": 4934,
+    "distKm": 214.4,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.948,
+    "lng": 86.812,
+    "ele": 4940,
+    "distKm": 216.3,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Lobuche"
+  },
+  {
+    "lat": 27.95832,
+    "lng": 86.81706,
+    "ele": 4996,
+    "distKm": 217.6,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.97045,
+    "lng": 86.82215,
+    "ele": 5108,
+    "distKm": 219.0,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.981,
+    "lng": 86.828,
+    "ele": 5164,
+    "distKm": 220.3,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Gorak Shep"
+  },
+  {
+    "lat": 27.98756,
+    "lng": 86.83589,
+    "ele": 5214,
+    "distKm": 221.4,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.99763,
+    "lng": 86.84529,
+    "ele": 5314,
+    "distKm": 222.9,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 28.004,
+    "lng": 86.852,
+    "ele": 5364,
+    "distKm": 223.8,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Everest Base Camp"
+  },
+  {
+    "lat": 27.99179,
+    "lng": 86.83676,
+    "ele": 5346,
+    "distKm": 225.8,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.98149,
+    "lng": 86.82108,
+    "ele": 5159,
+    "distKm": 227.8,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.96823,
+    "lng": 86.80302,
+    "ele": 4994,
+    "distKm": 230.1,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.95739,
+    "lng": 86.78836,
+    "ele": 4914,
+    "distKm": 231.9,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.945,
+    "lng": 86.772,
+    "ele": 4830,
+    "distKm": 234.1,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Dzongla"
+  },
+  {
+    "lat": 27.94207,
+    "lng": 86.77639,
+    "ele": 4978,
+    "distKm": 234.6,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.93916,
+    "lng": 86.78281,
+    "ele": 5272,
+    "distKm": 235.3,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.935,
+    "lng": 86.789,
+    "ele": 5420,
+    "distKm": 236.1,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Cho La Pass"
+  },
+  {
+    "lat": 27.93816,
+    "lng": 86.76952,
+    "ele": 5393,
+    "distKm": 238.0,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.94148,
+    "lng": 86.75155,
+    "ele": 5182,
+    "distKm": 239.8,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.94575,
+    "lng": 86.7329,
+    "ele": 4987,
+    "distKm": 241.7,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.95058,
+    "lng": 86.71328,
+    "ele": 4883,
+    "distKm": 243.7,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.954,
+    "lng": 86.695,
+    "ele": 4790,
+    "distKm": 245.6,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Gokyo Lakes"
+  },
+  {
+    "lat": 27.9533,
+    "lng": 86.68239,
+    "ele": 4932,
+    "distKm": 246.8,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.95357,
+    "lng": 86.66661,
+    "ele": 5218,
+    "distKm": 248.3,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.952,
+    "lng": 86.654,
+    "ele": 5360,
+    "distKm": 249.6,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Renjo La"
+  },
+  {
+    "lat": 27.93738,
+    "lng": 86.6437,
+    "ele": 5115,
+    "distKm": 251.5,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.92569,
+    "lng": 86.63138,
+    "ele": 4625,
+    "distKm": 253.3,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.912,
+    "lng": 86.621,
+    "ele": 4380,
+    "distKm": 255.1,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Lungden"
+  },
+  {
+    "lat": 27.89627,
+    "lng": 86.62554,
+    "ele": 4360,
+    "distKm": 256.9,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.87959,
+    "lng": 86.63289,
+    "ele": 4166,
+    "distKm": 258.9,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.86635,
+    "lng": 86.63733,
+    "ele": 3993,
+    "distKm": 260.5,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.85019,
+    "lng": 86.64275,
+    "ele": 3907,
+    "distKm": 262.3,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.834,
+    "lng": 86.648,
+    "ele": 3820,
+    "distKm": 264.2,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Thame"
+  },
+  {
+    "lat": 27.83717,
+    "lng": 86.63704,
+    "ele": 4140,
+    "distKm": 265.3,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.8421,
+    "lng": 86.62494,
+    "ele": 4780,
+    "distKm": 266.6,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.845,
+    "lng": 86.612,
+    "ele": 5100,
+    "distKm": 268.0,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Tashi Laptsa High Camp"
+  },
+  {
+    "lat": 27.84735,
+    "lng": 86.6023,
+    "ele": 5264,
+    "distKm": 268.9,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.85173,
+    "lng": 86.59566,
+    "ele": 5591,
+    "distKm": 269.8,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.854,
+    "lng": 86.586,
+    "ele": 5755,
+    "distKm": 270.7,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Tashi Laptsa Pass"
+  },
+  {
+    "lat": 27.85577,
+    "lng": 86.56778,
+    "ele": 5541,
+    "distKm": 272.5,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.86028,
+    "lng": 86.54857,
+    "ele": 5114,
+    "distKm": 274.5,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.862,
+    "lng": 86.528,
+    "ele": 4900,
+    "distKm": 276.5,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Drolambau Glacier"
+  },
+  {
+    "lat": 27.86324,
+    "lng": 86.5085,
+    "ele": 4819,
+    "distKm": 278.5,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.866,
+    "lng": 86.48929,
+    "ele": 4505,
+    "distKm": 280.4,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.86939,
+    "lng": 86.46877,
+    "ele": 4310,
+    "distKm": 282.4,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.871,
+    "lng": 86.448,
+    "ele": 4180,
+    "distKm": 284.5,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Na (Rolwaling)"
+  },
+  {
+    "lat": 27.87541,
+    "lng": 86.42365,
+    "ele": 4070,
+    "distKm": 286.9,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.8793,
+    "lng": 86.40226,
+    "ele": 3850,
+    "distKm": 289.1,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.882,
+    "lng": 86.378,
+    "ele": 3740,
+    "distKm": 291.5,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Beding"
+  },
+  {
+    "lat": 27.87666,
+    "lng": 86.35717,
+    "ele": 3689,
+    "distKm": 293.6,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.87212,
+    "lng": 86.33622,
+    "ele": 3431,
+    "distKm": 295.7,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.86475,
+    "lng": 86.31539,
+    "ele": 3044,
+    "distKm": 297.9,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.86035,
+    "lng": 86.29678,
+    "ele": 2661,
+    "distKm": 299.8,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.85667,
+    "lng": 86.27462,
+    "ele": 2359,
+    "distKm": 302.0,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.85047,
+    "lng": 86.25444,
+    "ele": 2139,
+    "distKm": 304.1,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.845,
+    "lng": 86.234,
+    "ele": 2020,
+    "distKm": 306.2,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Simigaon"
+  },
+  {
+    "lat": 27.83714,
+    "lng": 86.21233,
+    "ele": 1875,
+    "distKm": 308.5,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.82822,
+    "lng": 86.19183,
+    "ele": 1585,
+    "distKm": 310.8,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": ""
+  },
+  {
+    "lat": 27.818,
+    "lng": 86.172,
+    "ele": 1440,
+    "distKm": 313.0,
+    "secId": 3,
+    "secName": "Everest & Rolwaling",
+    "name": "Jagat"
+  },
+  {
+    "lat": 28.161,
+    "lng": 85.335,
+    "ele": 1503,
+    "distKm": 403.6,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": "Syabrubesi"
+  },
+  {
+    "lat": 28.16823,
+    "lng": 85.3561,
+    "ele": 1671,
+    "distKm": 405.9,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.17482,
+    "lng": 85.37803,
+    "ele": 1956,
+    "distKm": 408.1,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.18101,
+    "lng": 85.39966,
+    "ele": 2362,
+    "distKm": 410.4,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.188,
+    "lng": 85.421,
+    "ele": 2480,
+    "distKm": 412.6,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": "Lama Hotel"
+  },
+  {
+    "lat": 28.19344,
+    "lng": 85.44215,
+    "ele": 2644,
+    "distKm": 414.7,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.20112,
+    "lng": 85.46216,
+    "ele": 2920,
+    "distKm": 416.9,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.20801,
+    "lng": 85.48211,
+    "ele": 3316,
+    "distKm": 419.0,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.214,
+    "lng": 85.502,
+    "ele": 3430,
+    "distKm": 421.0,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": "Langtang Village"
+  },
+  {
+    "lat": 28.21376,
+    "lng": 85.52356,
+    "ele": 3540,
+    "distKm": 423.2,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.21218,
+    "lng": 85.5469,
+    "ele": 3760,
+    "distKm": 425.5,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.212,
+    "lng": 85.568,
+    "ele": 3870,
+    "distKm": 427.5,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": "Kyanjin Gompa"
+  },
+  {
+    "lat": 28.21426,
+    "lng": 85.58864,
+    "ele": 3923,
+    "distKm": 429.6,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.21692,
+    "lng": 85.60902,
+    "ele": 3922,
+    "distKm": 431.6,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.21874,
+    "lng": 85.63017,
+    "ele": 3987,
+    "distKm": 433.7,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.22318,
+    "lng": 85.65151,
+    "ele": 4093,
+    "distKm": 435.8,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.225,
+    "lng": 85.672,
+    "ele": 4080,
+    "distKm": 437.8,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": "Langshisha Kharka"
+  },
+  {
+    "lat": 28.22082,
+    "lng": 85.66212,
+    "ele": 4387,
+    "distKm": 438.9,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.21637,
+    "lng": 85.65145,
+    "ele": 5001,
+    "distKm": 440.1,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.214,
+    "lng": 85.642,
+    "ele": 5308,
+    "distKm": 441.0,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": "Tilman Pass"
+  },
+  {
+    "lat": 28.2024,
+    "lng": 85.65291,
+    "ele": 5031,
+    "distKm": 442.7,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.18985,
+    "lng": 85.66326,
+    "ele": 4477,
+    "distKm": 444.4,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.178,
+    "lng": 85.675,
+    "ele": 4200,
+    "distKm": 446.2,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": "Tin Pokhari"
+  },
+  {
+    "lat": 28.16134,
+    "lng": 85.6795,
+    "ele": 4227,
+    "distKm": 448.1,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.14312,
+    "lng": 85.68478,
+    "ele": 4204,
+    "distKm": 450.2,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.12737,
+    "lng": 85.68917,
+    "ele": 4143,
+    "distKm": 452.0,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.11096,
+    "lng": 85.69525,
+    "ele": 4095,
+    "distKm": 453.9,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.09348,
+    "lng": 85.69861,
+    "ele": 4090,
+    "distKm": 455.9,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.07536,
+    "lng": 85.70324,
+    "ele": 4105,
+    "distKm": 457.9,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.05871,
+    "lng": 85.7091,
+    "ele": 4098,
+    "distKm": 459.9,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.042,
+    "lng": 85.714,
+    "ele": 4060,
+    "distKm": 461.8,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": "Panch Pokhari"
+  },
+  {
+    "lat": 28.0359,
+    "lng": 85.69515,
+    "ele": 4037,
+    "distKm": 463.7,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.02935,
+    "lng": 85.67642,
+    "ele": 3871,
+    "distKm": 465.7,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.02398,
+    "lng": 85.65629,
+    "ele": 3596,
+    "distKm": 467.8,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.01847,
+    "lng": 85.63652,
+    "ele": 3295,
+    "distKm": 469.8,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.0127,
+    "lng": 85.61975,
+    "ele": 3037,
+    "distKm": 471.6,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.00517,
+    "lng": 85.59984,
+    "ele": 2839,
+    "distKm": 473.7,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 27.99963,
+    "lng": 85.58153,
+    "ele": 2688,
+    "distKm": 475.6,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 27.994,
+    "lng": 85.562,
+    "ele": 2600,
+    "distKm": 477.6,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": "Tarke Ghyang"
+  },
+  {
+    "lat": 28.00568,
+    "lng": 85.54491,
+    "ele": 2582,
+    "distKm": 479.8,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.01855,
+    "lng": 85.52678,
+    "ele": 2548,
+    "distKm": 482.0,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.031,
+    "lng": 85.508,
+    "ele": 2530,
+    "distKm": 484.3,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": "Melamchi Gaon"
+  },
+  {
+    "lat": 28.04025,
+    "lng": 85.49784,
+    "ele": 2820,
+    "distKm": 485.8,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.05002,
+    "lng": 85.48563,
+    "ele": 3400,
+    "distKm": 487.4,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.058,
+    "lng": 85.474,
+    "ele": 3690,
+    "distKm": 488.8,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": "Tharepati"
+  },
+  {
+    "lat": 28.06453,
+    "lng": 85.45879,
+    "ele": 3920,
+    "distKm": 490.5,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.07037,
+    "lng": 85.44397,
+    "ele": 4380,
+    "distKm": 492.1,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.075,
+    "lng": 85.428,
+    "ele": 4610,
+    "distKm": 493.7,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": "Laurebina La"
+  },
+  {
+    "lat": 28.07668,
+    "lng": 85.42302,
+    "ele": 4552,
+    "distKm": 494.3,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.08036,
+    "lng": 85.41739,
+    "ele": 4438,
+    "distKm": 495.0,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.082,
+    "lng": 85.412,
+    "ele": 4380,
+    "distKm": 495.5,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": "Gosainkunda"
+  },
+  {
+    "lat": 28.08637,
+    "lng": 85.39335,
+    "ele": 4253,
+    "distKm": 497.4,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.09141,
+    "lng": 85.37486,
+    "ele": 3775,
+    "distKm": 499.3,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.09712,
+    "lng": 85.35592,
+    "ele": 3135,
+    "distKm": 501.3,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.1013,
+    "lng": 85.33917,
+    "ele": 2565,
+    "distKm": 503.0,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.10731,
+    "lng": 85.31968,
+    "ele": 2157,
+    "distKm": 505.0,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": ""
+  },
+  {
+    "lat": 28.112,
+    "lng": 85.302,
+    "ele": 1960,
+    "distKm": 506.8,
+    "secId": 4,
+    "secName": "Langtang & Helambu",
+    "name": "Dhunche"
+  },
+  {
+    "lat": 28.161,
+    "lng": 85.335,
+    "ele": 1503,
+    "distKm": 513.2,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Syabrubesi"
+  },
+  {
+    "lat": 28.15758,
+    "lng": 85.31661,
+    "ele": 1635,
+    "distKm": 515.0,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.15475,
+    "lng": 85.29709,
+    "ele": 1836,
+    "distKm": 516.9,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.15201,
+    "lng": 85.27781,
+    "ele": 2155,
+    "distKm": 518.8,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.148,
+    "lng": 85.258,
+    "ele": 2238,
+    "distKm": 520.8,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Gatlang"
+  },
+  {
+    "lat": 28.15895,
+    "lng": 85.23966,
+    "ele": 2496,
+    "distKm": 523.0,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.17158,
+    "lng": 85.22118,
+    "ele": 3013,
+    "distKm": 525.3,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.182,
+    "lng": 85.201,
+    "ele": 3271,
+    "distKm": 527.6,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Somdang"
+  },
+  {
+    "lat": 28.18945,
+    "lng": 85.18827,
+    "ele": 3411,
+    "distKm": 529.1,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.19594,
+    "lng": 85.17427,
+    "ele": 3690,
+    "distKm": 530.6,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.204,
+    "lng": 85.162,
+    "ele": 3830,
+    "distKm": 532.1,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Pangsang Pass"
+  },
+  {
+    "lat": 28.20924,
+    "lng": 85.1458,
+    "ele": 3392,
+    "distKm": 533.8,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.21508,
+    "lng": 85.1278,
+    "ele": 2516,
+    "distKm": 535.7,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.221,
+    "lng": 85.112,
+    "ele": 2078,
+    "distKm": 537.4,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Tipling"
+  },
+  {
+    "lat": 28.22352,
+    "lng": 85.09129,
+    "ele": 2093,
+    "distKm": 539.4,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.22539,
+    "lng": 85.07217,
+    "ele": 2004,
+    "distKm": 541.3,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.22658,
+    "lng": 85.05243,
+    "ele": 1894,
+    "distKm": 543.3,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.22939,
+    "lng": 85.0319,
+    "ele": 1854,
+    "distKm": 545.3,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.23199,
+    "lng": 85.01182,
+    "ele": 1835,
+    "distKm": 547.3,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.235,
+    "lng": 84.992,
+    "ele": 1780,
+    "distKm": 549.3,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Kashigaon"
+  },
+  {
+    "lat": 28.25117,
+    "lng": 84.98049,
+    "ele": 1798,
+    "distKm": 551.4,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.26728,
+    "lng": 84.96995,
+    "ele": 1751,
+    "distKm": 553.5,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.28194,
+    "lng": 84.95672,
+    "ele": 1652,
+    "distKm": 555.5,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.29706,
+    "lng": 84.94662,
+    "ele": 1560,
+    "distKm": 557.5,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.31576,
+    "lng": 84.93471,
+    "ele": 1511,
+    "distKm": 559.9,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.33057,
+    "lng": 84.92435,
+    "ele": 1489,
+    "distKm": 561.8,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.3463,
+    "lng": 84.91267,
+    "ele": 1456,
+    "distKm": 563.9,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.362,
+    "lng": 84.901,
+    "ele": 1410,
+    "distKm": 566.0,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Jagat (Manaslu)"
+  },
+  {
+    "lat": 28.37635,
+    "lng": 84.88919,
+    "ele": 1481,
+    "distKm": 568.0,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.39133,
+    "lng": 84.87908,
+    "ele": 1526,
+    "distKm": 569.9,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.40778,
+    "lng": 84.8666,
+    "ele": 1647,
+    "distKm": 572.1,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.42315,
+    "lng": 84.85667,
+    "ele": 1800,
+    "distKm": 574.1,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.438,
+    "lng": 84.845,
+    "ele": 1804,
+    "distKm": 576.1,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Deng"
+  },
+  {
+    "lat": 28.45404,
+    "lng": 84.83326,
+    "ele": 1896,
+    "distKm": 578.2,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.47016,
+    "lng": 84.82387,
+    "ele": 2018,
+    "distKm": 580.2,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.48382,
+    "lng": 84.81008,
+    "ele": 2197,
+    "distKm": 582.2,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.50018,
+    "lng": 84.80079,
+    "ele": 2446,
+    "distKm": 584.3,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.51702,
+    "lng": 84.78901,
+    "ele": 2638,
+    "distKm": 586.5,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.532,
+    "lng": 84.778,
+    "ele": 2660,
+    "distKm": 588.4,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Namrung"
+  },
+  {
+    "lat": 28.5425,
+    "lng": 84.75933,
+    "ele": 2790,
+    "distKm": 590.6,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.55097,
+    "lng": 84.74071,
+    "ele": 3050,
+    "distKm": 592.7,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.562,
+    "lng": 84.721,
+    "ele": 3180,
+    "distKm": 594.9,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Lho"
+  },
+  {
+    "lat": 28.5677,
+    "lng": 84.70128,
+    "ele": 3256,
+    "distKm": 597.0,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.57585,
+    "lng": 84.67904,
+    "ele": 3320,
+    "distKm": 599.3,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.58135,
+    "lng": 84.65848,
+    "ele": 3503,
+    "distKm": 601.4,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.588,
+    "lng": 84.638,
+    "ele": 3530,
+    "distKm": 603.6,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Samagaon"
+  },
+  {
+    "lat": 28.58691,
+    "lng": 84.6505,
+    "ele": 3748,
+    "distKm": 604.8,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.58298,
+    "lng": 84.66253,
+    "ele": 4182,
+    "distKm": 606.0,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.582,
+    "lng": 84.673,
+    "ele": 4400,
+    "distKm": 607.1,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Manaslu BC"
+  },
+  {
+    "lat": 28.59894,
+    "lng": 84.66511,
+    "ele": 4346,
+    "distKm": 609.1,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.6157,
+    "lng": 84.6589,
+    "ele": 4095,
+    "distKm": 611.1,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.63101,
+    "lng": 84.6504,
+    "ele": 3964,
+    "distKm": 612.9,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.648,
+    "lng": 84.642,
+    "ele": 3860,
+    "distKm": 615.0,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Samdo"
+  },
+  {
+    "lat": 28.64983,
+    "lng": 84.6346,
+    "ele": 4010,
+    "distKm": 615.8,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.6514,
+    "lng": 84.62691,
+    "ele": 4310,
+    "distKm": 616.5,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.654,
+    "lng": 84.618,
+    "ele": 4460,
+    "distKm": 617.4,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Dharamsala"
+  },
+  {
+    "lat": 28.64899,
+    "lng": 84.61867,
+    "ele": 4622,
+    "distKm": 618.0,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.64191,
+    "lng": 84.62095,
+    "ele": 4944,
+    "distKm": 618.8,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.636,
+    "lng": 84.622,
+    "ele": 5106,
+    "distKm": 619.5,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Larkya La"
+  },
+  {
+    "lat": 28.63674,
+    "lng": 84.60016,
+    "ele": 5071,
+    "distKm": 621.6,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.6359,
+    "lng": 84.57984,
+    "ele": 4860,
+    "distKm": 623.6,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.63639,
+    "lng": 84.55883,
+    "ele": 4540,
+    "distKm": 625.7,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.63773,
+    "lng": 84.53563,
+    "ele": 4231,
+    "distKm": 627.9,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.63628,
+    "lng": 84.51591,
+    "ele": 3996,
+    "distKm": 629.9,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.63717,
+    "lng": 84.49372,
+    "ele": 3823,
+    "distKm": 632.0,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.638,
+    "lng": 84.472,
+    "ele": 3720,
+    "distKm": 634.1,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Bimthang"
+  },
+  {
+    "lat": 28.62229,
+    "lng": 84.46372,
+    "ele": 3660,
+    "distKm": 636.1,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.60598,
+    "lng": 84.45576,
+    "ele": 3365,
+    "distKm": 638.0,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.58878,
+    "lng": 84.44566,
+    "ele": 2975,
+    "distKm": 640.2,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.5745,
+    "lng": 84.4375,
+    "ele": 2655,
+    "distKm": 642.0,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.55812,
+    "lng": 84.42946,
+    "ele": 2430,
+    "distKm": 644.0,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.542,
+    "lng": 84.421,
+    "ele": 2300,
+    "distKm": 645.9,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Tilije"
+  },
+  {
+    "lat": 28.53331,
+    "lng": 84.40756,
+    "ele": 2190,
+    "distKm": 647.6,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.52386,
+    "lng": 84.3944,
+    "ele": 1970,
+    "distKm": 649.2,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": ""
+  },
+  {
+    "lat": 28.514,
+    "lng": 84.382,
+    "ele": 1860,
+    "distKm": 650.9,
+    "secId": 5,
+    "secName": "Manaslu & Ganesh Himal",
+    "name": "Dharapani"
+  },
+  {
+    "lat": 28.514,
+    "lng": 84.382,
+    "ele": 1860,
+    "distKm": 650.9,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Dharapani"
+  },
+  {
+    "lat": 28.51826,
+    "lng": 84.36366,
+    "ele": 1964,
+    "distKm": 652.7,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.5215,
+    "lng": 84.34359,
+    "ele": 2095,
+    "distKm": 654.7,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.52655,
+    "lng": 84.32624,
+    "ele": 2324,
+    "distKm": 656.5,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.53164,
+    "lng": 84.30684,
+    "ele": 2563,
+    "distKm": 658.5,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.535,
+    "lng": 84.288,
+    "ele": 2600,
+    "distKm": 660.3,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Koto"
+  },
+  {
+    "lat": 28.55132,
+    "lng": 84.28393,
+    "ele": 2682,
+    "distKm": 662.2,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.56768,
+    "lng": 84.27943,
+    "ele": 2796,
+    "distKm": 664.1,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.58524,
+    "lng": 84.2762,
+    "ele": 2946,
+    "distKm": 666.1,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.60324,
+    "lng": 84.2733,
+    "ele": 3159,
+    "distKm": 668.1,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.61903,
+    "lng": 84.26855,
+    "ele": 3394,
+    "distKm": 669.9,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.63577,
+    "lng": 84.2657,
+    "ele": 3547,
+    "distKm": 671.8,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.652,
+    "lng": 84.262,
+    "ele": 3560,
+    "distKm": 673.6,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Meta"
+  },
+  {
+    "lat": 28.67192,
+    "lng": 84.26485,
+    "ele": 3600,
+    "distKm": 675.8,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.69118,
+    "lng": 84.26683,
+    "ele": 3680,
+    "distKm": 678.0,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.712,
+    "lng": 84.271,
+    "ele": 3720,
+    "distKm": 680.3,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Chyako"
+  },
+  {
+    "lat": 28.72617,
+    "lng": 84.27441,
+    "ele": 3745,
+    "distKm": 682.0,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.73756,
+    "lng": 84.27867,
+    "ele": 3795,
+    "distKm": 683.3,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.752,
+    "lng": 84.282,
+    "ele": 3820,
+    "distKm": 684.9,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Kyang"
+  },
+  {
+    "lat": 28.76283,
+    "lng": 84.27949,
+    "ele": 3885,
+    "distKm": 686.2,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.77462,
+    "lng": 84.27701,
+    "ele": 4015,
+    "distKm": 687.5,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.784,
+    "lng": 84.276,
+    "ele": 4080,
+    "distKm": 688.5,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Phu Village"
+  },
+  {
+    "lat": 28.77237,
+    "lng": 84.26092,
+    "ele": 4018,
+    "distKm": 690.5,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.75957,
+    "lng": 84.24685,
+    "ele": 3750,
+    "distKm": 692.5,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.74713,
+    "lng": 84.23326,
+    "ele": 3601,
+    "distKm": 694.4,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.735,
+    "lng": 84.218,
+    "ele": 3490,
+    "distKm": 696.4,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Naar Phedi"
+  },
+  {
+    "lat": 28.71765,
+    "lng": 84.20728,
+    "ele": 3645,
+    "distKm": 698.6,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.70029,
+    "lng": 84.19716,
+    "ele": 3955,
+    "distKm": 700.8,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.682,
+    "lng": 84.185,
+    "ele": 4110,
+    "distKm": 703.1,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Naar Village"
+  },
+  {
+    "lat": 28.69442,
+    "lng": 84.17311,
+    "ele": 4412,
+    "distKm": 704.9,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.70515,
+    "lng": 84.1619,
+    "ele": 5018,
+    "distKm": 706.5,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.718,
+    "lng": 84.152,
+    "ele": 5320,
+    "distKm": 708.3,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Kang La"
+  },
+  {
+    "lat": 28.7042,
+    "lng": 84.13731,
+    "ele": 5102,
+    "distKm": 710.4,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.68919,
+    "lng": 84.12412,
+    "ele": 4455,
+    "distKm": 712.5,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.67643,
+    "lng": 84.10915,
+    "ele": 3928,
+    "distKm": 714.5,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.662,
+    "lng": 84.095,
+    "ele": 3660,
+    "distKm": 716.6,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Ngawal"
+  },
+  {
+    "lat": 28.66336,
+    "lng": 84.07677,
+    "ele": 3667,
+    "distKm": 718.4,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.66398,
+    "lng": 84.0593,
+    "ele": 3565,
+    "distKm": 720.1,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.66409,
+    "lng": 84.03959,
+    "ele": 3582,
+    "distKm": 722.0,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.665,
+    "lng": 84.021,
+    "ele": 3540,
+    "distKm": 723.8,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Manang"
+  },
+  {
+    "lat": 28.68144,
+    "lng": 84.01109,
+    "ele": 3639,
+    "distKm": 725.9,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.6955,
+    "lng": 84.00242,
+    "ele": 3760,
+    "distKm": 727.7,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.71278,
+    "lng": 83.99415,
+    "ele": 4000,
+    "distKm": 729.8,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.728,
+    "lng": 83.985,
+    "ele": 4050,
+    "distKm": 731.7,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Yak Kharka"
+  },
+  {
+    "lat": 28.74416,
+    "lng": 83.97552,
+    "ele": 4172,
+    "distKm": 733.7,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.76048,
+    "lng": 83.965,
+    "ele": 4418,
+    "distKm": 735.8,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.775,
+    "lng": 83.955,
+    "ele": 4540,
+    "distKm": 737.7,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Thorong Phedi"
+  },
+  {
+    "lat": 28.7798,
+    "lng": 83.94816,
+    "ele": 4759,
+    "distKm": 738.5,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.78654,
+    "lng": 83.94102,
+    "ele": 5197,
+    "distKm": 739.6,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.793,
+    "lng": 83.935,
+    "ele": 5416,
+    "distKm": 740.5,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Thorong La"
+  },
+  {
+    "lat": 28.80221,
+    "lng": 83.91386,
+    "ele": 5012,
+    "distKm": 742.8,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.81084,
+    "lng": 83.89363,
+    "ele": 4204,
+    "distKm": 745.0,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.818,
+    "lng": 83.871,
+    "ele": 3800,
+    "distKm": 747.3,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Muktinath"
+  },
+  {
+    "lat": 28.82127,
+    "lng": 83.84979,
+    "ele": 3680,
+    "distKm": 749.4,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.82641,
+    "lng": 83.82795,
+    "ele": 3270,
+    "distKm": 751.6,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.83163,
+    "lng": 83.80507,
+    "ele": 2980,
+    "distKm": 753.9,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.835,
+    "lng": 83.784,
+    "ele": 2810,
+    "distKm": 756.0,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Kagbeni"
+  },
+  {
+    "lat": 28.82173,
+    "lng": 83.76988,
+    "ele": 2822,
+    "distKm": 758.0,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.80804,
+    "lng": 83.757,
+    "ele": 2730,
+    "distKm": 760.0,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.79561,
+    "lng": 83.74501,
+    "ele": 2758,
+    "distKm": 761.8,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": ""
+  },
+  {
+    "lat": 28.782,
+    "lng": 83.731,
+    "ele": 2720,
+    "distKm": 763.8,
+    "secId": 6,
+    "secName": "Annapurna & Naar-Phu",
+    "name": "Jomsom"
+  },
+  {
+    "lat": 28.682,
+    "lng": 84.185,
+    "ele": 4110,
+    "distKm": 809.5,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Naar"
+  },
+  {
+    "lat": 28.70098,
+    "lng": 84.18892,
+    "ele": 4181,
+    "distKm": 811.6,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.71904,
+    "lng": 84.19228,
+    "ele": 4264,
+    "distKm": 813.7,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.7372,
+    "lng": 84.19795,
+    "ele": 4370,
+    "distKm": 815.8,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.75601,
+    "lng": 84.20047,
+    "ele": 4535,
+    "distKm": 817.9,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.776,
+    "lng": 84.20466,
+    "ele": 4726,
+    "distKm": 820.1,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.79348,
+    "lng": 84.20803,
+    "ele": 4847,
+    "distKm": 822.1,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.812,
+    "lng": 84.212,
+    "ele": 4850,
+    "distKm": 824.2,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Teri La High Camp"
+  },
+  {
+    "lat": 28.82804,
+    "lng": 84.21877,
+    "ele": 4984,
+    "distKm": 826.1,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.84378,
+    "lng": 84.22411,
+    "ele": 5188,
+    "distKm": 827.9,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.8586,
+    "lng": 84.23241,
+    "ele": 5511,
+    "distKm": 829.8,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.874,
+    "lng": 84.238,
+    "ele": 5595,
+    "distKm": 831.6,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Teri La"
+  },
+  {
+    "lat": 28.88845,
+    "lng": 84.225,
+    "ele": 5389,
+    "distKm": 833.6,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.90483,
+    "lng": 84.20922,
+    "ele": 4772,
+    "distKm": 836.0,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.91903,
+    "lng": 84.19611,
+    "ele": 4275,
+    "distKm": 838.0,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.935,
+    "lng": 84.182,
+    "ele": 4020,
+    "distKm": 840.3,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Labse Kharka"
+  },
+  {
+    "lat": 28.94076,
+    "lng": 84.16368,
+    "ele": 4029,
+    "distKm": 842.2,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.94553,
+    "lng": 84.14393,
+    "ele": 3979,
+    "distKm": 844.1,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.95171,
+    "lng": 84.1259,
+    "ele": 3870,
+    "distKm": 846.0,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.95682,
+    "lng": 84.10723,
+    "ele": 3730,
+    "distKm": 847.9,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.96082,
+    "lng": 84.0895,
+    "ele": 3595,
+    "distKm": 849.7,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.96817,
+    "lng": 84.06907,
+    "ele": 3489,
+    "distKm": 851.9,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.97222,
+    "lng": 84.05082,
+    "ele": 3412,
+    "distKm": 853.7,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.97814,
+    "lng": 84.03241,
+    "ele": 3348,
+    "distKm": 855.6,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.98305,
+    "lng": 84.01404,
+    "ele": 3287,
+    "distKm": 857.5,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.988,
+    "lng": 83.995,
+    "ele": 3240,
+    "distKm": 859.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Tangge"
+  },
+  {
+    "lat": 28.98058,
+    "lng": 83.97611,
+    "ele": 3262,
+    "distKm": 861.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.97335,
+    "lng": 83.95695,
+    "ele": 3240,
+    "distKm": 863.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.96544,
+    "lng": 83.93648,
+    "ele": 3175,
+    "distKm": 865.6,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.95892,
+    "lng": 83.91914,
+    "ele": 3102,
+    "distKm": 867.5,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.9513,
+    "lng": 83.8973,
+    "ele": 3057,
+    "distKm": 869.7,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.9441,
+    "lng": 83.8786,
+    "ele": 3045,
+    "distKm": 871.7,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.93677,
+    "lng": 83.85975,
+    "ele": 3041,
+    "distKm": 873.7,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.92929,
+    "lng": 83.84015,
+    "ele": 3018,
+    "distKm": 875.8,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.922,
+    "lng": 83.821,
+    "ele": 2980,
+    "distKm": 877.9,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Chhusang"
+  },
+  {
+    "lat": 28.93185,
+    "lng": 83.81497,
+    "ele": 2998,
+    "distKm": 879.1,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.94205,
+    "lng": 83.80915,
+    "ele": 3032,
+    "distKm": 880.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.951,
+    "lng": 83.805,
+    "ele": 3050,
+    "distKm": 881.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Chele"
+  },
+  {
+    "lat": 28.96648,
+    "lng": 83.80704,
+    "ele": 3192,
+    "distKm": 883.2,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.98076,
+    "lng": 83.8105,
+    "ele": 3478,
+    "distKm": 884.8,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.995,
+    "lng": 83.812,
+    "ele": 3620,
+    "distKm": 886.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Samar"
+  },
+  {
+    "lat": 29.00931,
+    "lng": 83.82134,
+    "ele": 3648,
+    "distKm": 888.2,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.02523,
+    "lng": 83.83163,
+    "ele": 3592,
+    "distKm": 890.3,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.04112,
+    "lng": 83.83982,
+    "ele": 3530,
+    "distKm": 892.2,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.05507,
+    "lng": 83.84922,
+    "ele": 3538,
+    "distKm": 894.0,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.07033,
+    "lng": 83.85853,
+    "ele": 3552,
+    "distKm": 895.9,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.085,
+    "lng": 83.868,
+    "ele": 3510,
+    "distKm": 897.8,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Ghami"
+  },
+  {
+    "lat": 29.09744,
+    "lng": 83.88225,
+    "ele": 3542,
+    "distKm": 899.7,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.10952,
+    "lng": 83.89508,
+    "ele": 3500,
+    "distKm": 901.6,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.12282,
+    "lng": 83.9085,
+    "ele": 3577,
+    "distKm": 903.5,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.135,
+    "lng": 83.921,
+    "ele": 3560,
+    "distKm": 905.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Tsarang"
+  },
+  {
+    "lat": 29.15035,
+    "lng": 83.93252,
+    "ele": 3630,
+    "distKm": 907.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.1669,
+    "lng": 83.94567,
+    "ele": 3770,
+    "distKm": 909.6,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.182,
+    "lng": 83.957,
+    "ele": 3840,
+    "distKm": 911.7,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Lo Manthang"
+  },
+  {
+    "lat": 29.19755,
+    "lng": 83.96434,
+    "ele": 3860,
+    "distKm": 913.5,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.21643,
+    "lng": 83.97229,
+    "ele": 3900,
+    "distKm": 915.8,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.232,
+    "lng": 83.978,
+    "ele": 3920,
+    "distKm": 917.6,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Chhoser Caves"
+  },
+  {
+    "lat": 29.21963,
+    "lng": 83.96352,
+    "ele": 3946,
+    "distKm": 919.5,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.20866,
+    "lng": 83.9487,
+    "ele": 3944,
+    "distKm": 921.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.19647,
+    "lng": 83.93518,
+    "ele": 3910,
+    "distKm": 923.3,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.1827,
+    "lng": 83.92044,
+    "ele": 3865,
+    "distKm": 925.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.17138,
+    "lng": 83.90462,
+    "ele": 3835,
+    "distKm": 927.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.15899,
+    "lng": 83.89049,
+    "ele": 3834,
+    "distKm": 929.3,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.14816,
+    "lng": 83.87651,
+    "ele": 3851,
+    "distKm": 931.2,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.13542,
+    "lng": 83.86046,
+    "ele": 3863,
+    "distKm": 933.3,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.12434,
+    "lng": 83.84671,
+    "ele": 3851,
+    "distKm": 935.1,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.112,
+    "lng": 83.832,
+    "ele": 3820,
+    "distKm": 937.1,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Dhakmar"
+  },
+  {
+    "lat": 29.0958,
+    "lng": 83.82528,
+    "ele": 3854,
+    "distKm": 939.0,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.08003,
+    "lng": 83.81803,
+    "ele": 3815,
+    "distKm": 940.9,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.06353,
+    "lng": 83.81291,
+    "ele": 3775,
+    "distKm": 942.8,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.05038,
+    "lng": 83.80579,
+    "ele": 3805,
+    "distKm": 944.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.03315,
+    "lng": 83.79858,
+    "ele": 3836,
+    "distKm": 946.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 29.018,
+    "lng": 83.792,
+    "ele": 3800,
+    "distKm": 948.2,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Syangboche"
+  },
+  {
+    "lat": 28.99983,
+    "lng": 83.79113,
+    "ele": 3804,
+    "distKm": 950.3,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.98096,
+    "lng": 83.79101,
+    "ele": 3739,
+    "distKm": 952.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.96237,
+    "lng": 83.78932,
+    "ele": 3607,
+    "distKm": 954.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.94475,
+    "lng": 83.78805,
+    "ele": 3437,
+    "distKm": 956.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.92672,
+    "lng": 83.78822,
+    "ele": 3270,
+    "distKm": 958.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.90961,
+    "lng": 83.78662,
+    "ele": 3131,
+    "distKm": 960.3,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.89106,
+    "lng": 83.78678,
+    "ele": 3025,
+    "distKm": 962.4,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.8712,
+    "lng": 83.78572,
+    "ele": 2938,
+    "distKm": 964.6,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.85347,
+    "lng": 83.78503,
+    "ele": 2863,
+    "distKm": 966.5,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": ""
+  },
+  {
+    "lat": 28.835,
+    "lng": 83.784,
+    "ele": 2810,
+    "distKm": 968.6,
+    "secId": 7,
+    "secName": "Mustang",
+    "name": "Kagbeni"
+  },
+  {
+    "lat": 28.835,
+    "lng": 83.784,
+    "ele": 2810,
+    "distKm": 968.6,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Kagbeni"
+  },
+  {
+    "lat": 28.83888,
+    "lng": 83.76397,
+    "ele": 2895,
+    "distKm": 970.6,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.84348,
+    "lng": 83.74294,
+    "ele": 3037,
+    "distKm": 972.7,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.84775,
+    "lng": 83.72321,
+    "ele": 3223,
+    "distKm": 974.7,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.85203,
+    "lng": 83.70316,
+    "ele": 3465,
+    "distKm": 976.7,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.85607,
+    "lng": 83.68306,
+    "ele": 3751,
+    "distKm": 978.7,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.86002,
+    "lng": 83.66261,
+    "ele": 4013,
+    "distKm": 980.8,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.86404,
+    "lng": 83.64116,
+    "ele": 4170,
+    "distKm": 982.9,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.868,
+    "lng": 83.621,
+    "ele": 4190,
+    "distKm": 984.9,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Sangda Phedi"
+  },
+  {
+    "lat": 28.8766,
+    "lng": 83.60027,
+    "ele": 4401,
+    "distKm": 987.1,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.88347,
+    "lng": 83.58231,
+    "ele": 4824,
+    "distKm": 989.0,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.892,
+    "lng": 83.562,
+    "ele": 5035,
+    "distKm": 991.2,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Sangda La High Camp"
+  },
+  {
+    "lat": 28.89877,
+    "lng": 83.54722,
+    "ele": 5155,
+    "distKm": 992.9,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.90541,
+    "lng": 83.53107,
+    "ele": 5395,
+    "distKm": 994.6,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.912,
+    "lng": 83.514,
+    "ele": 5515,
+    "distKm": 996.4,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Sangda La"
+  },
+  {
+    "lat": 28.92137,
+    "lng": 83.49537,
+    "ele": 5432,
+    "distKm": 998.5,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.93047,
+    "lng": 83.4775,
+    "ele": 5075,
+    "distKm": 1000.5,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.93794,
+    "lng": 83.4571,
+    "ele": 4701,
+    "distKm": 1002.7,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.94802,
+    "lng": 83.43897,
+    "ele": 4451,
+    "distKm": 1004.8,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.956,
+    "lng": 83.421,
+    "ele": 4302,
+    "distKm": 1006.7,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Chharka Bhot"
+  },
+  {
+    "lat": 28.9622,
+    "lng": 83.40405,
+    "ele": 4378,
+    "distKm": 1008.5,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.96893,
+    "lng": 83.38627,
+    "ele": 4436,
+    "distKm": 1010.4,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.97302,
+    "lng": 83.36843,
+    "ele": 4575,
+    "distKm": 1012.2,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.97834,
+    "lng": 83.34986,
+    "ele": 4741,
+    "distKm": 1014.1,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.985,
+    "lng": 83.332,
+    "ele": 4750,
+    "distKm": 1016.0,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Norbulung"
+  },
+  {
+    "lat": 28.99212,
+    "lng": 83.31268,
+    "ele": 4829,
+    "distKm": 1018.0,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 28.99947,
+    "lng": 83.29432,
+    "ele": 4900,
+    "distKm": 1020.0,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.00442,
+    "lng": 83.27294,
+    "ele": 5091,
+    "distKm": 1022.1,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.012,
+    "lng": 83.254,
+    "ele": 5120,
+    "distKm": 1024.2,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Niwas La"
+  },
+  {
+    "lat": 29.02083,
+    "lng": 83.23975,
+    "ele": 5045,
+    "distKm": 1025.8,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.02861,
+    "lng": 83.2222,
+    "ele": 4895,
+    "distKm": 1027.8,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.038,
+    "lng": 83.208,
+    "ele": 4820,
+    "distKm": 1029.5,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Molasumdo"
+  },
+  {
+    "lat": 29.04549,
+    "lng": 83.19243,
+    "ele": 4960,
+    "distKm": 1031.2,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.05306,
+    "lng": 83.17849,
+    "ele": 5238,
+    "distKm": 1032.8,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.062,
+    "lng": 83.162,
+    "ele": 5378,
+    "distKm": 1034.7,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Chan La"
+  },
+  {
+    "lat": 29.06765,
+    "lng": 83.14532,
+    "ele": 5193,
+    "distKm": 1036.4,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.07391,
+    "lng": 83.12686,
+    "ele": 4626,
+    "distKm": 1038.4,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.08186,
+    "lng": 83.11002,
+    "ele": 4179,
+    "distKm": 1040.2,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.088,
+    "lng": 83.092,
+    "ele": 3944,
+    "distKm": 1042.1,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Dho Tarap"
+  },
+  {
+    "lat": 29.09996,
+    "lng": 83.07444,
+    "ele": 4068,
+    "distKm": 1044.3,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.11045,
+    "lng": 83.05762,
+    "ele": 4316,
+    "distKm": 1046.3,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.122,
+    "lng": 83.042,
+    "ele": 4440,
+    "distKm": 1048.3,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Numa La Base Camp"
+  },
+  {
+    "lat": 29.13084,
+    "lng": 83.02945,
+    "ele": 4658,
+    "distKm": 1049.8,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.137,
+    "lng": 83.01919,
+    "ele": 5092,
+    "distKm": 1051.0,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.145,
+    "lng": 83.008,
+    "ele": 5310,
+    "distKm": 1052.4,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Numa La"
+  },
+  {
+    "lat": 29.14963,
+    "lng": 82.99982,
+    "ele": 5099,
+    "distKm": 1053.4,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.15645,
+    "lng": 82.99191,
+    "ele": 4676,
+    "distKm": 1054.5,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.162,
+    "lng": 82.982,
+    "ele": 4465,
+    "distKm": 1055.6,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Pelung Tang"
+  },
+  {
+    "lat": 29.16786,
+    "lng": 82.97535,
+    "ele": 4646,
+    "distKm": 1056.5,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.17624,
+    "lng": 82.97055,
+    "ele": 5009,
+    "distKm": 1057.6,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.182,
+    "lng": 82.965,
+    "ele": 5190,
+    "distKm": 1058.4,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Baga La"
+  },
+  {
+    "lat": 29.18659,
+    "lng": 82.95942,
+    "ele": 4912,
+    "distKm": 1059.2,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.19141,
+    "lng": 82.95567,
+    "ele": 4358,
+    "distKm": 1059.8,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.195,
+    "lng": 82.952,
+    "ele": 4080,
+    "distKm": 1060.3,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Dajok Tang"
+  },
+  {
+    "lat": 29.19755,
+    "lng": 82.95069,
+    "ele": 3963,
+    "distKm": 1060.6,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.20157,
+    "lng": 82.94726,
+    "ele": 3728,
+    "distKm": 1061.2,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.206,
+    "lng": 82.946,
+    "ele": 3611,
+    "distKm": 1061.7,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Ringmo / Phoksundo"
+  },
+  {
+    "lat": 29.22325,
+    "lng": 82.94135,
+    "ele": 3797,
+    "distKm": 1063.7,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.24051,
+    "lng": 82.93608,
+    "ele": 4126,
+    "distKm": 1065.7,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.25925,
+    "lng": 82.92872,
+    "ele": 4574,
+    "distKm": 1067.9,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.278,
+    "lng": 82.924,
+    "ele": 4710,
+    "distKm": 1070.0,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Sehu La High Camp"
+  },
+  {
+    "lat": 29.28975,
+    "lng": 82.91877,
+    "ele": 4870,
+    "distKm": 1071.4,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.29941,
+    "lng": 82.91675,
+    "ele": 5190,
+    "distKm": 1072.5,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.312,
+    "lng": 82.912,
+    "ele": 5350,
+    "distKm": 1074.0,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Kang La (Dolpo)"
+  },
+  {
+    "lat": 29.32582,
+    "lng": 82.91284,
+    "ele": 5052,
+    "distKm": 1075.5,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.34196,
+    "lng": 82.91607,
+    "ele": 4458,
+    "distKm": 1077.3,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.356,
+    "lng": 82.918,
+    "ele": 4160,
+    "distKm": 1078.9,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Shey Gompa"
+  },
+  {
+    "lat": 29.36889,
+    "lng": 82.93082,
+    "ele": 4156,
+    "distKm": 1080.8,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.37968,
+    "lng": 82.94361,
+    "ele": 4005,
+    "distKm": 1082.5,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.39447,
+    "lng": 82.9551,
+    "ele": 3884,
+    "distKm": 1084.5,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.4061,
+    "lng": 82.96985,
+    "ele": 3841,
+    "distKm": 1086.4,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.418,
+    "lng": 82.982,
+    "ele": 3770,
+    "distKm": 1088.2,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Saldang"
+  },
+  {
+    "lat": 29.40069,
+    "lng": 82.97866,
+    "ele": 3792,
+    "distKm": 1090.2,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.38264,
+    "lng": 82.97585,
+    "ele": 3794,
+    "distKm": 1092.2,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.36539,
+    "lng": 82.97298,
+    "ele": 3771,
+    "distKm": 1094.1,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.3484,
+    "lng": 82.96889,
+    "ele": 3730,
+    "distKm": 1096.1,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.32845,
+    "lng": 82.96731,
+    "ele": 3686,
+    "distKm": 1098.3,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.3107,
+    "lng": 82.96333,
+    "ele": 3656,
+    "distKm": 1100.3,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.29472,
+    "lng": 82.96114,
+    "ele": 3645,
+    "distKm": 1102.1,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.27621,
+    "lng": 82.95929,
+    "ele": 3651,
+    "distKm": 1104.1,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.25906,
+    "lng": 82.9549,
+    "ele": 3659,
+    "distKm": 1106.1,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.24149,
+    "lng": 82.9514,
+    "ele": 3657,
+    "distKm": 1108.1,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.22382,
+    "lng": 82.94927,
+    "ele": 3638,
+    "distKm": 1110.1,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": ""
+  },
+  {
+    "lat": 29.206,
+    "lng": 82.946,
+    "ele": 3611,
+    "distKm": 1112.1,
+    "secId": 8,
+    "secName": "Dolpo",
+    "name": "Ringmo return"
+  },
+  {
+    "lat": 29.206,
+    "lng": 82.946,
+    "ele": 3611,
+    "distKm": 1112.1,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": "Ringmo / Phoksundo"
+  },
+  {
+    "lat": 29.20204,
+    "lng": 82.9255,
+    "ele": 3640,
+    "distKm": 1114.1,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.19793,
+    "lng": 82.90532,
+    "ele": 3668,
+    "distKm": 1116.1,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.19406,
+    "lng": 82.88427,
+    "ele": 3689,
+    "distKm": 1118.2,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.19013,
+    "lng": 82.86518,
+    "ele": 3703,
+    "distKm": 1120.1,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.18603,
+    "lng": 82.84349,
+    "ele": 3720,
+    "distKm": 1122.3,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.18372,
+    "lng": 82.82286,
+    "ele": 3749,
+    "distKm": 1124.3,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.17953,
+    "lng": 82.80263,
+    "ele": 3796,
+    "distKm": 1126.3,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.17348,
+    "lng": 82.78421,
+    "ele": 3858,
+    "distKm": 1128.2,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.17146,
+    "lng": 82.76337,
+    "ele": 3924,
+    "distKm": 1130.2,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.16694,
+    "lng": 82.74305,
+    "ele": 3980,
+    "distKm": 1132.3,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.16261,
+    "lng": 82.72209,
+    "ele": 4012,
+    "distKm": 1134.4,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.15882,
+    "lng": 82.70243,
+    "ele": 4018,
+    "distKm": 1136.3,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.155,
+    "lng": 82.682,
+    "ele": 4000,
+    "distKm": 1138.4,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": "Kagmara Phedi"
+  },
+  {
+    "lat": 29.14988,
+    "lng": 82.66241,
+    "ele": 4075,
+    "distKm": 1140.3,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.14446,
+    "lng": 82.64144,
+    "ele": 4188,
+    "distKm": 1142.5,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.13909,
+    "lng": 82.62083,
+    "ele": 4331,
+    "distKm": 1144.6,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.13397,
+    "lng": 82.60067,
+    "ele": 4522,
+    "distKm": 1146.6,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.12704,
+    "lng": 82.58233,
+    "ele": 4757,
+    "distKm": 1148.5,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.12247,
+    "lng": 82.56181,
+    "ele": 4976,
+    "distKm": 1150.6,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.11746,
+    "lng": 82.54148,
+    "ele": 5105,
+    "distKm": 1152.6,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.112,
+    "lng": 82.521,
+    "ele": 5115,
+    "distKm": 1154.7,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": "Kagmara La"
+  },
+  {
+    "lat": 29.11568,
+    "lng": 82.50299,
+    "ele": 4969,
+    "distKm": 1156.5,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.11843,
+    "lng": 82.48308,
+    "ele": 4498,
+    "distKm": 1158.5,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.12191,
+    "lng": 82.46695,
+    "ele": 4145,
+    "distKm": 1160.1,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.124,
+    "lng": 82.448,
+    "ele": 3950,
+    "distKm": 1161.9,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": "Lasa"
+  },
+  {
+    "lat": 29.12893,
+    "lng": 82.42609,
+    "ele": 3779,
+    "distKm": 1164.1,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.13252,
+    "lng": 82.40352,
+    "ele": 3245,
+    "distKm": 1166.4,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.13828,
+    "lng": 82.38364,
+    "ele": 2831,
+    "distKm": 1168.4,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.142,
+    "lng": 82.362,
+    "ele": 2610,
+    "distKm": 1170.6,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": "Kaigaon"
+  },
+  {
+    "lat": 29.15435,
+    "lng": 82.34411,
+    "ele": 2722,
+    "distKm": 1172.8,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.16664,
+    "lng": 82.32793,
+    "ele": 2948,
+    "distKm": 1174.8,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.178,
+    "lng": 82.312,
+    "ele": 3060,
+    "distKm": 1176.8,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": "Chaurikot"
+  },
+  {
+    "lat": 29.189,
+    "lng": 82.29791,
+    "ele": 3250,
+    "distKm": 1178.7,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.20139,
+    "lng": 82.28284,
+    "ele": 3630,
+    "distKm": 1180.7,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.212,
+    "lng": 82.268,
+    "ele": 3820,
+    "distKm": 1182.5,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": "Mauria Lagna"
+  },
+  {
+    "lat": 29.22211,
+    "lng": 82.25264,
+    "ele": 3570,
+    "distKm": 1184.4,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.23445,
+    "lng": 82.23607,
+    "ele": 3070,
+    "distKm": 1186.5,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.245,
+    "lng": 82.221,
+    "ele": 2820,
+    "distKm": 1188.4,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": "Gothichaur"
+  },
+  {
+    "lat": 29.25452,
+    "lng": 82.20808,
+    "ele": 2744,
+    "distKm": 1190.0,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.265,
+    "lng": 82.19533,
+    "ele": 2590,
+    "distKm": 1191.7,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.274,
+    "lng": 82.184,
+    "ele": 2514,
+    "distKm": 1193.2,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": "Jumla"
+  },
+  {
+    "lat": 29.29388,
+    "lng": 82.17847,
+    "ele": 2711,
+    "distKm": 1195.5,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.3135,
+    "lng": 82.17164,
+    "ele": 3068,
+    "distKm": 1197.8,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.33228,
+    "lng": 82.16771,
+    "ele": 3543,
+    "distKm": 1199.9,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.352,
+    "lng": 82.162,
+    "ele": 3691,
+    "distKm": 1202.2,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": "Danphe Lagna"
+  },
+  {
+    "lat": 29.36864,
+    "lng": 82.15173,
+    "ele": 3623,
+    "distKm": 1204.3,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.38577,
+    "lng": 82.14248,
+    "ele": 3338,
+    "distKm": 1206.4,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.40271,
+    "lng": 82.13402,
+    "ele": 3173,
+    "distKm": 1208.4,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.421,
+    "lng": 82.124,
+    "ele": 3055,
+    "distKm": 1210.7,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": "Chere Chaur"
+  },
+  {
+    "lat": 29.43727,
+    "lng": 82.11814,
+    "ele": 3086,
+    "distKm": 1212.6,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.45378,
+    "lng": 82.113,
+    "ele": 3058,
+    "distKm": 1214.5,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.46775,
+    "lng": 82.10749,
+    "ele": 3002,
+    "distKm": 1216.1,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.48366,
+    "lng": 82.09916,
+    "ele": 2988,
+    "distKm": 1218.1,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.50199,
+    "lng": 82.09556,
+    "ele": 3017,
+    "distKm": 1220.1,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.5171,
+    "lng": 82.08895,
+    "ele": 3027,
+    "distKm": 1221.9,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.533,
+    "lng": 82.083,
+    "ele": 2990,
+    "distKm": 1223.8,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": "Rara Lake"
+  },
+  {
+    "lat": 29.53833,
+    "lng": 82.07009,
+    "ele": 3150,
+    "distKm": 1225.2,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.54521,
+    "lng": 82.06045,
+    "ele": 3470,
+    "distKm": 1226.4,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.552,
+    "lng": 82.048,
+    "ele": 3630,
+    "distKm": 1227.8,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": "Murma Top"
+  },
+  {
+    "lat": 29.55842,
+    "lng": 82.03493,
+    "ele": 3245,
+    "distKm": 1229.3,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.56356,
+    "lng": 82.02333,
+    "ele": 2474,
+    "distKm": 1230.5,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": ""
+  },
+  {
+    "lat": 29.568,
+    "lng": 82.012,
+    "ele": 2089,
+    "distKm": 1231.7,
+    "secId": 9,
+    "secName": "Rara & Jumla",
+    "name": "Gamgadhi"
+  },
+  {
+    "lat": 29.568,
+    "lng": 82.012,
+    "ele": 2089,
+    "distKm": 1231.7,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Gamgadhi"
+  },
+  {
+    "lat": 29.58166,
+    "lng": 81.99715,
+    "ele": 2203,
+    "distKm": 1233.8,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.595,
+    "lng": 81.98303,
+    "ele": 2360,
+    "distKm": 1235.8,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.60918,
+    "lng": 81.96852,
+    "ele": 2635,
+    "distKm": 1237.9,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.624,
+    "lng": 81.954,
+    "ele": 2700,
+    "distKm": 1240.1,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Bam"
+  },
+  {
+    "lat": 29.63798,
+    "lng": 81.94418,
+    "ele": 2856,
+    "distKm": 1241.9,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.65195,
+    "lng": 81.93221,
+    "ele": 3112,
+    "distKm": 1243.9,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.66375,
+    "lng": 81.92186,
+    "ele": 3488,
+    "distKm": 1245.5,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.678,
+    "lng": 81.912,
+    "ele": 3594,
+    "distKm": 1247.4,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Changkheli La"
+  },
+  {
+    "lat": 29.69274,
+    "lng": 81.89649,
+    "ele": 3246,
+    "distKm": 1249.6,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.70738,
+    "lng": 81.88265,
+    "ele": 2548,
+    "distKm": 1251.7,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.721,
+    "lng": 81.868,
+    "ele": 2200,
+    "distKm": 1253.8,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Darma"
+  },
+  {
+    "lat": 29.73553,
+    "lng": 81.85577,
+    "ele": 2075,
+    "distKm": 1255.8,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.7505,
+    "lng": 81.84168,
+    "ele": 1825,
+    "distKm": 1257.9,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.765,
+    "lng": 81.828,
+    "ele": 1700,
+    "distKm": 1260.0,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Piplan"
+  },
+  {
+    "lat": 29.78122,
+    "lng": 81.82418,
+    "ele": 1771,
+    "distKm": 1261.8,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.79577,
+    "lng": 81.82144,
+    "ele": 1818,
+    "distKm": 1263.5,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.81244,
+    "lng": 81.81776,
+    "ele": 1941,
+    "distKm": 1265.4,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.82822,
+    "lng": 81.81521,
+    "ele": 2095,
+    "distKm": 1267.1,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.845,
+    "lng": 81.812,
+    "ele": 2100,
+    "distKm": 1269.0,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Punakha"
+  },
+  {
+    "lat": 29.86242,
+    "lng": 81.81472,
+    "ele": 2176,
+    "distKm": 1271.0,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.88001,
+    "lng": 81.81743,
+    "ele": 2275,
+    "distKm": 1272.9,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.90004,
+    "lng": 81.81919,
+    "ele": 2403,
+    "distKm": 1275.2,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.91702,
+    "lng": 81.82103,
+    "ele": 2592,
+    "distKm": 1277.1,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.93513,
+    "lng": 81.82411,
+    "ele": 2805,
+    "distKm": 1279.1,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.95352,
+    "lng": 81.82565,
+    "ele": 2942,
+    "distKm": 1281.2,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.971,
+    "lng": 81.828,
+    "ele": 2950,
+    "distKm": 1283.1,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Simikot"
+  },
+  {
+    "lat": 29.9842,
+    "lng": 81.81594,
+    "ele": 2788,
+    "distKm": 1285.0,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 29.99743,
+    "lng": 81.80286,
+    "ele": 2462,
+    "distKm": 1286.9,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.012,
+    "lng": 81.792,
+    "ele": 2300,
+    "distKm": 1288.9,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Dharapuri"
+  },
+  {
+    "lat": 30.02493,
+    "lng": 81.78122,
+    "ele": 2392,
+    "distKm": 1290.6,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.03868,
+    "lng": 81.76848,
+    "ele": 2578,
+    "distKm": 1292.6,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.052,
+    "lng": 81.758,
+    "ele": 2670,
+    "distKm": 1294.4,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Kermi"
+  },
+  {
+    "lat": 30.06618,
+    "lng": 81.74573,
+    "ele": 2758,
+    "distKm": 1296.3,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.07978,
+    "lng": 81.733,
+    "ele": 2932,
+    "distKm": 1298.3,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.095,
+    "lng": 81.721,
+    "ele": 3020,
+    "distKm": 1300.3,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Yalbang"
+  },
+  {
+    "lat": 30.10425,
+    "lng": 81.70825,
+    "ele": 3045,
+    "distKm": 1301.9,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.11508,
+    "lng": 81.69538,
+    "ele": 3095,
+    "distKm": 1303.7,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.124,
+    "lng": 81.682,
+    "ele": 3120,
+    "distKm": 1305.3,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Muchu"
+  },
+  {
+    "lat": 30.12913,
+    "lng": 81.67477,
+    "ele": 3158,
+    "distKm": 1306.2,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.13391,
+    "lng": 81.66907,
+    "ele": 3232,
+    "distKm": 1307.0,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.138,
+    "lng": 81.662,
+    "ele": 3270,
+    "distKm": 1307.8,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Yangar"
+  },
+  {
+    "lat": 30.1409,
+    "lng": 81.65755,
+    "ele": 3532,
+    "distKm": 1308.3,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.14374,
+    "lng": 81.65228,
+    "ele": 4058,
+    "distKm": 1308.9,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.148,
+    "lng": 81.648,
+    "ele": 4320,
+    "distKm": 1309.5,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Sipsip"
+  },
+  {
+    "lat": 30.15105,
+    "lng": 81.64291,
+    "ele": 4385,
+    "distKm": 1310.1,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.1558,
+    "lng": 81.63684,
+    "ele": 4515,
+    "distKm": 1310.9,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.158,
+    "lng": 81.632,
+    "ele": 4580,
+    "distKm": 1311.4,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Nara La"
+  },
+  {
+    "lat": 30.16115,
+    "lng": 81.62011,
+    "ele": 4365,
+    "distKm": 1312.6,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.16352,
+    "lng": 81.60795,
+    "ele": 3935,
+    "distKm": 1313.8,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": ""
+  },
+  {
+    "lat": 30.165,
+    "lng": 81.595,
+    "ele": 3720,
+    "distKm": 1315.1,
+    "secId": 10,
+    "secName": "Far West (Humla & Darchula)",
+    "name": "Hilsa (Tibet Border)"
+  }
+]

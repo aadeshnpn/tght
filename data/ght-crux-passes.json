@@ -1,0 +1,252 @@
+[
+  {
+    "id": "sherpani-col",
+    "name": "Sherpani Col",
+    "sectionId": 2,
+    "sectionName": "Makalu Barun",
+    "elevationM": 6150,
+    "grade": "Alpine Grade D / III",
+    "technicalLevel": "Extreme (Glacier / Mixed Ice & Rock)",
+    "coordinates": [27.795, 87.112],
+    "fixedRopesRequired": "Yes (100m - 150m static line)",
+    "gearList": [
+      "Rigid / semi-rigid crampons (C2/C3)",
+      "Technical mountaineering ice axe",
+      "Climbing harness + locking carabiners",
+      "Ascender (Jumar) + Prusiks",
+      "Figure-8 or ATC guide belay/rappel device",
+      "High altitude mountaineering double boots (6000m+ rated)",
+      "Snow pickets & ice screws",
+      "Helmet (rockfall & ice hazard)"
+    ],
+    "objectiveHazards": [
+      "Deep crevasse fields on the Upper Barun Glacier",
+      "Steep 45° to 50° hard-packed ice wall ascent",
+      "High bergschrund crossing requiring bridging/anchors",
+      "Rapidly fluctuating whiteout storms and high-altitude hypoxia"
+    ],
+    "tacticalAdvice": "Cross the lower glacier before 09:00 AM when the snow bridges are hard-frozen. Fix ropes on the steep bergschrund headwall the evening before or early in the alpine dawn. Ensure porter safety with harnesses clipped into fixed lines.",
+    "historicalNote": "First crossed in 1954 by Michael Ward and Sir Edmund Hillary during the British Everest/Barun exploration expedition."
+  },
+  {
+    "id": "west-col",
+    "name": "West Col",
+    "sectionId": 2,
+    "sectionName": "Makalu Barun",
+    "elevationM": 6190,
+    "grade": "Alpine Grade D / III (Highest Point on GHT)",
+    "technicalLevel": "Extreme (Vertical Headwall Abseil)",
+    "coordinates": [27.791, 87.054],
+    "fixedRopesRequired": "Yes (150m - 200m fixed descent ropes)",
+    "gearList": [
+      "Full glacier & crevasse rescue kit",
+      "Crampons & ice axe",
+      "Harness with multiple locking screwgates",
+      "Abseil device & backup prusik loop",
+      "Climbing helmet",
+      "Heavy duty insulated belay mittens"
+    ],
+    "objectiveHazards": [
+      "6,190m extreme altitude causing rapid exhaustion",
+      "Sheer 150m vertical ice and rock headwall descent down into the Hongu Basin",
+      "Hanging séracs and rock discharge along the couloir",
+      "No shelter on the col; exposed to hurricane-force jet stream winds"
+    ],
+    "tacticalAdvice": "The descent from West Col onto the Hongu Glacier is the single most demanding technical pitch on the GHT High Route. Establish solid deadman or snow-picket snow anchors on the crest and inspect rope chafing over rock edges before rappelling.",
+    "historicalNote": "Forms the second col of the legendary 'Three Cols'. Traverses between the Barun and the pristine, uninhabited Hongu Valley."
+  },
+  {
+    "id": "amphu-labsta",
+    "name": "Amphu Labsta",
+    "sectionId": 3,
+    "sectionName": "Everest & Rolwaling",
+    "elevationM": 5845,
+    "grade": "Alpine Grade AD+ / II",
+    "technicalLevel": "Very Severe (Steep Ice Fall & Cornice Rappel)",
+    "coordinates": [27.876, 86.912],
+    "fixedRopesRequired": "Yes (60m - 100m fixed line on north ice face)",
+    "gearList": [
+      "Crampons & technical axe",
+      "Harness, safety cows-tail, locking carabiners",
+      "Helmet",
+      "Rappel device",
+      "Cold weather bivouac gear"
+    ],
+    "objectiveHazards": [
+      "Giant unstable ice cornices guarding the pass summit",
+      "Steep 80m vertical ice chimney abseil on the Khumbu side",
+      "Frequent rockfall triggered by afternoon sun warming the cliffs above"
+    ],
+    "tacticalAdvice": "Ascend from the Hongu side early before dawn. Lower heavy expedition packs down the steep ice chute on the north side via rope pulley before climbers descend to minimize anchor load.",
+    "historicalNote": "The final link of the 'Three Cols', dropping directly from the wild Hongu basin into Chhukung in the shadow of Ama Dablam."
+  },
+  {
+    "id": "tashi-laptsa",
+    "name": "Tashi Laptsa Pass",
+    "sectionId": 3,
+    "sectionName": "Everest & Rolwaling",
+    "elevationM": 5755,
+    "grade": "Alpine Grade AD-",
+    "technicalLevel": "Severe High-Altitude Glacier Crossing",
+    "coordinates": [27.854, 86.586],
+    "fixedRopesRequired": "Recommended (30m - 50m for moraine gully)",
+    "gearList": [
+      "Crampons & ice axe",
+      "Harness & rope team gear",
+      "Helmet (mandatory due to loose rock shooting gallery)",
+      "High altitude 4-season tent and sub-zero sleeping bag"
+    ],
+    "objectiveHazards": [
+      "Extensive heavily crevassed Drolambau Glacier",
+      "Unstable loose scree and falling boulders on the Thame descent",
+      "Frequent blizzard whitewashes crossing the high glacier plateau"
+    ],
+    "tacticalAdvice": "The descent into Khumbu passes through an active rockfall gully. Wear helmets at all times and cross quickly in single file without pausing.",
+    "historicalNote": "A historic sacred link between the Sherpas of Rolwaling and Khumbu, guarded by the peak Pachermo (6,273m)."
+  },
+  {
+    "id": "tilman-pass",
+    "name": "Tilman Pass",
+    "sectionId": 4,
+    "sectionName": "Langtang & Helambu",
+    "elevationM": 5308,
+    "grade": "Alpine Grade F / PD",
+    "technicalLevel": "Demanding Wilderness & Moraine Routefinding",
+    "coordinates": [28.214, 85.642],
+    "fixedRopesRequired": "Optional / helpful on steep snow slope",
+    "gearList": [
+      "Crampons or microspikes",
+      "Ice axe",
+      "GPS navigation device / Topo maps",
+      "Complete expedition camping & stove fuel"
+    ],
+    "objectiveHazards": [
+      "Completely unmarked route over loose lateral moraines",
+      "Snow-covered hidden crevasses on the upper glacier",
+      "Zero cellular coverage and total isolation between Kyanjin and Panch Pokhari"
+    ],
+    "tacticalAdvice": "Named after legendary British mountaineer Bill Tilman who explored it in 1949. Camp at Tin Pokhari on the south side. Carry a satellite messenger (Garmin inReach).",
+    "historicalNote": "Bill Tilman discovered this pass while seeking an alternative exit route from the Langtang valley to Kathmandu."
+  },
+  {
+    "id": "teri-la",
+    "name": "Teri La",
+    "sectionId": 7,
+    "sectionName": "Mustang",
+    "elevationM": 5595,
+    "grade": "High Alpine Wilderness Trek",
+    "technicalLevel": "Severe Isolation (6-Day Self-Sufficiency)",
+    "coordinates": [28.874, 84.238],
+    "fixedRopesRequired": "Not required, but terrain is extremely loose scree",
+    "gearList": [
+      "High-altitude trekking boots",
+      "Trekking poles",
+      "Water purification (springs are silty/mineralized)",
+      "6 to 8 days of dehydrated mountain rations",
+      "Satellite SOS communicator"
+    ],
+    "objectiveHazards": [
+      "Absolute absence of human habitation or tea huts for 6 consecutive days",
+      "High desert dehydration and blistering UV index above 5,000m",
+      "Loose, collapsing shale scree ramps on the pass approaches"
+    ],
+    "tacticalAdvice": "Acclimatize thoroughly in Naar and Phu before committing to the pass. Ensure your support team carries enough kerosene/white gas because there is zero firewood in the rainshadow desert.",
+    "historicalNote": "Opened as a trekking route only recently; provides the ultimate high-altitude bridge between Manang's Tibetan enclave and the walled Kingdom of Lo."
+  },
+  {
+    "id": "larkya-la",
+    "name": "Larkya La",
+    "sectionId": 5,
+    "sectionName": "Manaslu & Ganesh Himal",
+    "elevationM": 5106,
+    "grade": "Alpine Grade F",
+    "technicalLevel": "Strenuous High Altitude Pass",
+    "coordinates": [28.636, 84.622],
+    "fixedRopesRequired": "No",
+    "gearList": [
+      "Trekking poles",
+      "Microspikes / crampons for early morning frozen snow",
+      "Down jacket (-15°C rated)",
+      "Windproof shell trousers"
+    ],
+    "objectiveHazards": [
+      "Very long, gradual moraine ascent starting at 04:00 AM",
+      "Intense freezing headwinds on the broad summit plateau",
+      "Icy switchbacks on the steep 1,400m descent to Bimthang"
+    ],
+    "tacticalAdvice": "Dharamsala (high camp) is crowded and primitive. Start early before 04:30 AM to reach the pass by sunrise for unobstructed views of Himlung Himal, Cheo Himal, and Annapurna II.",
+    "historicalNote": "Historic salt and wool trade route between Tibet and the Gorkha region of Nepal."
+  },
+  {
+    "id": "thorong-la",
+    "name": "Thorong La",
+    "sectionId": 6,
+    "sectionName": "Annapurna & Naar-Phu",
+    "elevationM": 5416,
+    "grade": "Alpine Grade F",
+    "technicalLevel": "High Elevation Non-Technical",
+    "coordinates": [28.793, 83.935],
+    "fixedRopesRequired": "No",
+    "gearList": [
+      "Thermal base layers & down outerwear",
+      "Sturdy boots",
+      "Microspikes for ice patches",
+      "Sun protection (glacier glasses cat 3/4)"
+    ],
+    "objectiveHazards": [
+      "Severe acute mountain sickness (AMS) risk if acclimatization was rushed",
+      "Sudden blizzard whiteouts (Hudhud storm disaster site in 2014)",
+      "1,600m continuous knee-jarring descent to Muktinath"
+    ],
+    "tacticalAdvice": "Check weather forecasts closely. Never attempt crossing during active snowfall or impending cyclone depressions. Hydrate with at least 4 liters of fluid per day.",
+    "historicalNote": "The most famous and traversed 5,000m pass in Nepal, linking the lush Marshyangdi Valley with the arid Kali Gandaki gorge."
+  },
+  {
+    "id": "sangda-la",
+    "name": "Sangda La / Jungben La",
+    "sectionId": 8,
+    "sectionName": "Dolpo",
+    "elevationM": 5550,
+    "grade": "Alpine Grade PD-",
+    "technicalLevel": "Remote Trans-Himalayan Crossing",
+    "coordinates": [28.912, 83.514],
+    "fixedRopesRequired": "No",
+    "gearList": [
+      "Expedition grade all-weather tent",
+      "Microspikes",
+      "Satellite communicator",
+      "Multi-week expedition supplies"
+    ],
+    "objectiveHazards": [
+      "Extreme isolation; evacuation takes days if weather grounds helicopters",
+      "Freezing night temperatures dropping to -25°C in late autumn",
+      "Vast expanses of featureless high plateau scree"
+    ],
+    "tacticalAdvice": "This pass bridges Mustang into the mystical plateau of Chharka Bhot in Dolpo. Hire experienced local Dolpo-pa horsemen who know the seasonal water points.",
+    "historicalNote": "Featured in Peter Matthiessen's acclaimed book 'The Snow Leopard' and Eric Valli's Oscar-nominated film 'Himalaya'."
+  },
+  {
+    "id": "kagmara-la",
+    "name": "Kagmara La",
+    "sectionId": 9,
+    "sectionName": "Rara & Jumla",
+    "elevationM": 5115,
+    "grade": "Alpine Grade F",
+    "technicalLevel": "Strenuous High Valley Traverse",
+    "coordinates": [29.112, 82.521],
+    "fixedRopesRequired": "No",
+    "gearList": [
+      "Trekking poles",
+      "Gore-Tex waterproof boots",
+      "Thermal layers",
+      "Camping equipment"
+    ],
+    "objectiveHazards": [
+      "Boulder hopping along glacial outflow rivers",
+      "Lingering snowfields into early summer on the northern aspect",
+      "Remote location with sparse local settlements"
+    ],
+    "tacticalAdvice": "Offers staggering panoramas of the Kanjiroba range. Descend to the scenic Kaigaon village and experience traditional Khas cultural hospitality.",
+    "historicalNote": "Gateway between the Shey Phoksundo National Park and the high coniferous ridges leading into Rara."
+  }
+]

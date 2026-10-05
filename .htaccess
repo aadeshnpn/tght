@@ -1,0 +1,65 @@
+# ==============================================================================
+# The Great Himalayan Trail (TGHT) - Reclaim Hosting / Apache .htaccess
+# Domain: ght.medonmt.org
+# ==============================================================================
+
+# 1. Force HTTPS
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# 2. MIME Types for Modern Web Formats
+<IfModule mod_mime.c>
+  AddType application/json .json
+  AddType application/geo+json .geojson
+  AddType image/svg+xml .svg .svgz
+  AddType font/woff2 .woff2
+  AddType font/woff .woff
+  AddType text/css .css
+  AddType application/javascript .js
+</IfModule>
+
+# 3. GZIP / Deflate Compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE application/geo+json
+  AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# 4. Browser Caching (mod_expires)
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+
+  # HTML: Cache for 1 hour to allow quick content dispatches
+  ExpiresByType text/html "access plus 1 hour"
+
+  # CSS & JS: Cache for 1 week
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+
+  # Data JSON / GeoJSON: Cache for 1 day
+  ExpiresByType application/json "access plus 1 day"
+  ExpiresByType application/geo+json "access plus 1 day"
+
+  # Images & Fonts: Cache for 1 month
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+# 5. Security & Privacy Headers
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

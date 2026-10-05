@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>Interactive Map & Tracker • The Great Himalayan Trail (TGHT)</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <!-- Google Fonts: Lora, Cinzel, Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Theme Management Module -->
+  <script src="js/theme.js?v=2026.2"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css?v=2026.7">
+</head>
+<body class="h-full flex flex-col overflow-hidden bg-[#080c14] text-[#f5f2eb] antialiased selection:bg-[#d49b42] selection:text-[#080c14] cosmic-gradient-bg">
+
+  <!-- Universal Top Navigation -->
+  <header class="h-16 shrink-0 bg-[#080c14]/90 border-b border-white/10 px-4 flex items-center justify-between z-20 backdrop-blur-md">
+    <div class="flex items-center space-x-6">
+      <a href="index.html" class="flex items-center space-x-3.5 group">
+        <div class="w-9 h-9 rounded-lg bg-gradient-to-tr from-[#d49b42] via-[#b85c3c] to-[#6090d4] flex items-center justify-center shadow-lg font-display font-black text-black text-sm tracking-wider group-hover:scale-105 transition">
+          GHT
+        </div>
+        <div>
+          <div class="flex items-center space-x-2">
+            <span class="text-sm font-serif font-bold tracking-wide text-white group-hover:text-[#d49b42] transition whitespace-nowrap">Great Himalayan Trail</span>
+            <span class="text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-[#d49b42]/15 text-[#f1be6d] border border-[#d49b42]/30 uppercase tracking-wider whitespace-nowrap">
+              Live Map
+            </span>
+          </div>
+          <span class="text-[10px] text-[#8e867a] font-medium whitespace-nowrap hidden sm:block">Nepal High Route • Interactive Geospatial Hub</span>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="hidden xl:flex items-center gap-1 text-xs font-semibold tracking-wide">
+        <a href="index.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">Home</a>
+        <a href="sections.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">10 Sections</a>
+        <a href="map.html" class="inline-flex items-center gap-1.5 h-8 px-3 rounded-lg bg-white/10 text-[#d49b42] font-bold border border-[#d49b42]/30 shadow-sm">
+          <span>Live Map</span>
+          <span class="text-[9px] px-1.5 py-0.5 rounded bg-sky-950/80 text-[#8cb5f2] border border-sky-800/60 uppercase">Topo</span>
+        </a>
+        <a href="passes.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">Crux Passes</a>
+        <a href="expedition.html" class="inline-flex items-center gap-1.5 h-8 px-3 rounded-lg text-[#f1be6d] hover:text-white hover:bg-white/5 transition">
+          <span>MedOnMt 2028</span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#d49b42]"></span>
+        </a>
+        <a href="aadesh.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">Aadesh</a>
+        <a href="index.html#appendix" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">Sources</a>
+      </nav>
+    </div>
+
+    <!-- Quick Stats & Actions -->
+    <div class="flex items-center space-x-3">
+      <div class="hidden xl:flex items-center space-x-4 text-xs text-[#8e867a] border-r border-white/10 pr-4 font-sans">
+        <div>Distance: <span id="stat-distance" class="font-bold text-white font-mono" data-km="1700">1,700 km</span></div>
+        <div>Highest: <span id="stat-elevation" class="font-bold text-[#d49b42] font-mono" data-m="6190">6,190m</span></div>
+        <div>Duration: <span id="stat-days" class="font-bold text-[#72b388] font-mono">~140 d</span></div>
+        <div class="hidden"><span id="stat-passes">28+</span></div>
+      </div>
+
+      <!-- Day / Night Mode Toggle -->
+      <div class="tght-theme-toggle-target"></div>
+
+      <!-- Unit Switcher -->
+      <div class="tght-unit-switcher-target"></div>
+
+      <button id="btn-reset-view" class="px-3 py-1.5 rounded-md text-xs font-semibold text-[#d1c7b7] bg-white/5 hover:bg-white/10 hover:text-white border border-white/10 transition cursor-pointer flex items-center gap-1.5">
+        <svg class="w-3.5 h-3.5 text-[#d49b42]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"></path></svg>
+        Reset Map
+      </button>
+
+      <button id="open-gpx-modal-btn" class="btn-primary-med text-xs py-1.5 px-3">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+        Export GPX
+      </button>
+    </div>
+  </header>
+
+  <!-- Authentic Tibetan 5-Color Prayer Flag Ribbon Divider -->
+  <div class="prayer-ribbon">
+    <div class="flex-1 prayer-blue"></div>
+    <div class="flex-1 prayer-white"></div>
+    <div class="flex-1 prayer-red"></div>
+    <div class="flex-1 prayer-green"></div>
+    <div class="flex-1 prayer-yellow"></div>
+  </div>
+
+  <!-- Authentic Fluttering Tibetan Prayer Flags (Lungta) Garland -->
+  <div class="prayer-garland-wrap prayer-garland-wrap--compact shrink-0 bg-[#080c14]/40 border-b border-white/5">
+    <div class="prayer-garland-cord"></div>
+    <div class="prayer-flags-row">
+      <div class="prayer-flag prayer-flag--blue" title="Blue: Space & Sky (Nam)">ཨོཾ</div>
+      <div class="prayer-flag prayer-flag--white" title="White: Air & Wind (Lung)">མ</div>
+      <div class="prayer-flag prayer-flag--red" title="Red: Fire (Me)">ཎི</div>
+      <div class="prayer-flag prayer-flag--green" title="Green: Water (Chhu)">པདྨེ</div>
+      <div class="prayer-flag prayer-flag--yellow" title="Yellow: Earth (Sa)">ཧཱུྃ</div>
+      <div class="prayer-flag prayer-flag--blue" title="Blue: Space & Sky">༄</div>
+      <div class="prayer-flag prayer-flag--white" title="White: Air & Wind">ॐ</div>
+      <div class="prayer-flag prayer-flag--red" title="Red: Fire">ཨོཾ</div>
+      <div class="prayer-flag prayer-flag--green" title="Green: Water">ཎི</div>
+      <div class="prayer-flag prayer-flag--yellow" title="Yellow: Earth">ཧཱུྃ</div>
+      <div class="prayer-flag prayer-flag--blue" title="Blue: Space & Sky">༄</div>
+      <div class="prayer-flag prayer-flag--white" title="White: Air & Wind">མ</div>
+      <div class="prayer-flag prayer-flag--red" title="Red: Fire">ཎི</div>
+      <div class="prayer-flag prayer-flag--green" title="Green: Water">པདྨེ</div>
+      <div class="prayer-flag prayer-flag--yellow" title="Yellow: Earth">ཧཱུྃ</div>
+    </div>
+  </div>
+
+  <!-- Main Split Layout -->
+  <div class="flex-1 flex overflow-hidden">
+
+    <!-- Left Sidebar: Explorer & Dossier -->
+    <aside class="w-80 md:w-96 shrink-0 bg-[#0e1422] border-r border-white/10 flex flex-col z-10 overflow-hidden">
+      
+      <!-- Search Input -->
+      <div class="p-3 border-b border-white/10 bg-[#080c14]/60 relative">
+        <div class="relative">
+          <input id="search-input" type="text" placeholder="Search passes, peaks, base camps..." class="w-full bg-black/40 text-[#f5f2eb] placeholder-[#8e867a] text-xs rounded-lg pl-8 pr-3 py-2 border border-white/10 focus:outline-none focus:border-[#d49b42] transition">
+          <svg class="w-3.5 h-3.5 text-[#8e867a] absolute left-2.5 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+        </div>
+        <!-- Search Results Dropdown -->
+        <div id="search-results" class="absolute left-3 right-3 top-14 bg-[#141b2e] border border-white/15 rounded-lg shadow-2xl z-50 hidden max-h-60 overflow-y-auto"></div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <div class="flex border-b border-white/10 text-xs font-bold bg-[#080c14]/40">
+        <button id="tab-sections" class="flex-1 py-2.5 text-center text-[#d49b42] border-b-2 border-[#d49b42] hover:text-white transition">
+          10 Sections
+        </button>
+        <button id="tab-passes" class="flex-1 py-2.5 text-center text-[#8e867a] hover:text-white transition">
+          Crux Passes
+        </button>
+        <button id="tab-permits" class="flex-1 py-2.5 text-center text-[#8e867a] hover:text-white transition">
+          Permits &amp; Rules
+        </button>
+      </div>
+
+      <!-- Tab Panels Container -->
+      <div class="flex-1 overflow-y-auto p-3 space-y-3">
+        <!-- Panel 1: 10 Sections -->
+        <div id="panel-sections" class="space-y-2.5">
+          <div class="text-[11px] font-bold text-[#8e867a] uppercase tracking-wider flex justify-between items-center">
+            <span>Traverse Sections</span>
+            <span class="text-[#8e867a] text-[10px]">East → West</span>
+          </div>
+          <div id="section-list" class="space-y-2.5"></div>
+        </div>
+
+        <!-- Panel 2: Crux Passes -->
+        <div id="panel-passes" class="space-y-2.5 hidden">
+          <div class="text-[11px] font-bold text-[#8e867a] uppercase tracking-wider">
+            Technical Cruxes &amp; Glaciated Cols
+          </div>
+          <div id="pass-list" class="space-y-2.5"></div>
+        </div>
+
+        <!-- Panel 3: Permits -->
+        <div id="panel-permits" class="hidden"></div>
+      </div>
+
+      <!-- Active Section Daily Stages Drawer (Expandable) -->
+      <div id="stages-container" class="shrink-0 max-h-48 border-t border-white/10 bg-[#080c14] p-3 hidden flex flex-col">
+        <div class="flex items-center justify-between mb-1.5">
+          <div class="text-xs font-bold text-white flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-[#d49b42]"></span>
+            <span id="selected-section-title">Section Itinerary</span>
+          </div>
+          <span class="text-[10px] text-[#8e867a]" id="selected-section-subtitle"></span>
+        </div>
+        <div class="text-[10px] text-[#f1be6d] font-mono mb-2" id="section-permits-text"></div>
+        <div id="stages-list" class="flex-1 overflow-y-auto pr-1"></div>
+      </div>
+    </aside>
+
+    <!-- Right Pane: Interactive Map & Elevation Profile -->
+    <main class="flex-1 flex flex-col overflow-hidden relative">
+      
+      <!-- Top Half: Leaflet Map -->
+      <div class="flex-1 relative">
+        <div id="map-container" class="w-full h-full"></div>
+
+        <!-- Legend Floating Badge -->
+        <div class="absolute bottom-3 left-3 z-[1000] glass-panel px-3 py-2 rounded-lg text-[11px] text-[#d1c7b7] hidden md:flex items-center space-x-4 shadow-xl border border-white/10">
+          <div class="flex items-center gap-1.5">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#b85c3c] animate-pulse"></span>
+            <span>Crux Col (▲!)</span>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#d49b42]"></span>
+            <span>Alpine Pass (▲)</span>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#6090d4]"></span>
+            <span>Base Camp (⛺)</span>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <span class="w-2.5 h-2.5 rounded-full bg-[#4e9166]"></span>
+            <span>Settlement / Resupply (●)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Half: Elevation Profile Visualizer -->
+      <div class="h-44 md:h-52 shrink-0 bg-[#0e1422] border-t border-white/10 flex flex-col z-10">
+        <div class="h-7 px-4 bg-[#080c14]/80 border-b border-white/10 flex items-center justify-between text-[11px] text-[#8e867a]">
+          <div class="flex items-center space-x-2">
+            <span class="font-bold text-white font-serif">Continuous Elevation Profile</span>
+            <span class="text-[#8e867a]">•</span>
+            <span class="text-[#d1c7b7]">Hover crosshair to inspect altitude &amp; sync map location</span>
+          </div>
+          <div class="flex items-center space-x-3 text-[10px] font-mono">
+            <span class="flex items-center gap-1 text-[#b85c3c]">
+              <span class="w-2 h-0.5 bg-[#b85c3c] inline-block"></span> 6,000m (Mountaineering Crux)
+            </span>
+            <span class="flex items-center gap-1 text-[#d49b42]">
+              <span class="w-2 h-0.5 bg-[#d49b42] inline-block"></span> 5,000m (Alpine Pass Zone)
+            </span>
+          </div>
+        </div>
+        <div id="elevation-container" class="flex-1 w-full relative"></div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Crux Pass Detailed Modal -->
+  <div id="pass-modal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 flex items-center justify-center p-4 hidden">
+    <div class="bento-card w-full max-w-2xl p-6 shadow-2xl border-white/20 relative">
+      <button id="close-pass-modal" class="absolute top-4 right-4 text-[#8e867a] hover:text-white transition">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+      </button>
+      <div id="pass-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- GPX Export Modal -->
+  <div id="gpx-modal" class="fixed inset-0 bg-black/80 backdrop-blur-md z-50 flex items-center justify-center p-4 hidden">
+    <div class="bento-card w-full max-w-md p-6 shadow-2xl border-white/20 relative">
+      <button id="close-gpx-modal" class="absolute top-4 right-4 text-[#8e867a] hover:text-white transition">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+      </button>
+      <h3 class="text-base font-serif font-bold text-white mb-1 flex items-center gap-2">
+        <svg class="w-5 h-5 text-[#d49b42]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+        Download GPX Coordinates
+      </h3>
+      <p class="text-xs text-[#8e867a] mb-4">Export valid GPX 1.1 formatted files compatible with Garmin GPS devices, Coros, Suunto, Gaia GPS, and handheld navigators.</p>
+
+      <div class="space-y-3">
+        <button id="btn-export-full-gpx" class="w-full text-left p-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-[#d49b42] transition cursor-pointer group">
+          <div class="font-bold text-xs text-white group-hover:text-[#d49b42]">1. Full High Route Traverse (.gpx)</div>
+          <div class="text-[11px] text-[#8e867a]">Complete <span data-km="1700">~1,700 km</span> track from Kanchenjunga to Hilsa + all waypoints</div>
+        </button>
+
+        <button id="btn-export-sec-gpx" class="w-full text-left p-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-[#d49b42] transition cursor-pointer group">
+          <div class="font-bold text-xs text-white group-hover:text-[#d49b42]">2. Currently Active Section (.gpx)</div>
+          <div class="text-[11px] text-[#8e867a]">Single section track log tailored for segmented thru-hiking stages</div>
+        </button>
+
+        <button id="btn-export-wpt-gpx" class="w-full text-left p-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-[#d49b42] transition cursor-pointer group">
+          <div class="font-bold text-xs text-white group-hover:text-[#d49b42]">3. Waypoints &amp; Passes Only (.gpx)</div>
+          <div class="text-[11px] text-[#8e867a]">Crux cols, high passes, 8000m base camps, and remote settlements</div>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Client-side Scripts -->
+  <script src="js/units.js"></script>
+  <script src="js/gpx-exporter.js"></script>
+  <script src="js/elevation-chart.js"></script>
+  <script src="js/map-controller.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

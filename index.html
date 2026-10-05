@@ -1,0 +1,2122 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>The Great Himalayan Trail • Nepal High Route | MedOnMt 2028 Expedition</title>
+  
+  <meta name="description" content="Discover the Great Himalayan Trail (Nepal High Route) — 1,700 km across the spine of Nepal. Announcing the MedOnMt Spring 2028 mindful alpine expedition led by Aadesh Neupane.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts: Lora, Cinzel, Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Chart.js CDN for Interactive Data Visualizations -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- Theme Management Module (Option A/B Dark default & Option D Glacial Zen Light) -->
+  <script src="js/theme.js?v=2026.2"></script>
+
+  <!-- Custom Stylesheet (MedOnMt Design System) -->
+  <link rel="stylesheet" href="css/styles.css?v=2026.11">
+</head>
+<body class="min-h-full flex flex-col cosmic-gradient-bg text-[#f5f2eb] antialiased selection:bg-[#d49b42] selection:text-[#080c14]">
+
+  <!-- Global Sticky Navigation Header -->
+  <header class="sticky top-0 z-50 bg-[#080c14]/90 backdrop-blur-xl border-b border-white/10 px-4 sm:px-6 lg:px-8 py-3 transition-all">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4 flex-nowrap">
+      
+      <!-- Brand Logo & Motto -->
+      <a href="index.html" class="flex items-center space-x-3 shrink-0 group">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-[#d49b42] via-[#b85c3c] to-[#6090d4] flex items-center justify-center shadow-lg shadow-black/40 font-display font-black text-black text-xs tracking-widest group-hover:scale-105 transition shrink-0">
+          GHT
+        </div>
+        <div class="leading-tight">
+          <div class="flex items-center gap-2">
+            <span class="text-sm font-serif font-bold tracking-wide text-[#f5f2eb] group-hover:text-[#d49b42] transition whitespace-nowrap">Great Himalayan Trail</span>
+            <span class="hidden md:inline-block text-[9px] font-bold px-1.5 py-0.5 rounded bg-[#d49b42]/15 text-[#f1be6d] border border-[#d49b42]/30 uppercase tracking-wider whitespace-nowrap">
+              High Route
+            </span>
+          </div>
+          <span class="text-[10px] text-[#8e867a] font-medium hidden sm:block whitespace-nowrap">
+            <span class="text-[#d49b42]">MedOnMt Expedition</span> · <span data-km="1700">1,700 km</span>
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links (Pixel-Perfect Alignment & Uniform Height) -->
+      <nav class="hidden xl:flex items-center gap-1 text-xs font-semibold tracking-wide shrink-0">
+        <a href="index.html" class="inline-flex items-center h-8 px-3 rounded-lg bg-white/10 text-[#d49b42] font-bold border border-[#d49b42]/30 shadow-sm">
+          Home
+        </a>
+        <a href="sections.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">
+          10 Sections
+        </a>
+        <a href="map.html" class="inline-flex items-center gap-1.5 h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">
+          <span>Live Map</span>
+          <span class="text-[9px] px-1.5 py-0.5 rounded bg-sky-950/80 text-[#8cb5f2] border border-sky-800/60 uppercase">Topo</span>
+        </a>
+        <a href="passes.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">
+          Crux Passes
+        </a>
+        <a href="expedition.html" class="inline-flex items-center gap-1.5 h-8 px-3 rounded-lg text-[#f1be6d] hover:text-white hover:bg-white/5 transition">
+          <span>MedOnMt 2028</span>
+          <span class="relative flex h-2 w-2">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#d49b42] opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-[#d49b42]"></span>
+          </span>
+        </a>
+        <a href="aadesh.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">
+          Aadesh
+        </a>
+      </nav>
+
+      <!-- Unit Switcher, Theme Switcher, Soundscape & Action Buttons -->
+      <div class="flex items-center space-x-2 sm:space-x-2.5 shrink-0">
+        <!-- Day / Night Mode Toggle (Always accessible across mobile, tablet & desktop) -->
+        <div class="shrink-0 tght-theme-toggle-target"></div>
+
+        <!-- Metric / Imperial Toggle Mount Point (Desktop & Tablet) -->
+        <div class="hidden sm:block shrink-0 tght-unit-switcher-target"></div>
+
+        <!-- Ambient Himalayan Wind/Soundscape Toggle -->
+        <button id="soundscape-btn" class="hidden 2xl:inline-flex items-center gap-1.5 h-8 px-2.5 rounded-lg text-[11px] font-semibold bg-white/5 hover:bg-white/10 border border-white/10 text-[#d1c7b7] transition shrink-0" title="Toggle gentle Himalayan atmosphere soundscape">
+          <svg class="w-3.5 h-3.5 text-[#d49b42]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"/></svg>
+          <span>Atmosphere</span>
+        </button>
+
+        <!-- Expedition CTA Button -->
+        <a href="#medonmt-section" class="hidden md:inline-flex items-center gap-1.5 h-8 px-3.5 rounded-lg text-xs font-bold text-[#080c14] bg-gradient-to-r from-[#d49b42] to-[#b8782a] hover:from-[#f1be6d] hover:to-[#d49b42] shadow-md shadow-[#d49b42]/20 transition shrink-0">
+          <span>Spring 2028</span> →
+        </a>
+
+        <!-- Mobile Menu Button (Below xl) -->
+        <button id="mobile-menu-btn" class="xl:hidden p-2 h-8 w-8 rounded-lg bg-white/5 border border-white/10 text-[#d1c7b7] hover:text-white flex items-center justify-center shrink-0" aria-label="Toggle navigation menu">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden xl:hidden pt-4 pb-3 border-t border-white/10 mt-3 space-y-1.5 text-sm font-semibold">
+      <div class="flex items-center justify-between pb-3 border-b border-white/10 mb-2">
+        <span class="text-xs text-[#8e867a]">Display Theme:</span>
+        <div class="tght-theme-toggle-target"></div>
+      </div>
+      <div class="flex items-center justify-between pb-3 border-b border-white/10 mb-2">
+        <span class="text-xs text-[#8e867a]">Measurement Units:</span>
+        <div class="tght-unit-switcher-target"></div>
+      </div>
+      <a href="index.html" class="flex items-center justify-between px-3.5 py-2.5 rounded-lg bg-white/10 text-[#d49b42] font-bold">
+        <span>Home</span>
+        <span class="text-xs text-[#d49b42]">●</span>
+      </a>
+      <a href="sections.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">10 Geographic Sections</a>
+      <a href="map.html" class="flex items-center justify-between px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">
+        <span>Interactive Map & Elevation Profile</span>
+        <span class="text-[9px] px-1.5 py-0.5 rounded bg-sky-950/80 text-[#8cb5f2] border border-sky-800/60 uppercase">Topo</span>
+      </a>
+      <a href="passes.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">Crux Passes & Mountaineering</a>
+      <a href="expedition.html" class="flex items-center justify-between px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#f1be6d] font-bold transition">
+        <span>MedOnMt 2028 Expedition</span>
+        <span class="w-2 h-2 rounded-full bg-[#d49b42]"></span>
+      </a>
+      <a href="aadesh.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">Aadesh (Founder &amp; Athlete)</a>
+    </div>
+  </header>
+
+  <!-- Authentic Tibetan 5-Color Prayer Flag Ribbon Divider -->
+  <div class="prayer-ribbon">
+    <div class="flex-1 prayer-blue"></div>
+    <div class="flex-1 prayer-white"></div>
+    <div class="flex-1 prayer-red"></div>
+    <div class="flex-1 prayer-green"></div>
+    <div class="flex-1 prayer-yellow"></div>
+  </div>
+
+  <!-- Atmospheric Mountain Ridge Silhouettes (Inspired by medonmt.org) -->
+  <div class="w-full overflow-hidden leading-none pointer-events-none -mb-1 opacity-25">
+    <svg viewBox="0 0 1440 240" fill="none" preserveAspectRatio="none" class="w-full h-24 sm:h-36">
+      <path d="M0 240L140 140L300 200L450 90L600 170L740 60L880 160L1020 40L1160 140L1300 80L1440 160V240H0Z" fill="rgba(212,155,66,0.15)"/>
+      <path d="M0 240L180 180L360 220L520 130L680 190L840 90L980 170L1140 70L1300 150L1440 110V240H0Z" fill="rgba(78,145,102,0.12)"/>
+    </svg>
+  </div>
+
+  <!-- Authentic Fluttering Tibetan Prayer Flags (Lungta) Garland -->
+  <div class="prayer-garland-wrap">
+    <div class="prayer-garland-cord"></div>
+    <div class="prayer-flags-row">
+      <div class="prayer-flag prayer-flag--blue" title="Blue: Space & Sky (Nam)">ཨོཾ</div>
+      <div class="prayer-flag prayer-flag--white" title="White: Air & Wind (Lung)">མ</div>
+      <div class="prayer-flag prayer-flag--red" title="Red: Fire (Me)">ཎི</div>
+      <div class="prayer-flag prayer-flag--green" title="Green: Water (Chhu)">པདྨེ</div>
+      <div class="prayer-flag prayer-flag--yellow" title="Yellow: Earth (Sa)">ཧཱུྃ</div>
+      <div class="prayer-flag prayer-flag--blue" title="Blue: Space & Sky">༄</div>
+      <div class="prayer-flag prayer-flag--white" title="White: Air & Wind">ॐ</div>
+      <div class="prayer-flag prayer-flag--red" title="Red: Fire">ཨོཾ</div>
+      <div class="prayer-flag prayer-flag--green" title="Green: Water">ཎི</div>
+      <div class="prayer-flag prayer-flag--yellow" title="Yellow: Earth">ཧཱུྃ</div>
+      <div class="prayer-flag prayer-flag--blue" title="Blue: Space & Sky">༄</div>
+      <div class="prayer-flag prayer-flag--white" title="White: Air & Wind">མ</div>
+      <div class="prayer-flag prayer-flag--red" title="Red: Fire">ཎི</div>
+      <div class="prayer-flag prayer-flag--green" title="Green: Water">པདྨེ</div>
+      <div class="prayer-flag prayer-flag--yellow" title="Yellow: Earth">ཧཱུྃ</div>
+    </div>
+  </div>
+
+  <!-- Hero Section (Atmospheric, Contemplative, Poetic) -->
+  <section class="relative pt-4 pb-20 md:pt-8 md:pb-32 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 lg:px-8 relative z-10">
+
+      <!-- Teaser Tag: MedOnMt Expedition Spring 2028 -->
+      <div class="flex justify-center mb-6">
+        <a href="#medonmt-section" class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-white/5 border border-[#d49b42]/30 text-xs font-semibold text-[#f1be6d] shadow-xl hover:border-[#d49b42] transition group">
+          <span class="flex h-2 w-2 relative">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#d49b42] opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2 w-2 bg-[#d49b42]"></span>
+          </span>
+          <span>Expedition Announcement: <b>MedOnMt is embarking on the High Route in Spring 2028</b></span>
+          <span class="group-hover:translate-x-1 transition text-[#d49b42]">→</span>
+        </a>
+      </div>
+
+      <!-- Main Headline: The Sacred Pathway & Contemplative Voice -->
+      <div class="text-center max-w-4xl mx-auto">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-mono uppercase tracking-wider bg-white/5 border border-[var(--border-subtle)] text-[#d49b42] mb-3">
+          <span>༄</span> 140-Day Mindful High-Route Pilgrimage &middot; Nepal 2028
+        </div>
+        
+        <h1 class="text-4xl sm:text-6xl lg:text-7xl font-serif font-bold text-white tracking-tight leading-[1.1] mt-2">
+          The Great Himalayan Trail: <br/>
+          <em class="font-normal italic text-[#d49b42]">The Sacred Pathway</em>
+        </h1>
+
+        <p class="mt-6 narrative-prose max-w-3xl mx-auto text-base sm:text-lg md:text-xl">
+          Traversing <b class="font-semibold text-white"><span data-km="1700">1,700 kilometers</span></b> across the glaciated roof of Nepal. Where high-altitude athletic endurance meets ancient contemplative meditation. In Spring 2028, <a href="https://medonmt.org" target="_blank" class="text-[#d49b42] hover:underline font-semibold">MedOnMt</a> brings mindful walking, seated breathwork, and radical presence to this continuous alpine odyssey.
+        </p>
+
+        <!-- Action CTAs -->
+        <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
+          <a href="#scale-section" class="btn-primary-med">
+            Explore the 1,700km Trail
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+          </a>
+          <a href="map.html" class="btn-outline-med">
+            <svg class="w-4 h-4 text-[#6090d4]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+            Interactive Topo Map
+          </a>
+          <a href="expedition.html" class="btn-outline-med border-[#d49b42]/40 text-[#f1be6d] hover:bg-[#d49b42]/10">
+            MedOnMt 2028 Dossier
+            <svg class="w-4 h-4 text-[#d49b42]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Practice Vitals with Animated Circular Arc Gauges (Directly matching medonmt.org) -->
+      <div class="practice-vitals max-w-5xl mx-auto">
+        <!-- Vital 1: Distance -->
+        <div class="vital is-active p-0 flex flex-col justify-between">
+          <div class="prayer-ribbon prayer-ribbon-sm">
+            <div class="flex-1 prayer-blue"></div>
+            <div class="flex-1 prayer-white"></div>
+            <div class="flex-1 prayer-red"></div>
+            <div class="flex-1 prayer-green"></div>
+            <div class="flex-1 prayer-yellow"></div>
+          </div>
+          <div class="p-4 sm:p-5">
+            <div class="vital__gauge-wrap">
+              <svg class="vital__gauge" viewBox="0 0 80 80">
+                <circle class="vital__arc-bg" cx="40" cy="40" r="32" stroke-dasharray="150.8 50.3" transform="rotate(135 40 40)" />
+                <circle class="vital__arc-fill vital__arc-fill--gold" cx="40" cy="40" r="32" stroke-dasharray="150.8 50.3" stroke-dashoffset="20" transform="rotate(135 40 40)" />
+              </svg>
+              <div class="vital__icon-wrap">🧘</div>
+            </div>
+            <div class="vital__val"><span data-km="1700">1,700 km</span></div>
+            <div class="vital__label">Distance of Presence</div>
+            <div class="vital__desc">Deep &amp; unbroken</div>
+          </div>
+        </div>
+
+        <!-- Vital 2: Summits & Cols -->
+        <div class="vital is-active p-0 flex flex-col justify-between">
+          <div class="prayer-ribbon prayer-ribbon-sm">
+            <div class="flex-1 prayer-blue"></div>
+            <div class="flex-1 prayer-white"></div>
+            <div class="flex-1 prayer-red"></div>
+            <div class="flex-1 prayer-green"></div>
+            <div class="flex-1 prayer-yellow"></div>
+          </div>
+          <div class="p-4 sm:p-5">
+            <div class="vital__gauge-wrap">
+              <svg class="vital__gauge" viewBox="0 0 80 80">
+                <circle class="vital__arc-bg" cx="40" cy="40" r="32" stroke-dasharray="150.8 50.3" transform="rotate(135 40 40)" />
+                <circle class="vital__arc-fill vital__arc-fill--sage" cx="40" cy="40" r="32" stroke-dasharray="150.8 50.3" stroke-dashoffset="35" transform="rotate(135 40 40)" />
+              </svg>
+              <div class="vital__icon-wrap">🏔️</div>
+            </div>
+            <div class="vital__val">28+ High Cols</div>
+            <div class="vital__label">Summits &amp; Passes</div>
+            <div class="vital__desc">Trails embodied</div>
+          </div>
+        </div>
+
+        <!-- Vital 3: Elevation Gain -->
+        <div class="vital is-active p-0 flex flex-col justify-between">
+          <div class="prayer-ribbon prayer-ribbon-sm">
+            <div class="flex-1 prayer-blue"></div>
+            <div class="flex-1 prayer-white"></div>
+            <div class="flex-1 prayer-red"></div>
+            <div class="flex-1 prayer-green"></div>
+            <div class="flex-1 prayer-yellow"></div>
+          </div>
+          <div class="p-4 sm:p-5">
+            <div class="vital__gauge-wrap">
+              <svg class="vital__gauge" viewBox="0 0 80 80">
+                <circle class="vital__arc-bg" cx="40" cy="40" r="32" stroke-dasharray="150.8 50.3" transform="rotate(135 40 40)" />
+                <circle class="vital__arc-fill vital__arc-fill--sky" cx="40" cy="40" r="32" stroke-dasharray="150.8 50.3" stroke-dashoffset="15" transform="rotate(135 40 40)" />
+              </svg>
+              <div class="vital__icon-wrap">☁️</div>
+            </div>
+            <div class="vital__val"><span data-ascent-m="105000">+105,000 m</span></div>
+            <div class="vital__label">Vertical Ascent</div>
+            <div class="vital__desc">Dharma &amp; effort</div>
+          </div>
+        </div>
+
+        <!-- Vital 4: Days of Stillness -->
+        <div class="vital is-active p-0 flex flex-col justify-between">
+          <div class="prayer-ribbon prayer-ribbon-sm">
+            <div class="flex-1 prayer-blue"></div>
+            <div class="flex-1 prayer-white"></div>
+            <div class="flex-1 prayer-red"></div>
+            <div class="flex-1 prayer-green"></div>
+            <div class="flex-1 prayer-yellow"></div>
+          </div>
+          <div class="p-4 sm:p-5">
+            <div class="vital__gauge-wrap">
+              <svg class="vital__gauge" viewBox="0 0 80 80">
+                <circle class="vital__arc-bg" cx="40" cy="40" r="32" stroke-dasharray="150.8 50.3" transform="rotate(135 40 40)" />
+                <circle class="vital__arc-fill vital__arc-fill--ember" cx="40" cy="40" r="32" stroke-dasharray="150.8 50.3" stroke-dashoffset="30" transform="rotate(135 40 40)" />
+              </svg>
+              <div class="vital__icon-wrap">🔥</div>
+            </div>
+            <div class="vital__val">140 Days</div>
+            <div class="vital__label">Days of Stillness</div>
+            <div class="vital__desc">Miles of dharma</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Authentic Tibetan 5-Color Prayer Flag Ribbon Divider -->
+  <div class="prayer-ribbon">
+    <div class="flex-1 prayer-blue"></div>
+    <div class="flex-1 prayer-white"></div>
+    <div class="flex-1 prayer-red"></div>
+    <div class="flex-1 prayer-green"></div>
+    <div class="flex-1 prayer-yellow"></div>
+  </div>
+
+  <!-- Marquee Contemplation Ribbon -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span class="marquee-item">Ascend Into Stillness<span class="marquee-dot"></span></span>
+      <span class="marquee-item"><span data-km="1700">1,700 Kilometers</span><span class="marquee-dot"></span></span>
+      <span class="marquee-item">Kangchenjunga to Humla<span class="marquee-dot"></span></span>
+      <span class="marquee-item">Breath at <span data-m="6000">6,000 Meters</span><span class="marquee-dot"></span></span>
+      <span class="marquee-item">The Mountain As Teacher<span class="marquee-dot"></span></span>
+      <span class="marquee-item">MedOnMt Spring 2028<span class="marquee-dot"></span></span>
+      <span class="marquee-item">Impermanence on the High Route<span class="marquee-dot"></span></span>
+      <span class="marquee-item">Ancient Beyul Sanctuaries<span class="marquee-dot"></span></span>
+      <span class="marquee-item">Shey Gompa &amp; Crystal Mountain<span class="marquee-dot"></span></span>
+      <span class="marquee-item">Vipassana in Elevation<span class="marquee-dot"></span></span>
+      <span class="marquee-item">Ascend Into Stillness<span class="marquee-dot"></span></span>
+      <span class="marquee-item"><span data-km="1700">1,700 Kilometers</span><span class="marquee-dot"></span></span>
+      <span class="marquee-item">Kangchenjunga to Humla<span class="marquee-dot"></span></span>
+      <span class="marquee-item">The Mountain As Teacher<span class="marquee-dot"></span></span>
+    </div>
+  </div>
+
+  <!-- STICKER SHOWCASE & THE MEDONMT VISION (Thoughtful, Artisanal, Inspiring) -->
+  <section class="py-20 px-4 lg:px-8 max-w-7xl mx-auto w-full">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+      
+      <!-- Visual Artwork Card (The Uploaded MedOnMt Sticker) -->
+      <div class="lg:col-span-5 flex justify-center">
+        <div class="aurora-glow-wrap max-w-sm sm:max-w-md w-full">
+          <div class="rounded-3xl p-3 bg-gradient-to-b from-[#162238] to-[#0c121e] border border-white/15 shadow-2xl overflow-hidden group">
+            <div class="relative overflow-hidden rounded-2xl aspect-square flex items-center justify-center bg-black/40">
+              <img 
+                src="assets/medonmt-sticker.jpg" 
+                alt="MedOnMt Sticker Artwork - Ascend Into Stillness" 
+                class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none"></div>
+              <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between text-xs text-white">
+                <span class="font-display tracking-widest text-[#d49b42] font-bold">ASCEND INTO STILLNESS</span>
+                <span class="text-[11px] text-[#8e867a] font-mono">@medonmt</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Narrative & Ethos -->
+      <div class="lg:col-span-7">
+        <span class="t-eyebrow">The Vision · MedOnMt</span>
+        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight mt-2 leading-tight">
+          A Pilgrimage Beyond Endurance. <br>
+          <em class="font-normal italic text-[#d49b42]">Dharma on the Edge of the World.</em>
+        </h2>
+
+        <p class="mt-5 narrative-prose">
+          Rooted in the Wasatch Range of Utah and founded by <a href="aadesh.html" class="text-white hover:text-[#d49b42] font-medium underline underline-offset-4 decoration-[#d49b42]/40 hover:decoration-[#d49b42] transition">Aadesh Neupane</a>, <a href="https://medonmt.org" target="_blank" class="text-[#d49b42] hover:underline font-semibold">MedOnMt (Meditate On Mountain)</a> was born from a singular truth: <em class="text-white">when the body climbs, the mind quiets.</em>
+        </p>
+
+        <p class="mt-4 narrative-prose">
+          The Great Himalayan Trail is often measured in statistics — 1,700 kilometers, 105,000 meters of vertical ascent, 6,200m technical passes. But our Spring 2028 expedition approaches this sacred geography not as a conqueror, but as a disciple. Every step across the spine of Nepal is a breath; every high col is a masterclass in impermanence.
+        </p>
+
+        <!-- Bento Mini-Pillars -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+          <div class="bento-card p-0 flex flex-col justify-between">
+            <div class="prayer-ribbon prayer-ribbon-sm">
+              <div class="flex-1 prayer-blue"></div>
+              <div class="flex-1 prayer-white"></div>
+              <div class="flex-1 prayer-red"></div>
+              <div class="flex-1 prayer-green"></div>
+              <div class="flex-1 prayer-yellow"></div>
+            </div>
+            <div class="p-5">
+              <div class="text-[#d49b42] text-xl mb-1">🧘‍♂️</div>
+              <h4 class="font-serif font-bold text-white text-base">Vipassana in Elevation</h4>
+              <p class="card-prose mt-1">Daily silent walking meditation and sitting practice at base camps, cols, and ancient Tibetan monasteries.</p>
+            </div>
+          </div>
+          <div class="bento-card p-0 flex flex-col justify-between">
+            <div class="prayer-ribbon prayer-ribbon-sm">
+              <div class="flex-1 prayer-blue"></div>
+              <div class="flex-1 prayer-white"></div>
+              <div class="flex-1 prayer-red"></div>
+              <div class="flex-1 prayer-green"></div>
+              <div class="flex-1 prayer-yellow"></div>
+            </div>
+            <div class="p-5">
+              <div class="text-[#4e9166] text-xl mb-1">🍃</div>
+              <h4 class="font-serif font-bold text-white text-base">Zero-Trace Pilgrimage</h4>
+              <p class="card-prose mt-1">Leaving the sacred passes cleaner than we found them, honoring local sherpa, Rai, Tamang, and Dolpo-pa communities.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-8 flex flex-wrap items-center gap-4">
+          <a href="https://medonmt.org" target="_blank" class="btn-primary-med">
+            Visit MedOnMt.org
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          </a>
+          <a href="aadesh.html" class="px-4 py-2.5 rounded-xl border border-white/15 bg-white/5 hover:bg-white/10 text-xs font-bold text-white hover:text-[#d49b42] flex items-center gap-1.5 transition">
+            <span>Meet Founder &amp; Athlete</span> →
+          </a>
+          <a href="#medonmt-section" class="text-xs font-bold text-[#d49b42] hover:text-[#f1be6d] flex items-center gap-1.5 transition">
+            <span>Spring 2028 Dispatch</span> →
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Authentic Tibetan 5-Color Prayer Flag Ribbon Divider -->
+  <div class="prayer-ribbon">
+    <div class="flex-1 prayer-blue"></div>
+    <div class="flex-1 prayer-white"></div>
+    <div class="flex-1 prayer-red"></div>
+    <div class="flex-1 prayer-green"></div>
+    <div class="flex-1 prayer-yellow"></div>
+  </div>
+
+  <!-- CHAPTER I: THE SCALE OF THE GIANT & MOUNTAIN PHYSICS -->
+  <section id="scale-section" class="py-20 px-4 lg:px-8 max-w-7xl mx-auto w-full border-t border-white/10">
+    <div class="max-w-3xl mb-12">
+      <span class="t-eyebrow">Chapter I · The Mountain Physics &amp; Scale</span>
+      <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight mt-2">
+        The Everest Multiplier &amp; Living Spine
+      </h2>
+      <p class="mt-4 narrative-prose">
+        The Great Himalayan Trail (GHT) traverses 1,700 kilometers across the roof of the world, gaining over +105,000 meters of cumulative vertical ascent under all eight of Nepal’s 8,000-meter giants.
+      </p>
+    </div>
+
+    <!-- 4 Bento Cards of Scale with Tibetan Prayer Flag Ribbons -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-12">
+      <div class="bento-card p-0 flex flex-col justify-between">
+        <div class="prayer-ribbon prayer-ribbon-sm">
+          <div class="flex-1 prayer-blue"></div>
+          <div class="flex-1 prayer-white"></div>
+          <div class="flex-1 prayer-red"></div>
+          <div class="flex-1 prayer-green"></div>
+          <div class="flex-1 prayer-yellow"></div>
+        </div>
+        <div class="p-6">
+          <span class="text-2xl mb-1 block">🏔️</span>
+          <div class="text-[11px] font-bold uppercase tracking-wider text-[#d49b42]">The Spine</div>
+          <h3 class="text-xl font-serif font-bold text-white mt-1"><span data-km="1700">1,700 km</span></h3>
+          <p class="card-prose mt-1.5">
+            140-day continuous foot-traverse across 10 remote alpine regions.
+          </p>
+        </div>
+      </div>
+
+      <div class="bento-card p-0 flex flex-col justify-between">
+        <div class="prayer-ribbon prayer-ribbon-sm">
+          <div class="flex-1 prayer-blue"></div>
+          <div class="flex-1 prayer-white"></div>
+          <div class="flex-1 prayer-red"></div>
+          <div class="flex-1 prayer-green"></div>
+          <div class="flex-1 prayer-yellow"></div>
+        </div>
+        <div class="p-6">
+          <span class="text-2xl mb-1 block">🧗</span>
+          <div class="text-[11px] font-bold uppercase tracking-wider text-[#4e9166]">Highest Pass</div>
+          <h3 class="text-xl font-serif font-bold text-white mt-1"><span data-m="6190">6,190m</span> (West Col)</h3>
+          <p class="card-prose mt-1.5">
+            Technical mountaineering: fixed lines, crampons, and 60° ice rappels.
+          </p>
+        </div>
+      </div>
+
+      <div class="bento-card p-0 flex flex-col justify-between">
+        <div class="prayer-ribbon prayer-ribbon-sm">
+          <div class="flex-1 prayer-blue"></div>
+          <div class="flex-1 prayer-white"></div>
+          <div class="flex-1 prayer-red"></div>
+          <div class="flex-1 prayer-green"></div>
+          <div class="flex-1 prayer-yellow"></div>
+        </div>
+        <div class="p-6">
+          <span class="text-2xl mb-1 block">📈</span>
+          <div class="text-[11px] font-bold uppercase tracking-wider text-[#6090d4]">Vertical Gain</div>
+          <h3 class="text-xl font-serif font-bold text-white mt-1"><span data-ascent-m="105000">+105,000m</span></h3>
+          <p class="card-prose mt-1.5">
+            More than 11.9× climbing Mt. Everest from sea level to summit.
+          </p>
+        </div>
+      </div>
+
+      <div class="bento-card p-0 flex flex-col justify-between">
+        <div class="prayer-ribbon prayer-ribbon-sm">
+          <div class="flex-1 prayer-blue"></div>
+          <div class="flex-1 prayer-white"></div>
+          <div class="flex-1 prayer-red"></div>
+          <div class="flex-1 prayer-green"></div>
+          <div class="flex-1 prayer-yellow"></div>
+        </div>
+        <div class="p-6">
+          <span class="text-2xl mb-1 block">☸️</span>
+          <div class="text-[11px] font-bold uppercase tracking-wider text-[#b85c3c]">Living Heritage</div>
+          <h3 class="text-xl font-serif font-bold text-white mt-1">20+ Peoples</h3>
+          <p class="card-prose mt-1.5">
+            Traversing Rai, Sherpa, Tamang, Gurung, and pre-Buddhist Bonpo valleys.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Option B Structured Bento Showcase: High Pass Spectrum, Mindfulness & Sacred Beyul -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+
+      <!-- Card 01: Mountain Pass Profile -->
+      <div class="bento-card p-0 flex flex-col justify-between border-[#d49b42]/30">
+        <div class="prayer-ribbon">
+          <div class="flex-1 prayer-blue"></div>
+          <div class="flex-1 prayer-white"></div>
+          <div class="flex-1 prayer-red"></div>
+          <div class="flex-1 prayer-green"></div>
+          <div class="flex-1 prayer-yellow"></div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-center justify-between text-xs font-mono text-[#d49b42] mb-2">
+            <span class="font-bold">01 &middot; TRAIL INSIGHTS</span>
+            <span>Crux Passes</span>
+          </div>
+          <h4 class="text-lg font-serif font-bold text-white">High Pass Elevation Spectrum</h4>
+          <p class="card-prose mt-1.5">
+            Navigating Sherpani Col (<span data-m="6150">6,150m</span>), West Col (<span data-m="6190">6,190m</span>), Amphu Labsta (<span data-m="5845">5,845m</span>), and Thorong La (<span data-m="5416">5,416m</span>).
+          </p>
+          <div class="mt-4 p-3 rounded-xl bg-black/30 border border-white/10 text-xs font-mono flex items-center justify-between">
+            <span>★ Daily Avg: <span data-m="4200">4,200m</span></span>
+            <span class="text-[#d49b42] font-bold">47% Effective O2</span>
+          </div>
+        </div>
+        <a href="passes.html" class="p-4 border-t border-white/10 text-xs text-[#d49b42] hover:text-[#f1be6d] font-semibold flex items-center justify-between transition">
+          <span>Explore Technical Passes</span>
+          <span>&rarr;</span>
+        </a>
+      </div>
+
+      <!-- Card 02: Mindfulness & Meditation Quote Card -->
+      <div class="bento-card p-0 flex flex-col justify-between border-[#d49b42]/30">
+        <div class="prayer-ribbon">
+          <div class="flex-1 prayer-blue"></div>
+          <div class="flex-1 prayer-white"></div>
+          <div class="flex-1 prayer-red"></div>
+          <div class="flex-1 prayer-green"></div>
+          <div class="flex-1 prayer-yellow"></div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-center justify-between text-xs font-mono text-[#d49b42] mb-2">
+            <span class="font-bold">02 &middot; MINDFULNESS &amp; DHARMA</span>
+            <span>MedOnMt</span>
+          </div>
+          <blockquote class="text-base font-serif italic text-white mt-2 leading-snug">
+            “In the stillness of the high mountains, find the unwavering sanctuary within yourself.”
+          </blockquote>
+          <p class="card-prose mt-3">
+            Every morning begins with seated breathwork before dawn. Every high-pass approach becomes a moving meditation (*Kora*).
+          </p>
+        </div>
+        <a href="expedition.html" class="p-4 border-t border-white/10 text-xs text-[#d49b42] hover:text-[#f1be6d] font-semibold flex items-center justify-between transition">
+          <span>Mindfulness Curriculum</span>
+          <span>&rarr;</span>
+        </a>
+      </div>
+
+      <!-- Card 03: Sacred Monasteries & Cultural Heritage -->
+      <div class="bento-card p-0 flex flex-col justify-between border-[#d49b42]/30">
+        <div class="prayer-ribbon">
+          <div class="flex-1 prayer-blue"></div>
+          <div class="flex-1 prayer-white"></div>
+          <div class="flex-1 prayer-red"></div>
+          <div class="flex-1 prayer-green"></div>
+          <div class="flex-1 prayer-yellow"></div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-center justify-between text-xs font-mono text-[#d49b42] mb-2">
+            <span class="font-bold">03 &middot; SACRED SITES</span>
+            <span>Beyul Heritage</span>
+          </div>
+          <h4 class="text-lg font-serif font-bold text-white">Ancient Valleys &amp; Monasteries</h4>
+          <p class="card-prose mt-1.5">
+            Walking through holy valleys blessed by Padmasambhava, honoring fair wages with Nepali Sherpa guides, and supporting high-altitude village health.
+          </p>
+          <div class="mt-4 flex flex-wrap gap-1.5 text-[11px] font-mono">
+            <span class="px-2 py-0.5 rounded bg-black/30 border border-white/10">Tengboche</span>
+            <span class="px-2 py-0.5 rounded bg-black/30 border border-white/10">Lo Manthang</span>
+            <span class="px-2 py-0.5 rounded bg-black/30 border border-white/10">Phoksundo</span>
+          </div>
+        </div>
+        <a href="sections.html" class="p-4 border-t border-white/10 text-xs text-[#d49b42] hover:text-[#f1be6d] font-semibold flex items-center justify-between transition">
+          <span>Community Solidarity</span>
+          <span>&rarr;</span>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- MODULE 1: THE EVEREST MULTIPLIER (VERTICAL GAIN COMPARATOR) -->
+    <div class="bento-card mb-12 p-6 sm:p-8">
+      <div class="bento-accent-tl bento-accent-tl--gold"></div>
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+        <div>
+          <span class="pill pill-gold mb-2 inline-flex items-center gap-1.5">⚡ Elevation Gain Comparator</span>
+          <h3 class="text-2xl sm:text-3xl font-serif font-bold text-white">The Everest Multiplier</h3>
+          <p class="text-xs sm:text-sm text-[#8e867a] mt-1">
+            GHT's <span data-ascent-m="105000">+105,000m</span> vertical climb compared against iconic world landmarks.
+          </p>
+        </div>
+        <div class="text-left md:text-right">
+          <div class="text-3xl sm:text-5xl font-mono font-black text-[#d49b42]" id="multiplier-number">11.9×</div>
+          <div class="text-[11px] text-[#8e867a] font-mono uppercase tracking-wider mt-0.5">Vertical Equivalent</div>
+        </div>
+      </div>
+
+      <!-- Landmark Buttons Selector -->
+      <div class="flex flex-wrap gap-2 mb-6" id="multiplier-selector"></div>
+
+      <!-- Landmark Detail & Visual Stack -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4 border-t border-white/10 items-center">
+        <div class="md:col-span-2 space-y-1">
+          <div class="text-base font-serif font-bold text-white flex items-center gap-2">
+            <span id="multiplier-landmark-name">Mount Everest (Sea Level to Summit)</span>
+            <span class="text-xs font-mono font-normal text-[#d49b42] px-2 py-0.5 rounded bg-white/5 border border-white/10" id="multiplier-landmark-height">8,848 m vertical gain</span>
+          </div>
+          <p class="narrative-prose" id="multiplier-landmark-desc">
+            The roof of the world measured from ocean level to the 8,848m summit.
+          </p>
+        </div>
+        <div class="p-3 rounded-xl bg-black/40 border border-white/10 flex items-center justify-center flex-wrap gap-1 min-h-[52px]" id="multiplier-stack-visual"></div>
+      </div>
+    </div>
+
+    <!-- MODULE 2: THIN AIR SIMULATOR (ATMOSPHERIC PHYSICS & HYPOXIA) -->
+    <div class="bento-card mb-12 p-6 sm:p-8">
+      <div class="bento-accent-tl bento-accent-tl--sky"></div>
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+        <div>
+          <span class="pill pill-sky mb-2 inline-flex items-center gap-1.5">🔬 High Altitude Physics</span>
+          <h3 class="text-2xl sm:text-3xl font-serif font-bold text-white">The Thin Air Simulator</h3>
+          <p class="text-xs sm:text-sm text-[#8e867a] mt-1">
+            Drag the slider across GHT elevations (800m to 6,190m) to model barometric pressure, hypoxia, and thermodynamics.
+          </p>
+        </div>
+        <div class="text-left sm:text-right">
+          <div class="text-2xl sm:text-4xl font-mono font-bold text-[#6090d4]" id="sim-alt-m">4,200 m</div>
+          <div class="text-xs font-mono text-[#8e867a]" id="sim-alt-ft">13,780 ft</div>
+        </div>
+      </div>
+
+      <!-- Altitude Range Slider -->
+      <div class="space-y-2 mb-8">
+        <div class="flex justify-between text-[11px] font-mono text-[#8e867a]">
+          <span>800m (Jungle Basins)</span>
+          <span class="text-[#d49b42] font-semibold" id="sim-landmark-badge">Dingboche &amp; High Beyuls</span>
+          <span>6,190m (West Col Pass)</span>
+        </div>
+        <input 
+          id="altitude-slider" 
+          type="range" 
+          min="800" 
+          max="6190" 
+          step="50" 
+          value="4200" 
+          class="custom-range"
+          aria-label="Simulated Altitude Slider"
+        >
+      </div>
+
+      <!-- Climber: breath, pulse, posture, and fog follow the slider -->
+      <div id="thin-air-figure" class="thin-air-stage mb-6">
+        <div class="flex items-baseline justify-between gap-3 mb-1">
+          <span class="t-eyebrow">On the body</span>
+          <span id="sim-figure-label" class="text-sm font-serif font-semibold text-white">High-altitude pace</span>
+        </div>
+        <svg class="thin-air-svg" viewBox="0 0 640 240" role="img" aria-labelledby="sim-figure-cue">
+          <path class="thin-air-ridge-fill" d="M0 208 Q320 188 640 150 V240 H0 Z"></path>
+          <path class="thin-air-ridge-line" d="M0 208 Q320 188 640 150"></path>
+          <g id="sim-climber">
+            <g id="sim-climber-pose">
+              <g class="breath-fog">
+                <ellipse class="fog fog-a" cx="86" cy="30" rx="14" ry="8"></ellipse>
+                <ellipse class="fog fog-b" cx="114" cy="18" rx="20" ry="11"></ellipse>
+                <ellipse class="fog fog-c" cx="146" cy="8" rx="26" ry="14"></ellipse>
+              </g>
+              <path class="pack" d="M30 58 h18 a5 5 0 0 1 5 5 v26 a5 5 0 0 1 -5 5 h-18 a5 5 0 0 1 -5 -5 v-26 a5 5 0 0 1 5 -5 z"></path>
+              <path class="body" d="M46 66 C32 78 22 92 20 102 C26 106 34 98 40 88 C44 78 48 70 52 64 Z"></path>
+              <path class="body" d="M48 104 C34 122 24 140 22 152 L34 154 C38 140 46 122 54 106 Z"></path>
+              <g class="ribcage">
+                <path class="body" d="M42 104 C38 84 42 64 52 52 C62 48 70 58 66 72 C62 86 64 96 66 106 L48 104 Z"></path>
+                <circle class="pulse-ring ring-a" cx="58" cy="78" r="22"></circle>
+                <circle class="pulse-ring ring-b" cx="58" cy="78" r="22"></circle>
+                <path class="heart-shape" d="M58 70 C58 64 50 64 50 72 C50 82 58 88 58 90 C58 88 66 82 66 72 C66 64 58 64 58 70 Z"></path>
+              </g>
+              <g id="sim-leg-front">
+                <path class="body" d="M56 104 C72 122 84 140 90 152 L78 154 C74 138 64 120 52 106 Z"></path>
+              </g>
+              <path class="body" d="M58 64 C74 76 86 90 88 98 C80 102 74 94 68 84 C62 74 56 68 54 64 Z"></path>
+              <path class="pole" d="M78 92 L92 156"></path>
+              <circle class="head" cx="56" cy="36" r="15"></circle>
+              <path class="cap" d="M40 34 C44 16 72 14 76 32 C64 26 50 26 40 34 Z"></path>
+            </g>
+          </g>
+        </svg>
+        <div class="pulse-readout" aria-hidden="true">
+          <svg class="heart-icon" viewBox="0 0 32 32">
+            <path d="M16 27s-9-5.6-12-11C2 12 3 7 8 7c3 0 4.6 2 5.2 3.2C13.8 9 16 7 19 7c5 0 7 5 5 9-3 5.4-8 11-8 11z"></path>
+          </svg>
+          <div class="pulse-bpm-wrap">
+            <span id="sim-pulse-bpm">96</span>
+            <span class="pulse-bpm-unit">bpm</span>
+          </div>
+          <svg class="ecg" viewBox="0 0 320 40" preserveAspectRatio="none">
+            <polyline class="ecg-trace" points="0,22 28,22 40,22 50,6 62,36 72,16 86,22 150,22 162,22 172,6 184,36 194,16 208,22 320,22"></polyline>
+          </svg>
+        </div>
+        <p id="sim-figure-cue" class="card-prose mt-2">Shorter breaths. Pulse is clearly faster.</p>
+      </div>
+
+      <!-- Real-Time Atmospheric Telemetry Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+        <div class="p-4 rounded-xl bg-black/40 border border-white/10 space-y-1">
+          <span class="text-[10px] uppercase tracking-wider text-[#8e867a] block font-bold">Effective Oxygen</span>
+          <div class="text-2xl sm:text-3xl font-mono font-bold text-white" id="sim-oxygen-pct">60%</div>
+          <div class="w-full bg-white/10 h-1.5 rounded-full overflow-hidden mt-2">
+            <div id="sim-oxygen-bar" class="h-full bg-[#d49b42] transition-all duration-150" style="width: 60%;"></div>
+          </div>
+          <span class="text-[9px] text-[#8e867a] block mt-1">vs Sea Level Density</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-black/40 border border-white/10 space-y-1">
+          <span class="text-[10px] uppercase tracking-wider text-[#8e867a] block font-bold">Barometric Pressure</span>
+          <div class="text-2xl sm:text-3xl font-mono font-bold text-white" id="sim-pressure-kpa">61.2 kPa</div>
+          <span class="text-[9px] text-[#8e867a] block mt-1">Standard: 101.3 kPa</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-black/40 border border-white/10 space-y-1">
+          <span class="text-[10px] uppercase tracking-wider text-[#8e867a] block font-bold">Water Boiling Point</span>
+          <div class="text-2xl sm:text-3xl font-mono font-bold text-[#f1be6d]" id="sim-boil-c">85.7°C</div>
+          <span class="text-[9px] text-[#8e867a] block mt-1">Too cool to cook raw lentils</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-black/40 border border-white/10 space-y-1">
+          <span class="text-[10px] uppercase tracking-wider text-[#8e867a] block font-bold">Resting HR Spike</span>
+          <div class="text-2xl sm:text-3xl font-mono font-bold text-[#df7a57]" id="sim-hr-delta">+20-30 bpm</div>
+          <span class="text-[9px] text-[#8e867a] block mt-1">Cardiac compensation</span>
+        </div>
+      </div>
+
+      <!-- Human Physiological Response Callout -->
+      <div class="p-4 rounded-xl bg-white/5 border border-white/10 flex items-start gap-3">
+        <span class="text-xl">🫁</span>
+        <div>
+          <span class="text-xs uppercase font-bold tracking-wider text-[#d49b42] block">Physiological Zone Response</span>
+          <p class="mt-1 narrative-prose" id="sim-zone-desc">
+            High Altitude Hypoxia: SpO2 drops to 80–86%. Pulse accelerates. Conscious breathing rhythm is essential.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODULE 3: 1,700 KM ELEVATION PROFILE & 8 BIOMES -->
+    <div class="bento-card p-6 sm:p-8">
+      <div class="bento-accent-tl bento-accent-tl--sage"></div>
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+        <div>
+          <span class="pill pill-sage mb-2 inline-flex items-center gap-1.5">🗺️ <span data-km="1700">1,700 km</span> Elevation Cross-Section</span>
+          <h3 class="text-2xl sm:text-3xl font-serif font-bold text-white">The Himalayan Crest Profile</h3>
+          <p class="text-xs sm:text-sm text-[#8e867a] mt-1">
+            Traverse cross-section from Kanchenjunga (East) to Humla (Tibetan border). Hover marker pins to inspect crux passes and landmarks.
+          </p>
+        </div>
+        <a href="map.html" class="inline-flex items-center gap-1 text-xs font-bold text-[#d49b42] hover:text-[#f1be6d] transition shrink-0">
+          <span>Open Full Interactive Topo Map</span> →
+        </a>
+      </div>
+
+      <!-- SVG Profile Container -->
+      <div id="home-elevation-profile" class="w-full my-4"></div>
+
+      <!-- Biome Legend -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 pt-4 border-t border-white/10 text-xs">
+        <div class="flex items-center gap-2">
+          <span class="w-3 h-3 rounded bg-[#6090d4]/40 border border-[#6090d4]/60"></span>
+          <span class="text-[#d1c7b7] text-[11px]">Nival / Glacial (&gt;5,500m)</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="w-3 h-3 rounded bg-[#d49b42]/30 border border-[#d49b42]/50"></span>
+          <span class="text-[#d1c7b7] text-[11px]">Alpine Tundra (4,200–5,500m)</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="w-3 h-3 rounded bg-[#4e9166]/30 border border-[#4e9166]/50"></span>
+          <span class="text-[#d1c7b7] text-[11px]">Subalpine Forest (2,800–4,200m)</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="w-3 h-3 rounded bg-white/10 border border-white/20"></span>
+          <span class="text-[#d1c7b7] text-[11px]">Subtropical / Gorge (&lt;2,800m)</span>
+        </div>
+      </div>
+    </div>
+  <!-- GLOBAL TRAIL BENCHMARKS: GHT VS THE WORLD'S LEGENDARY THRU-HIKES -->
+  <section id="trail-benchmarks" class="py-20 px-4 lg:px-8 max-w-7xl mx-auto w-full border-t border-white/10">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+      <div class="max-w-3xl">
+        <span class="t-eyebrow">Global Benchmarks · The Planetary Thru-Hike Spectrum</span>
+        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight mt-2">
+          GHT vs. The World's Great Trails
+        </h2>
+        <p class="mt-4 narrative-prose">
+          How does walking Nepal’s glaciated high spine compare to America's Triple Crown (PCT, AT, CDT), the High Sierra (JCT/JMT), classic Himalayan loops (ACT), and New Zealand (TA)? Explore the physics of steepness, extreme altitude, and wilderness autonomy.
+        </p>
+      </div>
+
+      <!-- Mode Selector Tabs -->
+      <div class="inline-flex p-1 rounded-xl bg-black/40 border border-white/10 shrink-0 self-start md:self-auto" id="benchmark-mode-nav">
+        <button type="button" class="benchmark-mode-btn px-3.5 py-1.5 rounded-lg text-xs font-bold transition bg-[#d49b42] text-[#080c14] shadow-sm" data-mode="duel">
+          🥊 Head-to-Head Duel
+        </button>
+        <button type="button" class="benchmark-mode-btn px-3.5 py-1.5 rounded-lg text-xs font-medium text-[#d1c7b7] hover:text-white transition" data-mode="charts">
+          📊 Benchmark Charts
+        </button>
+        <button type="button" class="benchmark-mode-btn px-3.5 py-1.5 rounded-lg text-xs font-medium text-[#d1c7b7] hover:text-white transition" data-mode="stratosphere">
+          🏔️ Stratosphere Scale
+        </button>
+      </div>
+    </div>
+
+    <!-- MODE 1: HEAD-TO-HEAD DUEL SIMULATOR -->
+    <div id="benchmark-view-duel" class="space-y-6">
+      <!-- Challenger Selector Chips -->
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="text-xs font-mono text-[#8e867a] mr-2">Select Challenger:</span>
+        <button type="button" class="challenger-select-btn px-3 py-1.5 rounded-lg text-xs font-bold transition bg-[#6090d4] text-[#080c14] border border-[#6090d4]" data-trail="pct">
+          PCT · Pacific Crest (USA)
+        </button>
+        <button type="button" class="challenger-select-btn px-3 py-1.5 rounded-lg text-xs font-medium transition bg-white/5 text-[#d1c7b7] hover:text-white border border-white/10" data-trail="act">
+          ACT · Annapurna Circuit (Nepal)
+        </button>
+        <button type="button" class="challenger-select-btn px-3 py-1.5 rounded-lg text-xs font-medium transition bg-white/5 text-[#d1c7b7] hover:text-white border border-white/10" data-trail="jmt">
+          JCT/JMT · John Muir Trail (USA)
+        </button>
+        <button type="button" class="challenger-select-btn px-3 py-1.5 rounded-lg text-xs font-medium transition bg-white/5 text-[#d1c7b7] hover:text-white border border-white/10" data-trail="at">
+          AT · Appalachian Trail (USA)
+        </button>
+        <button type="button" class="challenger-select-btn px-3 py-1.5 rounded-lg text-xs font-medium transition bg-white/5 text-[#d1c7b7] hover:text-white border border-white/10" data-trail="cdt">
+          CDT · Continental Divide (USA)
+        </button>
+        <button type="button" class="challenger-select-btn px-3 py-1.5 rounded-lg text-xs font-medium transition bg-white/5 text-[#d1c7b7] hover:text-white border border-white/10" data-trail="ta">
+          TA · Te Araroa (New Zealand)
+        </button>
+      </div>
+
+      <!-- Duel Card Arena -->
+      <div class="bento-card p-6 sm:p-8">
+        <div class="bento-accent-tl bento-accent-tl--gold"></div>
+
+        <!-- Duel Header / Arena Banner -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pb-6 border-b border-white/10">
+          <!-- GHT Champion Column -->
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-[#d49b42] to-[#b85c3c] flex items-center justify-center font-bold text-black text-xl shadow-lg shadow-[#d49b42]/20 shrink-0">
+              🏔️
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="pill pill-gold text-[10px]">The Himalayan Benchmark</span>
+                <span class="text-[11px] font-mono text-[#d49b42]">Nepal High Route</span>
+              </div>
+              <h3 class="text-xl sm:text-2xl font-serif font-bold text-white mt-1">Great Himalaya Trail (GHT)</h3>
+              <p class="text-xs text-[#8e867a] mt-0.5">High Route · Kanchenjunga to Hilsa frontier</p>
+            </div>
+          </div>
+
+          <!-- Challenger Column -->
+          <div class="flex items-center gap-4">
+            <div id="duel-challenger-icon" class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-[#6090d4] to-[#4e9166] flex items-center justify-center font-bold text-black text-xl shadow-lg shadow-[#6090d4]/20 shrink-0">
+              🌲
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <span id="duel-challenger-pill" class="pill pill-sky text-[10px]">Challenger Trail</span>
+                <span id="duel-challenger-region" class="text-[11px] font-mono text-[#6090d4]">US West Coast</span>
+              </div>
+              <h3 id="duel-challenger-name" class="text-xl sm:text-2xl font-serif font-bold text-white mt-1">Pacific Crest Trail (PCT)</h3>
+              <p id="duel-challenger-sub" class="text-xs text-[#8e867a] mt-0.5">Campo (Mexico Border) to Manning Park (Canada)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Comparative Metrics Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 my-8">
+          <!-- Metric 1: Vertical Density / Steepness -->
+          <div class="p-4 rounded-xl bg-black/40 border border-white/5 space-y-3">
+            <div class="flex items-center justify-between text-xs text-[#8e867a]">
+              <span class="font-mono">Vertical Steepness</span>
+              <span class="text-[10px] text-[#f1be6d] font-bold">Gain / Distance</span>
+            </div>
+            <div class="space-y-1">
+              <div class="flex items-baseline justify-between">
+                <span class="text-xs font-bold text-[#d49b42]">GHT</span>
+                <span class="font-mono font-bold text-white text-sm" id="duel-ght-steepness">61.8 m/km</span>
+              </div>
+              <div class="duel-meter-bg"><div class="duel-meter-fill-ght" style="width: 100%;"></div></div>
+            </div>
+            <div class="space-y-1">
+              <div class="flex items-baseline justify-between">
+                <span class="text-xs font-bold text-[#6090d4]" id="duel-label-challenger-1">PCT</span>
+                <span class="font-mono font-bold text-white text-sm" id="duel-challenger-steepness">30.0 m/km</span>
+              </div>
+              <div class="duel-meter-bg"><div class="duel-meter-fill-challenger" id="duel-meter-steepness" style="width: 48%;"></div></div>
+            </div>
+            <div class="text-[10px] text-[#8e867a] pt-1 border-t border-white/5" id="duel-steepness-delta">
+              GHT is <strong class="text-[#f1be6d] font-mono">+106% steeper</strong> per kilometer.
+            </div>
+          </div>
+
+          <!-- Metric 2: Peak Elevation & Hypoxia -->
+          <div class="p-4 rounded-xl bg-black/40 border border-white/5 space-y-3">
+            <div class="flex items-center justify-between text-xs text-[#8e867a]">
+              <span class="font-mono">Peak Elevation</span>
+              <span class="text-[10px] text-[#72b388] font-bold">High Crux</span>
+            </div>
+            <div class="space-y-1">
+              <div class="flex items-baseline justify-between">
+                <span class="text-xs font-bold text-[#d49b42]">GHT</span>
+                <span class="font-mono font-bold text-white text-sm" id="duel-ght-peak">6,190m</span>
+              </div>
+              <div class="duel-meter-bg"><div class="duel-meter-fill-ght" style="width: 100%;"></div></div>
+            </div>
+            <div class="space-y-1">
+              <div class="flex items-baseline justify-between">
+                <span class="text-xs font-bold text-[#6090d4]" id="duel-label-challenger-2">PCT</span>
+                <span class="font-mono font-bold text-white text-sm" id="duel-challenger-peak">4,009m</span>
+              </div>
+              <div class="duel-meter-bg"><div class="duel-meter-fill-challenger" id="duel-meter-peak" style="width: 65%;"></div></div>
+            </div>
+            <div class="text-[10px] text-[#8e867a] pt-1 border-t border-white/5" id="duel-peak-delta">
+              GHT peak is <strong class="text-[#72b388] font-mono">+2,181m higher</strong> (47% vs 61% O₂).
+            </div>
+          </div>
+
+          <!-- Metric 3: Total Cumulative Climbing -->
+          <div class="p-4 rounded-xl bg-black/40 border border-white/5 space-y-3">
+            <div class="flex items-center justify-between text-xs text-[#8e867a]">
+              <span class="font-mono">Total Vertical Climb</span>
+              <span class="text-[10px] text-[#8cb5f2] font-bold">Everests</span>
+            </div>
+            <div class="space-y-1">
+              <div class="flex items-baseline justify-between">
+                <span class="text-xs font-bold text-[#d49b42]">GHT</span>
+                <span class="font-mono font-bold text-white text-sm" id="duel-ght-gain">+105,000m</span>
+              </div>
+              <div class="duel-meter-bg"><div class="duel-meter-fill-ght" style="width: 74%;"></div></div>
+            </div>
+            <div class="space-y-1">
+              <div class="flex items-baseline justify-between">
+                <span class="text-xs font-bold text-[#6090d4]" id="duel-label-challenger-3">PCT</span>
+                <span class="font-mono font-bold text-white text-sm" id="duel-challenger-gain">+128,000m</span>
+              </div>
+              <div class="duel-meter-bg"><div class="duel-meter-fill-challenger" id="duel-meter-gain" style="width: 90%;"></div></div>
+            </div>
+            <div class="text-[10px] text-[#8e867a] pt-1 border-t border-white/5" id="duel-gain-delta">
+              GHT climbs 11.9 Everests in <strong>1,700 km</strong> vs PCT's 14.5 Everests in <strong>4,265 km</strong>.
+            </div>
+          </div>
+
+          <!-- Metric 4: Wilderness Autonomy & Resupply -->
+          <div class="p-4 rounded-xl bg-black/40 border border-white/5 space-y-3">
+            <div class="flex items-center justify-between text-xs text-[#8e867a]">
+              <span class="font-mono">Wilderness Autonomy</span>
+              <span class="text-[10px] text-[#df7a57] font-bold">Resupply Gap</span>
+            </div>
+            <div class="space-y-1">
+              <div class="flex items-baseline justify-between">
+                <span class="text-xs font-bold text-[#d49b42]">GHT</span>
+                <span class="font-mono font-bold text-white text-sm">10–14 Days</span>
+              </div>
+              <div class="duel-meter-bg"><div class="duel-meter-fill-ght" style="width: 100%;"></div></div>
+            </div>
+            <div class="space-y-1">
+              <div class="flex items-baseline justify-between">
+                <span class="text-xs font-bold text-[#6090d4]" id="duel-label-challenger-4">PCT</span>
+                <span class="font-mono font-bold text-white text-sm" id="duel-challenger-resupply">3–6 Days</span>
+              </div>
+              <div class="duel-meter-bg"><div class="duel-meter-fill-challenger" id="duel-meter-resupply" style="width: 40%;"></div></div>
+            </div>
+            <div class="text-[10px] text-[#8e867a] pt-1 border-t border-white/5" id="duel-resupply-delta">
+              GHT requires extended self-contained glacier hauls with zero villages or roads.
+            </div>
+          </div>
+        </div>
+
+        <!-- Detailed Head-to-Head Specification Table & Insight -->
+        <div class="p-5 sm:p-6 rounded-2xl bg-[#080c14]/80 border border-white/10 space-y-5">
+          <div class="space-y-2 border-b border-white/10 pb-4">
+            <span class="t-eyebrow">The Reality Check</span>
+            <h3 class="text-xl sm:text-2xl font-serif font-bold text-white leading-snug" id="duel-insight-title">GHT High Route vs. Pacific Crest Trail (PCT)</h3>
+            <p class="text-sm text-[var(--text-secondary)]" id="duel-badge-crux">Alpine Mountaineering vs. Graded Singletrack</p>
+          </div>
+
+          <p class="narrative-prose" id="duel-insight-body">
+            While the Pacific Crest Trail traverses 2.5× the horizontal distance (4,265 km vs 1,700 km), the GHT demands almost identical total vertical climb (+105,000m vs +128,000m) at more than double the vertical steepness (61.8 m/km vs 30.0 m/km). Furthermore, the GHT's average elevation (~4,200m) is higher than the PCT's highest mountain pass (Forester Pass, 4,009m)—requiring crampons, fixed ropes, and self-supported survival over 6,000m glaciated cols rather than graded equestrian trail.
+          </p>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-1">
+            <div class="rounded-xl bg-white/5 border border-white/10 px-3 py-3">
+              <span class="block text-xs font-semibold text-[var(--text-muted)] mb-1">Trail Design</span>
+              <span class="text-sm text-white leading-snug" id="duel-detail-trail">Unmarked Glaciers vs Graded Singletrack</span>
+            </div>
+            <div class="rounded-xl bg-white/5 border border-white/10 px-3 py-3">
+              <span class="block text-xs font-semibold text-[var(--text-muted)] mb-1">Days Above 4,000m</span>
+              <span class="text-sm text-white leading-snug" id="duel-detail-altitude">85+ Days vs 1–2 Days</span>
+            </div>
+            <div class="rounded-xl bg-white/5 border border-white/10 px-3 py-3">
+              <span class="block text-xs font-semibold text-[var(--text-muted)] mb-1">Required Alpine Gear</span>
+              <span class="text-sm text-white leading-snug" id="duel-detail-gear">Ice Axe, Crampons, Fixed Lines</span>
+            </div>
+            <div class="rounded-xl bg-white/5 border border-white/10 px-3 py-3">
+              <span class="block text-xs font-semibold text-[var(--text-muted)] mb-1">Permitting Architecture</span>
+              <span class="text-sm text-white leading-snug" id="duel-detail-permits">6+ Restricted Permits + Liaison</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODE 2: MULTI-TRAIL COMPARATIVE CHARTS -->
+    <div id="benchmark-view-charts" class="hidden space-y-6">
+      <div class="bento-card p-6 sm:p-8">
+        <div class="bento-accent-tl bento-accent-tl--sage"></div>
+
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+          <div>
+            <div class="text-[11px] font-bold uppercase tracking-wider text-[#4e9166]">Comparative Telemetry</div>
+            <h3 class="text-xl font-serif font-bold text-white mt-0.5">The Global Thru-Hike Metric Matrix</h3>
+          </div>
+
+          <!-- Chart Metric Filter Buttons -->
+          <div class="flex flex-wrap gap-2 text-xs font-medium" id="chart-metric-nav">
+            <button type="button" class="chart-metric-btn px-3 py-1.5 rounded-lg bg-[#d49b42] text-[#080c14] font-bold transition" data-metric="steepness">
+              Vertical Steepness (m/km)
+            </button>
+            <button type="button" class="chart-metric-btn px-3 py-1.5 rounded-lg bg-white/5 text-[#d1c7b7] hover:text-white border border-white/10 transition" data-metric="peak">
+              Peak Altitude (m)
+            </button>
+            <button type="button" class="chart-metric-btn px-3 py-1.5 rounded-lg bg-white/5 text-[#d1c7b7] hover:text-white border border-white/10 transition" data-metric="gain">
+              Total Climbing (+m)
+            </button>
+            <button type="button" class="chart-metric-btn px-3 py-1.5 rounded-lg bg-white/5 text-[#d1c7b7] hover:text-white border border-white/10 transition" data-metric="distance">
+              Distance (km)
+            </button>
+          </div>
+        </div>
+
+        <!-- Chart Canvas -->
+        <div class="chart-container-horizontal-bar">
+          <canvas id="trail-benchmark-chart"></canvas>
+        </div>
+
+        <div class="mt-6 pt-4 border-t border-white/10 flex flex-wrap items-center justify-between gap-3 text-[11px] text-[#8e867a]">
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded bg-[#d49b42]"></span>
+            <span class="text-white font-medium">Great Himalaya Trail (High Route)</span>
+            <span class="text-white/40">|</span>
+            <span class="w-3 h-3 rounded bg-[#6090d4]"></span>
+            <span>Challenger Continental Thru-Hikes &amp; Circuits</span>
+          </div>
+          <span class="font-mono text-[#d49b42]">Dynamic Unit Sync: Updates live with KM / MI toggle</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODE 3: THE STRATOSPHERE LADDER (ALTITUDE SPECTRUM) -->
+    <div id="benchmark-view-stratosphere" class="hidden space-y-6">
+      <div class="bento-card p-6 sm:p-8">
+        <div class="bento-accent-tl bento-accent-tl--sky"></div>
+
+        <div class="max-w-2xl mb-8">
+          <div class="text-[11px] font-bold uppercase tracking-wider text-[#6090d4]">Atmospheric Physics &amp; Hypoxia</div>
+          <h3 class="text-xl sm:text-2xl font-serif font-bold text-white mt-0.5">The Planetary Altitude Stratosphere</h3>
+          <p class="mt-2 narrative-prose">
+            Where do the world's most famous trails live vertically? The GHT High Route operates in an entirely different atmospheric tier—where its <strong class="text-[#d49b42]">average elevation (~4,200m)</strong> is higher than the maximum summits of the PCT, Continental Divide, and Appalachian Trail.
+          </p>
+        </div>
+
+        <!-- Altitude Ladder Visual Columns -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+          <!-- Left: Vertical Elevation Bar Gauge -->
+          <div class="lg:col-span-8 space-y-3 font-mono text-xs">
+            
+            <!-- Tier 1: 6,190m (GHT West Col) -->
+            <div class="altitude-pin p-3.5 rounded-xl bg-gradient-to-r from-[#b85c3c]/20 via-[#d49b42]/15 to-transparent border border-[#d49b42]/40 flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <span class="w-2.5 h-2.5 rounded-full bg-[#df7a57] shadow-lg shadow-[#df7a57]"></span>
+                <div>
+                  <div class="text-white font-bold font-serif text-sm">GHT Crux: West Col (<span data-m="6190">6,190m</span>)</div>
+                  <div class="text-[10px] text-[#8e867a]">60° Fixed ice wall · 300m rappel · 47% Sea Level Oxygen</div>
+                </div>
+              </div>
+              <span class="pill pill-ember text-[10px]">GHT Max Pass</span>
+            </div>
+
+            <!-- Tier 2: 5,416m (ACT Thorong La) -->
+            <div class="altitude-pin p-3.5 rounded-xl bg-white/5 border border-white/10 flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-[#72b388]"></span>
+                <div>
+                  <div class="text-white font-bold font-serif text-sm">ACT: Thorong La Pass (<span data-m="5416">5,416m</span>)</div>
+                  <div class="text-[10px] text-[#8e867a]">Annapurna Circuit Highpoint · Prayer flags · Teahouse ascent</div>
+                </div>
+              </div>
+              <span class="pill pill-sage text-[10px]">ACT Peak</span>
+            </div>
+
+            <!-- Tier 3: 4,421m (JMT Mount Whitney) -->
+            <div class="altitude-pin p-3.5 rounded-xl bg-white/5 border border-white/10 flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-[#6090d4]"></span>
+                <div>
+                  <div class="text-white font-bold font-serif text-sm">JCT / JMT: Mount Whitney (<span data-m="4421">4,421m</span>)</div>
+                  <div class="text-[10px] text-[#8e867a]">Highest peak in contiguous USA · Sierra Nevada terminus</div>
+                </div>
+              </div>
+              <span class="pill pill-sky text-[10px]">JMT Terminus</span>
+            </div>
+
+            <!-- Tier 4: 4,350m (CDT Grays Peak) -->
+            <div class="altitude-pin p-3.5 rounded-xl bg-white/5 border border-white/10 flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-[#6090d4]"></span>
+                <div>
+                  <div class="text-white font-bold font-serif text-sm">CDT: Grays Peak / CO Passes (<span data-m="4350">4,350m</span>)</div>
+                  <div class="text-[10px] text-[#8e867a]">Continental Divide Highpoint · Rocky Mountain ridge line</div>
+                </div>
+              </div>
+              <span class="pill pill-sky text-[10px]">CDT Apex</span>
+            </div>
+
+            <!-- CRITICAL HIGHLIGHT LINE: GHT AVERAGE ALTITUDE (~4,200m) -->
+            <div class="p-3.5 rounded-xl bg-gradient-to-r from-[#d49b42]/30 via-[#d49b42]/10 to-transparent border-2 border-[#d49b42] shadow-lg shadow-[#d49b42]/10 flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <span class="animate-pulse w-3 h-3 rounded-full bg-[#d49b42] shadow-md shadow-[#d49b42]"></span>
+                <div>
+                  <div class="text-[#f1be6d] font-bold font-serif text-sm">★ GHT AVERAGE DAILY ALTITUDE: ~<span data-m="4200">4,200m</span></div>
+                  <div class="text-[10px] text-[#d1c7b7]">Higher than the highest mountain pass of the entire Pacific Crest Trail!</div>
+                </div>
+              </div>
+              <span class="px-2 py-0.5 rounded bg-[#d49b42] text-black font-bold text-[10px]">GHT Baseline</span>
+            </div>
+
+            <!-- Tier 5: 4,009m (PCT Forester Pass) -->
+            <div class="altitude-pin p-3.5 rounded-xl bg-white/5 border border-white/10 flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-[#6090d4]"></span>
+                <div>
+                  <div class="text-white font-bold font-serif text-sm">PCT: Forester Pass (<span data-m="4009">4,009m</span>)</div>
+                  <div class="text-[10px] text-[#8e867a]">Highest point on the Pacific Crest Trail · High Sierra pass</div>
+                </div>
+              </div>
+              <span class="pill pill-sky text-[10px]">PCT Max Pass</span>
+            </div>
+
+            <!-- Tier 6: 2,025m (AT Clingmans Dome) & 1,925m (TA Stag Saddle) -->
+            <div class="altitude-pin p-3.5 rounded-xl bg-white/5 border border-white/10 flex items-center justify-between">
+              <div class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-white/40"></span>
+                <div>
+                  <div class="text-white font-bold font-serif text-sm">AT: Clingmans Dome (<span data-m="2025">2,025m</span>) &middot; TA: Stag Saddle (<span data-m="1925">1,925m</span>)</div>
+                  <div class="text-[10px] text-[#8e867a]">Appalachians &amp; New Zealand apexes · High forest canopy &amp; tussock</div>
+                </div>
+              </div>
+              <span class="px-2 py-0.5 rounded bg-white/10 text-[#d1c7b7] text-[10px]">Subalpine Apex</span>
+            </div>
+
+            <!-- Tier 7: Sea Level (0m) -->
+            <div class="p-3.5 rounded-xl bg-black/40 border border-white/5 flex items-center justify-between text-[#8e867a]">
+              <div class="flex items-center gap-3">
+                <span class="w-2 h-2 rounded-full bg-sky-400"></span>
+                <div>
+                  <div class="text-[#d1c7b7] font-serif text-sm">Sea Level (<span data-m="0">0m</span>)</div>
+                  <div class="text-[10px]">100% Effective Oxygen Fraction &middot; 1,013.25 hPa Standard Pressure</div>
+                </div>
+              </div>
+              <span class="text-[10px] font-mono">Ocean Base</span>
+            </div>
+
+          </div>
+
+          <!-- Right: Analytical Callout Box -->
+          <div class="lg:col-span-4 p-6 rounded-2xl bg-gradient-to-br from-[#121926] to-[#080c14] border border-[#d49b42]/30 space-y-4">
+            <span class="pill pill-gold text-[10px]">The Atmospheric Law</span>
+            <h4 class="font-serif font-bold text-white text-base">The Continuous Hypoxia Crucible</h4>
+            <p class="narrative-prose">
+              On classic American thru-hikes, hikers occasionally touch 4,000m for an hour before dropping back to lush valleys. On the GHT High Route:
+            </p>
+            <div class="space-y-2.5 text-xs text-[#f1be6d] font-mono">
+              <div class="p-2.5 rounded-lg bg-black/40 border border-white/5 flex items-start gap-2">
+                <span class="text-[#d49b42] font-bold">▶</span>
+                <span><strong>85+ days</strong> spent sleeping above 4,000m.</span>
+              </div>
+              <div class="p-2.5 rounded-lg bg-black/40 border border-white/5 flex items-start gap-2">
+                <span class="text-[#d49b42] font-bold">▶</span>
+                <span>Barometric pressure drops to <strong>~475 hPa</strong> (less than half of sea level).</span>
+              </div>
+              <div class="p-2.5 rounded-lg bg-black/40 border border-white/5 flex items-start gap-2">
+                <span class="text-[#d49b42] font-bold">▶</span>
+                <span>Requires deep somatic breathing &amp; mindful acclimatization pacing.</span>
+              </div>
+            </div>
+            <a href="passes.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-[#d49b42] hover:text-white transition pt-2">
+              Explore All Crux Passes &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER II: THE HUMAN ENGINE & THE TWO ROUTES -->
+  <section class="py-20 px-4 lg:px-8 max-w-7xl mx-auto w-full border-t border-white/10">
+    <div class="max-w-3xl mb-12">
+      <span class="t-eyebrow">Chapter II · The Human Engine &amp; The Routes</span>
+      <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight mt-2">
+        Metabolic Physics &amp; Route Telemetry
+      </h2>
+      <p class="mt-4 narrative-prose">
+        Walking 1,700 kilometers over 140 continuous days pushes human physiology to its ultimate threshold. Calculate the metabolic burn and contrast Nepal's two parallel traverse routes.
+      </p>
+    </div>
+
+    <!-- MODULE 4: THE HUMAN MACHINE SIMULATOR -->
+    <div class="bento-card mb-12 p-6 sm:p-8">
+      <div class="bento-accent-tl bento-accent-tl--ember"></div>
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+        <div>
+          <span class="pill pill-ember mb-2 inline-flex items-center gap-1.5">⚡ Physiological Model</span>
+          <h3 class="text-2xl sm:text-3xl font-serif font-bold text-white">The Human Machine</h3>
+          <p class="text-xs sm:text-sm text-[#8e867a] mt-1">
+            Simulate your caloric burn, step count, and nutritional fuel for 140 days on the High Route.
+          </p>
+        </div>
+
+        <!-- Inputs: Weight and Pace -->
+        <div class="flex flex-wrap sm:flex-nowrap items-center gap-3">
+          <div class="flex items-center gap-2 bg-black/40 border border-white/10 rounded-xl px-3 py-1.5">
+            <label for="user-weight-input" class="text-xs text-[#8e867a] font-medium">Body Weight:</label>
+            <input 
+              id="user-weight-input" 
+              type="number" 
+              min="45" 
+              max="120" 
+              value="72" 
+              class="w-16 bg-transparent text-white font-mono font-bold text-sm focus:outline-none border-b border-[#d49b42]"
+            >
+            <span id="user-weight-unit-label" class="text-xs text-[#8e867a]">kg</span>
+          </div>
+
+          <div class="flex items-center gap-2 bg-black/40 border border-white/10 rounded-xl px-3 py-1.5">
+            <label for="user-pace-select" class="text-xs text-[#8e867a] font-medium">Pace:</label>
+            <select 
+              id="user-pace-select" 
+              class="bg-transparent text-white text-xs font-semibold focus:outline-none cursor-pointer"
+            >
+              <option value="0.9" class="bg-[#0e1422] text-white">Mindful (150 Days)</option>
+              <option value="1.0" selected class="bg-[#0e1422] text-white">Standard (140 Days)</option>
+              <option value="1.2" class="bg-[#0e1422] text-white">Fast Alpine (120 Days)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Human Machine Output Bento Grid -->
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+        <div class="p-4 rounded-xl bg-black/40 border border-white/10 space-y-1">
+          <span class="text-[10px] uppercase tracking-wider text-[#8e867a] block font-bold">Total Energy Burn</span>
+          <div class="text-xl sm:text-2xl font-mono font-bold text-[#d49b42]" id="stat-total-calories">685,000 kcal</div>
+          <span class="text-[9px] text-[#8e867a] block">Equivalent to 250 lbs fat</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-black/40 border border-white/10 space-y-1">
+          <span class="text-[10px] uppercase tracking-wider text-[#8e867a] block font-bold">Daily Expenditure</span>
+          <div class="text-xl sm:text-2xl font-mono font-bold text-white" id="stat-daily-calories">4,896 kcal/day</div>
+          <span class="text-[9px] text-[#8e867a] block">2.5× baseline metabolic</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-black/40 border border-white/10 space-y-1">
+          <span class="text-[10px] uppercase tracking-wider text-[#8e867a] block font-bold">Dal Bhat Fuel</span>
+          <div class="text-xl sm:text-2xl font-mono font-bold text-[#f1be6d]" id="stat-dal-bhat">1,180 plates</div>
+          <span class="text-[9px] text-[#8e867a] block">“Dal Bhat Power 24 Hour”</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-black/40 border border-white/10 space-y-1">
+          <span class="text-[10px] uppercase tracking-wider text-[#8e867a] block font-bold">Total Footsteps</span>
+          <div class="text-xl sm:text-2xl font-mono font-bold text-[#8cb5f2]" id="stat-total-steps">~3.5M steps</div>
+          <span class="text-[9px] text-[#8e867a] block">25,000 steps per day</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-black/40 border border-white/10 space-y-1 col-span-2 md:col-span-1">
+          <span class="text-[10px] uppercase tracking-wider text-[#8e867a] block font-bold">Footwear Destroyed</span>
+          <div class="text-xl sm:text-2xl font-mono font-bold text-[#df7a57]" id="stat-shoes-destroyed">4–5 pairs</div>
+          <span class="text-[9px] text-[#8e867a] block">Granite scree &amp; moraine</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODULE 5 & 6: GEAR LOADOUT & ROUTE RADAR GRID -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      
+      <!-- MODULE 5: ULTRALIGHT ALPINE LOADOUT (CHART.JS DONUT) -->
+      <div class="bento-card p-6 sm:p-8 flex flex-col justify-between">
+        <div>
+          <div class="bento-accent-tl bento-accent-tl--gold"></div>
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <span class="pill pill-gold mb-1 inline-flex items-center gap-1.5">🎒 Gear Breakdown</span>
+              <h3 class="text-xl sm:text-2xl font-serif font-bold text-white">Ultralight Alpine Loadout</h3>
+            </div>
+            <div class="text-right">
+              <span class="text-lg font-mono font-bold text-[#d49b42]">14.2 kg</span>
+              <span class="text-[10px] text-[#8e867a] block">Base Pack Weight</span>
+            </div>
+          </div>
+          <p class="card-prose mb-6">
+            Every ounce carried over +105,000m vertical ascent represents physical strain. Hover categories to inspect gear specifications.
+          </p>
+
+          <!-- Donut Canvas & Categories -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
+            <div class="chart-container-donut">
+              <canvas id="pack-loadout-chart"></canvas>
+            </div>
+            <div class="space-y-2" id="pack-category-list"></div>
+          </div>
+        </div>
+
+        <!-- Dynamic Gear Detail Inspector -->
+        <div class="mt-6 p-4 rounded-xl bg-white/5 border border-white/10" id="pack-category-detail"></div>
+      </div>
+
+      <!-- MODULE 6: ROUTE COMPARISON RADAR (CHART.JS RADAR) -->
+      <div class="bento-card p-6 sm:p-8 flex flex-col justify-between">
+        <div>
+          <div class="bento-accent-tl bento-accent-tl--sky"></div>
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
+            <div>
+              <span class="pill pill-sky mb-1 inline-flex items-center gap-1.5">🧭 High vs Cultural</span>
+              <h3 class="text-xl sm:text-2xl font-serif font-bold text-white">Route Comparison Radar</h3>
+            </div>
+            <!-- Radar Filter Buttons -->
+            <div class="flex items-center gap-1.5 bg-black/40 p-1 rounded-xl border border-white/10 shrink-0">
+              <button id="radar-btn-both" class="px-2.5 py-1 rounded-lg text-[10px] bg-[#d49b42] text-[#080c14] font-bold border border-[#d49b42] transition">
+                Compare Both
+              </button>
+              <button id="radar-btn-high" class="px-2.5 py-1 rounded-lg text-[10px] bg-white/5 text-[#d1c7b7] border border-white/10 hover:text-white transition">
+                High Route
+              </button>
+              <button id="radar-btn-cultural" class="px-2.5 py-1 rounded-lg text-[10px] bg-white/5 text-[#d1c7b7] border border-white/10 hover:text-white transition">
+                Cultural Route
+              </button>
+            </div>
+          </div>
+          <p class="card-prose mb-4">
+            Visualizing technical mountaineering risk, wilderness solitude, teahouse comfort, and cultural immersion across 6 axes.
+          </p>
+
+          <!-- Radar Chart Canvas -->
+          <div class="chart-container-radar">
+            <canvas id="route-radar-chart"></canvas>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3 mt-6 pt-4 border-t border-white/10 text-xs">
+          <div class="p-3 rounded-lg bg-black/40 border border-[#d49b42]/30">
+            <div class="font-bold text-[#d49b42] flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-[#d49b42]"></span> High Route
+            </div>
+            <p class="text-[11px] text-[#8e867a] mt-1 leading-snug">Technical glaciated passes, mandatory alpine bivouacs, complete wilderness immersion.</p>
+          </div>
+          <div class="p-3 rounded-lg bg-black/40 border border-[#6090d4]/30">
+            <div class="font-bold text-[#6090d4] flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-[#6090d4]"></span> Cultural Route
+            </div>
+            <p class="text-[11px] text-[#8e867a] mt-1 leading-snug">Mid-hill valley trails, warm homestays, deep interaction with indigenous villages.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CHAPTER III: THE 10 GEOGRAPHIC FRONTIERS (INTERACTIVE EXPLORER) -->
+  <section class="py-20 px-4 lg:px-8 max-w-7xl mx-auto w-full border-t border-white/10">
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+      <div>
+        <span class="t-eyebrow">Chapter III · The Traverse Blueprint</span>
+        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight mt-2">
+          The 10 Geographic Frontiers
+        </h2>
+        <p class="mt-2 narrative-prose">
+          From the mist-soaked rhododendrons of the east to the desert plateaus of the Tibetan border.
+        </p>
+      </div>
+
+      <a href="sections.html" class="inline-flex items-center gap-1.5 text-xs font-bold text-[#d49b42] hover:text-[#f1be6d] transition">
+        <span>View Full 10-Section Dossier</span> →
+      </a>
+    </div>
+
+    <!-- Section Tabs Scroll Bar -->
+    <div id="section-explorer-tabs" class="flex gap-2 overflow-x-auto pb-3 mb-6 scrollbar-thin"></div>
+
+    <!-- Active Section Display Container -->
+    <div id="section-explorer-display"></div>
+  </section>
+
+  <!-- CHAPTER IV: SACRED GEOGRAPHY & INNER MOUNTAINS (PULL-QUOTE & PHILOSOPHY) -->
+  <section class="py-20 px-4 lg:px-8 max-w-7xl mx-auto w-full border-t border-white/10">
+    <!-- Editorial Pull-Quote Block (Styled like medonmt.org) -->
+    <div class="quote-card mb-16">
+      <span class="quote-card__mark">“</span>
+      <p class="quote-card__text">
+        The mountain doesn't try to be still. It simply is. When you walk 1,700 kilometers across the roof of the earth, you realize the summit is not the destination. The practice that carries you there is.
+      </p>
+      <div class="quote-card__author"><a href="aadesh.html" class="hover:text-[#d49b42] transition underline underline-offset-4 decoration-[#d49b42]/30">Aadesh Neupane &middot; Founder, MedOnMt →</a></div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <div class="bento-card">
+        <div class="bento-accent-tl bento-accent-tl--gold"></div>
+        <div class="text-2xl mb-2">☸️</div>
+        <h3 class="text-xl font-serif font-bold text-white">The Hidden Beyuls</h3>
+        <p class="card-prose mt-2">
+          In Tibetan Buddhism, Guru Padmasambhava consecrated sacred hidden valleys (*beyul*) throughout the Himalayas as sanctuaries of spiritual refuge. Sections of the GHT pass through these sanctified spaces where meditation practice is said to bear hundredfold fruit.
+        </p>
+      </div>
+
+      <div class="bento-card">
+        <div class="bento-accent-tl bento-accent-tl--sage"></div>
+        <div class="text-2xl mb-2">🏔️</div>
+        <h3 class="text-xl font-serif font-bold text-white">The Bonpo of Dolpo</h3>
+        <p class="card-prose mt-2">
+          In Upper Dolpo, time has preserved Yungdrung Bon — the pre-Buddhist spiritual tradition of Tibet. Here, chortens are circled counter-clockwise, and ancient monasteries cling to cliffs beneath the sacred Crystal Mountain (*Shey Shelri*).
+        </p>
+      </div>
+
+      <div class="bento-card">
+        <div class="bento-accent-tl bento-accent-tl--sky"></div>
+        <div class="text-2xl mb-2">🌊</div>
+        <h3 class="text-xl font-serif font-bold text-white">Sacred Alpine Lakes</h3>
+        <p class="card-prose mt-2">
+          High holy waters dot the route: Gosainkunda where Shiva plunged his trident to cool the poison of the cosmos, the unearthly turquoise jewel of Phoksundo Lake, and the tranquil alpine mirror of Rara.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CHAPTER V: MEDONMT SPRING 2028 EXPEDITION (LIVE COUNTDOWN & MISSION) -->
+  <section id="medonmt-section" class="py-20 px-4 lg:px-8 max-w-7xl mx-auto w-full border-t border-white/10">
+    <div class="bento-card p-8 md:p-12 border-[#d49b42]/30 relative overflow-hidden">
+      <div class="bento-accent-tl bento-accent-tl--gold"></div>
+      
+      <div class="max-w-3xl mx-auto text-center">
+        <span class="t-eyebrow">Expedition Feature · Spring 2028</span>
+        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight mt-2">
+          MedOnMt Embarks on the High Route
+        </h2>
+        <p class="mt-4 narrative-prose">
+          Beginning in <b class="text-white font-medium">Spring 2028</b>, our team will step onto the trail at Kanchenjunga Base Camp, carrying mindfulness, meditation cushions, and lightweight alpine equipment across the entire 1,700-kilometer High Route to Humla.
+        </p>
+
+        <!-- Live Countdown Ticker -->
+        <div class="mt-8 p-6 rounded-2xl bg-black/40 border border-white/10 max-w-xl mx-auto">
+          <div class="text-xs font-mono uppercase tracking-widest text-[#f1be6d] font-bold mb-3">
+            T-Minus to Departure (March 15, 2028)
+          </div>
+          <div class="grid grid-cols-4 gap-3 text-center font-mono">
+            <div class="bg-white/5 p-3 rounded-xl border border-white/10">
+              <div id="cd-days" class="text-2xl sm:text-4xl font-serif font-bold text-[#d49b42]">---</div>
+              <div class="text-[10px] text-[#8e867a] uppercase font-sans mt-0.5">Days</div>
+            </div>
+            <div class="bg-white/5 p-3 rounded-xl border border-white/10">
+              <div id="cd-hours" class="text-2xl sm:text-4xl font-serif font-bold text-white">--</div>
+              <div class="text-[10px] text-[#8e867a] uppercase font-sans mt-0.5">Hours</div>
+            </div>
+            <div class="bg-white/5 p-3 rounded-xl border border-white/10">
+              <div id="cd-minutes" class="text-2xl sm:text-4xl font-serif font-bold text-white">--</div>
+              <div class="text-[10px] text-[#8e867a] uppercase font-sans mt-0.5">Minutes</div>
+            </div>
+            <div class="bg-white/5 p-3 rounded-xl border border-white/10">
+              <div id="cd-seconds" class="text-2xl sm:text-4xl font-serif font-bold text-[#8cb5f2]">--</div>
+              <div class="text-[10px] text-[#8e867a] uppercase font-sans mt-0.5">Seconds</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4 Expedition Pillars -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mt-10 text-left">
+          <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+            <div class="text-[#d49b42] text-lg font-bold mb-1">I. Presence</div>
+            <p class="card-prose">Daily silent walking vipassana and evening zazen at high altitude.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+            <div class="text-[#4e9166] text-lg font-bold mb-1">II. Lightness</div>
+            <p class="card-prose">Radical alpine simplicity — carrying only what sustains body and breath.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+            <div class="text-[#6090d4] text-lg font-bold mb-1">III. Connection</div>
+            <p class="card-prose">Honoring the indigenous guardians of the sacred passes and remote valleys.</p>
+          </div>
+          <div class="p-4 rounded-xl bg-white/5 border border-white/10">
+            <div class="text-[#b85c3c] text-lg font-bold mb-1">IV. Dispatches</div>
+            <p class="card-prose">Sharing philosophical reflections and trail reports via Substack.</p>
+          </div>
+        </div>
+
+        <!-- The 2027 Preparatory Crucible Banner -->
+        <div class="mt-8 p-6 rounded-2xl bg-gradient-to-br from-[#0e1626] to-[#080c14] border border-[#d49b42]/30 text-left">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-white/10">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="pill pill-gold text-[10px]">2027 Pipeline</span>
+                <span class="text-xs font-mono text-[#f1be6d] font-bold uppercase tracking-wider">Sponsor &amp; Athlete Roadmap</span>
+              </div>
+              <h3 class="text-xl sm:text-2xl font-serif font-bold text-white mt-1">
+                The 2027 Crucible: Five Milestones Toward 2028 GHT
+              </h3>
+              <p class="card-prose mt-1 max-w-xl">
+                Aadesh Neupane is executing five defining American alpine and big-wall benchmarks in 2027 to validate gear, biometric response, and high-altitude endurance prior to Nepal.
+              </p>
+            </div>
+            <a href="expedition.html#milestones-2027" class="btn-outline-med text-xs py-2 px-4 whitespace-nowrap self-start md:self-auto flex items-center gap-1.5">
+              <span>Inspect 2027 Milestones</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+
+          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mt-4">
+            <div class="p-3 rounded-xl bg-white/5 border border-white/5 hover:border-[#6090d4]/40 transition">
+              <span class="text-[10px] text-[#6090d4] font-mono block">Spring 2027</span>
+              <div class="font-serif font-bold text-white text-xs sm:text-sm mt-0.5">Mount Shasta</div>
+              <div class="text-[10px] text-[#8e867a] mt-0.5"><span data-m="4322">14,179 ft</span> &bull; CA Cascade</div>
+            </div>
+            <div class="p-3 rounded-xl bg-white/5 border border-white/5 hover:border-[#6090d4]/40 transition">
+              <span class="text-[10px] text-[#6090d4] font-mono block">Summer 2027</span>
+              <div class="font-serif font-bold text-white text-xs sm:text-sm mt-0.5">Mount Rainier</div>
+              <div class="text-[10px] text-[#8e867a] mt-0.5"><span data-m="4392">14,411 ft</span> &bull; Glaciers</div>
+            </div>
+            <div class="p-3 rounded-xl bg-white/5 border border-white/5 hover:border-[#d49b42]/40 transition">
+              <span class="text-[10px] text-[#d49b42] font-mono block">Late Summer</span>
+              <div class="font-serif font-bold text-white text-xs sm:text-sm mt-0.5">Granite Peak</div>
+              <div class="text-[10px] text-[#8e867a] mt-0.5"><span data-m="3904">12,807 ft</span> &bull; MT Apex</div>
+            </div>
+            <a href="https://www.mountainproject.com/route/105879622/stairway-to-heaven" target="_blank" rel="noopener noreferrer" class="p-3 rounded-xl bg-white/5 border border-white/5 hover:border-[#4e9166]/40 transition group block">
+              <div class="flex items-center justify-between">
+                <span class="text-[10px] text-[#72b388] font-mono">Winter 26/27</span>
+                <span class="text-[9px] text-[#72b388] font-mono opacity-70 group-hover:opacity-100">MP ↗</span>
+              </div>
+              <div class="font-serif font-bold text-white text-xs sm:text-sm mt-0.5 group-hover:text-[#72b388] transition">Stairway to Heaven</div>
+              <div class="text-[10px] text-[#8e867a] mt-0.5">10-Pitch WI4/5 &bull; UT</div>
+            </a>
+            <a href="https://www.mountainproject.com/route/201747800/mjolnir" target="_blank" rel="noopener noreferrer" class="p-3 rounded-xl bg-white/5 border border-white/5 hover:border-[#b85c3c]/40 transition col-span-2 sm:col-span-1 group block">
+              <div class="flex items-center justify-between">
+                <span class="text-[10px] text-[#b85c3c] font-mono">Summer 2027</span>
+                <span class="text-[9px] text-[#d49b42] font-mono opacity-70 group-hover:opacity-100">MP ↗</span>
+              </div>
+              <div class="font-serif font-bold text-white text-xs sm:text-sm mt-0.5 group-hover:text-[#b85c3c] transition">Mjölnir</div>
+              <div class="text-[10px] text-[#8e867a] mt-0.5">23P 5.11c &bull; Cascades</div>
+            </a>
+          </div>
+
+          <div class="mt-3 pt-3 border-t border-white/5 flex flex-wrap items-center justify-between gap-2 text-[11px] text-[#8e867a]">
+            <span><strong>Certifications:</strong> Avalanche Safety &amp; CPR Certified &bull; <em>2027 Pipeline:</em> WFA/WFR &bull; MBSR Qualified Trainer</span>
+            <span class="text-[#4e9166] font-mono">Expedition Safety &amp; Contemplation</span>
+          </div>
+        </div>
+
+        <!-- Expedition Leader Badge Banner -->
+        <div class="mt-8 p-4 rounded-xl bg-white/5 border border-[#d49b42]/30 flex flex-col sm:flex-row items-center justify-between gap-4 text-left">
+          <div class="flex items-center gap-3.5">
+            <div class="w-12 h-12 rounded-xl overflow-hidden border border-[#d49b42]/40 shrink-0">
+              <img src="assets/medonmt-sticker.jpg" alt="Aadesh Neupane" class="w-full h-full object-cover">
+            </div>
+            <div>
+              <div class="text-xs uppercase tracking-wider font-bold text-[#d49b42]">Expedition Leader</div>
+              <h4 class="font-serif font-bold text-white text-sm sm:text-base">Aadesh Neupane &middot; Founder, MedOnMt</h4>
+              <p class="text-[11px] text-[#8e867a] mt-0.5">Snow50 Ultra Finisher &bull; Thru-Hiker (Manaslu, Tilicho Mesokanta, Mustang, Wind Rivers) &bull; 100+ Summits &bull; Solo Alpinist &bull; Avalanche &amp; CPR &bull; WFR &amp; MBSR (2027) &bull; <a href="https://www.mountainproject.com/route/106897735/kyhv-peak-7735" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:underline">23P Squawstruck ↗</a></p>
+            </div>
+          </div>
+          <a href="aadesh.html" class="btn-primary-med text-xs py-2 px-4 whitespace-nowrap shrink-0">
+            View Athlete Dossier &rarr;
+          </a>
+        </div>
+
+        <!-- Dispatch Signup -->
+        <div class="mt-10 max-w-md mx-auto">
+          <form id="newsletter-form" class="flex gap-2">
+            <input 
+              type="email" 
+              required 
+              placeholder="Enter your email for dispatches..." 
+              class="flex-1 px-4 py-3 rounded-xl bg-black/40 border border-white/15 text-xs text-white placeholder-[#8e867a] focus:outline-none focus:border-[#d49b42]"
+            />
+            <button type="submit" class="btn-primary-med text-xs py-3 px-5">
+              Subscribe
+            </button>
+          </form>
+          <div id="newsletter-msg" class="hidden mt-3 text-xs text-[#72b388] font-medium"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CHAPTER VI: CURIOSITY ACCORDION (COMMON QUESTIONS) -->
+  <section class="py-20 px-4 lg:px-8 max-w-4xl mx-auto w-full border-t border-white/10">
+    <div class="text-center mb-12">
+      <span class="t-eyebrow">Curiosity &amp; Inquiry</span>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white tracking-tight mt-2">
+        Questions of the High Route
+      </h2>
+      <p class="mt-2 text-[#d1c7b7] text-sm">
+        Everything you wanted to understand about traversing the highest corridor on Earth.
+      </p>
+    </div>
+
+    <div class="space-y-4">
+      
+      <div class="bento-card p-0">
+        <button class="accordion-header w-full p-5 text-left flex items-center justify-between gap-4">
+          <span class="font-serif font-bold text-white text-base">How does one physically and mentally prepare for 140 days at altitude?</span>
+          <span class="accordion-icon text-[#d49b42] text-xl">↓</span>
+        </button>
+        <div class="hidden px-5 pb-5 accordion-prose border-t border-white/10 pt-4">
+          Physical fitness is only half the equation. Acclimatization requires gradual elevation gain, staying hydrated, and honoring rest days. Mentally, vipassana and mindfulness practice teach the hiker to observe physical exhaustion, blister pain, and cold without escalating them into psychological suffering. The mountain strips away everything non-essential.
+        </div>
+      </div>
+
+      <div class="bento-card p-0">
+        <button class="accordion-header w-full p-5 text-left flex items-center justify-between gap-4">
+          <span class="font-serif font-bold text-white text-base">What are the Three Cols and why are they considered the crux?</span>
+          <span class="accordion-icon text-[#d49b42] text-xl">↓</span>
+        </button>
+        <div class="hidden px-5 pb-5 accordion-prose border-t border-white/10 pt-4">
+          Sherpani Col (6,150m), West Col (6,190m), and Amphu Labsta (5,845m) connect the Barun, Hongu, and Khumbu valleys. They represent the most technical and exposed mountaineering barrier on the trail, featuring fixed ropes, crevasse fields, and vertical rock and ice descents with zero evacuation options.
+        </div>
+      </div>
+
+      <div class="bento-card p-0">
+        <button class="accordion-header w-full p-5 text-left flex items-center justify-between gap-4">
+          <span class="font-serif font-bold text-white text-base">What permits are required across the 10 sections?</span>
+          <span class="accordion-icon text-[#d49b42] text-xl">↓</span>
+        </button>
+        <div class="hidden px-5 pb-5 accordion-prose border-t border-white/10 pt-4">
+          The GHT traverses multiple restricted border areas requiring special permits: Kanchenjunga Restricted Permit, Makalu Barun National Park, Sagarmatha National Park, Manaslu Restricted Area, Upper Mustang Restricted Permit, and Upper Dolpo. Total permit costs often exceed $2,500 per person and require registered guide logistics.
+        </div>
+      </div>
+
+      <div class="bento-card p-0">
+        <button class="accordion-header w-full p-5 text-left flex items-center justify-between gap-4">
+          <span class="font-serif font-bold text-white text-base">How does MedOnMt balance alpine risk with mindful presence?</span>
+          <span class="accordion-icon text-[#d49b42] text-xl">↓</span>
+        </button>
+        <div class="hidden px-5 pb-5 accordion-prose border-t border-white/10 pt-4">
+          Mindfulness is not carelessness; it is razor-sharp situational awareness. Paying absolute attention to foot placement, weather changes, snowpack stability, and body signals is mindfulness in its highest practical expression. Our philosophy is that mountain safety begins with a quiet, observant mind.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================== -->
+  <!-- EXPEDITION APPENDIX & SCHOLARLY REFERENCES -->
+  <!-- ========================================== -->
+  <section id="appendix" class="py-20 px-4 max-w-7xl mx-auto border-t border-white/10">
+    <div class="text-center max-w-3xl mx-auto mb-14">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#d49b42]/10 border border-[#d49b42]/30 text-[#d49b42] text-xs font-semibold uppercase tracking-wider mb-4">
+        <span class="w-1.5 h-1.5 rounded-full bg-[#d49b42] animate-pulse"></span>
+        Field Cartography &amp; Scholarly Archive
+      </div>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white mb-4">
+        Expedition Appendix &amp; Research Bibliography
+      </h2>
+      <p class="text-sm sm:text-base text-[#d1c7b7] leading-relaxed">
+        Every geospatial elevation profile, atmospheric simulation, crux pass assessment, and metabolic model across this project is grounded in authoritative field cartography, official Nepalese governmental charters, satellite digital elevation models (DEM), and peer-reviewed altitude medicine literature.
+      </p>
+    </div>
+
+    <!-- 4 Bento Panels Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+      <!-- Panel 1: Official Trail Charters & Permitting Authorities -->
+      <div class="bento-card p-6 sm:p-8 flex flex-col justify-between border-white/10 hover:border-[#d49b42]/40 transition group">
+        <div>
+          <div class="flex items-center justify-between pb-4 mb-5 border-b border-white/10">
+            <div class="flex items-center space-x-3">
+              <div class="w-10 h-10 rounded-xl bg-[#d49b42]/10 text-[#d49b42] flex items-center justify-center border border-[#d49b42]/20 group-hover:scale-105 transition">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+              </div>
+              <div>
+                <h3 class="font-serif font-bold text-white text-lg">Trail Charters &amp; Governance</h3>
+                <span class="text-[11px] text-[#8e867a] uppercase tracking-wider">Official Nepalese Authorities</span>
+              </div>
+            </div>
+            <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-white/5 text-[#d49b42] border border-white/10">Charter</span>
+          </div>
+
+          <ul class="space-y-4 text-xs">
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">The Great Himalaya Trail (Official Portal)</span>
+                <a href="https://www.greathimalayatrail.com" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:text-[#f1be6d] font-mono text-[11px] flex items-center gap-1">
+                  greathimalayatrail.com ↗
+                </a>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                Foundational definition of the Nepal High Route (<span data-km="1700">~1,700 km</span>, max elevation <span data-m="6190">6,190m</span>) and Low Cultural Route (<span data-km="1500">~1,500 km</span>, max elevation <span data-m="4519">4,519m</span>), establishing the standard 10 geographic regional traverse segments.
+              </p>
+            </li>
+
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">Official GHT Thru-Hiker Database (HAL &amp; Robin Boustead)</span>
+                <a href="https://www.himalayanadventurelabs.com/great-himalaya-trail/ght-hiker-database/" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:text-[#f1be6d] font-mono text-[11px] flex items-center gap-1">
+                  himalayanadventurelabs.com ↗
+                </a>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                Authoritative registry documenting all 133 verified human-powered 'Full Nepal GHT' crossings border-to-border, co-curated by Himalayan Adventure Labs and trail founder Robin Boustead.
+              </p>
+            </li>
+
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">Nepal Tourism Board (NTB)</span>
+                <a href="https://ntb.gov.np" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:text-[#f1be6d] font-mono text-[11px] flex items-center gap-1">
+                  ntb.gov.np ↗
+                </a>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                National trekking regulatory authority, TIMS registration framework, mandatory guide mandates for foreign trekkers (2023+ policy), and sustainable Himalayan ecotourism guidelines.
+              </p>
+            </li>
+
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">Department of Immigration, Nepal</span>
+                <a href="https://nepalimmigration.gov.np" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:text-[#f1be6d] font-mono text-[11px] flex items-center gap-1">
+                  nepalimmigration.gov.np ↗
+                </a>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                Restricted Area Permit (RAP) legal quotas, minimum party sizes, and fee schedules for Upper Mustang ($500/10 days), Upper Dolpo ($500/10 days), Manaslu, Kanchenjunga, and Nar-Phu frontier corridors.
+              </p>
+            </li>
+
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">SNV Netherlands Development Organisation</span>
+                <a href="https://snv.org" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:text-[#f1be6d] font-mono text-[11px] flex items-center gap-1">
+                  snv.org ↗
+                </a>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                Pioneering GHT Sustainable Tourism Development Project (2008–2014) in partnership with NTB and DFID, establishing pro-poor, community-based micro-economies across high mountain valleys.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Panel 2: Geospatial Datasets, Digital Elevation Models & Cartography -->
+      <div class="bento-card p-6 sm:p-8 flex flex-col justify-between border-white/10 hover:border-[#6090d4]/40 transition group">
+        <div>
+          <div class="flex items-center justify-between pb-4 mb-5 border-b border-white/10">
+            <div class="flex items-center space-x-3">
+              <div class="w-10 h-10 rounded-xl bg-[#6090d4]/10 text-[#6090d4] flex items-center justify-center border border-[#6090d4]/20 group-hover:scale-105 transition">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path></svg>
+              </div>
+              <div>
+                <h3 class="font-serif font-bold text-white text-lg">Field Cartography &amp; DEM</h3>
+                <span class="text-[11px] text-[#8e867a] uppercase tracking-wider">Geospatial Datasets &amp; Topography</span>
+              </div>
+            </div>
+            <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-white/5 text-[#6090d4] border border-white/10">Geospatial</span>
+          </div>
+
+          <ul class="space-y-4 text-xs">
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">Himalaya Map House (HMH)</span>
+                <span class="text-[#8e867a] font-mono text-[11px]">Kathmandu, Nepal</span>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                Official 1:100,000 and 1:50,000 GHT Topographic Map Series (Series 100 to 109) surveyed by Robin Boustead. The definitive physical paper navigation benchmark for high passes, moraine trails, and water points.
+              </p>
+            </li>
+
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">OpenStreetMap (OSM) &amp; OpenAndroMaps</span>
+                <a href="https://www.openstreetmap.org" target="_blank" rel="noopener noreferrer" class="text-[#6090d4] hover:text-white font-mono text-[11px] flex items-center gap-1">
+                  openstreetmap.org ↗
+                </a>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                International Walking Network (<code class="text-[#f1be6d]">network=iwn</code>, <code class="text-[#f1be6d]">route=hiking</code>) vector geometries powering our interactive Leaflet map and GeoJSON coordinates (<code class="text-white/80">data/ght-full-route.geojson</code>).
+              </p>
+            </li>
+
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">NASA SRTM &amp; ESA Copernicus 30m Global DEM</span>
+                <span class="text-[#8e867a] font-mono text-[11px]">WGS 84 / GLO-30</span>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                Satellite radar and radar interferometry elevation rasters used to calibrate pass elevations, calculate slope gradients, and compute the ~175,000m cumulative vertical gain across the entire Nepal High Route.
+              </p>
+            </li>
+
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">FarOut Navigation (Guthook Guides)</span>
+                <a href="https://faroutguides.com" target="_blank" rel="noopener noreferrer" class="text-[#6090d4] hover:text-white font-mono text-[11px] flex items-center gap-1">
+                  faroutguides.com ↗
+                </a>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                Thru-hiker waypoint log, glacial retreat bypass notes, high-camp coordinates, and seasonal water source dependability across remote non-teahouse sections (e.g. Makalu Three Cols, Teri La).
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Panel 3: Atmospheric Physics, Mathematical Modeling & Medicine -->
+      <div class="bento-card p-6 sm:p-8 flex flex-col justify-between border-white/10 hover:border-[#4e9166]/40 transition group">
+        <div>
+          <div class="flex items-center justify-between pb-4 mb-5 border-b border-white/10">
+            <div class="flex items-center space-x-3">
+              <div class="w-10 h-10 rounded-xl bg-[#4e9166]/10 text-[#4e9166] flex items-center justify-center border border-[#4e9166]/20 group-hover:scale-105 transition">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+              </div>
+              <div>
+                <h3 class="font-serif font-bold text-white text-lg">Atmospheric Physics &amp; Physiology</h3>
+                <span class="text-[11px] text-[#8e867a] uppercase tracking-wider">Mathematical Models &amp; Altitude Medicine</span>
+              </div>
+            </div>
+            <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-white/5 text-[#4e9166] border border-white/10">Bio-Physics</span>
+          </div>
+
+          <ul class="space-y-4 text-xs">
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">International Standard Atmosphere (ISA) Formula</span>
+                <span class="text-[#8e867a] font-mono text-[11px]">Barometric Equations</span>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                Models barometric pressure $P/P_0 = (1 - L\cdot h / T_0)^{gM/R_0L}$ powering our live atmospheric simulator: deriving effective oxygen fractions (67% at <span data-m="3000">3,000m</span> down to 47% at <span data-m="6190">6,190m</span> West Col).
+              </p>
+            </li>
+
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">Pandolf &amp; Givoni-Goldman Metabolic Load Formulation</span>
+                <span class="text-[#8e867a] font-mono text-[11px]">J. Appl. Physiol.</span>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                Metabolic expenditure equation calibrated for heavy expedition packs ($L = 18\text{--}24\text{ kg}$) and alpine moraine/snow terrain coefficients ($\eta = 2.1\text{--}2.5$), projecting daily caloric burn between 4,800 and 6,200 kcal/day.
+              </p>
+            </li>
+
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">Wilderness Medical Society (WMS) &amp; ISMM</span>
+                <a href="https://doi.org/10.1177/10806032241240000" target="_blank" rel="noopener noreferrer" class="text-[#4e9166] hover:text-white font-mono text-[11px] flex items-center gap-1">
+                  Guidelines ↗
+                </a>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                Clinical Practice Guidelines for Acute Altitude Illness: dictating acclimatization sleep ceilings (maximum $\le 500\text{m}$ net sleep elevation gain per 24h above <span data-m="3000">3,000m</span>) and AMS/HAPE/HACE protocol thresholds.
+              </p>
+            </li>
+
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">Historic Traverses &amp; FKT Benchmarks</span>
+                <span class="text-[#8e867a] font-mono text-[11px]">Athletic Records</span>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                Ryan Sandes &amp; Ryno Griesel (2018: 25d 4h 24m supported); Andrew Porter (2016: 28d 13h 36m solo unsupported); Asimina Inglezou (2024: 37 high route days, first solo woman).
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Panel 4: Contemplative Philosophy, Human Performance & Founder Archives -->
+      <div class="bento-card p-6 sm:p-8 flex flex-col justify-between border-white/10 hover:border-[#b85c3c]/40 transition group">
+        <div>
+          <div class="flex items-center justify-between pb-4 mb-5 border-b border-white/10">
+            <div class="flex items-center space-x-3">
+              <div class="w-10 h-10 rounded-xl bg-[#b85c3c]/10 text-[#d49b42] flex items-center justify-center border border-[#b85c3c]/20 group-hover:scale-105 transition">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+              </div>
+              <div>
+                <h3 class="font-serif font-bold text-white text-lg">Contemplation &amp; Research</h3>
+                <span class="text-[11px] text-[#8e867a] uppercase tracking-wider">MedOnMt &amp; Founder Publications</span>
+              </div>
+            </div>
+            <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-white/5 text-[#d49b42] border border-white/10">Mind &amp; Mountain</span>
+          </div>
+
+          <ul class="space-y-4 text-xs">
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">MedOnMt (Meditate On Mountain)</span>
+                <a href="https://medonmt.org" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:text-[#f1be6d] font-mono text-[11px] flex items-center gap-1">
+                  medonmt.org ↗
+                </a>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                Founded by Aadesh Neupane. Synthesizes high-altitude mountaineering with Vipassana, Zen somatic awareness, and cognitive endurance, reframing mountain hardship into a crucible for mental stillness.
+              </p>
+            </li>
+
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">MedOnMt Substack Dharma &amp; Alpine Essays</span>
+                <a href="https://medonmt.substack.com" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:text-[#f1be6d] font-mono text-[11px] flex items-center gap-1">
+                  medonmt.substack.com ↗
+                </a>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                Field dispatches, philosophical discourses on high-altitude solitude, risk psychology, and the intersection of contemplative neuroscience with physical endurance.
+              </p>
+            </li>
+
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">Aadesh Neupane Google Scholar Archive</span>
+                <a href="https://scholar.google.com/citations?user=HpOtkk4AAAAJ&hl=en&oi=ao" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:text-[#f1be6d] font-mono text-[11px] flex items-center gap-1">
+                  Google Scholar ↗
+                </a>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                100+ scholarly citations spanning machine learning, human-AI teaming, behavioral decision-making under stress, and cognitive state estimation in complex environments.
+              </p>
+            </li>
+
+            <li class="p-3 rounded-lg bg-white/[0.02] border border-white/5 hover:border-white/15 transition">
+              <div class="flex items-center justify-between mb-1">
+                <span class="font-bold text-white text-sm">Robin Boustead Monograph (Trailblazer)</span>
+                <span class="text-[#8e867a] font-mono text-[11px]">ISBN: 978-1905864430</span>
+              </div>
+              <p class="text-[#8e867a] leading-relaxed">
+                <em>The Great Himalaya Trail: A Guide to the High Route of Nepal</em> (2011). The seminal English-language expedition handbook documenting trail waypoints, passes, and high-camp logistics.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Interactive Academic BibTeX & Full Dossier Card -->
+    <div class="mt-8 bento-card p-6 sm:p-8 border-white/10 bg-gradient-to-br from-[#0c121e] to-[#080c14]">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4 pb-4 border-b border-white/10">
+        <div>
+          <h3 class="font-serif font-bold text-white text-lg flex items-center gap-2">
+            <svg class="w-5 h-5 text-[#d49b42]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+            Academic Citation Repository &amp; BibTeX
+          </h3>
+          <p class="text-xs text-[#8e867a]">Standard BibTeX reference for academic papers, thesis citations, and geospatial research.</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <button id="btn-copy-bibtex" class="btn-primary-med text-xs py-1.5 px-3 flex items-center gap-1.5 cursor-pointer">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+            <span id="copy-bibtex-text">Copy BibTeX</span>
+          </button>
+          <a href="GHT_REFERENCES.md" target="_blank" class="px-3 py-1.5 rounded-lg text-xs font-semibold text-[#d1c7b7] bg-white/5 hover:bg-white/10 hover:text-white border border-white/10 transition flex items-center gap-1.5">
+            <svg class="w-3.5 h-3.5 text-[#d49b42]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+            View GHT_REFERENCES.md
+          </a>
+        </div>
+      </div>
+
+      <pre id="bibtex-block" class="bg-[#05080e] p-4 rounded-xl text-[11px] font-mono text-[#a8b3cf] overflow-x-auto border border-white/5 leading-relaxed">@misc{ght_medonmt_2028,
+  author    = {Aadesh Neupane and MedOnMt Research Team},
+  title     = {The Great Himalayan Trail (Nepal High Route): Interactive Cartography, Atmospheric Modeling, and Expedition Dossier},
+  year      = {2026},
+  publisher = {MedOnMt Foundation},
+  url       = {https://medonmt.org/tght},
+  note      = {Synthesized from HMH Topographic Surveys, NASA SRTM, ISA Atmosphere Formula, and Nepal Tourism Board Charters}
+}</pre>
+    </div>
+  </section>
+
+  <!-- Authentic Tibetan 5-Color Prayer Flag Ribbon Divider -->
+  <div class="prayer-ribbon prayer-ribbon-lg">
+    <div class="flex-1 prayer-blue"></div>
+    <div class="flex-1 prayer-white"></div>
+    <div class="flex-1 prayer-red"></div>
+    <div class="flex-1 prayer-green"></div>
+    <div class="flex-1 prayer-yellow"></div>
+  </div>
+
+  <!-- Authentic Fluttering Tibetan Prayer Flags (Lungta) Garland -->
+  <div class="prayer-garland-wrap prayer-garland-wrap--compact">
+    <div class="prayer-garland-cord"></div>
+    <div class="prayer-flags-row">
+      <div class="prayer-flag prayer-flag--blue" title="Blue: Space & Sky (Nam)">ཨོཾ</div>
+      <div class="prayer-flag prayer-flag--white" title="White: Air & Wind (Lung)">མ</div>
+      <div class="prayer-flag prayer-flag--red" title="Red: Fire (Me)">ཎི</div>
+      <div class="prayer-flag prayer-flag--green" title="Green: Water (Chhu)">པདྨེ</div>
+      <div class="prayer-flag prayer-flag--yellow" title="Yellow: Earth (Sa)">ཧཱུྃ</div>
+      <div class="prayer-flag prayer-flag--blue" title="Blue: Space & Sky">༄</div>
+      <div class="prayer-flag prayer-flag--white" title="White: Air & Wind">ॐ</div>
+      <div class="prayer-flag prayer-flag--red" title="Red: Fire">ཨོཾ</div>
+      <div class="prayer-flag prayer-flag--green" title="Green: Water">ཎི</div>
+      <div class="prayer-flag prayer-flag--yellow" title="Yellow: Earth">ཧཱུྃ</div>
+      <div class="prayer-flag prayer-flag--blue" title="Blue: Space & Sky">༄</div>
+      <div class="prayer-flag prayer-flag--white" title="White: Air & Wind">མ</div>
+      <div class="prayer-flag prayer-flag--red" title="Red: Fire">ཎི</div>
+      <div class="prayer-flag prayer-flag--green" title="Green: Water">པདྨེ</div>
+      <div class="prayer-flag prayer-flag--yellow" title="Yellow: Earth">ཧཱུྃ</div>
+    </div>
+  </div>
+
+  <!-- Thoughtful & Contemplative Footer -->
+  <footer class="mt-auto bg-[#05080e] border-t border-white/10 pt-16 pb-12 px-4 lg:px-8 text-xs text-[#8e867a]">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-white/10">
+      
+      <!-- Brand & Mission -->
+      <div class="md:col-span-2 space-y-4">
+        <div class="flex items-center space-x-3">
+          <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-[#d49b42] to-[#b85c3c] flex items-center justify-center font-display font-black text-black text-xs">
+            GHT
+          </div>
+          <div>
+            <span class="text-sm font-serif font-bold text-white block">Great Himalayan Trail</span>
+            <span class="text-[10px] text-[#d49b42] uppercase tracking-wider">Nepal High Route · MedOnMt 2028</span>
+          </div>
+        </div>
+        <p class="card-prose max-w-sm">
+          A pilgrimage across the spine of the earth. Dedicated to mindful mountain travel, sacred geography, and the preservation of Himalayan mountain ecosystems.
+        </p>
+        <div class="text-[11px] text-[#d49b42] font-serif italic">
+          “Ascend Into Stillness” &middot; Wasatch Range to the Himalayas
+        </div>
+      </div>
+
+      <!-- Navigation Links -->
+      <div>
+        <div class="font-serif font-bold text-white text-xs uppercase tracking-wider mb-3">Navigation</div>
+        <ul class="space-y-2">
+          <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+          <li><a href="#trail-benchmarks" class="hover:text-white transition text-[#d49b42]">Global Trail Benchmarks</a></li>
+          <li><a href="sections.html" class="hover:text-white transition">The 10 Sections</a></li>
+          <li><a href="map.html" class="hover:text-white transition">Interactive Map & Profile</a></li>
+          <li><a href="passes.html" class="hover:text-white transition">Crux Passes Dossier</a></li>
+          <li><a href="expedition.html" class="hover:text-[#d49b42] transition">MedOnMt 2028 Expedition</a></li>
+          <li><a href="aadesh.html" class="hover:text-[#d49b42] transition">Aadesh Neupane (Athlete Profile)</a></li>
+          <li><a href="#appendix" class="text-[#d49b42] hover:underline transition flex items-center gap-1"><span>Field Sources &amp; Appendix</span><span class="text-[10px]">↓</span></a></li>
+        </ul>
+      </div>
+
+      <!-- Sangha & Community -->
+      <div>
+        <div class="font-serif font-bold text-white text-xs uppercase tracking-wider mb-3">Sangha &amp; Resources</div>
+        <ul class="space-y-2">
+          <li><a href="https://medonmt.org" target="_blank" class="hover:text-white transition">MedOnMt Official Website ↗</a></li>
+          <li><a href="https://medonmt.substack.com" target="_blank" class="hover:text-white transition">Substack Dharma Talks ↗</a></li>
+          <li><a href="https://instagram.com/medonmt" target="_blank" class="hover:text-white transition">Instagram @medonmt ↗</a></li>
+          <li><a href="map.html#gpx-export" class="hover:text-white transition">Download Route GPX Track</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="max-w-7xl mx-auto pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px]">
+      <div>
+        &copy; 2026 MedOnMt &middot; Great Himalayan Trail Project &middot; Led by Aadesh Neupane
+      </div>
+      <div class="font-serif italic text-[#8e867a]">
+        ॐ मणि पद्मे हूँ &middot; Om Mani Padme Hum
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/units.js"></script>
+  <script src="js/home.js"></script>
+  <script src="js/interactive-charts.js?v=2026.10"></script>
+</body>
+</html>

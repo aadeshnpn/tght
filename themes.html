@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="hybrid">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>TGHT Theme &amp; Wireframe Explorer &middot; MedOnMt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600;700&family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    /* CSS Variables for Dynamic Live Theming */
+    :root {
+      /* Default: Option A/B Hybrid (Dark Mode: Slate Canvas + Monastery Crimson Cards + Saffron Gold) */
+      --bg-base: #0f1318;
+      --bg-surface: #221418;
+      --bg-surface-elevated: #2f1920;
+      --border-subtle: rgba(220, 160, 56, 0.2);
+      --border-focus: rgba(220, 160, 56, 0.6);
+      --text-main: #fbf5ed;
+      --text-muted: #a89f97;
+      --accent-primary: #dca038;
+      --accent-secondary: #8b263e;
+      --accent-highlight: #f1be6d;
+      --font-heading: 'Playfair Display', serif;
+      --font-body: 'Inter', sans-serif;
+      --card-radius: 1.25rem;
+      --glow-color: rgba(139, 38, 62, 0.25);
+      --banner-overlay: rgba(0, 0, 0, 0.45);
+    }
+
+    /* Option D: Glacial Zen (Clean Alpine Light Mode) */
+    [data-theme="zen"] {
+      --bg-base: #f5f7f9;
+      --bg-surface: #ffffff;
+      --bg-surface-elevated: #f0f3f6;
+      --border-subtle: rgba(0, 0, 0, 0.08);
+      --border-focus: rgba(14, 165, 233, 0.6);
+      --text-main: #182230;
+      --text-muted: #5e6d7e;
+      --accent-primary: #0284c7;
+      --accent-secondary: #059669;
+      --accent-highlight: #0369a1;
+      --font-heading: 'Cinzel', serif;
+      --font-body: 'Inter', sans-serif;
+      --card-radius: 1.25rem;
+      --glow-color: rgba(2, 132, 199, 0.08);
+      --banner-overlay: rgba(0, 0, 0, 0.15);
+    }
+
+    /* Option C: Technical Topo (Swiss Cockpit) */
+    [data-theme="technical"] {
+      --bg-base: #0a0d12;
+      --bg-surface: #121820;
+      --bg-surface-elevated: #1a222e;
+      --border-subtle: rgba(255, 107, 0, 0.25);
+      --border-focus: rgba(255, 107, 0, 0.7);
+      --text-main: #ffffff;
+      --text-muted: #8c96a5;
+      --accent-primary: #ff6b00;
+      --accent-secondary: #10b981;
+      --accent-highlight: #ff8833;
+      --font-heading: 'Space Grotesk', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --card-radius: 0.5rem;
+      --glow-color: rgba(255, 107, 0, 0.2);
+      --banner-overlay: rgba(0, 0, 0, 0.6);
+    }
+
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .theme-heading {
+      font-family: var(--font-heading);
+    }
+
+    .theme-card {
+      background-color: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--card-radius);
+      box-shadow: 0 10px 30px var(--glow-color);
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .theme-card:hover {
+      border-color: var(--border-focus);
+    }
+
+    .theme-btn-primary {
+      background: var(--accent-primary);
+      color: #000000;
+      font-weight: 700;
+      border-radius: 9999px;
+      transition: all 0.2s ease;
+    }
+
+    [data-theme="zen"] .theme-btn-primary {
+      color: #ffffff;
+    }
+
+    [data-theme="technical"] .theme-btn-primary {
+      border-radius: 0.375rem;
+      color: #ffffff;
+    }
+
+    .theme-btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 15px var(--glow-color);
+    }
+
+    .theme-badge {
+      background-color: var(--bg-surface-elevated);
+      color: var(--accent-primary);
+      border: 1px solid var(--border-subtle);
+    }
+
+    /* Tibetan 5-Color Prayer Flag Ribbon */
+    .prayer-ribbon {
+      display: flex;
+      height: 3px;
+      width: 100%;
+      overflow: hidden;
+    }
+    .prayer-blue { background-color: #2563eb; }
+    .prayer-white { background-color: #f8fafc; }
+    .prayer-red { background-color: #dc2626; }
+    .prayer-green { background-color: #16a34a; }
+    .prayer-yellow { background-color: #eab308; }
+  </style>
+</head>
+<body class="min-h-screen p-4 sm:p-8 flex flex-col items-center">
+
+  <!-- Top Fixed Bar with Day/Night Switcher & Quick Navigation -->
+  <header class="w-full max-w-5xl mb-8">
+    <div class="theme-card p-4 sm:p-5 flex flex-col md:flex-row items-center justify-between gap-4 sticky top-4 z-50 backdrop-blur-md">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-[var(--accent-primary)]/20 border border-[var(--accent-primary)]/40 flex items-center justify-center text-lg">
+          🏔️
+        </div>
+        <div>
+          <div class="text-[10px] font-mono uppercase tracking-widest text-[var(--accent-primary)] font-bold">MedOnMt &middot; Great Himalayan Trail</div>
+          <h1 class="text-base sm:text-lg font-bold theme-heading mt-0.5">Theme &amp; Layout Prototype</h1>
+        </div>
+      </div>
+
+      <!-- Theme Controls -->
+      <div class="flex flex-wrap items-center gap-2.5">
+        
+        <!-- Day / Night Toggle -->
+        <button onclick="toggleDayNight()" id="day-night-btn" class="flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-white/20 text-xs font-semibold transition hover:scale-105" style="background: var(--bg-surface-elevated);">
+          <span id="day-night-icon">🌙</span>
+          <span id="day-night-text">Night Mode (Option A/B)</span>
+        </button>
+
+        <!-- View Switcher -->
+        <div class="flex items-center gap-1 bg-black/20 p-1 rounded-xl border border-white/10 text-xs">
+          <button onclick="setTheme('hybrid')" id="btn-hybrid" class="px-2.5 py-1 rounded-lg font-semibold bg-white/20 text-white">
+            A/B Hybrid (Dark)
+          </button>
+          <button onclick="setTheme('zen')" id="btn-zen" class="px-2.5 py-1 rounded-lg font-semibold text-white/60 hover:text-white">
+            Option D (Light)
+          </button>
+          <button onclick="setTheme('technical')" id="btn-technical" class="px-2.5 py-1 rounded-lg font-semibold text-white/60 hover:text-white">
+            Option C (Cockpit)
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Showcase Container -->
+  <main class="w-full max-w-5xl space-y-10">
+
+    <!-- Hero Mockup: Option B Layout with Prayer Flags & Grand Vista -->
+    <div class="theme-card overflow-hidden">
+      <!-- 5-Color Tibetan Prayer Flag Top Ribbon -->
+      <div class="prayer-ribbon">
+        <div class="flex-1 prayer-blue"></div>
+        <div class="flex-1 prayer-white"></div>
+        <div class="flex-1 prayer-red"></div>
+        <div class="flex-1 prayer-green"></div>
+        <div class="flex-1 prayer-yellow"></div>
+      </div>
+
+      <div class="relative p-8 sm:p-14 text-center overflow-hidden">
+        <!-- Background Mountain Atmosphere -->
+        <div class="max-w-3xl mx-auto space-y-4">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono uppercase tracking-wider theme-badge">
+            <span>༄</span> 140-Day Mindful High-Route Pilgrimage &middot; Nepal 2028
+          </div>
+          
+          <h2 class="text-3xl sm:text-5xl font-bold theme-heading leading-tight">
+            The Sacred Pathway &middot; Discover Stillness
+          </h2>
+          
+          <p class="text-sm sm:text-base text-[var(--text-muted)] max-w-2xl mx-auto leading-relaxed">
+            Traversing 1,700 kilometers across the glaciated spine of the Himalayas. Where high-altitude athletic endurance meets ancient contemplative meditation.
+          </p>
+
+          <div class="pt-4 flex flex-wrap justify-center gap-3">
+            <button class="theme-btn-primary px-6 py-3 text-xs sm:text-sm font-bold shadow-lg">
+              Begin The Sacred Journey &rarr;
+            </button>
+            <button class="px-6 py-3 rounded-full text-xs sm:text-sm font-semibold border border-[var(--border-subtle)] hover:border-[var(--border-focus)] transition" style="background: var(--bg-surface-elevated);">
+              Explore 10 Geographic Frontiers
+            </button>
+          </div>
+        </div>
+
+        <!-- Metric Pulse Strip -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10 pt-8 border-t border-[var(--border-subtle)] text-center">
+          <div>
+            <div class="text-2xl font-bold theme-heading text-[var(--accent-primary)]">1,700 km</div>
+            <div class="text-[11px] text-[var(--text-muted)] uppercase tracking-wider font-mono">Total High Route</div>
+          </div>
+          <div>
+            <div class="text-2xl font-bold theme-heading text-[var(--accent-primary)]">+105,000 m</div>
+            <div class="text-[11px] text-[var(--text-muted)] uppercase tracking-wider font-mono">Cumulative Gain</div>
+          </div>
+          <div>
+            <div class="text-2xl font-bold theme-heading text-[var(--accent-primary)]">6,190 m</div>
+            <div class="text-[11px] text-[var(--text-muted)] uppercase tracking-wider font-mono">West Col Apex</div>
+          </div>
+          <div>
+            <div class="text-2xl font-bold theme-heading text-[var(--accent-primary)]">140 Days</div>
+            <div class="text-[11px] text-[var(--text-muted)] uppercase tracking-wider font-mono">Continuous Traverse</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content Structure: The Option B Bento Grid Layout -->
+    <section class="space-y-4">
+      <div class="flex items-center justify-between">
+        <div>
+          <span class="text-xs font-mono uppercase tracking-widest text-[var(--accent-primary)] font-bold">Content Architecture</span>
+          <h3 class="text-2xl font-bold theme-heading">Bento Grid Layout Preview</h3>
+        </div>
+        <span class="text-xs text-[var(--text-muted)] font-mono">Option B Layout System</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        <!-- Card 1: Mountain Pass Profile -->
+        <div class="theme-card overflow-hidden flex flex-col justify-between">
+          <div class="prayer-ribbon">
+            <div class="flex-1 prayer-blue"></div>
+            <div class="flex-1 prayer-white"></div>
+            <div class="flex-1 prayer-red"></div>
+            <div class="flex-1 prayer-green"></div>
+            <div class="flex-1 prayer-yellow"></div>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center justify-between text-xs font-mono text-[var(--accent-primary)] mb-2">
+              <span class="font-bold">01 &middot; TRAIL INSIGHTS</span>
+              <span>Crux Passes</span>
+            </div>
+            <h4 class="text-lg font-bold theme-heading">High Pass Elevation Spectrum</h4>
+            <p class="text-xs text-[var(--text-muted)] mt-1.5 leading-relaxed">
+              Navigating Sherpani Col (6,150m), West Col (6,190m), Amphu Labsta (5,845m), and Thorong La (5,416m).
+            </p>
+            <div class="mt-4 p-3 rounded-xl bg-black/20 border border-[var(--border-subtle)] text-xs font-mono flex items-center justify-between">
+              <span>★ Daily Avg: 4,200m</span>
+              <span class="text-[var(--accent-primary)] font-bold">47% O2</span>
+            </div>
+          </div>
+          <div class="p-4 border-t border-[var(--border-subtle)] text-xs text-[var(--accent-primary)] font-semibold flex items-center justify-between">
+            <span>Explore Technical Passes</span>
+            <span>&rarr;</span>
+          </div>
+        </div>
+
+        <!-- Card 2: Mindfulness & Meditation Quote Card -->
+        <div class="theme-card overflow-hidden flex flex-col justify-between">
+          <div class="prayer-ribbon">
+            <div class="flex-1 prayer-blue"></div>
+            <div class="flex-1 prayer-white"></div>
+            <div class="flex-1 prayer-red"></div>
+            <div class="flex-1 prayer-green"></div>
+            <div class="flex-1 prayer-yellow"></div>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center justify-between text-xs font-mono text-[var(--accent-primary)] mb-2">
+              <span class="font-bold">02 &middot; MINDFULNESS &amp; DHARMA</span>
+              <span>MedOnMt</span>
+            </div>
+            <blockquote class="text-base font-serif italic text-[var(--text-main)] mt-2 leading-snug">
+              “In the stillness of the high mountains, find the unwavering sanctuary within yourself.”
+            </blockquote>
+            <p class="text-xs text-[var(--text-muted)] mt-3 leading-relaxed">
+              Every morning begins with seated breathwork before dawn. Every pass approach becomes a moving meditation (*Kora*).
+            </p>
+          </div>
+          <div class="p-4 border-t border-[var(--border-subtle)] text-xs text-[var(--accent-primary)] font-semibold flex items-center justify-between">
+            <span>Mindfulness Curriculum</span>
+            <span>&rarr;</span>
+          </div>
+        </div>
+
+        <!-- Card 3: Sacred Monasteries & Cultural Heritage -->
+        <div class="theme-card overflow-hidden flex flex-col justify-between">
+          <div class="prayer-ribbon">
+            <div class="flex-1 prayer-blue"></div>
+            <div class="flex-1 prayer-white"></div>
+            <div class="flex-1 prayer-red"></div>
+            <div class="flex-1 prayer-green"></div>
+            <div class="flex-1 prayer-yellow"></div>
+          </div>
+          <div class="p-6">
+            <div class="flex items-center justify-between text-xs font-mono text-[var(--accent-primary)] mb-2">
+              <span class="font-bold">03 &middot; SACRED SITES</span>
+              <span>Beyul Heritage</span>
+            </div>
+            <h4 class="text-lg font-bold theme-heading">Ancient Valleys &amp; Monasteries</h4>
+            <p class="text-xs text-[var(--text-muted)] mt-1.5 leading-relaxed">
+              Walking through holy valleys blessed by Padmasambhava, honoring fair wages with Nepali Sherpa guides, and supporting high-altitude village health.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-1.5 text-[11px] font-mono">
+              <span class="px-2 py-0.5 rounded bg-black/20 border border-[var(--border-subtle)]">Tengboche</span>
+              <span class="px-2 py-0.5 rounded bg-black/20 border border-[var(--border-subtle)]">Lo Manthang</span>
+              <span class="px-2 py-0.5 rounded bg-black/20 border border-[var(--border-subtle)]">Phoksundo</span>
+            </div>
+          </div>
+          <div class="p-4 border-t border-[var(--border-subtle)] text-xs text-[var(--accent-primary)] font-semibold flex items-center justify-between">
+            <span>Community Solidarity</span>
+            <span>&rarr;</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Content Structure Blueprint Selector -->
+    <section class="theme-card p-6 sm:p-8 space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-[var(--border-subtle)] pb-5">
+        <div>
+          <span class="theme-badge px-2.5 py-1 rounded text-xs font-mono font-bold uppercase">Website Content Architecture</span>
+          <h3 class="text-2xl font-bold theme-heading mt-2">Homepage Content Structure Options</h3>
+          <p class="text-xs sm:text-sm text-[var(--text-muted)] mt-1">
+            Compare the 3 architectural flows designed for Option A/B Dark Mode &amp; Option D Light Mode.
+          </p>
+        </div>
+
+        <!-- Structure Switcher Tabs -->
+        <div class="flex flex-wrap gap-2 p-1.5 rounded-xl bg-black/20 border border-[var(--border-subtle)]">
+          <button onclick="showStructure(1)" id="tab-struct-1" class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-white/20 text-white shadow-sm transition">
+            1. Sacred Odyssey (Linear)
+          </button>
+          <button onclick="showStructure(2)" id="tab-struct-2" class="px-3 py-1.5 rounded-lg text-xs font-semibold text-white/60 hover:text-white transition">
+            2. Dual Crucible &amp; Sanctuary
+          </button>
+          <button onclick="showStructure(3)" id="tab-struct-3" class="px-3 py-1.5 rounded-lg text-xs font-semibold text-white/60 hover:text-white transition">
+            3. Expedition Dashboard
+          </button>
+        </div>
+      </div>
+
+      <!-- Structure 1 Details -->
+      <div id="struct-panel-1" class="space-y-6">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+          <div class="lg:col-span-5 space-y-4">
+            <div class="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-[var(--accent-primary)] uppercase">
+              <span>✦ Flow 1: Unified Linear Pilgrimage</span>
+            </div>
+            <h4 class="text-xl sm:text-2xl font-bold theme-heading">The Sacred Alpine Odyssey</h4>
+            <p class="text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed">
+              A cinematic narrative arc guiding the visitor from the sacred valleys to high 6,000m crux cols, and inward into deep mindfulness.
+            </p>
+            <div class="space-y-2 text-xs">
+              <div class="flex items-center gap-2 p-2 rounded-lg bg-black/10 border border-[var(--border-subtle)]">
+                <span class="font-mono text-[var(--accent-primary)] font-bold">01.</span>
+                <span><strong>Atmospheric Hero:</strong> Snow peak panorama + Tibetan prayer flags</span>
+              </div>
+              <div class="flex items-center gap-2 p-2 rounded-lg bg-black/10 border border-[var(--border-subtle)]">
+                <span class="font-mono text-[var(--accent-primary)] font-bold">02.</span>
+                <span><strong>Telemetry Ribbon:</strong> 1,700km · +105,000m · 6,190m · 142 Stages</span>
+              </div>
+              <div class="flex items-center gap-2 p-2 rounded-lg bg-black/10 border border-[var(--border-subtle)]">
+                <span class="font-mono text-[var(--accent-primary)] font-bold">03.</span>
+                <span><strong>Option B Bento:</strong> Passes, Mindfulness, Monasteries, Frontiers, Comparisons</span>
+              </div>
+              <div class="flex items-center gap-2 p-2 rounded-lg bg-black/10 border border-[var(--border-subtle)]">
+                <span class="font-mono text-[var(--accent-primary)] font-bold">04.</span>
+                <span><strong>2027 Crucible:</strong> Rainier, Shasta, Granite Peak, Ice Climbs, Snow50 Ultra</span>
+              </div>
+              <div class="flex items-center gap-2 p-2 rounded-lg bg-black/10 border border-[var(--border-subtle)]">
+                <span class="font-mono text-[var(--accent-primary)] font-bold">05.</span>
+                <span><strong>Expedition Leader Dossier:</strong> Aadesh Neupane athletic &amp; mindfulness resume</span>
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-7">
+            <div class="rounded-xl overflow-hidden border border-white/10 shadow-2xl">
+              <img src="/home/aadeshnpn/.gemini/antigravity/brain/6dc5757b-2a9c-4698-9e13-72561bfeb3f3/content_sacred_odyssey_1790638125535.jpg" alt="Structure 1: Sacred Odyssey" class="w-full h-auto">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Structure 2 Details -->
+      <div id="struct-panel-2" class="space-y-6 hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+          <div class="lg:col-span-5 space-y-4">
+            <div class="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-[var(--accent-primary)] uppercase">
+              <span>✦ Flow 2: Bifurcated Dual-Track Architecture</span>
+            </div>
+            <h4 class="text-xl sm:text-2xl font-bold theme-heading">The Dual Crucible &amp; Sanctuary</h4>
+            <p class="text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed">
+              Expresses MedOnMt's core duality: high-angle technical athletic performance alongside contemplative inner stillness.
+            </p>
+            <div class="space-y-2 text-xs">
+              <div class="p-2.5 rounded-lg bg-black/10 border border-[var(--border-subtle)]">
+                <div class="font-bold text-[var(--accent-primary)]">Track A: The Physical Crucible</div>
+                <div class="text-[var(--text-muted)] mt-0.5">Gear testing, topo GPS waypoints, 6 crux passes, Squawstruck 23P, Snow50 ultra.</div>
+              </div>
+              <div class="p-2.5 rounded-lg bg-black/10 border border-[var(--border-subtle)]">
+                <div class="font-bold text-[var(--accent-primary)]">Track B: The Inner Pilgrimage</div>
+                <div class="text-[var(--text-muted)] mt-0.5">Dharma reflections, high-altitude breathwork, sacred Beyul, Sherpa solidarity.</div>
+              </div>
+              <div class="p-2.5 rounded-lg bg-black/10 border border-[var(--border-subtle)]">
+                <div class="font-bold text-[var(--accent-primary)]">Harmonized Convergence</div>
+                <div class="text-[var(--text-muted)] mt-0.5">Where both paths unite in the 140-day 2028 flagship expedition.</div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-7">
+            <div class="rounded-xl overflow-hidden border border-white/10 shadow-2xl">
+              <img src="/home/aadeshnpn/.gemini/antigravity/brain/6dc5757b-2a9c-4698-9e13-72561bfeb3f3/content_dual_crucible_1790638142524.jpg" alt="Structure 2: Dual Crucible" class="w-full h-auto">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Structure 3 Details -->
+      <div id="struct-panel-3" class="space-y-6 hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+          <div class="lg:col-span-5 space-y-4">
+            <div class="inline-flex items-center gap-1.5 text-xs font-mono font-bold text-[var(--accent-primary)] uppercase">
+              <span>✦ Flow 3: Central Topographic Cockpit</span>
+            </div>
+            <h4 class="text-xl sm:text-2xl font-bold theme-heading">The Living Expedition Dashboard</h4>
+            <p class="text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed">
+              Centers on an interactive living map and elevation cross-section of Nepal, placing operational telemetry, pass topography, and daily mindfulness protocols at the visitor's fingertips.
+            </p>
+            <div class="space-y-2 text-xs">
+              <div class="p-2.5 rounded-lg bg-black/10 border border-[var(--border-subtle)]">
+                <div class="font-bold text-[var(--accent-primary)]">Central Topographic Cross-Section</div>
+                <div class="text-[var(--text-muted)] mt-0.5">Interactive Nepal elevation linework with summit prayer flags at Sherpani Col, West Col, and Thorong La.</div>
+              </div>
+              <div class="p-2.5 rounded-lg bg-black/10 border border-[var(--border-subtle)]">
+                <div class="font-bold text-[var(--accent-primary)]">Modular Bento Telemetry Cards</div>
+                <div class="text-[var(--text-muted)] mt-0.5">Crux pass O2 telemetry, daily mindfulness protocol, 2027 milestone tracker, and global trail comparison.</div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:col-span-7">
+            <div class="rounded-xl overflow-hidden border border-white/10 shadow-2xl">
+              <img src="/home/aadeshnpn/.gemini/antigravity/brain/6dc5757b-2a9c-4698-9e13-72561bfeb3f3/content_expedition_dashboard_1790638341855.jpg" alt="Structure 3: Expedition Dashboard" class="w-full h-auto">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visual Mockup Reference Gallery (All 4 High-Resolution Mockups) -->
+    <section class="theme-card p-6 sm:p-8 space-y-6">
+      <div>
+        <span class="theme-badge px-2.5 py-1 rounded text-xs font-mono font-bold uppercase">AI Visual Design Artifacts</span>
+        <h3 class="text-2xl font-bold theme-heading mt-2">Visual Mockups for Option A/B + Option D</h3>
+        <p class="text-xs sm:text-sm text-[var(--text-muted)] mt-1">
+          Review the high-resolution generated mockups demonstrating the layout and prayer flag system.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div class="space-y-2">
+          <div class="rounded-xl overflow-hidden border border-white/10 shadow-lg">
+            <img src="/home/aadeshnpn/.gemini/antigravity/brain/6dc5757b-2a9c-4698-9e13-72561bfeb3f3/content_sacred_odyssey_1790638125535.jpg" alt="Sacred Odyssey" class="w-full h-auto">
+          </div>
+          <div class="text-xs">
+            <div class="font-bold theme-heading">Structure 1: Sacred Odyssey</div>
+            <div class="text-[var(--text-muted)] text-[11px]">Option A/B Dark &middot; Prayer Flag Hero</div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <div class="rounded-xl overflow-hidden border border-white/10 shadow-lg">
+            <img src="/home/aadeshnpn/.gemini/antigravity/brain/6dc5757b-2a9c-4698-9e13-72561bfeb3f3/content_dual_crucible_1790638142524.jpg" alt="Dual Crucible" class="w-full h-auto">
+          </div>
+          <div class="text-xs">
+            <div class="font-bold theme-heading">Structure 2: Dual Crucible</div>
+            <div class="text-[var(--text-muted)] text-[11px]">Split Telemetry &amp; Pilgrimage Tracks</div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <div class="rounded-xl overflow-hidden border border-white/10 shadow-lg">
+            <img src="/home/aadeshnpn/.gemini/antigravity/brain/6dc5757b-2a9c-4698-9e13-72561bfeb3f3/content_expedition_dashboard_1790638341855.jpg" alt="Expedition Dashboard" class="w-full h-auto">
+          </div>
+          <div class="text-xs">
+            <div class="font-bold theme-heading">Structure 3: Expedition Cockpit</div>
+            <div class="text-[var(--text-muted)] text-[11px]">Center Topographic Cross-Section</div>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <div class="rounded-xl overflow-hidden border border-white/10 shadow-lg">
+            <img src="/home/aadeshnpn/.gemini/antigravity/brain/6dc5757b-2a9c-4698-9e13-72561bfeb3f3/content_light_mode_1790638158298.jpg" alt="Glacial Zen Light Mode" class="w-full h-auto">
+          </div>
+          <div class="text-xs">
+            <div class="font-bold theme-heading">Option D: Alpine Light Mode</div>
+            <div class="text-[var(--text-muted)] text-[11px]">Glacial Zen with Prayer Flag Ribbons</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="mt-16 text-center text-xs text-[var(--text-muted)] pb-12">
+    &copy; 2026 MedOnMt &middot; Great Himalayan Trail Project &middot; Led by Aadesh Neupane
+  </footer>
+
+  <script>
+    let currentTheme = 'hybrid';
+
+    function setTheme(name) {
+      currentTheme = name;
+      document.documentElement.setAttribute('data-theme', name);
+      
+      const isLight = (name === 'zen');
+      document.getElementById('day-night-icon').innerText = isLight ? '☀️' : '🌙';
+      document.getElementById('day-night-text').innerText = isLight ? 'Day Mode (Glacial Zen)' : 'Night Mode (Option A/B)';
+
+      // Update button highlights
+      ['hybrid', 'zen', 'technical'].forEach(t => {
+        const btn = document.getElementById('btn-' + t);
+        if (btn) {
+          if (t === name) {
+            btn.className = 'px-2.5 py-1 rounded-lg font-semibold bg-white/20 text-white shadow-sm';
+          } else {
+            btn.className = 'px-2.5 py-1 rounded-lg font-semibold text-white/60 hover:text-white';
+          }
+        }
+      });
+    }
+
+    function toggleDayNight() {
+      if (currentTheme === 'zen') {
+        setTheme('hybrid');
+      } else {
+        setTheme('zen');
+      }
+    }
+
+    function showStructure(id) {
+      [1, 2, 3].forEach(n => {
+        const panel = document.getElementById('struct-panel-' + n);
+        const tab = document.getElementById('tab-struct-' + n);
+        if (panel && tab) {
+          if (n === id) {
+            panel.classList.remove('hidden');
+            tab.className = 'px-3 py-1.5 rounded-lg text-xs font-semibold bg-white/20 text-white shadow-sm transition';
+          } else {
+            panel.classList.add('hidden');
+            tab.className = 'px-3 py-1.5 rounded-lg text-xs font-semibold text-white/60 hover:text-white transition';
+          }
+        }
+      });
+    }
+  </script>
+</body>
+</html>

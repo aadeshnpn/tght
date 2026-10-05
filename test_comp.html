@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/theme.js"></script>
+</head>
+<body class="cosmic-gradient-bg" data-theme="light">
+<script>
+window.addEventListener('load', () => {
+  
+const b = document.body;
+const comp = window.getComputedStyle(b);
+console.log('BODY BG-COLOR:', comp.backgroundColor);
+console.log('BODY BG-IMAGE:', comp.backgroundImage);
+console.log('HTML DATA-THEME:', document.documentElement.getAttribute('data-theme'));
+console.log('BODY DATA-THEME:', b.getAttribute('data-theme'));
+console.log('BODY COLOR:', comp.color);
+
+});
+</script>
+</body>
+</html>

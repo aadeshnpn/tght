@@ -1,0 +1,302 @@
+[
+  {
+    "id": "wpt-kanchenjunga-bc",
+    "name": "Pangpema (Kanchenjunga North BC)",
+    "type": "basecamp",
+    "elevationM": 5143,
+    "sectionId": 1,
+    "lat": 27.798,
+    "lng": 88.086,
+    "desc": "Northern base camp under the towering North Face of Mt. Kanchenjunga (8,586m)."
+  },
+  {
+    "id": "wpt-olangchung-gola",
+    "name": "Olangchung Gola",
+    "type": "settlement",
+    "elevationM": 3191,
+    "sectionId": 1,
+    "lat": 27.689,
+    "lng": 87.794,
+    "desc": "Ancient Walung Tibetan trading village with a historic 465-year-old Diki Chh倹ing Gompa."
+  },
+  {
+    "id": "wpt-lumbha-sambha",
+    "name": "Lumbha Sambha Pass",
+    "type": "pass",
+    "elevationM": 5159,
+    "sectionId": 1,
+    "lat": 27.742,
+    "lng": 87.568,
+    "desc": "High wilderness pass connecting the Kanchenjunga watershed with the Arun River basin."
+  },
+  {
+    "id": "wpt-makalu-bc",
+    "name": "Makalu Base Camp",
+    "type": "basecamp",
+    "elevationM": 4870,
+    "sectionId": 2,
+    "lat": 27.798,
+    "lng": 87.148,
+    "desc": "Base camp facing the black granite pyramid of Mt. Makalu (8,485m)."
+  },
+  {
+    "id": "wpt-sherpani-col",
+    "name": "Sherpani Col",
+    "type": "crux_pass",
+    "elevationM": 6150,
+    "sectionId": 2,
+    "lat": 27.795,
+    "lng": 87.112,
+    "desc": "First of the Three Cols; 50° glaciated slope requiring fixed lines."
+  },
+  {
+    "id": "wpt-west-col",
+    "name": "West Col",
+    "type": "crux_pass",
+    "elevationM": 6190,
+    "sectionId": 2,
+    "lat": 27.791,
+    "lng": 87.054,
+    "desc": "Highest point on the GHT High Route (6,190m); severe vertical abseil into Hongu Basin."
+  },
+  {
+    "id": "wpt-amphu-labsta",
+    "name": "Amphu Labsta",
+    "type": "crux_pass",
+    "elevationM": 5845,
+    "sectionId": 3,
+    "lat": 27.876,
+    "lng": 86.912,
+    "desc": "Technical ice couloir linking Hongu Basin into Chhukung / Everest region."
+  },
+  {
+    "id": "wpt-everest-bc",
+    "name": "Everest Base Camp & Kala Patthar",
+    "type": "basecamp",
+    "elevationM": 5364,
+    "sectionId": 3,
+    "lat": 28.004,
+    "lng": 86.852,
+    "desc": "Iconic base of Mt. Everest (8,848.86m) and Khumbu Icefall."
+  },
+  {
+    "id": "wpt-cho-la",
+    "name": "Cho La Pass",
+    "type": "pass",
+    "elevationM": 5420,
+    "sectionId": 3,
+    "lat": 27.935,
+    "lng": 86.789,
+    "desc": "Glacier crossing connecting Dzongla to the turquoise Gokyo Lakes."
+  },
+  {
+    "id": "wpt-tashi-laptsa",
+    "name": "Tashi Laptsa Pass",
+    "type": "crux_pass",
+    "elevationM": 5755,
+    "sectionId": 3,
+    "lat": 27.854,
+    "lng": 86.586,
+    "desc": "High glaciated pass linking the Khumbu Sherpa country to the mystic Rolwaling Valley."
+  },
+  {
+    "id": "wpt-kyanjin-gompa",
+    "name": "Kyanjin Gompa",
+    "type": "settlement",
+    "elevationM": 3870,
+    "sectionId": 4,
+    "lat": 28.212,
+    "lng": 85.568,
+    "desc": "Spiritual hub of the Langtang Valley beneath Langtang Lirung, famed for yak cheese."
+  },
+  {
+    "id": "wpt-tilman-pass",
+    "name": "Tilman Pass",
+    "type": "crux_pass",
+    "elevationM": 5308,
+    "sectionId": 4,
+    "lat": 28.214,
+    "lng": 85.642,
+    "desc": "Historic wilderness crossing from Langtang into Panch Pokhari explored by Bill Tilman in 1949."
+  },
+  {
+    "id": "wpt-gosainkunda",
+    "name": "Gosainkunda Holy Lakes",
+    "type": "landmark",
+    "elevationM": 4380,
+    "sectionId": 4,
+    "lat": 28.082,
+    "lng": 85.412,
+    "desc": "Sacred alpine lakes revered by both Hindus and Buddhists."
+  },
+  {
+    "id": "wpt-manaslu-bc",
+    "name": "Manaslu Base Camp",
+    "type": "basecamp",
+    "elevationM": 4400,
+    "sectionId": 5,
+    "lat": 28.582,
+    "lng": 84.673,
+    "desc": "Base of Mt. Manaslu (8,163m), 'Mountain of the Spirit'."
+  },
+  {
+    "id": "wpt-larkya-la",
+    "name": "Larkya La",
+    "type": "pass",
+    "elevationM": 5106,
+    "sectionId": 5,
+    "lat": 28.636,
+    "lng": 84.622,
+    "desc": "Classic high alpine pass overlooking Himlung, Cheo, and Annapurna ranges."
+  },
+  {
+    "id": "wpt-phu-village",
+    "name": "Phu Village",
+    "type": "settlement",
+    "elevationM": 4080,
+    "sectionId": 6,
+    "lat": 28.784,
+    "lng": 84.276,
+    "desc": "Medieval stone fortress village preserved in ancient Tibetan culture."
+  },
+  {
+    "id": "wpt-kang-la",
+    "name": "Kang La",
+    "type": "pass",
+    "elevationM": 5320,
+    "sectionId": 6,
+    "lat": 28.718,
+    "lng": 84.152,
+    "desc": "Panoramic high pass crossing from Naar valley into the upper Manang valley."
+  },
+  {
+    "id": "wpt-thorong-la",
+    "name": "Thorong La",
+    "type": "pass",
+    "elevationM": 5416,
+    "sectionId": 6,
+    "lat": 28.793,
+    "lng": 83.935,
+    "desc": "The broad high pass crossing from Manang into the sacred shrine of Muktinath."
+  },
+  {
+    "id": "wpt-teri-la",
+    "name": "Teri La",
+    "type": "crux_pass",
+    "elevationM": 5595,
+    "sectionId": 7,
+    "lat": 28.874,
+    "lng": 84.238,
+    "desc": "Expedition pass linking Naar-Phu across 6 days of uninhabited wilderness into Upper Mustang."
+  },
+  {
+    "id": "wpt-lo-manthang",
+    "name": "Lo Manthang",
+    "type": "settlement",
+    "elevationM": 3840,
+    "sectionId": 7,
+    "lat": 29.182,
+    "lng": 83.957,
+    "desc": "The walled capital of the ancient Kingdom of Lo, famous for royal palace and 15th-century murals."
+  },
+  {
+    "id": "wpt-sangda-la",
+    "name": "Sangda La / Jungben La",
+    "type": "crux_pass",
+    "elevationM": 5550,
+    "sectionId": 8,
+    "lat": 28.912,
+    "lng": 83.514,
+    "desc": "Demanding pass crossing from Mustang plateau into the isolation of Dolpo."
+  },
+  {
+    "id": "wpt-chharka-bhot",
+    "name": "Chharka Bhot",
+    "type": "settlement",
+    "elevationM": 4302,
+    "sectionId": 8,
+    "lat": 28.956,
+    "lng": 83.421,
+    "desc": "One of the highest permanently inhabited villages on Earth."
+  },
+  {
+    "id": "wpt-shey-gompa",
+    "name": "Shey Gompa",
+    "type": "landmark",
+    "elevationM": 4160,
+    "sectionId": 8,
+    "lat": 29.356,
+    "lng": 82.918,
+    "desc": "11th-century monastery at the foot of Crystal Mountain, spiritual heart of Dolpo."
+  },
+  {
+    "id": "wpt-phoksundo-lake",
+    "name": "Phoksundo Lake (Ringmo)",
+    "type": "landmark",
+    "elevationM": 3611,
+    "sectionId": 8,
+    "lat": 29.206,
+    "lng": 82.946,
+    "desc": "Deep, jewel-like turquoise alpine lake without aquatic life, surrounded by pine forests."
+  },
+  {
+    "id": "wpt-kagmara-la",
+    "name": "Kagmara La",
+    "type": "pass",
+    "elevationM": 5115,
+    "sectionId": 9,
+    "lat": 29.112,
+    "lng": 82.521,
+    "desc": "High divide between Dolpo's Phoksundo basin and Jumla's Khas country."
+  },
+  {
+    "id": "wpt-jumla",
+    "name": "Jumla",
+    "type": "settlement",
+    "elevationM": 2514,
+    "sectionId": 9,
+    "lat": 29.274,
+    "lng": 82.184,
+    "desc": "Major district headquarters, apple-growing valley, and resupply airstrip in western Nepal."
+  },
+  {
+    "id": "wpt-rara-lake",
+    "name": "Rara Lake",
+    "type": "landmark",
+    "elevationM": 2990,
+    "sectionId": 9,
+    "lat": 29.533,
+    "lng": 82.083,
+    "desc": "Nepal's largest freshwater lake, surrounded by blue pine and rhododendron national park."
+  },
+  {
+    "id": "wpt-simikot",
+    "name": "Simikot",
+    "type": "settlement",
+    "elevationM": 2950,
+    "sectionId": 10,
+    "lat": 29.971,
+    "lng": 81.828,
+    "desc": "Cliffside capital of Humla and primary gateway for Mount Kailash pilgrimages."
+  },
+  {
+    "id": "wpt-nara-la",
+    "name": "Nara La",
+    "type": "pass",
+    "elevationM": 4580,
+    "sectionId": 10,
+    "lat": 30.158,
+    "lng": 81.632,
+    "desc": "Arid windswept pass dropping down to the Karnali gorge and Hilsa border."
+  },
+  {
+    "id": "wpt-hilsa",
+    "name": "Hilsa (Nepal-Tibet Border)",
+    "type": "settlement",
+    "elevationM": 3720,
+    "sectionId": 10,
+    "lat": 30.165,
+    "lng": 81.595,
+    "desc": "The extreme north-western terminus of the Nepal GHT High Route on the Karnali River."
+  }
+]
