@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>The Sanctuary • MedOnMt Meditation Center Vision</title>
+  <meta name="description" content="The 2028 Great Himalayan Trail pilgrimage exists to raise a permanent meditation sanctuary. MedOnMt is a registered US nonprofit. Become a Founding Patron.">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="js/theme.js?v=2026.2"></script>
+  <link rel="stylesheet" href="css/styles.css?v=2026.7">
+</head>
+<body class="min-h-full flex flex-col cosmic-gradient-bg text-[#f5f2eb] antialiased selection:bg-[#d49b42] selection:text-[#080c14]">
+
+  <header class="sticky top-0 z-50 bg-[#080c14]/90 backdrop-blur-xl border-b border-white/10 px-4 sm:px-6 lg:px-8 py-3 transition-all">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4 flex-nowrap">
+      <a href="index.html" class="flex items-center space-x-3 shrink-0 group">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-[#d49b42] via-[#b85c3c] to-[#6090d4] flex items-center justify-center shadow-lg font-display font-black text-black text-xs tracking-widest group-hover:scale-105 transition shrink-0">
+          GHT
+        </div>
+        <div class="leading-tight">
+          <div class="flex items-center gap-2">
+            <span class="text-sm font-serif font-bold tracking-wide text-white group-hover:text-[#d49b42] transition whitespace-nowrap">MedOnMt</span>
+            <span class="hidden md:inline-block text-[9px] font-bold px-1.5 py-0.5 rounded bg-[#d49b42]/15 text-[#f1be6d] border border-[#d49b42]/30 uppercase tracking-wider whitespace-nowrap">
+              Sanctuary
+            </span>
+          </div>
+          <span class="text-[10px] text-[#8e867a] font-medium hidden sm:block whitespace-nowrap">Meditation Center Vision</span>
+        </div>
+      </a>
+
+      <nav class="hidden xl:flex items-center gap-1 text-xs font-semibold tracking-wide shrink-0">
+        <a href="index.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">Home</a>
+        <a href="sanctuary.html" class="inline-flex items-center h-8 px-3 rounded-lg bg-white/10 text-[#d49b42] font-bold border border-[#d49b42]/30 shadow-sm">Sanctuary</a>
+        <a href="sections.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">10 Sections</a>
+        <a href="map.html" class="inline-flex items-center gap-1.5 h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">
+          <span>Live Map</span>
+          <span class="text-[9px] px-1.5 py-0.5 rounded bg-sky-950/80 text-[#8cb5f2] border border-sky-800/60 uppercase">Topo</span>
+        </a>
+        <a href="passes.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">Crux Passes</a>
+        <a href="expedition.html" class="inline-flex items-center gap-1.5 h-8 px-3 rounded-lg text-[#f1be6d] hover:text-white hover:bg-white/5 transition">
+          <span>MedOnMt 2028</span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#d49b42]"></span>
+        </a>
+        <a href="aadesh.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">Aadesh</a>
+      </nav>
+
+      <div class="flex items-center space-x-2 sm:space-x-2.5 shrink-0">
+        <div class="shrink-0 tght-theme-toggle-target"></div>
+        <div class="hidden sm:block shrink-0 tght-unit-switcher-target"></div>
+        <a href="#invitation" class="hidden md:inline-flex items-center h-8 btn-primary-med text-xs py-0 px-3.5 shrink-0">
+          Founding Patrons
+        </a>
+        <button id="mobile-menu-btn" class="xl:hidden p-2 h-8 w-8 rounded-lg bg-white/5 border border-white/10 text-[#d1c7b7] hover:text-white flex items-center justify-center shrink-0" aria-label="Toggle navigation menu">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden xl:hidden pt-4 pb-3 border-t border-white/10 mt-3 space-y-1.5 text-sm font-semibold">
+      <div class="flex items-center justify-between pb-3 border-b border-white/10 mb-2">
+        <span class="text-xs text-[#8e867a]">Display Theme:</span>
+        <div class="tght-theme-toggle-target"></div>
+      </div>
+      <div class="flex items-center justify-between pb-3 border-b border-white/10 mb-2">
+        <span class="text-xs text-[#8e867a]">Measurement Units:</span>
+        <div class="tght-unit-switcher-target"></div>
+      </div>
+      <a href="index.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">Home</a>
+      <a href="sanctuary.html" class="flex items-center justify-between px-3.5 py-2.5 rounded-lg bg-white/10 text-[#d49b42] font-bold">
+        <span>The Sanctuary</span>
+        <span class="text-xs text-[#d49b42]">●</span>
+      </a>
+      <a href="sections.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">10 Geographic Sections</a>
+      <a href="map.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">Interactive Map</a>
+      <a href="passes.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">Crux Passes</a>
+      <a href="expedition.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#f1be6d] transition">MedOnMt 2028 Expedition</a>
+      <a href="aadesh.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">Aadesh</a>
+      <a href="partners.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#8e867a] transition">Expedition Partners</a>
+    </div>
+  </header>
+
+  <div class="prayer-ribbon">
+    <div class="flex-1 prayer-blue"></div>
+    <div class="flex-1 prayer-white"></div>
+    <div class="flex-1 prayer-red"></div>
+    <div class="flex-1 prayer-green"></div>
+    <div class="flex-1 prayer-yellow"></div>
+  </div>
+
+  <div class="w-full overflow-hidden leading-none pointer-events-none -mb-1 opacity-25">
+    <svg viewBox="0 0 1440 240" fill="none" preserveAspectRatio="none" class="w-full h-20 sm:h-28">
+      <path d="M0 240L140 140L300 200L450 90L600 170L740 60L880 160L1020 40L1160 140L1300 80L1440 160V240H0Z" fill="rgba(212,155,66,0.15)"/>
+      <path d="M0 240L180 180L360 220L520 130L680 190L840 90L980 170L1140 70L1300 150L1440 110V240H0Z" fill="rgba(78,145,102,0.12)"/>
+    </svg>
+  </div>
+
+  <!-- 1. Hero: Sacred Mission -->
+  <section class="relative pt-10 pb-16 md:pt-16 md:pb-24 overflow-hidden">
+    <div class="max-w-3xl mx-auto px-4 text-center relative z-10">
+      <span class="t-eyebrow mb-3">MedOnMt · The Heart of the Pilgrimage</span>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight leading-tight mt-2">
+        A Permanent Meditation Sanctuary
+      </h1>
+      <p class="mt-6 narrative-prose text-base sm:text-lg">
+        In Spring 2028, Aadesh Neupane will walk the Great Himalayan Trail High Route alone—not as a feat to watch, but as a pilgrimage to help raise a lasting place of stillness. The trail is the means. The sanctuary is the aim.
+      </p>
+      <p class="mt-4 narrative-prose">
+        MedOnMt (Meditate On Mountain) is a registered US nonprofit. This site does not yet accept online gifts. For now, we invite you to join the circle of Founding Patrons and follow the field dispatches.
+      </p>
+      <div class="mt-8 flex flex-wrap items-center justify-center gap-3">
+        <a href="#invitation" class="btn-primary-med text-xs py-2.5 px-5">Become a Founding Patron</a>
+        <a href="https://medonmt.substack.com" target="_blank" rel="noopener noreferrer" class="btn-outline-med text-xs py-2.5 px-5">Read Field Dispatches ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. How the walk serves the sanctuary -->
+  <section class="py-16 border-t border-white/10">
+    <div class="max-w-4xl mx-auto px-4">
+      <span class="t-eyebrow">Why the Trail</span>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white tracking-tight mt-2">
+        The Walk That Builds the Place
+      </h2>
+      <p class="mt-4 narrative-prose">
+        Every kilometer of the Nepal High Route is offered in service of a permanent meditation sanctuary—a physical refuge rooted in Himalayan and Theravada wisdom, where people can practice silence, attention, and care for one another long after the expedition ends.
+      </p>
+      <p class="mt-3 narrative-prose">
+        Gear and logistics partners (our <a href="partners.html" class="text-[#d49b42] hover:underline">Expedition Partners</a>) are welcome to cover the costs of the walk itself, so that gifts intended for the sanctuary can go toward the sanctuary. That promise is the spine of this page.
+      </p>
+      <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="bento-card p-5">
+          <div class="bento-accent-tl bento-accent-tl--gold"></div>
+          <h3 class="font-serif font-bold text-white text-base">Patrons</h3>
+          <p class="card-prose mt-2">Friends and donors who fund the sanctuary vision—the lasting place of practice.</p>
+        </div>
+        <div class="bento-card p-5">
+          <div class="bento-accent-tl bento-accent-tl--sky"></div>
+          <h3 class="font-serif font-bold text-white text-base">Expedition Partners</h3>
+          <p class="card-prose mt-2">Brands and allies who cover gear, communications, and logistics for the pilgrimage.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. What is still being discerned (placeholders) -->
+  <section class="py-16 border-t border-white/10">
+    <div class="max-w-4xl mx-auto px-4">
+      <span class="t-eyebrow">Vision in Formation</span>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white tracking-tight mt-2">
+        What Is Still Being Discerned
+      </h2>
+      <p class="mt-3 narrative-prose">
+        We will not invent details that are not yet decided. The following remain open and will be filled as MedOnMt clarifies them:
+      </p>
+      <ul class="mt-6 space-y-3">
+        <li class="bento-card p-4 flex gap-3 items-start">
+          <span class="text-[10px] font-mono uppercase tracking-wider text-[#f1be6d] shrink-0 mt-0.5">[Owner]</span>
+          <div>
+            <div class="font-serif font-bold text-white text-sm">Name of the sanctuary</div>
+            <p class="card-prose mt-1">Working title, formal name, or still unnamed.</p>
+          </div>
+        </li>
+        <li class="bento-card p-4 flex gap-3 items-start">
+          <span class="text-[10px] font-mono uppercase tracking-wider text-[#f1be6d] shrink-0 mt-0.5">[Owner]</span>
+          <div>
+            <div class="font-serif font-bold text-white text-sm">Location</div>
+            <p class="card-prose mt-1">Region, country, or “location to be announced.”</p>
+          </div>
+        </li>
+        <li class="bento-card p-4 flex gap-3 items-start">
+          <span class="text-[10px] font-mono uppercase tracking-wider text-[#f1be6d] shrink-0 mt-0.5">[Owner]</span>
+          <div>
+            <div class="font-serif font-bold text-white text-sm">Who it serves</div>
+            <p class="card-prose mt-1">Retreatants, local community, monastics, lay practitioners—or a mix still forming.</p>
+          </div>
+        </li>
+        <li class="bento-card p-4 flex gap-3 items-start">
+          <span class="text-[10px] font-mono uppercase tracking-wider text-[#f1be6d] shrink-0 mt-0.5">[Owner]</span>
+          <div>
+            <div class="font-serif font-bold text-white text-sm">Scale &amp; lineage</div>
+            <p class="card-prose mt-1">Size of the vision; Theravada, broader Himalayan lineage, or not yet decided.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 4. Transparency -->
+  <section id="transparency" class="py-16 border-t border-white/10 scroll-mt-24">
+    <div class="max-w-4xl mx-auto px-4">
+      <span class="t-eyebrow">Clarity of Purpose</span>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white tracking-tight mt-2">
+        What Sponsors Cover · What Donations Build
+      </h2>
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bento-card p-6 border-[#6090d4]/30">
+          <div class="bento-accent-tl bento-accent-tl--sky"></div>
+          <h3 class="font-serif font-bold text-white text-lg">Expedition Partners cover</h3>
+          <ul class="mt-4 space-y-2 card-prose">
+            <li>Technical gear and apparel for the walk</li>
+            <li>Satellite communications and safety equipment</li>
+            <li>Trail logistics and expedition operating costs</li>
+          </ul>
+          <a href="partners.html" class="inline-block mt-5 text-xs font-bold text-[#8cb5f2] hover:text-white transition">Partner inquiries →</a>
+        </div>
+        <div class="bento-card p-6 border-[#d49b42]/30">
+          <div class="bento-accent-tl bento-accent-tl--gold"></div>
+          <h3 class="font-serif font-bold text-white text-lg">Patron gifts build</h3>
+          <ul class="mt-4 space-y-2 card-prose">
+            <li>The meditation sanctuary itself</li>
+            <li>The lasting place of practice and refuge</li>
+            <li class="text-[#f1be6d]"><span class="font-mono text-[10px] uppercase">[Owner]</span> Exact allocation (e.g. “100% of gifts reserved for the sanctuary”) pending confirmation</li>
+          </ul>
+        </div>
+      </div>
+      <p class="mt-6 text-xs text-[#8e867a] leading-relaxed max-w-2xl">
+        MedOnMt is a registered US nonprofit. Contributions may be tax-deductible to the extent allowed by law. This page does not solicit or process payments; formal giving will open when MedOnMt is ready.
+      </p>
+    </div>
+  </section>
+
+  <!-- 5. Invitation -->
+  <section id="invitation" class="py-16 border-t border-white/10 scroll-mt-24">
+    <div class="max-w-3xl mx-auto px-4">
+      <div class="bento-card p-8 md:p-12 text-center border-[#d49b42]/30">
+        <div class="bento-accent-tl bento-accent-tl--gold"></div>
+        <span class="t-eyebrow">The Invitation</span>
+        <h2 class="text-2xl sm:text-3xl font-serif font-bold text-white mt-1">Two Paths Forward</h2>
+        <p class="mt-3 card-prose max-w-lg mx-auto">
+          Soft doors only—for now. No donate button. No payment form. Just a hand extended.
+        </p>
+        <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 text-left">
+          <div class="p-5 rounded-xl bg-black/40 border border-white/10">
+            <h3 class="font-serif font-bold text-white text-base">Become a Founding Patron</h3>
+            <p class="card-prose mt-2">Get in touch to join the early circle supporting the sanctuary. We will share next steps as the vision clarifies.</p>
+            <a href="mailto:aadesh@medonmt.org?subject=Founding%20Patron%20—%20MedOnMt%20Sanctuary" class="btn-primary-med text-xs py-2 px-4 mt-4 inline-block">
+              Get in Touch
+            </a>
+          </div>
+          <div class="p-5 rounded-xl bg-black/40 border border-white/10">
+            <h3 class="font-serif font-bold text-white text-base">Read the Field Dispatches</h3>
+            <p class="card-prose mt-2">Follow the pilgrimage in longform essays on mindfulness, the trail, and the sanctuary’s unfolding.</p>
+            <a href="https://medonmt.substack.com" target="_blank" rel="noopener noreferrer" class="btn-outline-med text-xs py-2 px-4 mt-4 inline-block">
+              Substack ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Future: per-km / per-pass -->
+  <section class="py-16 border-t border-white/10">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <span class="t-eyebrow">Looking Ahead</span>
+      <h2 class="text-2xl sm:text-3xl font-serif font-bold text-white mt-1">In Time</h2>
+      <p class="mt-3 narrative-prose mx-auto">
+        We may later invite per-kilometer or per-pass pledges tied to the High Route—so a day’s walk or a named col can carry a gift toward the sanctuary. That is a future idea, not an offer yet.
+      </p>
+    </div>
+  </section>
+
+  <div class="prayer-ribbon prayer-ribbon-lg">
+    <div class="flex-1 prayer-blue"></div>
+    <div class="flex-1 prayer-white"></div>
+    <div class="flex-1 prayer-red"></div>
+    <div class="flex-1 prayer-green"></div>
+    <div class="flex-1 prayer-yellow"></div>
+  </div>
+
+  <footer class="mt-auto bg-[#05080e] border-t border-white/10 pt-12 pb-10 px-4 text-xs text-[#8e867a]">
+    <div class="max-w-7xl mx-auto flex flex-col gap-6">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div>&copy; 2026 MedOnMt &middot; Great Himalayan Trail Project &middot; Led by Aadesh Neupane</div>
+        <div class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
+          <a href="index.html" class="hover:text-white transition">Home</a>
+          <a href="sanctuary.html" class="text-[#d49b42]">Sanctuary</a>
+          <a href="expedition.html" class="hover:text-white transition">Expedition 2028</a>
+          <a href="aadesh.html" class="hover:text-white transition">Aadesh</a>
+          <a href="partners.html" class="hover:text-white transition">Expedition Partners</a>
+          <a href="index.html#appendix" class="hover:text-white transition">Sources</a>
+        </div>
+      </div>
+      <div class="text-center sm:text-left text-[11px] text-[#8e867a]/80">
+        Also: <a href="https://medonmt.substack.com" target="_blank" rel="noopener noreferrer" class="hover:text-white">Substack</a>
+        · <a href="https://www.strava.com/athletes/40837261" target="_blank" rel="noopener noreferrer" class="hover:text-white">Strava</a>
+        · <a href="https://instagram.com/medonmt" target="_blank" rel="noopener noreferrer" class="hover:text-white">Instagram</a>
+        · <a href="https://medonmt.org" target="_blank" rel="noopener noreferrer" class="hover:text-white">MedOnMt.org</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/units.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn = document.getElementById('mobile-menu-btn');
+      const menu = document.getElementById('mobile-menu');
+      if (btn && menu) {
+        btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+      }
+    });
+  </script>
+</body>
+</html>

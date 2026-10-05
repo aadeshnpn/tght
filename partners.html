@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>Expedition Partners • MedOnMt GHT 2028</title>
+  <meta name="description" content="Gear, communications, and logistics partners who enable the 2028 GHT pilgrimage so patron gifts can build MedOnMt’s meditation sanctuary.">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="js/theme.js?v=2026.2"></script>
+  <link rel="stylesheet" href="css/styles.css?v=2026.7">
+</head>
+<body class="min-h-full flex flex-col cosmic-gradient-bg text-[#f5f2eb] antialiased selection:bg-[#d49b42] selection:text-[#080c14]">
+
+  <header class="sticky top-0 z-50 bg-[#080c14]/90 backdrop-blur-xl border-b border-white/10 px-4 sm:px-6 lg:px-8 py-3 transition-all">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4 flex-nowrap">
+      <a href="index.html" class="flex items-center space-x-3 shrink-0 group">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-[#d49b42] via-[#b85c3c] to-[#6090d4] flex items-center justify-center shadow-lg font-display font-black text-black text-xs tracking-widest group-hover:scale-105 transition shrink-0">
+          GHT
+        </div>
+        <div class="leading-tight">
+          <div class="flex items-center gap-2">
+            <span class="text-sm font-serif font-bold tracking-wide text-white group-hover:text-[#d49b42] transition whitespace-nowrap">MedOnMt</span>
+            <span class="hidden md:inline-block text-[9px] font-bold px-1.5 py-0.5 rounded bg-white/10 text-[#d1c7b7] border border-white/15 uppercase tracking-wider whitespace-nowrap">
+              Partners
+            </span>
+          </div>
+          <span class="text-[10px] text-[#8e867a] font-medium hidden sm:block whitespace-nowrap">Enabling the Pilgrimage</span>
+        </div>
+      </a>
+
+      <nav class="hidden xl:flex items-center gap-1 text-xs font-semibold tracking-wide shrink-0">
+        <a href="index.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">Home</a>
+        <a href="sanctuary.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">Sanctuary</a>
+        <a href="sections.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">10 Sections</a>
+        <a href="map.html" class="inline-flex items-center gap-1.5 h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">
+          <span>Live Map</span>
+          <span class="text-[9px] px-1.5 py-0.5 rounded bg-sky-950/80 text-[#8cb5f2] border border-sky-800/60 uppercase">Topo</span>
+        </a>
+        <a href="passes.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">Crux Passes</a>
+        <a href="expedition.html" class="inline-flex items-center gap-1.5 h-8 px-3 rounded-lg text-[#f1be6d] hover:text-white hover:bg-white/5 transition">
+          <span>MedOnMt 2028</span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#d49b42]"></span>
+        </a>
+        <a href="aadesh.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">Aadesh</a>
+      </nav>
+
+      <div class="flex items-center space-x-2 sm:space-x-2.5 shrink-0">
+        <div class="shrink-0 tght-theme-toggle-target"></div>
+        <div class="hidden sm:block shrink-0 tght-unit-switcher-target"></div>
+        <a href="#inquire" class="hidden md:inline-flex items-center h-8 btn-outline-med text-xs py-0 px-3.5 shrink-0">
+          Inquire
+        </a>
+        <button id="mobile-menu-btn" class="xl:hidden p-2 h-8 w-8 rounded-lg bg-white/5 border border-white/10 text-[#d1c7b7] hover:text-white flex items-center justify-center shrink-0" aria-label="Toggle navigation menu">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden xl:hidden pt-4 pb-3 border-t border-white/10 mt-3 space-y-1.5 text-sm font-semibold">
+      <div class="flex items-center justify-between pb-3 border-b border-white/10 mb-2">
+        <span class="text-xs text-[#8e867a]">Display Theme:</span>
+        <div class="tght-theme-toggle-target"></div>
+      </div>
+      <div class="flex items-center justify-between pb-3 border-b border-white/10 mb-2">
+        <span class="text-xs text-[#8e867a]">Measurement Units:</span>
+        <div class="tght-unit-switcher-target"></div>
+      </div>
+      <a href="index.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">Home</a>
+      <a href="sanctuary.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">The Sanctuary</a>
+      <a href="sections.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">10 Geographic Sections</a>
+      <a href="map.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">Interactive Map</a>
+      <a href="passes.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">Crux Passes</a>
+      <a href="expedition.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#f1be6d] transition">MedOnMt 2028 Expedition</a>
+      <a href="aadesh.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">Aadesh</a>
+      <a href="partners.html" class="flex items-center justify-between px-3.5 py-2.5 rounded-lg bg-white/10 text-[#d1c7b7] font-bold">
+        <span>Expedition Partners</span>
+        <span class="text-xs text-[#d49b42]">●</span>
+      </a>
+    </div>
+  </header>
+
+  <div class="prayer-ribbon">
+    <div class="flex-1 prayer-blue"></div>
+    <div class="flex-1 prayer-white"></div>
+    <div class="flex-1 prayer-red"></div>
+    <div class="flex-1 prayer-green"></div>
+    <div class="flex-1 prayer-yellow"></div>
+  </div>
+
+  <!-- Hero -->
+  <section class="relative pt-10 pb-14 md:pt-14 md:pb-20 overflow-hidden">
+    <div class="max-w-3xl mx-auto px-4 text-center relative z-10">
+      <span class="t-eyebrow mb-3">Discreet Partnership Page</span>
+      <h1 class="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight leading-tight mt-2">
+        Expedition Partners
+      </h1>
+      <p class="mt-5 narrative-prose">
+        Brands and allies who cover gear, communications, and logistics for the 2028 Great Himalayan Trail pilgrimage—so that gifts from patrons can build MedOnMt’s meditation sanctuary.
+      </p>
+      <p class="mt-3 narrative-prose text-sm">
+        This page is for expedition support, not naming rights on the story. There are no logos in the site hero or pilgrimage narrative. Recognition is modest and offered with gratitude.
+      </p>
+    </div>
+  </section>
+
+  <!-- Transparency mirror -->
+  <section class="py-12 border-t border-white/10">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-serif font-bold text-white">What Partners Cover</h2>
+      <p class="mt-2 narrative-prose">
+        The same clarity we publish for patrons: partners enable the walk; patrons build the place. See the full note on the <a href="sanctuary.html#transparency" class="text-[#d49b42] hover:underline">Sanctuary transparency section</a>.
+      </p>
+      <ul class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
+        <li class="bento-card p-4"><span class="font-serif font-bold text-white">Gear &amp; apparel</span><p class="card-prose mt-1">Shelter, footwear, shells, hardware for high cols.</p></li>
+        <li class="bento-card p-4"><span class="font-serif font-bold text-white">Communications</span><p class="card-prose mt-1">Satellite messaging and safety hardware for remote sectors.</p></li>
+        <li class="bento-card p-4"><span class="font-serif font-bold text-white">Logistics</span><p class="card-prose mt-1">Permits, resupply, travel, and expedition operating costs.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Ways to help -->
+  <section class="py-12 border-t border-white/10">
+    <div class="max-w-4xl mx-auto px-4">
+      <span class="t-eyebrow">Ways to Help</span>
+      <h2 class="text-3xl font-serif font-bold text-white mt-1">In-Kind Support &amp; Shared Intentions</h2>
+      <div class="mt-8 space-y-4">
+        <div class="bento-card p-5">
+          <h3 class="font-serif font-bold text-white text-base">In-kind gear &amp; field notes</h3>
+          <p class="card-prose mt-2">
+            Equip the pilgrimage for 2027 preparation objectives and the 2028 High Route. Field notes from the trail may be shared as secondary material—not as a sponsorship cockpit on the public story pages.
+          </p>
+        </div>
+        <div class="bento-card p-5">
+          <h3 class="font-serif font-bold text-white text-base">Brand donation matching <span class="text-[10px] font-mono text-[#f1be6d] uppercase ml-1">[Owner: intention]</span></h3>
+          <p class="card-prose mt-2">
+            Where a brand matches patron gifts toward the sanctuary, that matching is welcomed as an act that multiplies the pilgrimage’s purpose. Details pending confirmation.
+          </p>
+        </div>
+        <div class="bento-card p-5">
+          <h3 class="font-serif font-bold text-white text-base">Post-expedition gear auction <span class="text-[10px] font-mono text-[#f1be6d] uppercase ml-1">[Owner: intention]</span></h3>
+          <p class="card-prose mt-2">
+            Trail-used equipment may later be offered at auction, with proceeds directed to the sanctuary. Listed here as an intention, not a current sale.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gratitude recognition -->
+  <section class="py-12 border-t border-white/10">
+    <div class="max-w-4xl mx-auto px-4">
+      <span class="t-eyebrow">With Gratitude</span>
+      <h2 class="text-3xl font-serif font-bold text-white mt-1">Modest Recognition</h2>
+      <p class="mt-3 narrative-prose">
+        Partners who enable the walk may be thanked by name in a quiet list on this page and, when appropriate, mentioned in field dispatches. We do not place brand logos on the home hero, the sanctuary story, or the pilgrimage narrative.
+      </p>
+      <div class="mt-6 p-5 rounded-xl bg-black/30 border border-white/10 border-dashed">
+        <p class="text-xs text-[#8e867a] font-mono uppercase tracking-wider">Partner gratitude list — empty until first confirmed partners</p>
+        <p class="card-prose mt-2">Names will appear here with consent. Anonymous support is welcome.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Preparation context (secondary) -->
+  <section class="py-12 border-t border-white/10">
+    <div class="max-w-4xl mx-auto px-4">
+      <span class="t-eyebrow">Context</span>
+      <h2 class="text-2xl font-serif font-bold text-white mt-1">2027 Preparation Objectives</h2>
+      <p class="mt-2 narrative-prose">
+        Before Nepal, Aadesh will climb and walk a set of American alpine objectives (Shasta, Rainier, Granite Peak, Stairway to Heaven, Mjölnir) as preparation for a safe solo High Route. Partners who equip those days help ready the pilgrimage—not a brand showcase.
+      </p>
+      <p class="mt-3 text-xs text-[#8e867a]">
+        Movement record for those who want it: <a href="https://www.strava.com/athletes/40837261" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:underline">Strava</a>. Contemplative dispatches: <a href="https://medonmt.substack.com" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:underline">Substack</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Inquire -->
+  <section id="inquire" class="py-16 border-t border-white/10 scroll-mt-24">
+    <div class="max-w-xl mx-auto px-4 text-center">
+      <div class="bento-card p-8 border-white/15">
+        <h2 class="text-2xl font-serif font-bold text-white">Partner Inquiry</h2>
+        <p class="mt-3 card-prose">
+          If your brand can help cover the walk so the sanctuary can be funded by gifts, write directly. No deck download on this page yet.
+        </p>
+        <a href="mailto:aadesh@medonmt.org?subject=Expedition%20Partner%20Inquiry%20—%20MedOnMt%20GHT%202028" class="btn-primary-med text-xs py-2.5 px-5 mt-6 inline-block">
+          Email aadesh@medonmt.org
+        </a>
+        <p class="mt-4 text-[11px] text-[#8e867a]">
+          Patrons looking to support the sanctuary: please visit <a href="sanctuary.html#invitation" class="text-[#d49b42] hover:underline">The Sanctuary</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="prayer-ribbon">
+    <div class="flex-1 prayer-blue"></div>
+    <div class="flex-1 prayer-white"></div>
+    <div class="flex-1 prayer-red"></div>
+    <div class="flex-1 prayer-green"></div>
+    <div class="flex-1 prayer-yellow"></div>
+  </div>
+
+  <footer class="mt-auto bg-[#05080e] border-t border-white/10 pt-12 pb-10 px-4 text-xs text-[#8e867a]">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>&copy; 2026 MedOnMt &middot; Great Himalayan Trail Project</div>
+      <div class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
+        <a href="index.html" class="hover:text-white transition">Home</a>
+        <a href="sanctuary.html" class="hover:text-white transition">Sanctuary</a>
+        <a href="expedition.html" class="hover:text-white transition">Expedition 2028</a>
+        <a href="aadesh.html" class="hover:text-white transition">Aadesh</a>
+        <a href="partners.html" class="text-[#d49b42]">Expedition Partners</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/units.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn = document.getElementById('mobile-menu-btn');
+      const menu = document.getElementById('mobile-menu');
+      if (btn && menu) {
+        btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+      }
+    });
+  </script>
+</body>
+</html>

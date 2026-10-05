@@ -1,5 +1,7 @@
 # Aadesh Neupane · Athlete Dossier & Mountaineering Portfolio
 
+> **Note (Oct 2026):** The public site story now leads with the meditation sanctuary pilgrimage (`sanctuary.html`, rewritten `aadesh.html`). The four commercial sponsorship tiers and “Partner ROI” prospectus below are **historical / internal** and are **not** the current public partner framing—see `partners.html` instead.
+
 **High-Altitude Endurance Athlete | Founder, MedOnMt | Machine Learning Researcher**  
 *Base: Salt Lake City & Bluffdale, Utah | Origins: Kathmandu, Nepal*  
 *Flagship Expedition: The Great Himalayan Trail (GHT) High Route Spring 2028 (1,700 km · +105,000m ascent)*
@@ -201,5 +203,5 @@ For the 2027 American Crucible preparation series and the 2028 Great Himalayan T
 - **Cinematic Documentary & Narrative Integration**: Co-produced branded video reels and episodic features.
 - **Mindful High-Performance Masterclasses**: Executive corporate workshops translating mountain mindfulness and risk endurance.
 
-**Direct Inquiries**: [aadesh@medonmt.org](mailto:aadesh@medonmt.org) · [aadesh.html#sponsorship](http://localhost:3000/aadesh.html#sponsorship)
+**Direct Inquiries**: [aadesh@medonmt.org](mailto:aadesh@medonmt.org) · Public partner page: [partners.html](partners.html) · Sanctuary: [sanctuary.html](sanctuary.html)
 
