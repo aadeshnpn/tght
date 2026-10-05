@@ -4,7 +4,7 @@
 
 **High-Altitude Endurance Athlete | Founder, MedOnMt | Machine Learning Researcher**  
 *Base: Salt Lake City & Bluffdale, Utah | Origins: Kathmandu, Nepal*  
-*Flagship Expedition: The Great Himalayan Trail (GHT) High Route Spring 2028 (1,700 km · +105,000m ascent)*
+*Flagship Expedition: The Great Himalayan Trail (GHT) High Route Spring 2028 (1,700 km · +120,000m ascent)*
 
 ---
 
@@ -123,7 +123,7 @@ Summited all seven prominent peaks encircling Utah Valley across **all four seas
 
 In Spring 2028, Aadesh returns to his birthplace to lead the **MedOnMt GHT High Route Expedition**:
 - **Distance**: 1,700 kilometers (1,056 miles) across the entire width of Nepal.
-- **Vertical Ascent**: +105,000 meters (+344,488 ft) — more than 11.9× climbing Mount Everest from sea level.
+- **Vertical Ascent**: +120,000 meters (+393,701 ft) — more than 13.6× climbing Mount Everest from sea level.
 - **High Altitudes**: Average elevations between 4,000m and 5,500m, cresting at 6,190m (West Col).
 - **Crux Passes**: The Three Cols (Sherpani Col 6,150m, West Col 6,190m, Amphu Labsta 5,845m) and Tilman Pass (5,308m).
 - **Ethos**: Uniting high-altitude athletic precision, physiological telemetry, environmental documentation, and mindful contemplative awareness (*Ascend Into Stillness*).

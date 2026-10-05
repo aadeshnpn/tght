@@ -61,7 +61,7 @@ This document serves as the permanent scholarly appendix and provenance record f
 * **Sensor / Dataset:** NASA SRTM 1 Arc-Second Global (30m) & ESA Copernicus 30m Global DEM (GLO-30)
 * **Data Sources:** USGS EarthExplorer / European Space Agency
 * **Coordinate Reference System:** WGS 84 (EPSG:4326) / EGM96 Geoid
-* **Key Role:** Elevation profile extraction, slope gradient verification for the 28+ major alpine passes, and vertical cumulative gain/loss calculation (~175,000m total vertical displacement across the complete High Route).
+* **Key Role:** Elevation profile extraction, slope gradient verification for the 28+ major alpine passes, and vertical cumulative gain calculation (~120,000m High Route ascent; official GHT materials often quote ~150,000m+ of ascent and descent combined).
 
 #### 2.4 FarOut Navigation (formerly Guthook Guides)
 * **Database:** Great Himalaya Trail GPS Waypoint & Water Source Index
