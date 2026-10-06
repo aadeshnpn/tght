@@ -5,35 +5,142 @@
     "name": "Kanchenjunga",
     "region": "Eastern Himalaya",
     "distanceKm": 182,
-    "ascentM": 11450,
+    "ascentM": 13050,
     "descentM": 10920,
     "estDays": 16,
     "highestPoint": 5160,
     "highestPointName": "Lapsang La / Pangpema (5,143m)",
     "difficulty": "Strenuous Alpine",
-    "permits": ["Kanchenjunga Conservation Area (KCA)", "Kanchenjunga Restricted Area Permit (RAP)"],
+    "permits": [
+      "Kanchenjunga Conservation Area (KCA)",
+      "Kanchenjunga Restricted Area Permit (RAP)"
+    ],
     "guideRequired": true,
     "summary": "The wild and pristine eastern terminus of the GHT. Features dramatic views of Mt. Kanchenjunga (8,586m) and Jannu (7,710m), traversing high rhododendron forests into glacial moraines.",
-    "keyPasses": ["Nango La (4,776m)", "Lumbha Sambha Pass (5,159m)", "Lapsang La (5,160m)"],
-    "keyPeaks": ["Kanchenjunga (8,586m)", "Jannu / Kumbhakarna (7,710m)", "Kangbachen (7,903m)"],
+    "keyPasses": [
+      "Nango La (4,776m)",
+      "Lumbha Sambha Pass (5,159m)",
+      "Lapsang La (5,160m)"
+    ],
+    "keyPeaks": [
+      "Kanchenjunga (8,586m)",
+      "Jannu / Kumbhakarna (7,710m)",
+      "Kangbachen (7,903m)"
+    ],
     "color": "#E11D48",
     "stages": [
-      { "day": 1, "from": "Taplejung / Suketar", "to": "Mitlung", "distKm": 12, "eleM": 921 },
-      { "day": 2, "from": "Mitlung", "to": "Chirwa", "distKm": 14, "eleM": 1270 },
-      { "day": 3, "from": "Chirwa", "to": "Sekathum", "distKm": 11, "eleM": 1660 },
-      { "day": 4, "from": "Sekathum", "to": "Amjilosa", "distKm": 10, "eleM": 2510 },
-      { "day": 5, "from": "Amjilosa", "to": "Gyabla", "distKm": 9, "eleM": 2730 },
-      { "day": 6, "from": "Gyabla", "to": "Ghunsa", "distKm": 11, "eleM": 3595 },
-      { "day": 7, "from": "Ghunsa (Acclimatization)", "to": "Ghunsa", "distKm": 5, "eleM": 3595 },
-      { "day": 8, "from": "Ghunsa", "to": "Kambachen", "distKm": 12, "eleM": 4050 },
-      { "day": 9, "from": "Kambachen", "to": "Lhonak", "distKm": 11, "eleM": 4780 },
-      { "day": 10, "from": "Lhonak", "to": "Pangpema (North BC) & return", "distKm": 18, "eleM": 5143 },
-      { "day": 11, "from": "Lhonak", "to": "Ghunsa", "distKm": 23, "eleM": 3595 },
-      { "day": 12, "from": "Ghunsa", "to": "Nango La Camp", "distKm": 9, "eleM": 4200 },
-      { "day": 13, "from": "Nango La Camp", "to": "Olangchung Gola via Nango La (4,776m)", "distKm": 14, "eleM": 3191 },
-      { "day": 14, "from": "Olangchung Gola", "to": "Lumbha Sambha Phedi", "distKm": 12, "eleM": 4220 },
-      { "day": 15, "from": "Lumbha Sambha Phedi", "to": "Thudam via Lumbha Sambha (5,159m)", "distKm": 14, "eleM": 3556 },
-      { "day": 16, "from": "Thudam", "to": "Chyamtang", "distKm": 15, "eleM": 2229 }
+      {
+        "day": 1,
+        "from": "Taplejung / Suketar",
+        "to": "Mitlung",
+        "distKm": 12,
+        "eleM": 921
+      },
+      {
+        "day": 2,
+        "from": "Mitlung",
+        "to": "Chirwa",
+        "distKm": 14,
+        "eleM": 1270
+      },
+      {
+        "day": 3,
+        "from": "Chirwa",
+        "to": "Sekathum",
+        "distKm": 11,
+        "eleM": 1660
+      },
+      {
+        "day": 4,
+        "from": "Sekathum",
+        "to": "Amjilosa",
+        "distKm": 10,
+        "eleM": 2510
+      },
+      {
+        "day": 5,
+        "from": "Amjilosa",
+        "to": "Gyabla",
+        "distKm": 9,
+        "eleM": 2730
+      },
+      {
+        "day": 6,
+        "from": "Gyabla",
+        "to": "Ghunsa",
+        "distKm": 11,
+        "eleM": 3595
+      },
+      {
+        "day": 7,
+        "from": "Ghunsa (Acclimatization)",
+        "to": "Ghunsa",
+        "distKm": 5,
+        "eleM": 3595
+      },
+      {
+        "day": 8,
+        "from": "Ghunsa",
+        "to": "Kambachen",
+        "distKm": 12,
+        "eleM": 4050
+      },
+      {
+        "day": 9,
+        "from": "Kambachen",
+        "to": "Lhonak",
+        "distKm": 11,
+        "eleM": 4780
+      },
+      {
+        "day": 10,
+        "from": "Lhonak",
+        "to": "Pangpema (North BC) & return",
+        "distKm": 18,
+        "eleM": 5143
+      },
+      {
+        "day": 11,
+        "from": "Lhonak",
+        "to": "Ghunsa",
+        "distKm": 23,
+        "eleM": 3595
+      },
+      {
+        "day": 12,
+        "from": "Ghunsa",
+        "to": "Nango La Camp",
+        "distKm": 9,
+        "eleM": 4200
+      },
+      {
+        "day": 13,
+        "from": "Nango La Camp",
+        "to": "Olangchung Gola via Nango La (4,776m)",
+        "distKm": 14,
+        "eleM": 3191
+      },
+      {
+        "day": 14,
+        "from": "Olangchung Gola",
+        "to": "Lumbha Sambha Phedi",
+        "distKm": 12,
+        "eleM": 4220
+      },
+      {
+        "day": 15,
+        "from": "Lumbha Sambha Phedi",
+        "to": "Thudam via Lumbha Sambha (5,159m)",
+        "distKm": 14,
+        "eleM": 3556
+      },
+      {
+        "day": 16,
+        "from": "Thudam",
+        "to": "Chyamtang",
+        "distKm": 15,
+        "eleM": 2229
+      }
     ]
   },
   {
@@ -42,33 +149,126 @@
     "name": "Makalu Barun",
     "region": "Eastern-Central Himalaya",
     "distanceKm": 148,
-    "ascentM": 12100,
+    "ascentM": 13800,
     "descentM": 11800,
     "estDays": 14,
     "highestPoint": 6190,
     "highestPointName": "West Col (6,190m)",
     "difficulty": "Extreme Mountaineering (Grade D)",
-    "permits": ["Makalu Barun National Park Permit"],
+    "permits": [
+      "Makalu Barun National Park Permit"
+    ],
     "guideRequired": true,
     "summary": "The premier mountaineering crux of the entire GHT High Route. Crosses isolated wilderness from the Arun gorge into the glaciated Barun Valley, culminating in the infamous 'Three Cols' traverse over 6,100m.",
-    "keyPasses": ["Sherpani Col (6,150m)", "West Col (6,190m)"],
-    "keyPeaks": ["Makalu (8,485m)", "Chamlang (7,319m)", "Baruntse (7,129m)"],
+    "keyPasses": [
+      "Sherpani Col (6,150m)",
+      "West Col (6,190m)"
+    ],
+    "keyPeaks": [
+      "Makalu (8,485m)",
+      "Chamlang (7,319m)",
+      "Baruntse (7,129m)"
+    ],
     "color": "#F97316",
     "stages": [
-      { "day": 1, "from": "Chyamtang", "to": "Hongon", "distKm": 13, "eleM": 2323 },
-      { "day": 2, "from": "Hongon", "to": "Bakim Kharka", "distKm": 11, "eleM": 3020 },
-      { "day": 3, "from": "Bakim Kharka", "to": "Molun Pokhari", "distKm": 10, "eleM": 3954 },
-      { "day": 4, "from": "Molun Pokhari", "to": "Dhave Kharka", "distKm": 9, "eleM": 3590 },
-      { "day": 5, "from": "Dhave Kharka", "to": "Yangri Kharka", "distKm": 12, "eleM": 3557 },
-      { "day": 6, "from": "Yangri Kharka", "to": "Langmale Kharka", "distKm": 10, "eleM": 4410 },
-      { "day": 7, "from": "Langmale Kharka", "to": "Makalu Base Camp", "distKm": 9, "eleM": 4870 },
-      { "day": 8, "from": "Makalu Base Camp (Acclimatization)", "to": "Makalu BC", "distKm": 6, "eleM": 4870 },
-      { "day": 9, "from": "Makalu Base Camp", "to": "Sandy Camp", "distKm": 8, "eleM": 5250 },
-      { "day": 10, "from": "Sandy Camp", "to": "Sherpani Col High Camp", "distKm": 7, "eleM": 5688 },
-      { "day": 11, "from": "High Camp", "to": "Baruntse High Camp via Sherpani Col (6,150m) & West Col (6,190m)", "distKm": 11, "eleM": 6190 },
-      { "day": 12, "from": "Baruntse High Camp", "to": "Honku Basin Camp", "distKm": 9, "eleM": 5400 },
-      { "day": 13, "from": "Honku Basin", "to": "Amphu Labsta Base Camp", "distKm": 8, "eleM": 5500 },
-      { "day": 14, "from": "Weather Reserve / Rest", "to": "Amphu Labsta Base Camp", "distKm": 0, "eleM": 5500 }
+      {
+        "day": 1,
+        "from": "Chyamtang",
+        "to": "Hongon",
+        "distKm": 13,
+        "eleM": 2323
+      },
+      {
+        "day": 2,
+        "from": "Hongon",
+        "to": "Bakim Kharka",
+        "distKm": 11,
+        "eleM": 3020
+      },
+      {
+        "day": 3,
+        "from": "Bakim Kharka",
+        "to": "Molun Pokhari",
+        "distKm": 10,
+        "eleM": 3954
+      },
+      {
+        "day": 4,
+        "from": "Molun Pokhari",
+        "to": "Dhave Kharka",
+        "distKm": 9,
+        "eleM": 3590
+      },
+      {
+        "day": 5,
+        "from": "Dhave Kharka",
+        "to": "Yangri Kharka",
+        "distKm": 12,
+        "eleM": 3557
+      },
+      {
+        "day": 6,
+        "from": "Yangri Kharka",
+        "to": "Langmale Kharka",
+        "distKm": 10,
+        "eleM": 4410
+      },
+      {
+        "day": 7,
+        "from": "Langmale Kharka",
+        "to": "Makalu Base Camp",
+        "distKm": 9,
+        "eleM": 4870
+      },
+      {
+        "day": 8,
+        "from": "Makalu Base Camp (Acclimatization)",
+        "to": "Makalu BC",
+        "distKm": 6,
+        "eleM": 4870
+      },
+      {
+        "day": 9,
+        "from": "Makalu Base Camp",
+        "to": "Sandy Camp",
+        "distKm": 8,
+        "eleM": 5250
+      },
+      {
+        "day": 10,
+        "from": "Sandy Camp",
+        "to": "Sherpani Col High Camp",
+        "distKm": 7,
+        "eleM": 5688
+      },
+      {
+        "day": 11,
+        "from": "High Camp",
+        "to": "Baruntse High Camp via Sherpani Col (6,150m) & West Col (6,190m)",
+        "distKm": 11,
+        "eleM": 6190
+      },
+      {
+        "day": 12,
+        "from": "Baruntse High Camp",
+        "to": "Honku Basin Camp",
+        "distKm": 9,
+        "eleM": 5400
+      },
+      {
+        "day": 13,
+        "from": "Honku Basin",
+        "to": "Amphu Labsta Base Camp",
+        "distKm": 8,
+        "eleM": 5500
+      },
+      {
+        "day": 14,
+        "from": "Weather Reserve / Rest",
+        "to": "Amphu Labsta Base Camp",
+        "distKm": 0,
+        "eleM": 5500
+      }
     ]
   },
   {
@@ -77,34 +277,138 @@
     "name": "Everest & Rolwaling",
     "region": "Khumbu / Rolwaling",
     "distanceKm": 168,
-    "ascentM": 10800,
+    "ascentM": 12300,
     "descentM": 11200,
     "estDays": 15,
     "highestPoint": 5845,
     "highestPointName": "Amphu Labsta (5,845m)",
     "difficulty": "Very Strenuous / Technical Alpine",
-    "permits": ["Sagarmatha National Park Permit", "Gaurishankar Conservation Area (GCAP)", "Khumbu Pasang Lhamu Entry Fee"],
+    "permits": [
+      "Sagarmatha National Park Permit",
+      "Gaurishankar Conservation Area (GCAP)",
+      "Khumbu Pasang Lhamu Entry Fee"
+    ],
     "guideRequired": true,
     "summary": "Connects the Khumbu with the mystic Rolwaling Valley. Features the vertical ice-descent of Amphu Labsta, iconic vistas of Everest, Lhotse, and Ama Dablam, and the glaciated traverse over Tashi Laptsa pass.",
-    "keyPasses": ["Amphu Labsta (5,845m)", "Cho La (5,420m)", "Renjo La (5,360m)", "Tashi Laptsa (5,755m)"],
-    "keyPeaks": ["Mt. Everest (8,848.86m)", "Lhotse (8,516m)", "Ama Dablam (6,812m)", "Gauri Sankar (7,134m)"],
+    "keyPasses": [
+      "Amphu Labsta (5,845m)",
+      "Cho La (5,420m)",
+      "Renjo La (5,360m)",
+      "Tashi Laptsa (5,755m)"
+    ],
+    "keyPeaks": [
+      "Mt. Everest (8,848.86m)",
+      "Lhotse (8,516m)",
+      "Ama Dablam (6,812m)",
+      "Gauri Sankar (7,134m)"
+    ],
     "color": "#EAB308",
     "stages": [
-      { "day": 1, "from": "Amphu Labsta BC", "to": "Chhukung via Amphu Labsta (5,845m)", "distKm": 10, "eleM": 5845 },
-      { "day": 2, "from": "Chhukung", "to": "Lobuche", "distKm": 11, "eleM": 4940 },
-      { "day": 3, "from": "Lobuche", "to": "Gorak Shep & Everest Base Camp (5,364m)", "distKm": 13, "eleM": 5364 },
-      { "day": 4, "from": "Gorak Shep", "to": "Dzongla", "distKm": 12, "eleM": 4830 },
-      { "day": 5, "from": "Dzongla", "to": "Gokyo via Cho La (5,420m)", "distKm": 11, "eleM": 5420 },
-      { "day": 6, "from": "Gokyo", "to": "Lungden via Renjo La (5,360m)", "distKm": 12, "eleM": 5360 },
-      { "day": 7, "from": "Lungden", "to": "Thame", "distKm": 11, "eleM": 3820 },
-      { "day": 8, "from": "Thame", "to": "Ngole", "distKm": 9, "eleM": 4410 },
-      { "day": 9, "from": "Ngole", "to": "Tashi Laptsa High Camp", "distKm": 8, "eleM": 5100 },
-      { "day": 10, "from": "High Camp", "to": "Drolambau Glacier via Tashi Laptsa (5,755m)", "distKm": 10, "eleM": 5755 },
-      { "day": 11, "from": "Drolambau Glacier", "to": "Na", "distKm": 12, "eleM": 4180 },
-      { "day": 12, "from": "Na", "to": "Beding", "distKm": 9, "eleM": 3740 },
-      { "day": 13, "from": "Beding", "to": "Simigaon", "distKm": 14, "eleM": 2020 },
-      { "day": 14, "from": "Simigaon", "to": "Chetchet / Jagat", "distKm": 12, "eleM": 1440 },
-      { "day": 15, "from": "Jagat", "to": "Bigu Gompa", "distKm": 14, "eleM": 2516 }
+      {
+        "day": 1,
+        "from": "Amphu Labsta BC",
+        "to": "Chhukung via Amphu Labsta (5,845m)",
+        "distKm": 10,
+        "eleM": 5845
+      },
+      {
+        "day": 2,
+        "from": "Chhukung",
+        "to": "Lobuche",
+        "distKm": 11,
+        "eleM": 4940
+      },
+      {
+        "day": 3,
+        "from": "Lobuche",
+        "to": "Gorak Shep & Everest Base Camp (5,364m)",
+        "distKm": 13,
+        "eleM": 5364
+      },
+      {
+        "day": 4,
+        "from": "Gorak Shep",
+        "to": "Dzongla",
+        "distKm": 12,
+        "eleM": 4830
+      },
+      {
+        "day": 5,
+        "from": "Dzongla",
+        "to": "Gokyo via Cho La (5,420m)",
+        "distKm": 11,
+        "eleM": 5420
+      },
+      {
+        "day": 6,
+        "from": "Gokyo",
+        "to": "Lungden via Renjo La (5,360m)",
+        "distKm": 12,
+        "eleM": 5360
+      },
+      {
+        "day": 7,
+        "from": "Lungden",
+        "to": "Thame",
+        "distKm": 11,
+        "eleM": 3820
+      },
+      {
+        "day": 8,
+        "from": "Thame",
+        "to": "Ngole",
+        "distKm": 9,
+        "eleM": 4410
+      },
+      {
+        "day": 9,
+        "from": "Ngole",
+        "to": "Tashi Laptsa High Camp",
+        "distKm": 8,
+        "eleM": 5100
+      },
+      {
+        "day": 10,
+        "from": "High Camp",
+        "to": "Drolambau Glacier via Tashi Laptsa (5,755m)",
+        "distKm": 10,
+        "eleM": 5755
+      },
+      {
+        "day": 11,
+        "from": "Drolambau Glacier",
+        "to": "Na",
+        "distKm": 12,
+        "eleM": 4180
+      },
+      {
+        "day": 12,
+        "from": "Na",
+        "to": "Beding",
+        "distKm": 9,
+        "eleM": 3740
+      },
+      {
+        "day": 13,
+        "from": "Beding",
+        "to": "Simigaon",
+        "distKm": 14,
+        "eleM": 2020
+      },
+      {
+        "day": 14,
+        "from": "Simigaon",
+        "to": "Chetchet / Jagat",
+        "distKm": 12,
+        "eleM": 1440
+      },
+      {
+        "day": 15,
+        "from": "Jagat",
+        "to": "Bigu Gompa",
+        "distKm": 14,
+        "eleM": 2516
+      }
     ]
   },
   {
@@ -113,31 +417,113 @@
     "name": "Langtang & Helambu",
     "region": "Central Himalaya",
     "distanceKm": 138,
-    "ascentM": 9200,
+    "ascentM": 10500,
     "descentM": 9500,
     "estDays": 12,
     "highestPoint": 5308,
     "highestPointName": "Tilman Pass (5,308m)",
     "difficulty": "Technical Alpine / Moraine Scramble",
-    "permits": ["Langtang National Park Permit", "Shivapuri National Park Entry"],
+    "permits": [
+      "Langtang National Park Permit",
+      "Shivapuri National Park Entry"
+    ],
     "guideRequired": true,
     "summary": "Traverses the lush Tamang heritage valleys of Langtang into high glaciated basins, negotiating the legendary Tilman Pass (5,308m) and connecting to the sacred lakes of Gosainkunda.",
-    "keyPasses": ["Tilman Pass (5,308m)", "Laurebina La (4,610m)"],
-    "keyPeaks": ["Langtang Lirung (7,227m)", "Dorje Lakpa (6,966m)", "Ganchenpo (6,387m)"],
+    "keyPasses": [
+      "Tilman Pass (5,308m)",
+      "Laurebina La (4,610m)"
+    ],
+    "keyPeaks": [
+      "Langtang Lirung (7,227m)",
+      "Dorje Lakpa (6,966m)",
+      "Ganchenpo (6,387m)"
+    ],
     "color": "#10B981",
     "stages": [
-      { "day": 1, "from": "Syabrubesi", "to": "Lama Hotel", "distKm": 11, "eleM": 2480 },
-      { "day": 2, "from": "Lama Hotel", "to": "Langtang Village", "distKm": 11, "eleM": 3430 },
-      { "day": 3, "from": "Langtang Village", "to": "Kyanjin Gompa", "distKm": 7, "eleM": 3870 },
-      { "day": 4, "from": "Kyanjin Gompa", "to": "Langshisha Kharka", "distKm": 12, "eleM": 4080 },
-      { "day": 5, "from": "Langshisha Kharka", "to": "Tilman High Camp", "distKm": 9, "eleM": 4720 },
-      { "day": 6, "from": "Tilman High Camp", "to": "Tin Pokhari via Tilman Pass (5,308m)", "distKm": 11, "eleM": 5308 },
-      { "day": 7, "from": "Tin Pokhari", "to": "Panch Pokhari", "distKm": 12, "eleM": 4060 },
-      { "day": 8, "from": "Panch Pokhari", "to": "Tarke Ghyang", "distKm": 14, "eleM": 2600 },
-      { "day": 9, "from": "Tarke Ghyang", "to": "Melamchi Gaon", "distKm": 11, "eleM": 2530 },
-      { "day": 10, "from": "Melamchi Gaon", "to": "Tharepati", "distKm": 8, "eleM": 3690 },
-      { "day": 11, "from": "Tharepati", "to": "Gosainkunda via Laurebina La (4,610m)", "distKm": 14, "eleM": 4610 },
-      { "day": 12, "from": "Gosainkunda", "to": "Dhunche", "distKm": 18, "eleM": 1960 }
+      {
+        "day": 1,
+        "from": "Syabrubesi",
+        "to": "Lama Hotel",
+        "distKm": 11,
+        "eleM": 2480
+      },
+      {
+        "day": 2,
+        "from": "Lama Hotel",
+        "to": "Langtang Village",
+        "distKm": 11,
+        "eleM": 3430
+      },
+      {
+        "day": 3,
+        "from": "Langtang Village",
+        "to": "Kyanjin Gompa",
+        "distKm": 7,
+        "eleM": 3870
+      },
+      {
+        "day": 4,
+        "from": "Kyanjin Gompa",
+        "to": "Langshisha Kharka",
+        "distKm": 12,
+        "eleM": 4080
+      },
+      {
+        "day": 5,
+        "from": "Langshisha Kharka",
+        "to": "Tilman High Camp",
+        "distKm": 9,
+        "eleM": 4720
+      },
+      {
+        "day": 6,
+        "from": "Tilman High Camp",
+        "to": "Tin Pokhari via Tilman Pass (5,308m)",
+        "distKm": 11,
+        "eleM": 5308
+      },
+      {
+        "day": 7,
+        "from": "Tin Pokhari",
+        "to": "Panch Pokhari",
+        "distKm": 12,
+        "eleM": 4060
+      },
+      {
+        "day": 8,
+        "from": "Panch Pokhari",
+        "to": "Tarke Ghyang",
+        "distKm": 14,
+        "eleM": 2600
+      },
+      {
+        "day": 9,
+        "from": "Tarke Ghyang",
+        "to": "Melamchi Gaon",
+        "distKm": 11,
+        "eleM": 2530
+      },
+      {
+        "day": 10,
+        "from": "Melamchi Gaon",
+        "to": "Tharepati",
+        "distKm": 8,
+        "eleM": 3690
+      },
+      {
+        "day": 11,
+        "from": "Tharepati",
+        "to": "Gosainkunda via Laurebina La (4,610m)",
+        "distKm": 14,
+        "eleM": 4610
+      },
+      {
+        "day": 12,
+        "from": "Gosainkunda",
+        "to": "Dhunche",
+        "distKm": 18,
+        "eleM": 1960
+      }
     ]
   },
   {
@@ -146,33 +532,129 @@
     "name": "Manaslu & Ganesh Himal",
     "region": "Central-Western Himalaya",
     "distanceKm": 164,
-    "ascentM": 10200,
+    "ascentM": 11650,
     "descentM": 9900,
     "estDays": 14,
     "highestPoint": 5106,
     "highestPointName": "Larkya La (5,106m)",
     "difficulty": "Strenuous High Altitude",
-    "permits": ["Manaslu Restricted Area Permit (RAP)", "Manaslu Conservation Area (MCAP)", "Annapurna Conservation Area (ACAP)"],
+    "permits": [
+      "Manaslu Restricted Area Permit (RAP)",
+      "Manaslu Conservation Area (MCAP)",
+      "Annapurna Conservation Area (ACAP)"
+    ],
     "guideRequired": true,
     "summary": "Circling the eighth highest mountain in the world, Manaslu (8,163m). Traverses through Tibetan-influenced villages, high stone chortens, and the long, windswept crossing of Larkya La pass.",
-    "keyPasses": ["Larkya La (5,106m)", "Pangsang Pass (3,830m)"],
-    "keyPeaks": ["Manaslu (8,163m)", "Himalchuli (7,893m)", "Ngadi Chuli (7,871m)", "Ganesh I (7,422m)"],
+    "keyPasses": [
+      "Larkya La (5,106m)",
+      "Pangsang Pass (3,830m)"
+    ],
+    "keyPeaks": [
+      "Manaslu (8,163m)",
+      "Himalchuli (7,893m)",
+      "Ngadi Chuli (7,871m)",
+      "Ganesh I (7,422m)"
+    ],
     "color": "#06B6D4",
     "stages": [
-      { "day": 1, "from": "Syabrubesi", "to": "Gatlang", "distKm": 11, "eleM": 2238 },
-      { "day": 2, "from": "Gatlang", "to": "Somdang", "distKm": 13, "eleM": 3271 },
-      { "day": 3, "from": "Somdang", "to": "Tipling via Pangsang Pass (3,830m)", "distKm": 14, "eleM": 3830 },
-      { "day": 4, "from": "Tipling", "to": "Arughat / Jagat", "distKm": 18, "eleM": 1410 },
-      { "day": 5, "from": "Jagat", "to": "Deng", "distKm": 16, "eleM": 1804 },
-      { "day": 6, "from": "Deng", "to": "Namrung", "distKm": 15, "eleM": 2660 },
-      { "day": 7, "from": "Namrung", "to": "Lho", "distKm": 10, "eleM": 3180 },
-      { "day": 8, "from": "Lho", "to": "Samagaon", "distKm": 9, "eleM": 3530 },
-      { "day": 9, "from": "Samagaon (Acclimatization)", "to": "Manaslu BC & return", "distKm": 12, "eleM": 4400 },
-      { "day": 10, "from": "Samagaon", "to": "Samdo", "distKm": 8, "eleM": 3860 },
-      { "day": 11, "from": "Samdo", "to": "Dharamsala (Larkya Phedi)", "distKm": 7, "eleM": 4460 },
-      { "day": 12, "from": "Dharamsala", "to": "Bimthang via Larkya La (5,106m)", "distKm": 16, "eleM": 5106 },
-      { "day": 13, "from": "Bimthang", "to": "Tilije", "distKm": 15, "eleM": 2300 },
-      { "day": 14, "from": "Tilije", "to": "Dharapani", "distKm": 7, "eleM": 1860 }
+      {
+        "day": 1,
+        "from": "Syabrubesi",
+        "to": "Gatlang",
+        "distKm": 11,
+        "eleM": 2238
+      },
+      {
+        "day": 2,
+        "from": "Gatlang",
+        "to": "Somdang",
+        "distKm": 13,
+        "eleM": 3271
+      },
+      {
+        "day": 3,
+        "from": "Somdang",
+        "to": "Tipling via Pangsang Pass (3,830m)",
+        "distKm": 14,
+        "eleM": 3830
+      },
+      {
+        "day": 4,
+        "from": "Tipling",
+        "to": "Arughat / Jagat",
+        "distKm": 18,
+        "eleM": 1410
+      },
+      {
+        "day": 5,
+        "from": "Jagat",
+        "to": "Deng",
+        "distKm": 16,
+        "eleM": 1804
+      },
+      {
+        "day": 6,
+        "from": "Deng",
+        "to": "Namrung",
+        "distKm": 15,
+        "eleM": 2660
+      },
+      {
+        "day": 7,
+        "from": "Namrung",
+        "to": "Lho",
+        "distKm": 10,
+        "eleM": 3180
+      },
+      {
+        "day": 8,
+        "from": "Lho",
+        "to": "Samagaon",
+        "distKm": 9,
+        "eleM": 3530
+      },
+      {
+        "day": 9,
+        "from": "Samagaon (Acclimatization)",
+        "to": "Manaslu BC & return",
+        "distKm": 12,
+        "eleM": 4400
+      },
+      {
+        "day": 10,
+        "from": "Samagaon",
+        "to": "Samdo",
+        "distKm": 8,
+        "eleM": 3860
+      },
+      {
+        "day": 11,
+        "from": "Samdo",
+        "to": "Dharamsala (Larkya Phedi)",
+        "distKm": 7,
+        "eleM": 4460
+      },
+      {
+        "day": 12,
+        "from": "Dharamsala",
+        "to": "Bimthang via Larkya La (5,106m)",
+        "distKm": 16,
+        "eleM": 5106
+      },
+      {
+        "day": 13,
+        "from": "Bimthang",
+        "to": "Tilije",
+        "distKm": 15,
+        "eleM": 2300
+      },
+      {
+        "day": 14,
+        "from": "Tilije",
+        "to": "Dharapani",
+        "distKm": 7,
+        "eleM": 1860
+      }
     ]
   },
   {
@@ -181,32 +663,122 @@
     "name": "Annapurna & Naar-Phu",
     "region": "Annapurna / Trans-Himalaya",
     "distanceKm": 158,
-    "ascentM": 9800,
+    "ascentM": 11150,
     "descentM": 9200,
     "estDays": 13,
     "highestPoint": 5416,
     "highestPointName": "Thorong La (5,416m)",
     "difficulty": "Strenuous High Pass",
-    "permits": ["Naar-Phu Restricted Area Permit", "Annapurna Conservation Area (ACAP)"],
+    "permits": [
+      "Naar-Phu Restricted Area Permit",
+      "Annapurna Conservation Area (ACAP)"
+    ],
     "guideRequired": true,
     "summary": "Branches off into the medieval, fortress-like villages of Naar and Phu near the Tibetan border, crossing the high Kang La before traversing the classic Thorong La into the dry rain-shadow of Mustang.",
-    "keyPasses": ["Kang La (5,320m)", "Thorong La (5,416m)", "Mesokanto La (5,121m)"],
-    "keyPeaks": ["Annapurna I (8,091m)", "Annapurna II (7,937m)", "Dhaulagiri I (8,167m)", "Tilicho Peak (7,134m)"],
+    "keyPasses": [
+      "Kang La (5,320m)",
+      "Thorong La (5,416m)",
+      "Mesokanto La (5,121m)"
+    ],
+    "keyPeaks": [
+      "Annapurna I (8,091m)",
+      "Annapurna II (7,937m)",
+      "Dhaulagiri I (8,167m)",
+      "Tilicho Peak (7,134m)"
+    ],
     "color": "#3B82F6",
     "stages": [
-      { "day": 1, "from": "Dharapani", "to": "Koto", "distKm": 13, "eleM": 2600 },
-      { "day": 2, "from": "Koto", "to": "Meta", "distKm": 14, "eleM": 3560 },
-      { "day": 3, "from": "Meta", "to": "Phu", "distKm": 15, "eleM": 4080 },
-      { "day": 4, "from": "Phu (Rest & Explore Gompas)", "to": "Phu", "distKm": 6, "eleM": 4080 },
-      { "day": 5, "from": "Phu", "to": "Naar Phedi", "distKm": 13, "eleM": 3490 },
-      { "day": 6, "from": "Naar Phedi", "to": "Naar Village", "distKm": 6, "eleM": 4110 },
-      { "day": 7, "from": "Naar Village", "to": "Ngawal via Kang La (5,320m)", "distKm": 16, "eleM": 5320 },
-      { "day": 8, "from": "Ngawal", "to": "Manang", "distKm": 10, "eleM": 3540 },
-      { "day": 9, "from": "Manang", "to": "Yak Kharka", "distKm": 9, "eleM": 4050 },
-      { "day": 10, "from": "Yak Kharka", "to": "Thorong Phedi / High Camp", "distKm": 7, "eleM": 4850 },
-      { "day": 11, "from": "High Camp", "to": "Muktinath via Thorong La (5,416m)", "distKm": 14, "eleM": 5416 },
-      { "day": 12, "from": "Muktinath", "to": "Kagbeni", "distKm": 11, "eleM": 2810 },
-      { "day": 13, "from": "Kagbeni", "to": "Jomsom", "distKm": 10, "eleM": 2720 }
+      {
+        "day": 1,
+        "from": "Dharapani",
+        "to": "Koto",
+        "distKm": 13,
+        "eleM": 2600
+      },
+      {
+        "day": 2,
+        "from": "Koto",
+        "to": "Meta",
+        "distKm": 14,
+        "eleM": 3560
+      },
+      {
+        "day": 3,
+        "from": "Meta",
+        "to": "Phu",
+        "distKm": 15,
+        "eleM": 4080
+      },
+      {
+        "day": 4,
+        "from": "Phu (Rest & Explore Gompas)",
+        "to": "Phu",
+        "distKm": 6,
+        "eleM": 4080
+      },
+      {
+        "day": 5,
+        "from": "Phu",
+        "to": "Naar Phedi",
+        "distKm": 13,
+        "eleM": 3490
+      },
+      {
+        "day": 6,
+        "from": "Naar Phedi",
+        "to": "Naar Village",
+        "distKm": 6,
+        "eleM": 4110
+      },
+      {
+        "day": 7,
+        "from": "Naar Village",
+        "to": "Ngawal via Kang La (5,320m)",
+        "distKm": 16,
+        "eleM": 5320
+      },
+      {
+        "day": 8,
+        "from": "Ngawal",
+        "to": "Manang",
+        "distKm": 10,
+        "eleM": 3540
+      },
+      {
+        "day": 9,
+        "from": "Manang",
+        "to": "Yak Kharka",
+        "distKm": 9,
+        "eleM": 4050
+      },
+      {
+        "day": 10,
+        "from": "Yak Kharka",
+        "to": "Thorong Phedi / High Camp",
+        "distKm": 7,
+        "eleM": 4850
+      },
+      {
+        "day": 11,
+        "from": "High Camp",
+        "to": "Muktinath via Thorong La (5,416m)",
+        "distKm": 14,
+        "eleM": 5416
+      },
+      {
+        "day": 12,
+        "from": "Muktinath",
+        "to": "Kagbeni",
+        "distKm": 11,
+        "eleM": 2810
+      },
+      {
+        "day": 13,
+        "from": "Kagbeni",
+        "to": "Jomsom",
+        "distKm": 10,
+        "eleM": 2720
+      }
     ]
   },
   {
@@ -215,31 +787,114 @@
     "name": "Mustang",
     "region": "Tibetan Plateau / Rainshadow",
     "distanceKm": 142,
-    "ascentM": 7900,
+    "ascentM": 9000,
     "descentM": 7600,
     "estDays": 12,
     "highestPoint": 5595,
     "highestPointName": "Teri La (5,595m)",
     "difficulty": "Wilderness Expedition & Arid High Altitude",
-    "permits": ["Upper Mustang Restricted Area Permit ($500/10 days)", "ACAP"],
+    "permits": [
+      "Upper Mustang Restricted Area Permit ($500/10 days)",
+      "ACAP"
+    ],
     "guideRequired": true,
     "summary": "The walled Kingdom of Lo. Red sandstone cliffs, cliffside sky-caves, Tibetan monasteries, and the extreme expedition link across the uninhabited Teri La pass linking Phu to Upper Mustang.",
-    "keyPasses": ["Teri La (5,595m)", "Saribung La (6,020m)", "Yamda La (3,850m)"],
-    "keyPeaks": ["Nilgiri (7,061m)", "Damodar Himal", "Tilicho Peak (7,134m)"],
+    "keyPasses": [
+      "Teri La (5,595m)",
+      "Saribung La (6,020m)",
+      "Yamda La (3,850m)"
+    ],
+    "keyPeaks": [
+      "Nilgiri (7,061m)",
+      "Damodar Himal",
+      "Tilicho Peak (7,134m)"
+    ],
     "color": "#8B5CF6",
     "stages": [
-      { "day": 1, "from": "Naar", "to": "Teri La High Camp", "distKm": 14, "eleM": 4850 },
-      { "day": 2, "from": "High Camp", "to": "Labse Kharka via Teri La (5,595m)", "distKm": 15, "eleM": 5595 },
-      { "day": 3, "from": "Labse Kharka", "to": "Tangge", "distKm": 16, "eleM": 3240 },
-      { "day": 4, "from": "Tangge", "to": "Chhusang", "distKm": 18, "eleM": 2980 },
-      { "day": 5, "from": "Chhusang", "to": "Samar", "distKm": 12, "eleM": 3620 },
-      { "day": 6, "from": "Samar", "to": "Ghami", "distKm": 14, "eleM": 3510 },
-      { "day": 7, "from": "Ghami", "to": "Tsarang", "distKm": 11, "eleM": 3560 },
-      { "day": 8, "from": "Tsarang", "to": "Lo Manthang (Walled Capital)", "distKm": 13, "eleM": 3840 },
-      { "day": 9, "from": "Lo Manthang (Explore Sky Caves & Chhoser)", "to": "Lo Manthang", "distKm": 10, "eleM": 3840 },
-      { "day": 10, "from": "Lo Manthang", "to": "Dhakmar", "distKm": 15, "eleM": 3820 },
-      { "day": 11, "from": "Dhakmar", "to": "Syangboche", "distKm": 12, "eleM": 3800 },
-      { "day": 12, "from": "Syangboche", "to": "Kagbeni", "distKm": 16, "eleM": 2810 }
+      {
+        "day": 1,
+        "from": "Naar",
+        "to": "Teri La High Camp",
+        "distKm": 14,
+        "eleM": 4850
+      },
+      {
+        "day": 2,
+        "from": "High Camp",
+        "to": "Labse Kharka via Teri La (5,595m)",
+        "distKm": 15,
+        "eleM": 5595
+      },
+      {
+        "day": 3,
+        "from": "Labse Kharka",
+        "to": "Tangge",
+        "distKm": 16,
+        "eleM": 3240
+      },
+      {
+        "day": 4,
+        "from": "Tangge",
+        "to": "Chhusang",
+        "distKm": 18,
+        "eleM": 2980
+      },
+      {
+        "day": 5,
+        "from": "Chhusang",
+        "to": "Samar",
+        "distKm": 12,
+        "eleM": 3620
+      },
+      {
+        "day": 6,
+        "from": "Samar",
+        "to": "Ghami",
+        "distKm": 14,
+        "eleM": 3510
+      },
+      {
+        "day": 7,
+        "from": "Ghami",
+        "to": "Tsarang",
+        "distKm": 11,
+        "eleM": 3560
+      },
+      {
+        "day": 8,
+        "from": "Tsarang",
+        "to": "Lo Manthang (Walled Capital)",
+        "distKm": 13,
+        "eleM": 3840
+      },
+      {
+        "day": 9,
+        "from": "Lo Manthang (Explore Sky Caves & Chhoser)",
+        "to": "Lo Manthang",
+        "distKm": 10,
+        "eleM": 3840
+      },
+      {
+        "day": 10,
+        "from": "Lo Manthang",
+        "to": "Dhakmar",
+        "distKm": 15,
+        "eleM": 3820
+      },
+      {
+        "day": 11,
+        "from": "Dhakmar",
+        "to": "Syangboche",
+        "distKm": 12,
+        "eleM": 3800
+      },
+      {
+        "day": 12,
+        "from": "Syangboche",
+        "to": "Kagbeni",
+        "distKm": 16,
+        "eleM": 2810
+      }
     ]
   },
   {
@@ -248,37 +903,159 @@
     "name": "Dolpo",
     "region": "Trans-Himalayan Plateau",
     "distanceKm": 215,
-    "ascentM": 13600,
+    "ascentM": 15500,
     "descentM": 13100,
     "estDays": 18,
     "highestPoint": 5550,
     "highestPointName": "Sangda La / Jungben La (5,550m)",
     "difficulty": "Extreme Wilderness Isolation",
-    "permits": ["Upper Dolpo Restricted Area Permit ($500/10 days)", "Lower Dolpo RAP", "Shey Phoksundo National Park"],
+    "permits": [
+      "Upper Dolpo Restricted Area Permit ($500/10 days)",
+      "Lower Dolpo RAP",
+      "Shey Phoksundo National Park"
+    ],
     "guideRequired": true,
     "summary": "The land of Snow Leopards, ancient Bon religion, and turquoise alpine waters. Extremely remote, high-altitude desert plateaus with high consecutive 5,000m+ passes and the sacred Phoksundo Lake.",
-    "keyPasses": ["Jungben La (5,550m)", "Sangda La (5,515m)", "Numa La (5,310m)", "Baga La (5,190m)", "Kang La (5,350m)"],
-    "keyPeaks": ["Dhaulagiri II (7,751m)", "Putha Hiunchuli (7,246m)", "Crystal Mountain"],
+    "keyPasses": [
+      "Jungben La (5,550m)",
+      "Sangda La (5,515m)",
+      "Numa La (5,310m)",
+      "Baga La (5,190m)",
+      "Kang La (5,350m)"
+    ],
+    "keyPeaks": [
+      "Dhaulagiri II (7,751m)",
+      "Putha Hiunchuli (7,246m)",
+      "Crystal Mountain"
+    ],
     "color": "#D946EF",
     "stages": [
-      { "day": 1, "from": "Kagbeni", "to": "Sangda Phedi", "distKm": 16, "eleM": 4190 },
-      { "day": 2, "from": "Sangda Phedi", "to": "Sangda La High Camp", "distKm": 12, "eleM": 5035 },
-      { "day": 3, "from": "High Camp", "to": "Chharka Bhot via Sangda La (5,515m)", "distKm": 18, "eleM": 4302 },
-      { "day": 4, "from": "Chharka Bhot (Rest & Bon Gompa)", "to": "Chharka Bhot", "distKm": 4, "eleM": 4302 },
-      { "day": 5, "from": "Chharka Bhot", "to": "Norbulung", "distKm": 14, "eleM": 4750 },
-      { "day": 6, "from": "Norbulung", "to": "Molasumdo via Niwas La (5,120m)", "distKm": 12, "eleM": 4820 },
-      { "day": 7, "from": "Molasumdo", "to": "Dho Tarap via Chan La (5,378m)", "distKm": 14, "eleM": 3944 },
-      { "day": 8, "from": "Dho Tarap", "to": "Numa La Base Camp", "distKm": 12, "eleM": 4440 },
-      { "day": 9, "from": "Base Camp", "to": "Pelung Tang via Numa La (5,310m)", "distKm": 13, "eleM": 4465 },
-      { "day": 10, "from": "Pelung Tang", "to": "Dajok Tang via Baga La (5,190m)", "distKm": 12, "eleM": 4080 },
-      { "day": 11, "from": "Dajok Tang", "to": "Ringmo / Phoksundo Lake", "distKm": 9, "eleM": 3611 },
-      { "day": 12, "from": "Phoksundo Lake (Rest day)", "to": "Phoksundo Lake", "distKm": 5, "eleM": 3611 },
-      { "day": 13, "from": "Ringmo", "to": "Phoksundo Kharka", "distKm": 11, "eleM": 3750 },
-      { "day": 14, "from": "Phoksundo Kharka", "to": "Sehu La High Camp", "distKm": 10, "eleM": 4710 },
-      { "day": 15, "from": "High Camp", "to": "Shey Gompa via Kang La (5,350m)", "distKm": 12, "eleM": 4160 },
-      { "day": 16, "from": "Shey Gompa", "to": "Saldang", "distKm": 15, "eleM": 3770 },
-      { "day": 17, "from": "Saldang", "to": "Samling Gompa", "distKm": 11, "eleM": 3800 },
-      { "day": 18, "from": "Samling Gompa", "to": "Ringmo return", "distKm": 17, "eleM": 3611 }
+      {
+        "day": 1,
+        "from": "Kagbeni",
+        "to": "Sangda Phedi",
+        "distKm": 16,
+        "eleM": 4190
+      },
+      {
+        "day": 2,
+        "from": "Sangda Phedi",
+        "to": "Sangda La High Camp",
+        "distKm": 12,
+        "eleM": 5035
+      },
+      {
+        "day": 3,
+        "from": "High Camp",
+        "to": "Chharka Bhot via Sangda La (5,515m)",
+        "distKm": 18,
+        "eleM": 4302
+      },
+      {
+        "day": 4,
+        "from": "Chharka Bhot (Rest & Bon Gompa)",
+        "to": "Chharka Bhot",
+        "distKm": 4,
+        "eleM": 4302
+      },
+      {
+        "day": 5,
+        "from": "Chharka Bhot",
+        "to": "Norbulung",
+        "distKm": 14,
+        "eleM": 4750
+      },
+      {
+        "day": 6,
+        "from": "Norbulung",
+        "to": "Molasumdo via Niwas La (5,120m)",
+        "distKm": 12,
+        "eleM": 4820
+      },
+      {
+        "day": 7,
+        "from": "Molasumdo",
+        "to": "Dho Tarap via Chan La (5,378m)",
+        "distKm": 14,
+        "eleM": 3944
+      },
+      {
+        "day": 8,
+        "from": "Dho Tarap",
+        "to": "Numa La Base Camp",
+        "distKm": 12,
+        "eleM": 4440
+      },
+      {
+        "day": 9,
+        "from": "Base Camp",
+        "to": "Pelung Tang via Numa La (5,310m)",
+        "distKm": 13,
+        "eleM": 4465
+      },
+      {
+        "day": 10,
+        "from": "Pelung Tang",
+        "to": "Dajok Tang via Baga La (5,190m)",
+        "distKm": 12,
+        "eleM": 4080
+      },
+      {
+        "day": 11,
+        "from": "Dajok Tang",
+        "to": "Ringmo / Phoksundo Lake",
+        "distKm": 9,
+        "eleM": 3611
+      },
+      {
+        "day": 12,
+        "from": "Phoksundo Lake (Rest day)",
+        "to": "Phoksundo Lake",
+        "distKm": 5,
+        "eleM": 3611
+      },
+      {
+        "day": 13,
+        "from": "Ringmo",
+        "to": "Phoksundo Kharka",
+        "distKm": 11,
+        "eleM": 3750
+      },
+      {
+        "day": 14,
+        "from": "Phoksundo Kharka",
+        "to": "Sehu La High Camp",
+        "distKm": 10,
+        "eleM": 4710
+      },
+      {
+        "day": 15,
+        "from": "High Camp",
+        "to": "Shey Gompa via Kang La (5,350m)",
+        "distKm": 12,
+        "eleM": 4160
+      },
+      {
+        "day": 16,
+        "from": "Shey Gompa",
+        "to": "Saldang",
+        "distKm": 15,
+        "eleM": 3770
+      },
+      {
+        "day": 17,
+        "from": "Saldang",
+        "to": "Samling Gompa",
+        "distKm": 11,
+        "eleM": 3800
+      },
+      {
+        "day": 18,
+        "from": "Samling Gompa",
+        "to": "Ringmo return",
+        "distKm": 17,
+        "eleM": 3611
+      }
     ]
   },
   {
@@ -287,30 +1064,106 @@
     "name": "Rara & Jumla",
     "region": "Mid-Western Hills & Lakes",
     "distanceKm": 152,
-    "ascentM": 7800,
+    "ascentM": 8900,
     "descentM": 8400,
     "estDays": 11,
     "highestPoint": 5115,
     "highestPointName": "Kagmara La (5,115m)",
     "difficulty": "Moderate to Strenuous",
-    "permits": ["Rara National Park Permit", "Shey Phoksundo NP"],
+    "permits": [
+      "Rara National Park Permit",
+      "Shey Phoksundo NP"
+    ],
     "guideRequired": true,
     "summary": "Transitions from high alpine crags into magnificent coniferous forests and tranquil alpine meadows. Centers around Rara Lake, the largest lake in Nepal, and the ancient Malla kingdom ruins of Sinja Valley.",
-    "keyPasses": ["Kagmara La (5,115m)", "Mauria Lagna (3,820m)", "Danphe Lagna (3,691m)"],
-    "keyPeaks": ["Kanjiroba (6,883m)", "Kagmara Peak (5,960m)"],
+    "keyPasses": [
+      "Kagmara La (5,115m)",
+      "Mauria Lagna (3,820m)",
+      "Danphe Lagna (3,691m)"
+    ],
+    "keyPeaks": [
+      "Kanjiroba (6,883m)",
+      "Kagmara Peak (5,960m)"
+    ],
     "color": "#14B8A6",
     "stages": [
-      { "day": 1, "from": "Ringmo / Phoksundo", "to": "Kagmara Phedi", "distKm": 14, "eleM": 4000 },
-      { "day": 2, "from": "Kagmara Phedi", "to": "Lasa via Kagmara La (5,115m)", "distKm": 13, "eleM": 5115 },
-      { "day": 3, "from": "Lasa", "to": "Kaigaon", "distKm": 15, "eleM": 2610 },
-      { "day": 4, "from": "Kaigaon", "to": "Chaurikot", "distKm": 14, "eleM": 3060 },
-      { "day": 5, "from": "Chaurikot", "to": "Gothichaur via Mauria Lagna (3,820m)", "distKm": 16, "eleM": 3820 },
-      { "day": 6, "from": "Gothichaur", "to": "Jumla", "distKm": 15, "eleM": 2514 },
-      { "day": 7, "from": "Jumla", "to": "Danphe Lagna Camp", "distKm": 12, "eleM": 3691 },
-      { "day": 8, "from": "Danphe Lagna", "to": "Chere Chaur", "distKm": 14, "eleM": 3055 },
-      { "day": 9, "from": "Chere Chaur", "to": "Rara Lake", "distKm": 15, "eleM": 2990 },
-      { "day": 10, "from": "Rara Lake (Explore pristine shores)", "to": "Rara Lake", "distKm": 8, "eleM": 2990 },
-      { "day": 11, "from": "Rara Lake", "to": "Gamgadhi", "distKm": 16, "eleM": 2089 }
+      {
+        "day": 1,
+        "from": "Ringmo / Phoksundo",
+        "to": "Kagmara Phedi",
+        "distKm": 14,
+        "eleM": 4000
+      },
+      {
+        "day": 2,
+        "from": "Kagmara Phedi",
+        "to": "Lasa via Kagmara La (5,115m)",
+        "distKm": 13,
+        "eleM": 5115
+      },
+      {
+        "day": 3,
+        "from": "Lasa",
+        "to": "Kaigaon",
+        "distKm": 15,
+        "eleM": 2610
+      },
+      {
+        "day": 4,
+        "from": "Kaigaon",
+        "to": "Chaurikot",
+        "distKm": 14,
+        "eleM": 3060
+      },
+      {
+        "day": 5,
+        "from": "Chaurikot",
+        "to": "Gothichaur via Mauria Lagna (3,820m)",
+        "distKm": 16,
+        "eleM": 3820
+      },
+      {
+        "day": 6,
+        "from": "Gothichaur",
+        "to": "Jumla",
+        "distKm": 15,
+        "eleM": 2514
+      },
+      {
+        "day": 7,
+        "from": "Jumla",
+        "to": "Danphe Lagna Camp",
+        "distKm": 12,
+        "eleM": 3691
+      },
+      {
+        "day": 8,
+        "from": "Danphe Lagna",
+        "to": "Chere Chaur",
+        "distKm": 14,
+        "eleM": 3055
+      },
+      {
+        "day": 9,
+        "from": "Chere Chaur",
+        "to": "Rara Lake",
+        "distKm": 15,
+        "eleM": 2990
+      },
+      {
+        "day": 10,
+        "from": "Rara Lake (Explore pristine shores)",
+        "to": "Rara Lake",
+        "distKm": 8,
+        "eleM": 2990
+      },
+      {
+        "day": 11,
+        "from": "Rara Lake",
+        "to": "Gamgadhi",
+        "distKm": 16,
+        "eleM": 2089
+      }
     ]
   },
   {
@@ -319,36 +1172,150 @@
     "name": "Far West (Humla & Darchula)",
     "region": "Far Western Frontier",
     "distanceKm": 224,
-    "ascentM": 12400,
+    "ascentM": 14150,
     "descentM": 11900,
     "estDays": 17,
     "highestPoint": 5400,
     "highestPointName": "Yala La (5,400m) / Nyalu La (4,990m)",
     "difficulty": "Extremely Remote Frontier",
-    "permits": ["Humla Simikot-Hilsa RAP", "Api Nampa Conservation Area"],
+    "permits": [
+      "Humla Simikot-Hilsa RAP",
+      "Api Nampa Conservation Area"
+    ],
     "guideRequired": true,
     "summary": "The wild, untouched western terminus of the Nepal GHT. Following deep gorges of the Karnali River to the Tibetan border post at Hilsa, or crossing wild passes around sacred Mt. Saipal and Api.",
-    "keyPasses": ["Changkheli La (3,594m)", "Nara La (4,580m)", "Nyalu La (4,990m)", "Yala La (5,400m)"],
-    "keyPeaks": ["Mt. Saipal (7,031m)", "Mt. Api (7,132m)", "Nampa (6,755m)"],
+    "keyPasses": [
+      "Changkheli La (3,594m)",
+      "Nara La (4,580m)",
+      "Nyalu La (4,990m)",
+      "Yala La (5,400m)"
+    ],
+    "keyPeaks": [
+      "Mt. Saipal (7,031m)",
+      "Mt. Api (7,132m)",
+      "Nampa (6,755m)"
+    ],
     "color": "#F43F5E",
     "stages": [
-      { "day": 1, "from": "Gamgadhi", "to": "Bam", "distKm": 14, "eleM": 2700 },
-      { "day": 2, "from": "Bam", "to": "Darma via Changkheli La (3,594m)", "distKm": 15, "eleM": 3594 },
-      { "day": 3, "from": "Darma", "to": "Piplan", "distKm": 13, "eleM": 1700 },
-      { "day": 4, "from": "Piplan", "to": "Punakha", "distKm": 12, "eleM": 2100 },
-      { "day": 5, "from": "Punakha", "to": "Simikot (Humla Hub)", "distKm": 14, "eleM": 2950 },
-      { "day": 6, "from": "Simikot", "to": "Dharapuri", "distKm": 12, "eleM": 2300 },
-      { "day": 7, "from": "Dharapuri", "to": "Kermi (Hot Springs)", "distKm": 11, "eleM": 2670 },
-      { "day": 8, "from": "Kermi", "to": "Yalbang Gompa", "distKm": 13, "eleM": 3020 },
-      { "day": 9, "from": "Yalbang", "to": "Muchu", "distKm": 12, "eleM": 3120 },
-      { "day": 10, "from": "Muchu", "to": "Yangar", "distKm": 11, "eleM": 3270 },
-      { "day": 11, "from": "Yangar", "to": "Sipsip", "distKm": 13, "eleM": 4320 },
-      { "day": 12, "from": "Sipsip", "to": "Hilsa via Nara La (4,580m)", "distKm": 14, "eleM": 3720 },
-      { "day": 13, "from": "Hilsa (Tibet Border)", "to": "Manepeme", "distKm": 15, "eleM": 3990 },
-      { "day": 14, "from": "Manepeme", "to": "Til", "distKm": 13, "eleM": 4000 },
-      { "day": 15, "from": "Til", "to": "Halji (Oldest Humla Gompa)", "distKm": 11, "eleM": 3660 },
-      { "day": 16, "from": "Halji", "to": "Jang", "distKm": 10, "eleM": 3930 },
-      { "day": 17, "from": "Jang", "to": "Simikot return via Nyalu La (4,990m)", "distKm": 23, "eleM": 2950 }
+      {
+        "day": 1,
+        "from": "Gamgadhi",
+        "to": "Bam",
+        "distKm": 14,
+        "eleM": 2700
+      },
+      {
+        "day": 2,
+        "from": "Bam",
+        "to": "Darma via Changkheli La (3,594m)",
+        "distKm": 15,
+        "eleM": 3594
+      },
+      {
+        "day": 3,
+        "from": "Darma",
+        "to": "Piplan",
+        "distKm": 13,
+        "eleM": 1700
+      },
+      {
+        "day": 4,
+        "from": "Piplan",
+        "to": "Punakha",
+        "distKm": 12,
+        "eleM": 2100
+      },
+      {
+        "day": 5,
+        "from": "Punakha",
+        "to": "Simikot (Humla Hub)",
+        "distKm": 14,
+        "eleM": 2950
+      },
+      {
+        "day": 6,
+        "from": "Simikot",
+        "to": "Dharapuri",
+        "distKm": 12,
+        "eleM": 2300
+      },
+      {
+        "day": 7,
+        "from": "Dharapuri",
+        "to": "Kermi (Hot Springs)",
+        "distKm": 11,
+        "eleM": 2670
+      },
+      {
+        "day": 8,
+        "from": "Kermi",
+        "to": "Yalbang Gompa",
+        "distKm": 13,
+        "eleM": 3020
+      },
+      {
+        "day": 9,
+        "from": "Yalbang",
+        "to": "Muchu",
+        "distKm": 12,
+        "eleM": 3120
+      },
+      {
+        "day": 10,
+        "from": "Muchu",
+        "to": "Yangar",
+        "distKm": 11,
+        "eleM": 3270
+      },
+      {
+        "day": 11,
+        "from": "Yangar",
+        "to": "Sipsip",
+        "distKm": 13,
+        "eleM": 4320
+      },
+      {
+        "day": 12,
+        "from": "Sipsip",
+        "to": "Hilsa via Nara La (4,580m)",
+        "distKm": 14,
+        "eleM": 3720
+      },
+      {
+        "day": 13,
+        "from": "Hilsa (Tibet Border)",
+        "to": "Manepeme",
+        "distKm": 15,
+        "eleM": 3990
+      },
+      {
+        "day": 14,
+        "from": "Manepeme",
+        "to": "Til",
+        "distKm": 13,
+        "eleM": 4000
+      },
+      {
+        "day": 15,
+        "from": "Til",
+        "to": "Halji (Oldest Humla Gompa)",
+        "distKm": 11,
+        "eleM": 3660
+      },
+      {
+        "day": 16,
+        "from": "Halji",
+        "to": "Jang",
+        "distKm": 10,
+        "eleM": 3930
+      },
+      {
+        "day": 17,
+        "from": "Jang",
+        "to": "Simikot return via Nyalu La (4,990m)",
+        "distKm": 23,
+        "eleM": 2950
+      }
     ]
   }
 ]

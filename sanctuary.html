@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>The Sanctuary • MedOnMt Meditation Center Vision</title>
+  <meta name="description" content="Why MedOnMt is raising a permanent meditation hall: free dana-based Vipassana-style practice, open to anyone—rooted in the mental health and loneliness crisis, and in Aadesh Neupane’s path from Nepal to the Wasatch.">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="js/theme.js?v=2026.2"></script>
+  <link rel="stylesheet" href="css/styles.css?v=2026.7">
+</head>
+<body class="min-h-full flex flex-col cosmic-gradient-bg text-[#f5f2eb] antialiased selection:bg-[#d49b42] selection:text-[#080c14]">
+
+  <header class="sticky top-0 z-50 bg-[#080c14]/90 backdrop-blur-xl border-b border-white/10 px-4 sm:px-6 lg:px-8 py-3 transition-all">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4 flex-nowrap">
+      <a href="index.html" class="flex items-center space-x-3 shrink-0 group">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-[#d49b42] via-[#b85c3c] to-[#6090d4] flex items-center justify-center shadow-lg font-display font-black text-black text-xs tracking-widest group-hover:scale-105 transition shrink-0">
+          GHT
+        </div>
+        <div class="leading-tight">
+          <div class="flex items-center gap-2">
+            <span class="text-sm font-serif font-bold tracking-wide text-white group-hover:text-[#d49b42] transition whitespace-nowrap">MedOnMt</span>
+            <span class="hidden md:inline-block text-[9px] font-bold px-1.5 py-0.5 rounded bg-[#d49b42]/15 text-[#f1be6d] border border-[#d49b42]/30 uppercase tracking-wider whitespace-nowrap">
+              Sanctuary
+            </span>
+          </div>
+          <span class="text-[10px] text-[#8e867a] font-medium hidden sm:block whitespace-nowrap">Meditation Center Vision</span>
+        </div>
+      </a>
+
+      <nav class="hidden xl:flex items-center gap-1 text-xs font-semibold tracking-wide shrink-0">
+        <a href="index.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">Home</a>
+        <a href="sanctuary.html" class="inline-flex items-center h-8 px-3 rounded-lg bg-white/10 text-[#d49b42] font-bold border border-[#d49b42]/30 shadow-sm">Sanctuary</a>
+        <a href="sections.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">10 Sections</a>
+        <a href="map.html" class="inline-flex items-center gap-1.5 h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">
+          <span>Live Map</span>
+          <span class="text-[9px] px-1.5 py-0.5 rounded bg-sky-950/80 text-[#8cb5f2] border border-sky-800/60 uppercase">Topo</span>
+        </a>
+        <a href="passes.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">Crux Passes</a>
+        <a href="expedition.html" class="inline-flex items-center gap-1.5 h-8 px-3 rounded-lg text-[#f1be6d] hover:text-white hover:bg-white/5 transition">
+          <span>MedOnMt 2028</span>
+          <span class="w-1.5 h-1.5 rounded-full bg-[#d49b42]"></span>
+        </a>
+        <a href="aadesh.html" class="inline-flex items-center h-8 px-3 rounded-lg text-[#d1c7b7] hover:text-white hover:bg-white/5 transition">Aadesh</a>
+      </nav>
+
+      <div class="flex items-center space-x-2 sm:space-x-2.5 shrink-0">
+        <div class="shrink-0 tght-theme-toggle-target"></div>
+        <div class="hidden sm:block shrink-0 tght-unit-switcher-target"></div>
+        <a href="#invitation" class="hidden md:inline-flex items-center h-8 btn-primary-med text-xs py-0 px-3.5 shrink-0">
+          Founding Patrons
+        </a>
+        <button id="mobile-menu-btn" class="xl:hidden p-2 h-8 w-8 rounded-lg bg-white/5 border border-white/10 text-[#d1c7b7] hover:text-white flex items-center justify-center shrink-0" aria-label="Toggle navigation menu">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden xl:hidden pt-4 pb-3 border-t border-white/10 mt-3 space-y-1.5 text-sm font-semibold">
+      <div class="flex items-center justify-between pb-3 border-b border-white/10 mb-2">
+        <span class="text-xs text-[#8e867a]">Display Theme:</span>
+        <div class="tght-theme-toggle-target"></div>
+      </div>
+      <div class="flex items-center justify-between pb-3 border-b border-white/10 mb-2">
+        <span class="text-xs text-[#8e867a]">Measurement Units:</span>
+        <div class="tght-unit-switcher-target"></div>
+      </div>
+      <a href="index.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">Home</a>
+      <a href="sanctuary.html" class="flex items-center justify-between px-3.5 py-2.5 rounded-lg bg-white/10 text-[#d49b42] font-bold">
+        <span>The Sanctuary</span>
+        <span class="text-xs text-[#d49b42]">●</span>
+      </a>
+      <a href="sections.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">10 Geographic Sections</a>
+      <a href="map.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">Interactive Map</a>
+      <a href="passes.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">Crux Passes</a>
+      <a href="expedition.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#f1be6d] transition">MedOnMt 2028 Expedition</a>
+      <a href="aadesh.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#d1c7b7] transition">Aadesh</a>
+      <a href="partners.html" class="block px-3.5 py-2.5 rounded-lg hover:bg-white/5 text-[#8e867a] transition">Expedition Partners</a>
+    </div>
+  </header>
+
+  <div class="prayer-ribbon">
+    <div class="flex-1 prayer-blue"></div>
+    <div class="flex-1 prayer-white"></div>
+    <div class="flex-1 prayer-red"></div>
+    <div class="flex-1 prayer-green"></div>
+    <div class="flex-1 prayer-yellow"></div>
+  </div>
+
+  <div class="w-full overflow-hidden leading-none pointer-events-none -mb-1 opacity-25">
+    <svg viewBox="0 0 1440 240" fill="none" preserveAspectRatio="none" class="w-full h-20 sm:h-28">
+      <path d="M0 240L140 140L300 200L450 90L600 170L740 60L880 160L1020 40L1160 140L1300 80L1440 160V240H0Z" fill="rgba(212,155,66,0.15)"/>
+      <path d="M0 240L180 180L360 220L520 130L680 190L840 90L980 170L1140 70L1300 150L1440 110V240H0Z" fill="rgba(78,145,102,0.12)"/>
+    </svg>
+  </div>
+
+  <!-- 1. Hero -->
+  <section class="relative pt-10 pb-14 md:pt-16 md:pb-20 overflow-hidden">
+    <div class="max-w-3xl mx-auto px-4 text-center relative z-10">
+      <span class="t-eyebrow mb-3">MedOnMt</span>
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight leading-tight mt-2">
+        A Permanent Meditation Sanctuary
+      </h1>
+      <p class="mt-6 narrative-prose text-base sm:text-lg">
+        In Spring 2028, Aadesh Neupane walks the Great Himalayan Trail High Route alone—a pilgrimage to help raise a lasting meditation sanctuary.
+      </p>
+    </div>
+  </section>
+
+  <!-- 2. What the hall is for -->
+  <section class="py-12 border-t border-white/10">
+    <div class="max-w-3xl mx-auto px-4">
+      <span class="t-eyebrow">What the Hall Is For</span>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white tracking-tight mt-2">
+        A Place to Sit, Freely
+      </h2>
+      <p class="mt-4 narrative-prose">
+        The meditation hall is meant for free retreats and sitting sessions in the spirit of the Vipassana tradition—offered on a dana basis, without a fee, and open to anyone without discrimination. A quiet room where people can learn to see the mind as it is, and meet one another without a price of entry.
+      </p>
+    </div>
+  </section>
+
+  <!-- 3. Why retreats matter now -->
+  <section class="py-12 border-t border-white/10">
+    <div class="max-w-3xl mx-auto px-4">
+      <span class="t-eyebrow">Why This Matters Now</span>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white tracking-tight mt-2">
+        Loneliness, Distress, and the Need to Gather
+      </h2>
+      <p class="mt-4 narrative-prose">
+        More than a billion people worldwide live with mental health conditions; depression alone affects about 322&nbsp;million people (roughly 5.2% of adults), and anxiety disorders about 470&nbsp;million.<sup class="text-[10px]"><a href="#cite-who-mh" class="text-[#d49b42] hover:underline">1</a></sup><sup class="text-[10px]"><a href="#cite-who-dep" class="text-[#d49b42] hover:underline">2</a></sup><sup class="text-[10px]"><a href="#cite-who-anx" class="text-[#d49b42] hover:underline">3</a></sup>
+        In the United States, about one in two adults reports loneliness; the U.S. Surgeon General has called social disconnection a public health concern whose mortality impact is similar to smoking up to fifteen cigarettes a day.<sup class="text-[10px]"><a href="#cite-sg" class="text-[#d49b42] hover:underline">4</a></sup>
+      </p>
+      <p class="mt-3 narrative-prose">
+        Screens keep us reachable and often leave us alone. In an age of constant feeds and accelerating AI tools, many people feel more attached to devices than to sangha—the simple company of others. Shared silence and shared practice are one answer: peer-reviewed research finds mindfulness meditation can reduce anxiety and depression symptoms,<sup class="text-[10px]"><a href="#cite-jama" class="text-[#d49b42] hover:underline">5</a></sup> and mindfulness-based programs can ease psychological distress in community adults.<sup class="text-[10px]"><a href="#cite-nmh" class="text-[#d49b42] hover:underline">6</a></sup>
+        A permanent hall is a place where that gathering can continue—without asking anyone to pay to sit.
+      </p>
+      <ol class="mt-6 space-y-1.5 text-[11px] text-[#8e867a] leading-relaxed list-decimal list-inside">
+        <li id="cite-who-mh"><a href="https://www.who.int/news/item/02-09-2025-over-a-billion-people-living-with-mental-health-conditions-services-require-urgent-scale-up" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:underline">WHO (2025)</a> — more than 1 billion people living with mental health conditions.</li>
+        <li id="cite-who-dep"><a href="https://www.who.int/news-room/fact-sheets/detail/depression" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:underline">WHO depression fact sheet</a> — ~322 million people with depression in 2023; 5.2% of adults.</li>
+        <li id="cite-who-anx"><a href="https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:underline">WHO anxiety fact sheet</a> — ~470 million people with anxiety disorders in 2023; ~5.8% of the global population.</li>
+        <li id="cite-sg"><a href="https://www.hhs.gov/sites/default/files/surgeon-general-social-connection-advisory.pdf" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:underline">U.S. Surgeon General (2023)</a> — ~1 in 2 U.S. adults report loneliness; mortality impact of social disconnection similar to smoking up to 15 cigarettes/day.</li>
+        <li id="cite-jama"><a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/1809754" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:underline">Goyal et al., JAMA Intern Med (2014)</a> — mindfulness meditation: moderate evidence for improved anxiety and depression vs. nonspecific active controls.</li>
+        <li id="cite-nmh"><a href="https://www.nature.com/articles/s44220-023-00081-5" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:underline">Galante et al., Nature Mental Health (2023)</a> — mindfulness-based programs reduce average psychological distress vs. passive controls (SMD −0.32).</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 4. Why Aadesh / MedOnMt -->
+  <section id="why-aadesh" class="py-12 border-t border-white/10 scroll-mt-24">
+    <div class="max-w-3xl mx-auto px-4">
+      <span class="t-eyebrow">Why Aadesh · Why MedOnMt</span>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white tracking-tight mt-2">
+        From Leaving Home to Offering a Seat
+      </h2>
+      <p class="mt-4 narrative-prose">
+        Aadesh grew up in Kathmandu, where meditation, spirituality, and co-existence (people of different faiths and traditions living side by side) were already in the air. Meditation was ordinary there: something people did without labeling it as a technique.
+      </p>
+      <p class="mt-3 narrative-prose">
+        As an undergraduate at Kathmandu University, long before he ever left Nepal, he volunteered with HeNN (Help Nepal Network) on eLibrary projects that took him to remote villages far from roads, where he saw how people live, and he backpacked high Himalayan circuits. Those journeys taught him something about simplicity, silence, and how much we depend on one another.
+      </p>
+      <p class="mt-3 narrative-prose">
+        So when he left almost everything behind in late 2016 for a Computer Science PhD, he chose Brigham Young University, in a valley ringed by peaks, on a campus where faith and practice are taken seriously, though he is not LDS himself. Far from home, the quiet Nepali way he had grown up with became a conscious way to live: not an escape, but a way to see reality as it is, and to notice how widely people suffer.
+      </p>
+      <p class="mt-3 narrative-prose">
+        Around 2019 he began offering dharma talks at a local Provo sangha. People arrived seeking relief and a little connection; when the practice helped, word of mouth did the rest. Friends brought friends, and many returned. More than four hundred unique people have sat with those talks over the years.
+      </p>
+      <p class="mt-3 narrative-prose">
+        Out of that same need, he started the annual MedOnMt mountain meditation retreat in 2022; more than thirty people have joined those wilderness gatherings so far. He also leads meditation at the Walk for Peace series at the Utah State Capitol in Salt Lake City.
+      </p>
+      <p class="mt-3 narrative-prose">
+        That quiet demand is why a permanent free hall feels like the natural next step—a dana-based home for this work, open to anyone who wants to sit. Current retreats and gatherings live on <a href="https://medonmt.org/" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:underline">medonmt.org</a> and the <a href="https://medonmt.org/retreats.html" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:underline">retreats page</a>; more of Aadesh’s story is on <a href="aadesh.html" class="text-[#d49b42] hover:underline">his page</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- 5. The vision -->
+  <section class="py-12 border-t border-white/10">
+    <div class="max-w-3xl mx-auto px-4">
+      <span class="t-eyebrow">The Place</span>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white tracking-tight mt-2">
+        Below a Mountain
+      </h2>
+      <p class="mt-4 narrative-prose">
+        The sanctuary is envisioned most likely below a mountain: a main house, two guest houses, and a meditation hall, designed to be self-sustaining. Name and exact location are still being discerned.
+      </p>
+    </div>
+  </section>
+
+  <!-- 6. How it will be built -->
+  <section class="py-12 border-t border-white/10">
+    <div class="max-w-3xl mx-auto px-4">
+      <span class="t-eyebrow">How It Will Be Built</span>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white tracking-tight mt-2">
+        Hall First, Then the Rest
+      </h2>
+      <p class="mt-4 narrative-prose">
+        The work is phased. The meditation hall comes first; the other buildings follow gradually.
+      </p>
+    </div>
+  </section>
+
+  <!-- 7. How support works (id kept for inbound links) -->
+  <section id="transparency" class="py-12 border-t border-white/10 scroll-mt-24">
+    <div class="max-w-3xl mx-auto px-4">
+      <span class="t-eyebrow">How Support Works</span>
+      <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white tracking-tight mt-2">
+        Partners and Patrons
+      </h2>
+      <p class="mt-4 narrative-prose">
+        Expedition Partners cover expedition costs; gifts go to the sanctuary. Details for brands and allies are on the <a href="partners.html" class="text-[#d49b42] hover:underline">partners page</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- 8. Invitation -->
+  <section id="invitation" class="py-12 border-t border-white/10 scroll-mt-24">
+    <div class="max-w-3xl mx-auto px-4">
+      <div class="bento-card p-8 md:p-10 text-center border-[#d49b42]/30">
+        <div class="bento-accent-tl bento-accent-tl--gold"></div>
+        <span class="t-eyebrow">The Invitation</span>
+        <h2 class="text-2xl sm:text-3xl font-serif font-bold text-white mt-1">Founding Patrons</h2>
+        <p class="mt-4 card-prose max-w-lg mx-auto">
+          We are not accepting gifts online yet. If you’d like to be among the first patrons, write to <a href="mailto:aadesh@medonmt.org?subject=Founding%20Patron%20—%20MedOnMt%20Sanctuary" class="text-[#d49b42] hover:underline">aadesh@medonmt.org</a>. Follow the walk on <a href="https://medonmt.substack.com" target="_blank" rel="noopener noreferrer" class="text-[#d49b42] hover:underline">Substack</a>.
+        </p>
+        <p class="mt-4 text-xs text-[#8e867a] leading-relaxed max-w-md mx-auto">
+          MedOnMt is a registered US nonprofit; gifts may be tax-deductible.
+        </p>
+        <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
+          <a href="mailto:aadesh@medonmt.org?subject=Founding%20Patron%20—%20MedOnMt%20Sanctuary" class="btn-primary-med text-xs py-2.5 px-5">Write to Aadesh</a>
+          <a href="https://medonmt.substack.com" target="_blank" rel="noopener noreferrer" class="btn-outline-med text-xs py-2.5 px-5">Field Dispatches ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. Looking ahead (distinct idea only) -->
+  <section class="py-12 border-t border-white/10">
+    <div class="max-w-3xl mx-auto px-4 text-center">
+      <p class="narrative-prose mx-auto text-sm">
+        <span class="t-eyebrow block mb-2">In Time</span>
+        We hope one day to invite per-kilometer or per-pass pledges so a day’s walk or a named col can carry a gift toward the sanctuary.
+      </p>
+    </div>
+  </section>
+
+  <div class="prayer-ribbon prayer-ribbon-lg">
+    <div class="flex-1 prayer-blue"></div>
+    <div class="flex-1 prayer-white"></div>
+    <div class="flex-1 prayer-red"></div>
+    <div class="flex-1 prayer-green"></div>
+    <div class="flex-1 prayer-yellow"></div>
+  </div>
+
+  <footer class="mt-auto bg-[#05080e] border-t border-white/10 pt-12 pb-10 px-4 text-xs text-[#8e867a]">
+    <div class="max-w-7xl mx-auto flex flex-col gap-6">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div>&copy; 2026 MedOnMt &middot; Great Himalayan Trail Project &middot; Led by Aadesh Neupane</div>
+        <div class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
+          <a href="index.html" class="hover:text-white transition">Home</a>
+          <a href="sanctuary.html" class="text-[#d49b42]">Sanctuary</a>
+          <a href="expedition.html" class="hover:text-white transition">Expedition 2028</a>
+          <a href="aadesh.html" class="hover:text-white transition">Aadesh</a>
+          <a href="partners.html" class="hover:text-white transition">Expedition Partners</a>
+          <a href="index.html#appendix" class="hover:text-white transition">Sources</a>
+        </div>
+      </div>
+      <div class="text-center sm:text-left text-[11px] text-[#8e867a]/80">
+        Also: <a href="https://medonmt.substack.com" target="_blank" rel="noopener noreferrer" class="hover:text-white">Substack</a>
+        · <a href="https://www.strava.com/athletes/40837261" target="_blank" rel="noopener noreferrer" class="hover:text-white">Strava</a>
+        · <a href="https://instagram.com/medonmt" target="_blank" rel="noopener noreferrer" class="hover:text-white">Instagram</a>
+        · <a href="https://medonmt.org" target="_blank" rel="noopener noreferrer" class="hover:text-white">MedOnMt.org</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/units.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn = document.getElementById('mobile-menu-btn');
+      const menu = document.getElementById('mobile-menu');
+      if (btn && menu) {
+        btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+      }
+    });
+  </script>
+</body>
+</html>

@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         <div class="mt-2.5 pt-2 border-t border-slate-700/50 flex justify-between text-[11px] text-slate-300">
           <span><b>${distFormatted}</b></span>
           <span><b>~${sec.estDays} days</b></span>
-          <span><b>${ascentFormatted}</b></span>
+          <span>≈ <b data-ascent-m="${sec.ascentM}">${ascentFormatted}</b></span>
         </div>
       `;
 

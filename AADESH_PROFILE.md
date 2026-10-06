@@ -1,8 +1,10 @@
 # Aadesh Neupane · Athlete Dossier & Mountaineering Portfolio
 
+> **Note (Oct 2026):** The public site story now leads with the meditation sanctuary pilgrimage (`sanctuary.html`, rewritten `aadesh.html`). The four commercial sponsorship tiers and “Partner ROI” prospectus below are **historical / internal** and are **not** the current public partner framing—see `partners.html` instead.
+
 **High-Altitude Endurance Athlete | Founder, MedOnMt | Machine Learning Researcher**  
 *Base: Salt Lake City & Bluffdale, Utah | Origins: Kathmandu, Nepal*  
-*Flagship Expedition: The Great Himalayan Trail (GHT) High Route Spring 2028 (1,700 km · +105,000m ascent)*
+*Flagship Expedition: The Great Himalayan Trail (GHT) High Route Spring 2028 (1,700 km · +120,000m ascent)*
 
 ---
 
@@ -121,7 +123,7 @@ Summited all seven prominent peaks encircling Utah Valley across **all four seas
 
 In Spring 2028, Aadesh returns to his birthplace to lead the **MedOnMt GHT High Route Expedition**:
 - **Distance**: 1,700 kilometers (1,056 miles) across the entire width of Nepal.
-- **Vertical Ascent**: +105,000 meters (+344,488 ft) — more than 11.9× climbing Mount Everest from sea level.
+- **Vertical Ascent**: +120,000 meters (+393,701 ft) — more than 13.6× climbing Mount Everest from sea level.
 - **High Altitudes**: Average elevations between 4,000m and 5,500m, cresting at 6,190m (West Col).
 - **Crux Passes**: The Three Cols (Sherpani Col 6,150m, West Col 6,190m, Amphu Labsta 5,845m) and Tilman Pass (5,308m).
 - **Ethos**: Uniting high-altitude athletic precision, physiological telemetry, environmental documentation, and mindful contemplative awareness (*Ascend Into Stillness*).
@@ -201,5 +203,5 @@ For the 2027 American Crucible preparation series and the 2028 Great Himalayan T
 - **Cinematic Documentary & Narrative Integration**: Co-produced branded video reels and episodic features.
 - **Mindful High-Performance Masterclasses**: Executive corporate workshops translating mountain mindfulness and risk endurance.
 
-**Direct Inquiries**: [aadesh@medonmt.org](mailto:aadesh@medonmt.org) · [aadesh.html#sponsorship](http://localhost:3000/aadesh.html#sponsorship)
+**Direct Inquiries**: [aadesh@medonmt.org](mailto:aadesh@medonmt.org) · Public partner page: [partners.html](partners.html) · Sanctuary: [sanctuary.html](sanctuary.html)
 

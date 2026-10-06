@@ -10,7 +10,7 @@ The Great Himalayan Trail (GHT) in Nepal spans approximately **1,700 kilometers*
 
 ### Key Statistics
 - **Total Distance:** ~1,700 km (~1,050 miles)
-- **Cumulative Ascent:** > 105,000 meters
+- **Cumulative Ascent:** ~120,000 meters (~393,701 ft) — High Route elevation *gain*; Boustead / greathimalayatrail.com often quote ~150,000m+ of *ascent and descent* combined
 - **Highest Point:** 6,190m (*West Col*, Makalu Barun)
 - **Estimated Duration:** 120 – 160 days (or segmented across multi-year stages)
 - **Alpine Sections:** 10 distinct geographic regions

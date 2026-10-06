@@ -20,7 +20,7 @@
 
   /* ==========================================================================
      1. THE EVEREST MULTIPLIER: LANDMARK ELEVATION COMPARATIVE VISUALIZER
-     Total Vertical Ascent: +105,000 meters (+344,488 ft)
+     Total Vertical Ascent: +120,000 meters (+393,701 ft)
      ========================================================================== */
   const LANDMARKS = [
     {
@@ -97,8 +97,8 @@
     }
   ];
 
-  const GHT_TOTAL_ASCENT_M = 105000;
-  const GHT_TOTAL_ASCENT_FT = 344488;
+  const GHT_TOTAL_ASCENT_M = 120000;
+  const GHT_TOTAL_ASCENT_FT = 393701;
 
   function initEverestMultiplier() {
     const selectorContainer = document.getElementById('multiplier-selector');
@@ -889,8 +889,8 @@
         sub: 'High Route · Kanchenjunga to Hilsa (Tibetan Border)',
         icon: '🏔️',
         distanceKm: 1700,
-        gainM: 105000,
-        steepnessMkm: 61.8,
+        gainM: 120000,
+        steepnessMkm: 70.6,
         peakM: 6190,
         peakName: 'West Col',
         avgAltM: 4200,
@@ -924,7 +924,7 @@
         color: '#6090d4',
         insightTitle: 'GHT High Route vs. Pacific Crest Trail (PCT)',
         insightBadge: 'Alpine Mountaineering vs. Graded Singletrack',
-        insightBody: 'While the Pacific Crest Trail traverses 2.5× the horizontal distance (4,265 km vs 1,700 km), the GHT demands almost identical total vertical climb (+105,000m vs +128,000m) at more than double the vertical steepness (61.8 m/km vs 30.0 m/km). Furthermore, the GHT\'s average elevation (~4,200m) is higher than the PCT\'s highest mountain pass (Forester Pass, 4,009m)—requiring crampons, fixed ropes, and self-supported survival over 6,000m glaciated cols rather than graded equestrian trail.'
+        insightBody: 'While the Pacific Crest Trail traverses 2.5× the horizontal distance (4,265 km vs 1,700 km), the GHT demands comparable total vertical climb (+120,000m vs +128,000m) at more than double the vertical steepness (70.6 m/km vs 30.0 m/km). Furthermore, the GHT\'s average elevation (~4,200m) is higher than the PCT\'s highest mountain pass (Forester Pass, 4,009m)—requiring crampons, fixed ropes, and self-supported survival over 6,000m glaciated cols rather than graded equestrian trail.'
       },
       act: {
         id: 'act',
@@ -1187,7 +1187,7 @@
 
       if (elGhtGain) elGhtGain.innerText = ghtGainVal;
       if (elChallGain) elChallGain.innerText = challGainVal;
-      if (elMeterGain) elMeterGain.style.width = `${Math.min(100, Math.round((c.gainM / 150000) * 100))}%`;
+      if (elMeterGain) elMeterGain.style.width = `${Math.min(100, Math.round((c.gainM / 160000) * 100))}%`;
       if (elDeltaGain) {
         const ghtDist = met ? `${ght.distanceKm.toLocaleString()} km` : `${Math.round(ght.distanceKm * 0.621371).toLocaleString()} mi`;
         const challDist = met ? `${c.distanceKm.toLocaleString()} km` : `${Math.round(c.distanceKm * 0.621371).toLocaleString()} mi`;
