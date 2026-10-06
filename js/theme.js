@@ -1,7 +1,7 @@
 /**
  * TGHT Theme Management Module
  * Option A/B Hybrid (Dark Mode: Slate Charcoal Canvas + Monastery Crimson Cards + Saffron Gold)
- * Option D Glacial Zen (Light Mode: Mountain Mist Alabaster + Snow White Cards + Glacial Cyan)
+ * Option D Soft Paper Light (Light Mode: warm off-white page + cream cards + glacial cyan accents)
  * Handles auto-detection, safe storage persistence, header toggle UI, mobile touch interactions,
  * and explicit color-scheme protection against mobile browser force-dark heuristics (e.g. Brave Night Mode).
  */
@@ -73,6 +73,8 @@
       this.applyTheme(this.currentTheme, false);
 
       const runSetup = () => {
+        // Re-apply once body exists so body[data-theme] selectors and header overrides work
+        this.applyTheme(this.currentTheme, false);
         this.setupHeaderToggles();
         this.updateToggleUI();
       };
@@ -197,7 +199,7 @@
               <span>🌙</span>
               <span class="hidden sm:inline">Night</span>
             </button>
-            <button type="button" class="theme-btn theme-btn-light ${this.isLight() ? 'is-active' : ''}" role="button" aria-pressed="${this.isLight()}" title="Day Mode: Option D Glacial Zen (Clean Alpine Light)">
+              <button type="button" class="theme-btn theme-btn-light ${this.isLight() ? 'is-active' : ''}" role="button" aria-pressed="${this.isLight()}" title="Day Mode: Soft Paper Light (warm off-white alpine day)">
               <span>☀️</span>
               <span class="hidden sm:inline">Day</span>
             </button>
