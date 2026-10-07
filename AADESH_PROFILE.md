@@ -10,7 +10,7 @@
 
 ## Executive Summary
 
-Born in Nepal under the shadow of the Himalayas and forged across the rugged granite crests of the Wasatch Range, Wind River Range, Tetons, and High Sierra, **Aadesh Neupane** operates at the intersection of elite mountain endurance, cognitive science, and Eastern contemplative tradition.
+Born in Nepal under the shadow of the Himalayas and forged across the rugged granite crests of the Wasatch Range, Wind River Range, Tetons, and High Sierra, **Aadesh Neupane** operates at the intersection of elite mountain endurance and cognitive science. He walks without a formal teacher or guru, and without claiming any single school as his own.
 
 As a published researcher in machine learning and human behavior and the founder of **MedOnMt (Meditate On Mountain)**, Aadesh approaches extreme alpine endeavors as both an empirical engineering problem and a moving meditation. His athletic profile combines high-altitude speed, technical glacier and ice climbing, big-wall sport climbing stamina, Class 3–5 scrambling efficiency, and self-supported remote wilderness discipline.
 
@@ -160,8 +160,8 @@ Prior to launching the 1,700km GHT in Spring 2028, Aadesh is executing five defi
 > *"I didn’t go to the mountains to escape life. I went to understand it more clearly."*  
 > — **Aadesh Neupane**
 
-- **Where East Meets Rocky Mountain**: Born in Nepal under the roof of the world, Aadesh grew up immersed in the Himalayas and Buddhist dharma traditions where mountains are honored as living teachers. Now rooted in Utah, he synthesizes Theravada philosophy, mindfulness psychology, and high-altitude wilderness movement.
-- **Teacher, Guide, Scholar**: Trained in Theravada traditions emphasizing the Four Noble Truths, vipassana, and metta. Translates academic research in cognitive science and human behavior into evidence-based mindfulness practices.
+- **Where practice comes from**: Aadesh walks without a formal teacher or guru, and without claiming any single school as his own. What he offers grew slowly — from Theravada and Vipassana, from Plum Village and the wider Buddhist stream, from Hindu practice and yoga, and from the quiet Nepali way he grew up with — each met with respect, none held as a badge. Years of sitting and walking shaped the rest. He shares only what he has lived, as one practitioner among many, grateful for the paths that lit the way.
+- **Teacher, Guide, Scholar**: Translates academic research in cognitive science and human behavior into evidence-based mindfulness practices.
 - **The Sangha (Since 2023)**: Guides high-altitude wilderness retreats across the Wasatch Range and Uintas—treating the trail itself as dharma where every step is an invitation to presence.
 - **Movement as Koan**: Bouldering and rock climbing as moving meditation (the problem on the wall and the problem of the mind are not so different); endurance cycling and trail running as miles that strip away distraction into clarity.
 
