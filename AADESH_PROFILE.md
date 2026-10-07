@@ -173,7 +173,7 @@ All verified athlete and researcher profiles for Aadesh Neupane:
 
 | Platform | Verified Profile Link | Focus / Content |
 | :--- | :--- | :--- |
-| **Strava** | [strava.com/athletes/40837261](https://www.strava.com/athletes/40837261) | High-altitude running, ridge traverses, mountain biking torque, and summit GPS telemetry *(Athlete #40837261)* |
+| **Strava** | [strava.com/athletes/aadeshnpn](https://www.strava.com/athletes/aadeshnpn) | High-altitude running, ridge traverses, mountain biking torque, and summit GPS telemetry *(Athlete #40837261)* |
 | **UltraSignup** | [ultrasignup.com/results (Aadesh Neupane)](https://ultrasignup.com/results_participant.aspx?fname=Aadesh&lname=Neupane) | Official mountain ultramarathon results and timing splits *(Snow Peaks 50 Mile Trail Run finisher: 14:44:57)* |
 | **Peakbagger** | [peakbagger.com/climber (CID: 23336)](https://www.peakbagger.com/climber/ClimbListC.aspx?cid=23336&sort=VertPeakFt&u=m&j=-1&y=9999) | Verified summit logs across Wasatch 11ers, Wind River highpoints, Sierra 14ers, and Tetons *(100+ unique summits)* |
 | **Google Scholar** | [scholar.google.com/citations (Aadesh Neupane)](https://scholar.google.com/citations?user=HpOtkk4AAAAJ&hl=en&oi=ao) | Academic publications in machine learning, human behavior, and computational cognitive modeling *(100+ citations)* |

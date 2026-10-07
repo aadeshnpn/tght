@@ -120,7 +120,7 @@ The 2028 Great Himalayan Trail expedition is founded and led by **Aadesh Neupane
 - **Milestones:** Century of unique mountain tops (**100+ summits**), unbroken **300+ day streak** of 10,000+ steps/day, and **100+ academic citations** in machine learning and human behavior research.
 - **Verified Profiles & Route Guides:**
   - [SummitPost Author Profile / Lone Peak Route](https://www.summitpost.org/the-other-northeast-couloir/1090620)
-  - [Strava](https://www.strava.com/athletes/40837261) (Athlete #40837261)
+  - [Strava](https://www.strava.com/athletes/aadeshnpn) (Athlete #40837261)
   - [UltraSignup](https://ultrasignup.com/results_participant.aspx?fname=Aadesh&lname=Neupane) (Snow Peaks 50 Finisher)
   - [Peakbagger](https://www.peakbagger.com/climber/ClimbListC.aspx?cid=23336&sort=VertPeakFt&u=m&j=-1&y=9999) (Climber ID #23336)
   - [Google Scholar](https://scholar.google.com/citations?user=HpOtkk4AAAAJ&hl=en&oi=ao)
