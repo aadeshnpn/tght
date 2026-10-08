@@ -37,7 +37,7 @@ As a published researcher in machine learning and human behavior and the founder
 
 ### Sovereign Solo Alpine Style (Uncompromised Autonomy)
 * **100% Autonomous Movement:** Unlike foreign GHT expeditions constrained by mandatory trekking agency escorts, group minimums, or foreign-national Restricted Area Permit (RAP) regulations, Aadesh leverages his native Nepali citizenship to execute a purely solo, self-contained traverse across all sensitive high-border sectors (Kanchenjunga, Manaslu, Upper Mustang, Upper Dolpo, and Humla).
-* **Proven High-Altitude Track Record:** Documented solo and independent high-pass completions across Nepal's most demanding terrain—including the Manaslu Circuit (Larkya La, 5,106m), Tilicho Lake via Mesokanto La (5,121m), Upper Mustang, and the Gosaikunda / Laurebina Pass circuit.
+* **Proven High-Altitude Track Record:** Himalayan through-hikes with friends—the Manaslu Circuit (Larkya La, 5,106m), Tilicho Lake via Mesokanto La (5,121m), and Upper Mustang—and a solo Gosaikunda / Laurebina Pass circuit.
 
 #### Field Checkpoint Protocol (Nepal Border Corridors)
 
@@ -54,12 +54,12 @@ As a published researcher in machine learning and human behavior and the founder
 
 ---
 
-### 1. Proven High-Altitude Thru-Hikes & Sovereign Solo High-Pass Expeditions
-* **Manaslu Circuit (177 km / 110 mi · +9,500m ascent)** — *Nepal Himalaya (Solo & Autonomous)*  
+### 1. Proven High-Altitude Thru-Hikes & High-Pass Expeditions
+* **Manaslu Circuit (177 km / 110 mi · +9,500m ascent)** — *Nepal Himalaya (With friends)*  
   Remote high-altitude expedition circumnavigating Mt. Manaslu (8,163m). Traverses subtropical river gorges, Tibetan-border Buddhist enclaves (Samagaon, Samdo), glaciated moraines, and the crux alpine crossing of **Larkya La Pass (5,106m / 16,752 ft)** in sub-zero alpine conditions before dropping into the Marsyangdi valley.
-* **Tilicho Lake Circuit via Mesokanta Pass (160 km / 100 mi · Technical High Pass)** — *Annapurna Alpine, Nepal (Solo & Autonomous)*  
+* **Tilicho Lake Circuit via Mesokanta Pass (160 km / 100 mi · Technical High Pass)** — *Annapurna Alpine, Nepal (With friends)*  
   High-alpine crossing bypassing the standard teahouse routes to reach the frozen waters of **Tilicho Lake (4,919m / 16,138 ft)**, followed by a non-teahouse off-trail alpine traverse over the formidable **Mesokanto La / Mesokanta Pass (5,121m / 16,797 ft)**. Involves steep scree couloirs, wilderness bivouacs, and technical descent into Mustang's Kali Gandaki valley.
-* **Upper Mustang Circuit (140 km / 87 mi · Rain Shadow High Plateau)** — *Trans-Himalaya, Nepal (Solo & Autonomous)*  
+* **Upper Mustang Circuit (140 km / 87 mi · Rain Shadow High Plateau)** — *Trans-Himalaya, Nepal (With friends)*  
   High-desert expedition into the historic, restricted Kingdom of Lo (Lo Manthang) bordering Tibet. Crossing multiple high passes including **Chogo La (4,280m / 14,042 ft)** and **Nyi La (4,010m / 13,156 ft)** across windswept canyons, eroded ochre cliffs, and arid, sub-zero high-plateau terrain.
 * **Gosaikunda Circuit (120 km / 75 mi · +7,200m ascent)** — *Langtang to Helambu, Nepal (Solo & Autonomous)*  
   High-angle wilderness traverse linking the Langtang canyon with the sacred high-altitude glacial tarns of **Gosaikunda (4,380m / 14,370 ft)**, crossing **Laurebina Pass / Lauribinayak La (4,610m / 15,125 ft)** before navigating the remote high ridge crests of Helambu.
