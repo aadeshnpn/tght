@@ -1510,5 +1510,90 @@ main section .text-\[11px\] {
   letter-spacing: 0.02em;
 }
 
+/* ==========================================================================
+   Habit App feature — standing free offering (home + sanctuary)
+   ========================================================================== */
+.habit-lede {
+  margin-top: 0.7rem;
+  max-width: 40rem;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  color: var(--gold);
+}
+
+body > section .max-w-3xl > .habit-lede {
+  font-size: 1.25rem !important;
+  line-height: 1.45 !important;
+  font-weight: 500 !important;
+  color: var(--gold) !important;
+}
+
+.bento-card.habit-highlight {
+  padding: 0.95rem 1rem 1rem;
+}
+
+.bento-card.habit-highlight:hover {
+  transform: translateY(-2px);
+}
+
+.habit-highlight h3 {
+  font-size: 1.02rem;
+}
+
+.habit-highlight h3::before {
+  content: "";
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+  margin-right: 0.55rem;
+  border-radius: 999px;
+  background: var(--gold);
+  box-shadow: 0 0 0 3px var(--gold-dim);
+  vertical-align: 0.12em;
+}
+
+[data-theme="light"] .habit-lede {
+  color: var(--gold) !important;
+}
+
+.footer-habit-link {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.2rem 0.45rem;
+  padding: 0.4rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-gold);
+  background: var(--gold-dim);
+  color: var(--gold);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+}
+
+.footer-habit-link:hover {
+  border-color: var(--gold);
+  color: var(--text-primary);
+}
+
+.footer-habit-meta {
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+[data-theme="light"] .footer-habit-link {
+  color: var(--gold) !important;
+}
+
+[data-theme="light"] .footer-habit-link:hover {
+  color: var(--text-primary) !important;
+}
+
 
 
