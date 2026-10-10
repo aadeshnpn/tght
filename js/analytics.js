@@ -148,7 +148,7 @@
   }
 
   function send(name, params) {
-    var payload = { transport_type: 'beacon' };
+    var payload = {};
     var key;
     for (key in params) {
       if (!Object.prototype.hasOwnProperty.call(params, key)) continue;
